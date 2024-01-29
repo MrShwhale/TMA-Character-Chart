@@ -1,0 +1,2105 @@
+[
+    {
+        "episodeNum": "001",
+        "episodeName": "The Anglerfish",
+        "episodeData": [
+            {
+                "displayName": "Jon",
+                "fullName": "Jonathan Sims",
+                "id": "0",
+                "wikiLink": "Jonathan_Sims",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Skeptical",
+                "summary": "The head archivist for the Magnus Institute, London.",
+                "alignment": "Magnus Institute",
+                "relationships": [
+                    {
+                        "targetId": "1",
+                        "type": "Work",
+                        "text": "Works for",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "2",
+                        "type": "Work",
+                        "text": "Replacement for",
+                        "feeling": "Frustrated"
+                    },
+                    {
+                        "targetId": "3",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Annoyed"
+                    },
+                    {
+                        "targetId": "4",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "5",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Elias",
+                "fullName": "Elias Bouchard",
+                "id": "1",
+                "wikiLink": "Elias_Bouchard",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "The head of the Magnus Institute.",
+                "alignment": "Magnus Institute",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "2",
+                        "type": "Work",
+                        "text": "Former boss of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Gertrude",
+                "fullName": "Gertrude Robinson",
+                "id": "2",
+                "wikiLink": "Gertrude_Robinson",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "The former archivist for the Magnus Institute.",
+                "alignment": "Magnus Institute",
+                "relationships": [
+                    {
+                        "targetId": "1",
+                        "type": "Work",
+                        "text": "Formerly worked for",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Martin",
+                "fullName": "Martin",
+                "id": "3",
+                "wikiLink": "Martin_Blackwood",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Researcher for the Magnus Institute.",
+                "alignment": "Magnus Institute",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Work",
+                        "text": "Works for",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Tim",
+                "fullName": "Tim",
+                "id": "4",
+                "wikiLink": "Timothy_Stoker",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Researcher for the Magnus Institute.",
+                "alignment": "Magnus Institute",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Work",
+                        "text": "Works for",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Sasha",
+                "fullName": "Sasha",
+                "id": "5",
+                "wikiLink": "Sasha_James",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Researcher for the Magnus Institute.",
+                "alignment": "Magnus Institute",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Work",
+                        "text": "Works for",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Nathan Watts",
+                "fullName": "Nathan Watts",
+                "id": "6",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Smoker who saw the Anglerfish and lived to tell the tale.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "7",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "8",
+                        "type": "Acquaintances",
+                        "text": "Classmates with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Michael MacAulay",
+                "fullName": "Michael MacAulay",
+                "id": "7",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Good friend of Nathan Watts.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "6",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "John Fellowes",
+                "fullName": "John Fellowes",
+                "id": "8",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "summary": "Went missing near the Anglerfish alley.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "6",
+                        "type": "Acquaintances",
+                        "text": "Classmates with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Jessica McEwen",
+                "fullName": "Jessica McEwen",
+                "id": "9",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "summary": "Went missing near the Anglerfish alley.",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Sarah Baldwin",
+                "fullName": "Sarah Baldwin",
+                "id": "10",
+                "wikiLink": "Sarah_Baldwin",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "summary": "Went missing near the Anglerfish alley.",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Daniel Rawlings",
+                "fullName": "Daniel Rawlings",
+                "id": "11",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "summary": "Went missing near the Anglerfish alley.",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Ashley Dobson",
+                "fullName": "Ashley Dobson",
+                "id": "12",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "summary": "Went missing near the Anglerfish alley.",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Megan Shaw",
+                "fullName": "Megan Shaw",
+                "id": "13",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "summary": "Went missing near the Anglerfish alley.",
+                "alignment": "None"
+            },
+            {
+                "displayName": "The Anglerfish",
+                "fullName": "The Anglerfish",
+                "id": "14",
+                "wikiLink": "The_Anglerfish",
+                "imageFile": "",
+                "type": "Unknown",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "summary": "Something that may or may not exist. It makes people disappear near Old Fishmarket Close, Edinburgh.",
+                "alignment": "None"
+            }
+        ]
+    },
+    {
+        "episodeNum": "002",
+        "episodeName": "Do Not Open",
+        "episodeData": [
+            {
+                "displayName": "Joshua Gillespie",
+                "fullName": "Joshua Gillespie",
+                "id": "15",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Indifferent",
+                "summary": "Got 10,000 pounds for a spooky coffin that did not end up killing him.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "16",
+                        "type": "Acquaintances",
+                        "text": "Held a coffin for",
+                        "feeling": "Angry"
+                    },
+                    {
+                        "targetId": "17",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "\"John\"",
+                "fullName": "John",
+                "id": "16",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "summary": "A strikingly unremarkable man.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "15",
+                        "type": "Acquaintances",
+                        "text": "Gave a coffin to",
+                        "feeling": "Surprise"
+                    },
+                    {
+                        "targetId": "18",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "19",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Richard",
+                "fullName": "Richard",
+                "id": "17",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Unknown",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "summary": "Knows how to sneak a pound of hash through Holland.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "15",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "B&H Delivery man 1",
+                "fullName": "B&H Delivery man 1",
+                "id": "18",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "No problems taking away a spooky coffin.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "16",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "19",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "B&H Delivery man 2",
+                "fullName": "B&H Delivery man 2",
+                "id": "19",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "No problems taking away a spooky coffin.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "16",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "18",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "003",
+        "episodeName": "Across the Street",
+        "episodeData": [
+            {
+                "displayName": "Amy Patel",
+                "fullName": "Amy Patel",
+                "id": "20",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "21",
+                        "type": "Acquaintances",
+                        "text": "Classmates with and watches",
+                        "feeling": "Interest"
+                    }
+                ]
+            },
+            {
+                "displayName": "Graham Folger",
+                "fullName": "Graham Folger",
+                "id": "21",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "summary": "An eccentric boy in a criminology class.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "20",
+                        "type": "Acquaintances",
+                        "text": "Classmates with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Not-Graham",
+                "fullName": "Not-Graham",
+                "id": "22",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Unknown",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Something that calls itself Graham.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "21",
+                        "type": "Other",
+                        "text": "Did something to",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "004",
+        "episodeName": "Page Turner",
+        "episodeData": [
+            {
+                "displayName": "Dominic Swain",
+                "fullName": "Dominic Swain",
+                "id": "23",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Bought a Lightner, then sold it ASAP.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "24",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "27",
+                        "type": "Work",
+                        "text": "Sold a book to",
+                        "feeling": "Fear"
+                    },
+                    {
+                        "targetId": "29",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "Katherine Mendes",
+                "fullName": "Katherine Mendes",
+                "id": "24",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Actress in London.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "23",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "Jurgen Lightner",
+                "fullName": "Jurgen Lightner",
+                "id": "25",
+                "wikiLink": "Jurgen_Lightner",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "summary": "A man with a library of great and strange danger.",
+                "alignment": "None"
+            },
+            {
+                "displayName": "MacGregor Mathers",
+                "fullName": "MacGregor Mathers",
+                "id": "26",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "25",
+                        "type": "Other",
+                        "text": "Owned a book from",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Mary Keay",
+                "fullName": "Mary Keay",
+                "id": "27",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Unknown",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Bookseller who likes Lightners.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "23",
+                        "type": "Work",
+                        "text": "Bought a book from",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "25",
+                        "type": "Other",
+                        "text": "Obsessed with",
+                        "feeling": "Interest"
+                    },
+                    {
+                        "targetId": "28",
+                        "type": "Family",
+                        "text": "Mother of",
+                        "feeling": "Love"
+                    }
+                ]
+            },
+            {
+                "displayName": "Gerard Keay",
+                "fullName": "Gerard Keay",
+                "id": "28",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "27",
+                        "type": "Family",
+                        "text": "Son of",
+                        "feeling": "Discontentment"
+                    }
+                ]
+            },
+            {
+                "displayName": "Michael",
+                "fullName": "Michael Crew",
+                "id": "29",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "23",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Good"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "005",
+        "episodeName": "Thrown away",
+        "episodeData": [
+            {
+                "displayName": "Kieran Woodward",
+                "fullName": "Kieran Woodward",
+                "id": "30",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Bin man in London who reported some suspicious trash to the Institute.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "31",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "32",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "33",
+                        "type": "Work",
+                        "text": "Worked with",
+                        "feeling": "Bad"
+                    },
+                    {
+                        "targetId": "34",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "David Atayah",
+                "fullName": "David Atayah",
+                "id": "31",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Bin man in London.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "30",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "32",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "33",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Bad"
+                    },
+                    {
+                        "targetId": "34",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Matthew Wilkinson",
+                "fullName": "Matthew Wilkinson",
+                "id": "32",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Bin man in London.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "30",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "31",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "33",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "34",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Alan Parfitt",
+                "fullName": "Alan Parfitt",
+                "id": "33",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Obsessed",
+                "summary": "Bin man who became obsessed with a house that eventually disappeared him.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "30",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "31",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "32",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "Guy Wardman",
+                "fullName": "Guy Wardman",
+                "id": "34",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Replacement after Alan went crazy.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "30",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "31",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "32",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "33",
+                        "type": "Work",
+                        "text": "Replacement for",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "groupName": "London Trashmen",
+                "groupId": "0",
+                "type": "Mundane",
+                "relationType": "Work",
+                "feeling": "Good",
+                "memberIds": [
+                    "30",
+                    "31",
+                    "32",
+                    "33",
+                    "34",
+                    "35"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "006",
+        "episodeName": "Squirm",
+        "episodeData": [
+            {
+                "displayName": "Timothy Hodge",
+                "fullName": "Timothy Hodge",
+                "id": "35",
+                "wikiLink": "Timothy_Hodge",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Worried",
+                "summary": "Slept with a girl who would later become a pile of worms.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "36",
+                        "type": "Romantic",
+                        "text": "Slept with",
+                        "feeling": "Sad"
+                    }
+                ]
+            },
+            {
+                "displayName": "Harriet Lee",
+                "fullName": "Harriet Lee",
+                "id": "36",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Student who turned into a pile of worms, or perhaps was one.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "35",
+                        "type": "Romantic",
+                        "text": "Slept with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Jane Prentiss",
+                "fullName": "Jane Prentiss",
+                "id": "37",
+                "wikiLink": "Jane_Prentiss",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Violent",
+                "summary": "Someone Jon doesn't like who attacks people.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "36",
+                        "type": "Enemy",
+                        "text": "Attacked",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "007",
+        "episodeName": "The Piper",
+        "episodeData": [
+            {
+                "displayName": "Clarence Berry",
+                "fullName": "Clarence Berry",
+                "id": "38",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Great British infantryman in the Great War.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "39",
+                        "type": "Work",
+                        "text": "Served with",
+                        "feeling": "Unease"
+                    }
+                ]
+            },
+            {
+                "displayName": "Wilfred Owen",
+                "fullName": "Wilfred Owen",
+                "id": "39",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Great British infantryman in the Great War who saw the Piper.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "38",
+                        "type": "Work",
+                        "text": "Served with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "40",
+                        "type": "Other",
+                        "text": "Claimed by",
+                        "feeling": "Mixed"
+                    },
+                    {
+                        "targetId": "41",
+                        "type": "Other",
+                        "text": "Found with the body of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "The Piper",
+                "fullName": "The Piper",
+                "id": "40",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Unknown",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Humanoid that roams the battlefield, entrancing with haunitng pipes.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "39",
+                        "type": "Other",
+                        "text": "Claimed",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Joseph Rayner",
+                "fullName": "Joseph Rayner",
+                "id": "41",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Dead man found near Wilfred Owen.",
+                "alignment": "None"
+            }
+        ]
+    },
+    {
+        "episodeNum": "008",
+        "episodeName": "Burned Out",
+        "episodeData": [
+            {
+                "displayName": "Ivo Lensik",
+                "fullName": "Ivo Lensik",
+                "id": "42",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Worried",
+                "summary": "A builder who worked on a project on Hilltop Road.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "44",
+                        "type": "Other",
+                        "text": "Treated by",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "Raymond Fielding",
+                "fullName": "Raymond Fielding",
+                "id": "43",
+                "wikiLink": "Raymond_Fielding",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Ran a halfway house for mentally disturbed teens",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "45",
+                        "type": "Family",
+                        "text": "Adopted father to",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "46",
+                        "type": "Family",
+                        "text": "Adopted father to",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Anna Kasuma",
+                "fullName": "Anna Kasuma",
+                "id": "44",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "42",
+                        "type": "Other",
+                        "text": "Treated",
+                        "feeling": "Worried"
+                    },
+                    {
+                        "targetId": "47",
+                        "type": "Acquaintances",
+                        "text": "Acquaintances with",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "Agnes Montague",
+                "fullName": "Agnes Montague",
+                "id": "45",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "43",
+                        "type": "Family",
+                        "text": "Adopted father to",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Henry White",
+                "fullName": "Henry White",
+                "id": "46",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "summary": "Child who disappeared from old Hilltop Road.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "43",
+                        "type": "Family",
+                        "text": "Adopted son to",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Edwin Burroughs",
+                "fullName": "Edwin Burroughs",
+                "id": "47",
+                "wikiLink": "Edwin_Burroughs",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "A priest that did an exorscism on Hilltop Road.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "44",
+                        "type": "Acquaintances",
+                        "text": "Acquaintances with",
+                        "feeling": "Good"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "009",
+        "episodeName": "A Father's Love",
+        "episodeData": [
+            {
+                "displayName": "Julia Montauk",
+                "fullName": "Julia",
+                "id": "48",
+                "wikiLink": "Julia_Montauk",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Daughter of serial killer Robert Montauk.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "49",
+                        "type": "Family",
+                        "text": "Daughter of",
+                        "feeling": "Love"
+                    }
+                ]
+            },
+            {
+                "displayName": "Robert Montauk",
+                "fullName": "Robert Montauk",
+                "id": "49",
+                "wikiLink": "Robert_Montauk",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Prolific British serial killer with connections to the occult.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "48",
+                        "type": "Family",
+                        "text": "Father of",
+                        "feeling": "Love"
+                    },
+                    {
+                        "targetId": "50",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Maxwell Rayner",
+                "fullName": "Maxwell Rayner",
+                "id": "50",
+                "wikiLink": "Maxwell_Rayner",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Cult leader of the Peoples' Church of the Divine Host.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "49",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "010",
+        "episodeName": "Vampire Killer",
+        "episodeData": [
+            {
+                "displayName": "Trevor Herbert",
+                "fullName": "Trevor Herbert",
+                "id": "51",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "52",
+                        "type": "Enemy",
+                        "text": "Killed",
+                        "feeling": "Hate"
+                    },
+                    {
+                        "targetId": "53",
+                        "type": "Family",
+                        "text": "Brother of",
+                        "feeling": "Love"
+                    },
+                    {
+                        "targetId": "54",
+                        "type": "Enemy",
+                        "text": "Killed",
+                        "feeling": "Hate"
+                    },
+                    {
+                        "targetId": "55",
+                        "type": "Acquaintances",
+                        "text": "Killed",
+                        "feeling": "Sad"
+                    }
+                ]
+            },
+            {
+                "displayName": "Sylvia McDonald",
+                "fullName": "Sylvia McDonald",
+                "id": "52",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Vampire",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "The first Vampire killed by Trevor Herbert.",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Nigel Herbert",
+                "fullName": "Nigel Herbert",
+                "id": "53",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Brother of Trevor Herbert.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "51",
+                        "type": "Family",
+                        "text": "Brother of",
+                        "feeling": "Love"
+                    }
+                ]
+            },
+            {
+                "displayName": "Robert Arden",
+                "fullName": "Robert Arden",
+                "id": "54",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Vampire",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "A vampire killed by Trevor Herbert.",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Alard Dupont",
+                "fullName": "Alard Dupont",
+                "id": "55",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "A human killed by Trevor Herbert, who thought he was a vampire.",
+                "alignment": "None"
+            }
+        ]
+    },
+    {
+        "episodeNum": "011",
+        "episodeName": "Dreamer",
+        "episodeData": [
+            {
+                "displayName": "\"Antonio Blake\"",
+                "fullName": "Antonio Blake",
+                "id": "56",
+                "wikiLink": "Oliver_Banks",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "A man who has dreams about those who will die soon.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "57",
+                        "type": "Work",
+                        "text": "Worked for",
+                        "feeling": "Upset"
+                    },
+                    {
+                        "targetId": "2",
+                        "type": "Other",
+                        "text": "Predicted the death of",
+                        "feeling": "Sad"
+                    }
+                ]
+            },
+            {
+                "displayName": "John Uzel",
+                "fullName": "John Uzel",
+                "id": "57",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Old line manager of Antonio Blake.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "56",
+                        "type": "Work",
+                        "text": "Manager of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Rosie",
+                "fullName": "Rosie",
+                "id": "58",
+                "wikiLink": "Rosie_Zampano",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "A secretary at the Magnus Institute.",
+                "alignment": "Magnus Institute",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "0",
+                "relationships": [
+                    {
+                        "targetId": "2",
+                        "type": "Work",
+                        "text": "Replacement for",
+                        "feeling": "Curious"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "012",
+        "episodeName": "First Aid",
+        "episodeData": [
+            {
+                "displayName": "Lesere Saraki",
+                "fullName": "Lesere Saraki",
+                "id": "59",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "A nurse at St. Thomas hospital.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "60",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "28",
+                        "type": "Other",
+                        "text": "Had a strange experience with",
+                        "feeling": "Fear"
+                    }
+                ]
+            },
+            {
+                "displayName": "Kayleigh Grice",
+                "fullName": "Kayleigh Grice",
+                "id": "60",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "A doctor at St. Thomas hospital.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "59",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "28",
+                "status": "Dead",
+                "relationships": [
+                    {
+                        "targetId": "59",
+                        "type": "Other",
+                        "text": "Had a strange experience with",
+                        "feeling": "Neutral"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "013",
+        "episodeName": "Alone",
+        "episodeData": [
+            {
+                "displayName": "Naomi Herne",
+                "fullName": "Naomi Herne",
+                "id": "61",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Fiance to Evan Lukas.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "62",
+                        "type": "Dating",
+                        "text": "Fiance of",
+                        "feeling": ""
+                    },
+                    {
+                        "targetId": "63",
+                        "type": "Friends",
+                        "text": "Advisee of",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "0",
+                        "type": "Other",
+                        "text": "Complained about",
+                        "feeling": "Upset"
+                    }
+                ]
+            },
+            {
+                "displayName": "Evan Lukas",
+                "fullName": "Evan Lukas",
+                "id": "62",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Man who died a rare death and had a very strange funeral.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "61",
+                        "type": "Dating",
+                        "text": "Fiance of",
+                        "feeling": ""
+                    }
+                ]
+            },
+            {
+                "displayName": "Pastor David",
+                "fullName": "Pastor David",
+                "id": "63",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Advisor who advised against isolation.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "61",
+                        "type": "Friends",
+                        "text": "Advisor to",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "Michael Getty",
+                "fullName": "Michael Getty",
+                "id": "64",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Man who hit Naomi Herne with his car.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "61",
+                        "type": "Other",
+                        "text": "Hit %s with a car",
+                        "feeling": "Sad"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "014",
+        "episodeName": "Piecemeal",
+        "episodeData": [
+            {
+                "displayName": "Lee Rentoul",
+                "fullName": "Lee Rentoul",
+                "id": "65",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Afraid",
+                "summary": "Man who kill Paul Noriega, and was slowly taken apart.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "66",
+                        "type": "Enemy",
+                        "text": "Former friend of",
+                        "feeling": "Hate"
+                    },
+                    {
+                        "targetId": "67",
+                        "type": "Acquaintances",
+                        "text": "Collaborated with",
+                        "feeling": "Dislike"
+                    },
+                    {
+                        "targetId": "68",
+                        "type": "Acquaintances",
+                        "text": "Worked with",
+                        "feeling": "Fear"
+                    },
+                    {
+                        "targetId": "70",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Paul Noriega",
+                "fullName": "Paul Noriega",
+                "id": "66",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Man who was cursed to fall to pieces.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "65",
+                        "type": "Enemy",
+                        "text": "Former friend of",
+                        "feeling": "Fear"
+                    },
+                    {
+                        "targetId": "69",
+                        "type": "Work",
+                        "text": "Dealt with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Toby McMullen",
+                "fullName": "Toby McMullen",
+                "id": "67",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Druggie who was attacked by Paul Noriega.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "65",
+                        "type": "Acquaintances",
+                        "text": "Collaborated with",
+                        "feeling": "Unease"
+                    },
+                    {
+                        "targetId": "66",
+                        "type": "Enemy",
+                        "text": "Beaten by",
+                        "feeling": "Fear"
+                    }
+                ]
+            },
+            {
+                "displayName": "Angela",
+                "fullName": "Angela",
+                "id": "68",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Old lady with a love of puzzles who curses people when asked.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "65",
+                        "type": "Acquaintances",
+                        "text": "Cursed",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "66",
+                        "type": "Acquaintances",
+                        "text": "Cursed",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Mikaele Salesa",
+                "fullName": "Mikaele Salesa",
+                "id": "69",
+                "wikiLink": "Mikaele_Salesa",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Dealer in stolen art.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "66",
+                        "type": "Work",
+                        "text": "Dealt with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Hester",
+                "fullName": "Hester",
+                "id": "70",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Friend of Lee Rentoul who gave a statement.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "65",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "015",
+        "episodeName": "Lost Johns' Cave",
+        "episodeData": [
+            {
+                "displayName": "Laura Popham",
+                "fullName": "Laura Popham",
+                "id": "71",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Traumatized",
+                "summary": "Caver who lost her sister.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "72",
+                        "type": "Family",
+                        "text": "Sister of",
+                        "feeling": "Love"
+                    },
+                    {
+                        "targetId": "73",
+                        "type": "Dating",
+                        "text": "Fiance of",
+                        "feeling": "Love"
+                    }
+                ]
+            },
+            {
+                "displayName": "Alena Popham",
+                "fullName": "Alena Popham",
+                "id": "72",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "summary": "Sister of Laura Popham.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "71",
+                        "type": "Family",
+                        "text": "Sister of",
+                        "feeling": "Love"
+                    }
+                ]
+            },
+            {
+                "displayName": "Alistair",
+                "fullName": "Alistair",
+                "id": "73",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Fiance of Laura who found her after her disappearance.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "71",
+                        "type": "Dating",
+                        "text": "Fiance of",
+                        "feeling": "Love"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "016",
+        "episodeName": "Arachnophobia",
+        "episodeData": [
+            {
+                "displayName": "Carlos Vittery",
+                "fullName": "Carlos Vittery",
+                "id": "74",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Afraid",
+                "summary": "Man who was terrified of spiders and fought an immortal one.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "75",
+                        "type": "Enemy",
+                        "text": "Dealt with",
+                        "feeling": "Fear"
+                    }
+                ]
+            },
+            {
+                "displayName": "Immortal Spider",
+                "fullName": "Immortal Spider",
+                "id": "75",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Spider",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "A spider that, when killed, comes back to life.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "74",
+                        "type": "Enemy",
+                        "text": "Terrorized",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "017",
+        "episodeName": "The Boneturner's Tale",
+        "episodeData": [
+            {
+                "displayName": "Sebastian Adekoya",
+                "fullName": "Sebastian Adekoya",
+                "id": "76",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Normal",
+                "summary": "Librarian's assistant who found a Lightner.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "77",
+                        "type": "Work",
+                        "text": "Works for",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "78",
+                        "type": "Acquaintances",
+                        "text": "Former friend of",
+                        "feeling": "Dislike"
+                    }
+                ]
+            },
+            {
+                "displayName": "Ruth Weaver",
+                "fullName": "Ruth Weaver",
+                "id": "77",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Librarian who Mr. Adekoya worked for.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "76",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "29",
+                "relationships": [
+                        {
+                            "targetId": "76",
+                            "type": "Other",
+                            "text": "Returned a book to",
+                            "feeling": "Unknown"
+                        }
+                ]
+            },
+            {
+                "displayName": "Jared",
+                "fullName": "Jared Hopworth",
+                "id": "78",
+                "wikiLink": "Jared_Hopworth",
+                "imageFile": "",
+                "type": "Unknown",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Former man who read the Boneturner's tale.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "76",
+                        "type": "Acquaintances",
+                        "text": "Former friend of",
+                        "feeling": "Dislike"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "018",
+        "episodeName": "The Man Upstairs",
+        "episodeData": [
+            {
+                "displayName": "Christof Rudenko",
+                "fullName": "Christof Rudenko",
+                "id": "79",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Normal",
+                "summary": "Man who moved into a buliding that would eventually pour meat on him.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "80",
+                        "type": "Acquaintances",
+                        "text": "Neighbor of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "81",
+                        "type": "Acquaintances",
+                        "text": "Neighbor of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Dianne",
+                "fullName": "Dianne",
+                "id": "80",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Spinster who lived next to Christof Rudenko.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "79",
+                        "type": "Acquaintances",
+                        "text": "Neighbor of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "81",
+                        "type": "Acquaintances",
+                        "text": "Neighbor of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Toby Carlisle",
+                "fullName": "Toby Carlisle",
+                "id": "81",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Insane",
+                "summary": "Man who coated the inside of his house in meat.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "79",
+                        "type": "Acquaintances",
+                        "text": "Neighbor of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "80",
+                        "type": "Acquaintances",
+                        "text": "Neighbor of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "019",
+        "episodeName": "Confession",
+        "episodeData": [
+            {
+                "id": "47",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Insane",
+                "summary": "Priest of Hilltop road whose faith was stolen, went insane, and ate people.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "82",
+                        "type": "Work",
+                        "text": "Former colleauge of",
+                        "feeling": "Apologetic"
+                    }
+                ]
+            },
+            {
+                "displayName": "Father Harrogate",
+                "fullName": "Father Harrogate",
+                "id": "82",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Former fellow priest with Edinburgh Burroughs.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "47",
+                        "type": "Work",
+                        "text": "Former colleauge of",
+                        "feeling": "Upset"
+                    }
+                ]
+            },
+            {
+                "displayName": "Father Singh",
+                "fullName": "Father Singh",
+                "id": "83",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Former fellow priest with Edinburgh Burroughs.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "47",
+                        "type": "Work",
+                        "text": "Former colleauge of",
+                        "feeling": "Upset"
+                    }
+                ]
+            },
+            {
+                "displayName": "Bethany O' Connor",
+                "fullName": "Bethany O' Connor",
+                "id": "84",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Student who came to Father Burroughs for an exorscism.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "47",
+                        "type": "Acquaintances",
+                        "text": "Attended the church of",
+                        "feeling": "Good" 
+                    }
+                ]
+            }
+        ]
+    }
+]

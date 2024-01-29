@@ -1,0 +1,25 @@
+{
+    "name": "tmacharactervisualizer",
+    "version": "1.0.0",
+    "description": "A character map of characters from The Magnus Archives over the main series.",
+    "main": "index.html",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "keywords": [
+        "TMA",
+        "cytoscape"
+    ],
+    "author": "William Patmore",
+    "license": "ISC",
+    "dependencies": {
+        "cytoscape": "^3.28.1",
+        "cytoscape-cola": "^2.5.1",
+        "cytoscape-popper": "^2.0.0",
+        "popper": "^1.0.1",
+        "tippy": "^0.0.0",
+        "vite": "^5.0.11"
+    }
+}
