@@ -2025,6 +2025,19 @@
         "episodeName": "Confession",
         "episodeData": [
             {
+                "aliases": ["Annie", "Anne Willett"],
+                "id": "44",
+                "mindset": "Afraid",
+                "relationships": [
+                    {
+                        "targetId": "47",
+                        "type": "Acquaintances",
+                        "text": "Attendee to %s's church",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
                 "id": "47",
                 "type": "Human",
                 "status": "Alive",
@@ -2033,10 +2046,34 @@
                 "alignment": "None",
                 "relationships": [
                     {
+                        "targetId": "42",
+                        "type": "Other",
+                        "text": "Performed an exorcism for",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "44",
+                        "type": "Acquaintances",
+                        "text": "Minister at %s's usual church",
+                        "feeling": "Good"
+                    },
+                    {
                         "targetId": "82",
                         "type": "Work",
                         "text": "Former colleauge of",
                         "feeling": "Apologetic"
+                    },
+                    {
+                        "targetId": "83",
+                        "type": "Work",
+                        "text": "Former colleauge of",
+                        "feeling": "Apologetic"
+                    },
+                    {
+                        "targetId": "84",
+                        "type": "Acquaintances",
+                        "text": "Attempted exorcism of",
+                        "feeling": "Concern" 
                     }
                 ]
             },
@@ -2097,6 +2134,220 @@
                         "type": "Acquaintances",
                         "text": "Attended the church of",
                         "feeling": "Good" 
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "020",
+        "episodeName": "Desecrated Host",
+        "episodeData": [
+            {
+                "id": "47",
+                "relationships": [
+                    {
+                        "targetId": "85",
+                        "type": "Other",
+                        "text": "Killed and ate",
+                        "feeling": "Regret" },
+                    {
+                        "targetId": "86",
+                        "type": "Other",
+                        "text": "Killed",
+                        "feeling": "Regret" 
+                    }
+                ]
+            },
+            {
+                "displayName": "James Mann",
+                "fullName": "James Mann",
+                "id": "85",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Student was killed and eaten by Edwin Burroughs.",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Christopher Bilham",
+                "fullName": "Christopher Bilham",
+                "id": "86",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Student was killed by Edwin Burroughs.",
+                "alignment": "None"
+            }
+        ]
+    },
+    {
+        "episodeNum": "021",
+        "episodeName": "Freefall",
+        "episodeData": [
+            {
+                "displayName": "Moira Kelly",
+                "fullName": "Moira Kelly",
+                "id": "87",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Afraid",
+                "summary": "Mother of Robert Kelly who heard about his story and passed it to the institute.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "88",
+                        "type": "Family",
+                        "text": "Mother of",
+                        "feeling": "Love" 
+                    },
+                    {
+                        "targetId": "89",
+                        "type": "Family",
+                        "text": "Wife of",
+                        "feeling": "Love" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Robert Kelly",
+                "fullName": "Robert Kelly",
+                "id": "88",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Afraid",
+                "summary": "A skydiving instructor who was eaten by the sky.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "87",
+                        "type": "Family",
+                        "text": "Son of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "89",
+                        "type": "Family",
+                        "text": "Son of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "91",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Stephen Kelly",
+                "fullName": "Stephen Kelly",
+                "id":"89",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Father of Robert Kelly who died unexpectedly.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "87",
+                        "type": "Family",
+                        "text": "Husband of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "88",
+                        "type": "Family",
+                        "text": "Father of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Simon",
+                "fullName": "Simon",
+                "id": "90",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Happy",
+                "summary": "Man who may or may not be Simon Fairchild who did a tandem jump.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "91",
+                        "type": "Work",
+                        "text": "Client of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Harriet Fairchild",
+                "fullName": "Harriet Fairchild",
+                "id": "91",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Happy",
+                "summary": "Tandem jumper with Simon",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "88",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "90",
+                        "type": "Work",
+                        "text": "Jump supervisor of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "022",
+        "episodeName": "Colony",
+        "episodeData": [
+            {
+                "displayName": "Harriet Fairchild",
+                "fullName": "Harriet Fairchild",
+                "id": "91",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Happy",
+                "summary": "Tandem jumper with Simon",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "88",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "90",
+                        "type": "Work",
+                        "text": "Jump supervisor of",
+                        "feeling": "Unknown" 
                     }
                 ]
             }
