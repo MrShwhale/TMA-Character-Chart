@@ -2326,27 +2326,63 @@
         "episodeName": "Colony",
         "episodeData": [
             {
-                "displayName": "Harriet Fairchild",
-                "fullName": "Harriet Fairchild",
-                "id": "91",
+                "id": "0",
+                "mindset": "Afraid",
+                "relationships": [
+                    {
+                        "targetId": "3",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Worried" 
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "fullName": "Martin Blackwood",
+                "mindset": "Traumatized"
+            },
+            {
+                "id": "37",
+                "type": "Inhuman",
+                "summary": "Someone Jon doesn't like who attacks people. Terrorized Martin",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "3",
+                        "type": "Enemy",
+                        "text": "Terrorized",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Yasir Kundi",
+                "fullName": "Yasir Kundi",
+                "id": "92",
                 "wikiLink": "",
                 "imageFile": "",
                 "type": "Human",
                 "status": "Unknown",
-                "mindset": "Happy",
-                "summary": "Tandem jumper with Simon",
+                "mindset": "Unknown",
+                "summary": "Owner of the building where Carlos Vittery lived.",
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "88",
-                        "type": "Work",
-                        "text": "Coworkers with",
+                        "targetId": "74",
+                        "type": "Other",
+                        "text": "Landlord of",
                         "feeling": "Unknown" 
-                    },
+                    }
+                ]
+            },
+            {
+                "id": "74",
+                "relationships": [
                     {
-                        "targetId": "90",
-                        "type": "Work",
-                        "text": "Jump supervisor of",
+                        "targetId": "92",
+                        "type": "Other",
+                        "text": "Tenant of",
                         "feeling": "Unknown" 
                     }
                 ]

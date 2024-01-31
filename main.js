@@ -20,6 +20,7 @@ function accumulateGraph(oldGraph, newEntries) {
             // Replace as needed
             for (const [key, value] of Object.entries(entry)) {
                 // Handle replacing relationships
+                // TODO: This is not working: see Jane Prentiss replacing relationship with Martin
                 if (key == "relationships") {
                     for (const relationship of value) {
                         let index = -1;
