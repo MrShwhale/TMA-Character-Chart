@@ -2363,7 +2363,7 @@
                 "wikiLink": "",
                 "imageFile": "",
                 "type": "Human",
-                "status": "Unknown",
+                "status": "Alive",
                 "mindset": "Unknown",
                 "summary": "Owner of the building where Carlos Vittery lived.",
                 "alignment": "None",
@@ -2383,6 +2383,327 @@
                         "targetId": "92",
                         "type": "Other",
                         "text": "Tenant of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "023",
+        "episodeName": "Schwartzwald",
+        "episodeData": [
+            {
+                "displayName": "Albrecht von Closen",
+                "fullName": "Albrecht von Closen",
+                "id": "93",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Friend of Jonah Magnus who had a supernatual experience in the Schwartzwald.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "94",
+                        "type": "Friends",
+                        "text": "Friend of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "95",
+                        "type": "Friends",
+                        "text": "Friend of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "96",
+                        "type": "Family",
+                        "text": "Brother of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "98",
+                        "type": "Family",
+                        "text": "Husband of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "99",
+                        "type": "Other",
+                        "text": "Plundered the tomb of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Jonah Magnus",
+                "fullName": "Jonah Magnus",
+                "id": "94",
+                "wikiLink": "Jonah_Magnus",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "A collector of strange objects and stories. Creator of the Magnus Institute.",
+                "alignment": "Magnus Institute",
+                "relationships": [
+                    {
+                        "targetId": "93",
+                        "type": "Friends",
+                        "text": "Friend of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "95",
+                        "type": "Friends",
+                        "text": "Friend of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Wolfgang",
+                "fullName": "Wolfgang",
+                "id": "95",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Friend of Albrecht von Closen and Jonah Magnus.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "93",
+                        "type": "Friends",
+                        "text": "Friend of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "94",
+                        "type": "Friends",
+                        "text": "Friend of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Henrik von Closen",
+                "fullName": "Henrik von Closen",
+                "id": "96",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Brother of Albrecht who died early.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "93",
+                        "type": "Family",
+                        "text": "Brother of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "97",
+                        "type": "Family",
+                        "text": "Son of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Wilhelm von Closen",
+                "fullName": "Wilhelm von Closen",
+                "id": "97",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Nephew of Albrecht who lived near the Schwartzwald.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "96",
+                        "type": "Family",
+                        "text": "Son of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Clara/Carla von Closen",
+                "fullName": "Clara/Carla von Closen",
+                "id": "98",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Wife of Albrecht. Has two names?",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "93",
+                        "type": "Family",
+                        "text": "Wife of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Johann von Württemberg",
+                "fullName": "Johann von Württemberg",
+                "id": "99",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Unknown member of the Württemberg family. May be the child of Ulricht I.",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Elsa von Closen",
+                "fullName": "Elsa von Closen",
+                "id": "100",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Descendant of Wilhelm von Closen, mother of one Mary Keay.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "97",
+                        "type": "Family",
+                        "text": "Descendant of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "101",
+                        "type": "Family",
+                        "text": "Wife of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "27",
+                        "type": "Family",
+                        "text": "Mother of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Micheal Keay",
+                "fullName": "Micheal Keay",
+                "id": "101",
+                "wikiLink": "Micheal_Keay",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Father of Mary Keay, married into the von Closen family.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "100",
+                        "type": "Family",
+                        "text": "Husband of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "27",
+                        "type": "Family",
+                        "text": "Mother of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "27",
+                "relationships": [
+                    {
+                        "targetId": "100",
+                        "type": "Family",
+                        "text": "Daughter of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "101",
+                        "type": "Family",
+                        "text": "Daughter of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Tobias Kohler",
+                "fullName": "Tobias Kohler",
+                "id": "102",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Old man who played a dangerous game with the crypt in the Schwartzwald.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "103",
+                        "type": "Friends",
+                        "text": "Friend of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Hans Winkler",
+                "fullName": "Hans Winkler",
+                "id": "103",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Child who almost played the game with Tobias Kohler.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "102",
+                        "type": "Friends",
+                        "text": "Friend of",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "104",
+                        "type": "Family",
+                        "text": "Son of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Ms. Winkler",
+                "fullName": "Ms. Winkler",
+                "id": "104",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Mother who went missing after going after her child in the crypt.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "103",
+                        "type": "Family",
+                        "text": "Mother of",
                         "feeling": "Unknown" 
                     }
                 ]
