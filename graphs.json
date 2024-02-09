@@ -2320,37 +2320,5 @@
                 ]
             }
         ]
-    },
-    {
-        "episodeNum": "022",
-        "episodeName": "Colony",
-        "episodeData": [
-            {
-                "displayName": "Harriet Fairchild",
-                "fullName": "Harriet Fairchild",
-                "id": "91",
-                "wikiLink": "",
-                "imageFile": "",
-                "type": "Human",
-                "status": "Unknown",
-                "mindset": "Happy",
-                "summary": "Tandem jumper with Simon",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "88",
-                        "type": "Work",
-                        "text": "Coworkers with",
-                        "feeling": "Unknown" 
-                    },
-                    {
-                        "targetId": "90",
-                        "type": "Work",
-                        "text": "Jump supervisor of",
-                        "feeling": "Unknown" 
-                    }
-                ]
-            }
-        ]
     }
 ]
