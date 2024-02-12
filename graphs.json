@@ -2603,7 +2603,7 @@
                 "displayName": "Micheal Keay",
                 "fullName": "Micheal Keay",
                 "id": "101",
-                "wikiLink": "Micheal_Keay",
+                "wikiLink": "",
                 "imageFile": "",
                 "type": "Human",
                 "status": "Dead",
@@ -2711,7 +2711,7 @@
         ]
     },
     {
-        "episodeNum": "023",
+        "episodeNum": "024",
         "episodeName": "Strange Music",
         "episodeData": [
             {
@@ -2805,6 +2805,165 @@
                         "feeling": "Unknown" 
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "025",
+        "episodeName": "Growing Dark",
+        "episodeData": [
+            {
+                "displayName": "Mark Bilham",
+                "fullName": "Mark Bilham",
+                "id": "109",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Person who doesn't believe in the supernatual, but had a strange experience due to a roommate.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "110",
+                        "type": "Friends",
+                        "text": "Dating",
+                        "feeling": "Love" 
+                    },
+                    {
+                        "targetId": "111",
+                        "type": "Acquaintances",
+                        "text": "Former roommate of",
+                        "feeling": "Afraid" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Kathy Harper",
+                "fullName": "Katherine Harper",
+                "id": "110",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Former friend of Natalie, before she got all cult-y.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "109",
+                        "type": "Friends",
+                        "text": "Dating",
+                        "feeling": "Love" 
+                    },
+                    {
+                        "targetId": "111",
+                        "type": "Friends",
+                        "text": "Former roommate of",
+                        "feeling": "Afraid" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Natalie Ennis",
+                "fullName": "Natalie Ennis",
+                "id": "111",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "A person who joined a cult of darkness, and tried to get her friends to.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "109",
+                        "type": "Acquaintances",
+                        "text": "Roommate of",
+                        "feeling": "Dislike" 
+                    },
+                    {
+                        "targetId": "110",
+                        "type": "Friends",
+                        "text": "Roommate of",
+                        "feeling": "Like" 
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "026",
+        "episodeName": "A Distortion",
+        "episodeData": [
+            {
+                "fullName": "Sasha James",
+                "id": "5",
+                "mindset": "Worried",
+                "summary": "Assistant archivist for the Magnus Institute. Had a run in with Micheal that left her struggling.",
+                "relationships": [
+                    {
+                        "targetId": "113",
+                        "type": "Other",
+                        "text": "Helped(?) by",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "35",
+                        "type": "Other",
+                        "text": "Killed",
+                        "feeling": "Sorrow" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Robert Smirke",
+                "fullName": "Robert Smirke",
+                "id": "112",
+                "mindset": "Unknown",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Architect that Tim is obsessed with.",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "alignment": "None"
+            },
+            {
+                "id": "4",
+                "relationships": [
+                    {
+                        "targetId": "112",
+                        "type": "Other",
+                        "text": "Obsessed with",
+                        "feeling": "Like" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Micheal",
+                "fullName": "Micheal",
+                "id": "113",
+                "mindset": "Unknown",
+                "wikiLink": "The_Distortion",
+                "imageFile": "",
+                "summary": "Inhuman distortion of reality that calls itself by name.",
+                "type": "Inhuman",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "5",
+                        "type": "Other",
+                        "text": "Helped(?)",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "id": "35",
+                "status": "Dead"
             }
         ]
     }
