@@ -3,11 +3,12 @@ import cytoscape from 'cytoscape';
 import cola from 'cytoscape-cola';
 import popper from 'cytoscape-popper';
 
+// Initialize cy plugins
 cytoscape.use(cola);
 cytoscape.use(popper);
 
 // Only add things that are changed in newEntries, don't touch anything else
-// TODO group change support
+// TODO Group change support
 // TODO Add smooth adding
 function accumulateGraph(oldGraph, newEntries) {
     // This makes a 1-deep copy of oldGraph, except for the relationships array, which is itself a 1-deep copy
@@ -20,10 +21,10 @@ function accumulateGraph(oldGraph, newEntries) {
             // Replace as needed
             for (const [key, value] of Object.entries(entry)) {
                 // Handle replacing relationships
-                // TODO: This is not working: see Jane Prentiss replacing relationship with Martin
                 if (key == "relationships") {
                     for (const relationship of value) {
                         let index = -1;
+                        // Search the list of relationships
                         for (let i = 0; i < combined[intId].relationships.length; i++) {
                             if (combined[intId].relationships[i].targetId == relationship.targetId) {
                                 index = i;
@@ -42,8 +43,9 @@ function accumulateGraph(oldGraph, newEntries) {
                         }
                     }
                 }
-
-                combined[intId][key] = value;
+                else {
+                    combined[intId][key] = value;
+                }
             }
         }
         else {
@@ -243,11 +245,26 @@ function setUpGraph(graphIndex) {
 
                 // If this is a relationship element
                 if (/^\d+-\d+$/.test(event.target.id())) {
-                    //content.innerHTML = `<html> <head> <title>Page Title</title> </head> <body> <p>${content.target.name}: Coworkers with ${content.target.name}</p> <hr> <p>Gertrude Robinson: Replacement for Jonathan Simms</p> </body> </html>`;
+                    content.innerHTML = 
+                    `<html>
+                        <head> <title>Page Title</title> </head>
+                        <body style="background: lightgrey">
+                            <p>${data.elements[parseInt(event.target._private.data.source)].data.displayName}: ${event.target._private.data.text} ${data.elements[parseInt(event.target._private.data.target)].data.displayName}</p>
+                        </body> 
+                    </html>`;
                 }
                 // Otherwise it is a normal one
                 else {
-                    content.innerHTML = `<html> <head> <title>Page Title</title> </head> <body> <p>${event.target.name}</body> </html>`; 
+                    content.innerHTML = 
+                    `<html>
+                        <head> <title>Page Title</title> </head>
+                        <body style="background: lightgrey"> 
+                            <p>${event.target._private.data.displayName}</p>
+                            <p>${event.target._private.data.fullName}</p>
+                            <br>
+                            <p>${event.target._private.data.summary}</p>
+                        </body> 
+                    </html>`; 
                 }
 
                 document.body.appendChild(content);
@@ -272,35 +289,5 @@ input.addEventListener("input", function(event) {
 });
 
 // Debug code: use the last graph
-console.log(`Displaying graph: ${graphs.length - 1}`);
+console.log(`Displaying graph: ${graphs.length}`);
 setUpGraph(graphs.length - 1);
-
-// Layout of an entry in graphs:
-/*
-    {
-        "episodeNum": "",
-        "episodeName": "",
-        "episodeData": [
-            {
-                "displayName": "",
-                "fullName": "",
-                "id": "",
-                "wikiLink": "",
-                "imageFile": "",
-                "type": "Human",
-                "status": "Alive",
-                "mindset": "",
-                "summary": "",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "",
-                        "type": "",
-                        "text": "",
-                        "feeling": ""
-                    }
-                ]
-            }
-        ]
-    }
-*/
