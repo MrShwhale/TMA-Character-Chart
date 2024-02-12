@@ -239,9 +239,16 @@ function setUpGraph(graphIndex) {
     cy.elements().bind("mouseover", (event) => {
         event.target.popperRefObj = event.target.popper({
             content: () => {
-                let content = document.createElement("div");
+                let content = document.createElement("html");
 
-                content.innerHTML = event.target.id();
+                // If this is a relationship element
+                if (/^\d+-\d+$/.test(event.target.id())) {
+                    //content.innerHTML = `<html> <head> <title>Page Title</title> </head> <body> <p>${content.target.name}: Coworkers with ${content.target.name}</p> <hr> <p>Gertrude Robinson: Replacement for Jonathan Simms</p> </body> </html>`;
+                }
+                // Otherwise it is a normal one
+                else {
+                    content.innerHTML = `<html> <head> <title>Page Title</title> </head> <body> <p>${event.target.name}</body> </html>`; 
+                }
 
                 document.body.appendChild(content);
                 return content;
@@ -267,8 +274,6 @@ input.addEventListener("input", function(event) {
 // Debug code: use the last graph
 console.log(`Displaying graph: ${graphs.length - 1}`);
 setUpGraph(graphs.length - 1);
-
-// TODO MAG 022: make sure to connect prentiss to 017's Carlos Vittery: she lived in his building
 
 // Layout of an entry in graphs:
 /*
