@@ -2709,5 +2709,103 @@
                 ]
             }
         ]
+    },
+    {
+        "episodeNum": "023",
+        "episodeName": "Strange Music",
+        "episodeData": [
+            {
+                "displayName": "Leanne Denikin",
+                "fullName": "Leanne Denikin",
+                "id": "105",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "summary": "Person who inherited her grandfather's red calliope.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "106",
+                        "type": "Family",
+                        "text": "Grandchild of",
+                        "feeling": "Love" 
+                    },
+                    {
+                        "targetId": "107",
+                        "type": "Other",
+                        "text": "Broke up with",
+                        "feeling": "Dislike" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Nikolai Denikin",
+                "fullName": "Nikolai Denikin",
+                "id": "106",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Grandfather who played the calliope in the Circus of the Other.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "105",
+                        "type": "Family",
+                        "text": "Grandfather of",
+                        "feeling": "Love" 
+                    },
+                    {
+                        "targetId": "108",
+                        "type": "Work",
+                        "text": "Worked in the troupe of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Josh Drury",
+                "fullName": "Joshua Drury",
+                "id": "107",
+                "wikiLink": "",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Former partner of Leanne Denikin, before their death.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "105",
+                        "type": "Other",
+                        "text": "Broke up with",
+                        "feeling": "Dislike" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Gregor Orsinov",
+                "fullName": "Gregor Orsinov",
+                "id": "108",
+                "wikiLink": "Gregor_Orsinov",
+                "imageFile": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "summary": "Ringmaster of the Circus of the Other.",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "106",
+                        "type": "Work",
+                        "text": "Ringmaster in the troupe of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            }
+        ]
     }
 ]
