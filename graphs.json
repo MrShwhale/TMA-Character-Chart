@@ -290,6 +290,19 @@
                 "mindset": "Unknown",
                 "summary": "Something that may or may not exist. It makes people disappear near Old Fishmarket Close, Edinburgh.",
                 "alignment": "None"
+            },
+            {
+                "groupName": "The Magnus Institute",
+                "groupId": "0",
+                "type": "Mundane",
+                "relationType": "Work",
+                "feeling": "Good",
+                "memberIds": [
+                    "0",
+                    "3",
+                    "4",
+                    "5"
+                ]
             }
         ]
     },
@@ -847,7 +860,7 @@
             },
             {
                 "groupName": "London Trashmen",
-                "groupId": "0",
+                "groupId": "1",
                 "type": "Mundane",
                 "relationType": "Work",
                 "feeling": "Good",
@@ -2964,6 +2977,288 @@
             {
                 "id": "35",
                 "status": "Dead"
+            }
+        ]
+    },
+    {
+        "episodeNum": "027",
+        "episodeName": "A Sturdy Lock",
+        "episodeData": [
+            {
+                "displayName": "Paul McKenzie",
+                "fullName": "Paul McKenzie",
+                "id": "114",
+                "mindset": "Unknown",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "115",
+                        "type": "Family",
+                        "text": "Father of",
+                        "feeling": "Love" 
+                    },
+                    {
+                        "targetId": "116",
+                        "type": "Family",
+                        "text": "Husband of",
+                        "feeling": "Love" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Marcus McKenzie",
+                "fullName": "Marcus McKenzie",
+                "id": "115",
+                "mindset": "Unknown",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "114",
+                        "type": "Family",
+                        "text": "Son of",
+                        "feeling": "Frustrated" 
+                    },
+                    {
+                        "targetId": "116",
+                        "type": "Family",
+                        "text": "Son of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Diane McKenzie",
+                "fullName": "Diane McKenzie",
+                "id": "116",
+                "mindset": "Unknown",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "114",
+                        "type": "Family",
+                        "text": "Wife of",
+                        "feeling": "Love" 
+                    },
+                    {
+                        "targetId": "115",
+                        "type": "Family",
+                        "text": "Mother of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Sarah Carpenter",
+                "fullName": "Sarah Carpenter",
+                "id": "117",
+                "mindset": "Unknown",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "Magnus Institute",
+                "relationships": [
+                    {
+                        "targetId": "114",
+                        "type": "Other",
+                        "text": "Examined the house of",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "028",
+        "episodeName": "Skintight",
+        "episodeData": [
+            {
+                "displayName": "Melanie King",
+                "fullName": "Melanie King",
+                "id": "118",
+                "mindset": "Unknown",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Host of the YouTube channel Ghost Hunt UK.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "119",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good" 
+                    },
+                    {
+                        "targetId": "120",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good" 
+                    },
+                    {
+                        "targetId": "121",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good" 
+                    },
+                    {
+                        "targetId": "122",
+                        "type": "Friends",
+                        "text": "Friend of",
+                        "feeling": "Good" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Andy Caine",
+                "fullName": "Andy Caine",
+                "id": "119",
+                "mindset": "Unknown",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Co-host of the YouTube channel Ghost Hunt UK.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "118",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Peter Warhol",
+                "fullName": "Peter Warhol",
+                "id": "120",
+                "mindset": "Unknown",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Sound tech for Ghost Hunt UK.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "118",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Antonia Farron",
+                "fullName": "Antonia Farron",
+                "id": "121",
+                "mindset": "Unknown",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Cameraman for Ghost Hunt UK.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "118",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Georgie",
+                "fullName": "Georgina Barker",
+                "id": "122",
+                "mindset": "Unknown",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Podcast ",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "118",
+                        "type": "Friends",
+                        "text": "Friend of",
+                        "feeling": "Good" 
+                    },
+                    {
+                        "targetId": "10",
+                        "type": "Work",
+                        "text": "Worked with",
+                        "feeling": "Neutral" 
+                    }
+                ]
+            },
+            {
+                "id": "10",
+                "summary": "Went missing near the Anglerfish alley. Replacement sound tech for Ghost Hunt UK.",
+                "type": "Unknown",
+                "status": "Alive",
+                "relationships": [
+                    {
+                        "targetId": "122",
+                        "type": "Work",
+                        "text": "Worked with",
+                        "feeling": "Disinterest" 
+                    },
+                    {
+                        "targetId": "118",
+                        "type": "Work",
+                        "text": "Worked with",
+                        "feeling": "Disinterest" 
+                    },
+                    {
+                        "targetId": "14",
+                        "type": "Other",
+                        "text": "Apologized to",
+                        "feeling": "Fear" 
+                    }
+                ]
+            },
+            {
+                "groupName": "Ghost Hunt UK",
+                "groupId": "2",
+                "type": "Mundane",
+                "relationType": "Work",
+                "feeling": "Good",
+                "memberIds": [
+                    "18",
+                    "19",
+                    "20",
+                    "21"
+                ]
             }
         ]
     }
