@@ -1534,7 +1534,7 @@
                 "status": "Dead",
                 "mindset": "Unknown",
                 "summary": "Man who died a rare death and had a very strange funeral.",
-                "alignment": "None",
+                "alignment": "Lukas Family",
                 "relationships": [
                     {
                         "targetId": "61",
@@ -2933,7 +2933,6 @@
                 "displayName": "Robert Smirke",
                 "fullName": "Robert Smirke",
                 "id": "112",
-                "mindset": "Unknown",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Architect that Tim is obsessed with.",
@@ -2957,7 +2956,6 @@
                 "displayName": "Micheal",
                 "fullName": "Micheal",
                 "id": "113",
-                "mindset": "Unknown",
                 "wikiLink": "The_Distortion",
                 "imageFile": "",
                 "summary": "Inhuman distortion of reality that calls itself by name.",
@@ -2988,7 +2986,6 @@
                 "displayName": "Paul McKenzie",
                 "fullName": "Paul McKenzie",
                 "id": "114",
-                "mindset": "Unknown",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "",
@@ -3015,7 +3012,6 @@
                 "displayName": "Marcus McKenzie",
                 "fullName": "Marcus McKenzie",
                 "id": "115",
-                "mindset": "Unknown",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "",
@@ -3042,7 +3038,6 @@
                 "displayName": "Diane McKenzie",
                 "fullName": "Diane McKenzie",
                 "id": "116",
-                "mindset": "Unknown",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "",
@@ -3069,7 +3064,6 @@
                 "displayName": "Sarah Carpenter",
                 "fullName": "Sarah Carpenter",
                 "id": "117",
-                "mindset": "Unknown",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "",
@@ -3096,7 +3090,6 @@
                 "displayName": "Melanie King",
                 "fullName": "Melanie King",
                 "id": "118",
-                "mindset": "Unknown",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Host of the YouTube channel Ghost Hunt UK.",
@@ -3135,7 +3128,6 @@
                 "displayName": "Andy Caine",
                 "fullName": "Andy Caine",
                 "id": "119",
-                "mindset": "Unknown",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Co-host of the YouTube channel Ghost Hunt UK.",
@@ -3156,7 +3148,6 @@
                 "displayName": "Peter Warhol",
                 "fullName": "Peter Warhol",
                 "id": "120",
-                "mindset": "Unknown",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Sound tech for Ghost Hunt UK.",
@@ -3177,7 +3168,6 @@
                 "displayName": "Antonia Farron",
                 "fullName": "Antonia Farron",
                 "id": "121",
-                "mindset": "Unknown",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Cameraman for Ghost Hunt UK.",
@@ -3198,7 +3188,6 @@
                 "displayName": "Georgie",
                 "fullName": "Georgina Barker",
                 "id": "122",
-                "mindset": "Unknown",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Podcast ",
@@ -3258,6 +3247,373 @@
                     "19",
                     "20",
                     "21"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "029",
+        "episodeName": "Cheating Death",
+        "episodeData": [
+            {
+                "displayName": "Nathaniel Thorp",
+                "fullName": "Nathaniel Thorp",
+                "id": "123",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Soldier in the revolutionary war who beat Death at his own game.",
+                "type": "Unknown",
+                "status": "Alive",
+                "mindset": "Regret",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Fiona Law",
+                "fullName": "Fiona Law",
+                "id": "124",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Magnus Institute researcher who died of liver complications.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "Magnus Institute"
+            }
+        ]
+    },
+    {
+        "episodeNum": "030",
+        "episodeName": "Killing Floor",
+        "episodeData": [
+            {
+                "displayName": "David Laylow",
+                "fullName": "David Laylow",
+                "id": "125",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Person who worked the killing floor, and one to bolt Tom Haan.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Empty",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "126",
+                        "type": "Work",
+                        "text": "Worked with",
+                        "feeling": "Unknown" 
+                    },
+                    {
+                        "targetId": "127",
+                        "type": "Work",
+                        "text": "Worked with",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Tony Mulholland",
+                "fullName": "Tony Mulholland",
+                "id": "126",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Person who used to work on the killing floor.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "125",
+                        "type": "Work",
+                        "text": "Worked with",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Tom Haan",
+                "fullName": "Tom Haan",
+                "id": "127",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Person who used to work on the killing floor, who bolted himself into oblivion.",
+                "type": "Unknown",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "125",
+                        "type": "Work",
+                        "text": "Worked with",
+                        "feeling": "Unknown" 
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "031",
+        "episodeName": "First Hunt",
+        "episodeData": [
+            {
+                "displayName": "Lawrence Mortimer",
+                "fullName": "Lawrence Mortimer",
+                "id": "128",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "British first time hunter who went hunting in the Appalachians.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "129",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Good" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Arden Neeli",
+                "fullName": "Arden Neeli",
+                "id": "129",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "American casual hunter who died in the Appalachians.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "128",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Good" 
+                    }
+                ]
+            },
+            {
+                "displayName": "Wolfman Hiker",
+                "fullName": "Wolfman Hiker",
+                "id": "130",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "A werewolf who was hiking in the Appalachians.",
+                "type": "Inhuman",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "129",
+                        "type": "Other",
+                        "text": "Killed",
+                        "feeling": "Nuetral" 
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "032",
+        "episodeName": "Hive",
+        "episodeData": [
+            {
+                "id": "37",
+                "mindset": "Euphoria",
+                "summary": "A woman who suffered from a terrible parasite, and became something else.",
+                "relationships": [
+                    {
+                        "targetId": "132",
+                        "type": "Other",
+                        "text": "Tenant of",
+                        "feeling": "Dislike"
+                    }
+                ]
+            },
+            {
+                "displayName": "Oliver",
+                "fullName": "Oliver",
+                "id": "131",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Someone who looked at Jane Prentiss sorrowfully.",
+                "type": "Inhuman",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "37",
+                        "type": "Other",
+                        "text": "Stared at %s during work",
+                        "feeling": "Sorrow"
+                    }
+                ]
+            },
+            {
+                "displayName": "Arthur Nolan",
+                "fullName": "Arthur Nolan",
+                "id": "132",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Landlord of Jane Prentiss. ",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "37",
+                        "type": "Other",
+                        "text": "Landlord of",
+                        "feeling": "Suspicious"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "033",
+        "episodeName": "Boatswain's Call",
+        "episodeData": [
+            {
+                "displayName": "Carlita Sloane",
+                "fullName": "Carlita Sloane",
+                "id": "133",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Sailor",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "134",
+                        "type": "Work",
+                        "text": "Worked for",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Peter Lukas",
+                "fullName": "Peter Lukas",
+                "id": "134",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Captain of the Tundra.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "Lukas Family",
+                "relationships": [
+                    {
+                        "targetId": "133",
+                        "type": "Work",
+                        "text": "Related to",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Tadeas Dahl",
+                "fullName": "Tadeas Dahl",
+                "id": "135",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "First mate of the Tundra, the ship of Peter Lukas.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "134",
+                        "type": "Work",
+                        "text": "Worked for",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Sean Kelly",
+                "fullName": "Sean Kelly",
+                "id": "136",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Crewmate on the Tundra who was left behind on it.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "134",
+                        "type": "Work",
+                        "text": "Worked for",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Kim Duong",
+                "fullName": "Kim Duong",
+                "id": "137",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Crewmate of the Tundra who told Carlita Sloane it wasn't an easy choice.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "134",
+                        "type": "Work",
+                        "text": "Worked for",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Nathaniel Lukas",
+                "fullName": "Nathaniel Lukas",
+                "id": "138",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Member of the Lukas family who owns the Tundra.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "Lukas Family",
+                "relationships": [
+                    {
+                        "targetId": "133",
+                        "type": "Family",
+                        "text": "Relative of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "groupName": "The Tundra",
+                "groupId": "3",
+                "type": "Mundane",
+                "relationType": "Work",
+                "feeling": "Bad",
+                "memberIds": [
+                    "133",
+                    "134",
+                    "135",
+                    "136",
+                    "137"
                 ]
             }
         ]
