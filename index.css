@@ -4,6 +4,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
+    z-index: 0;
+    background: black;
 }
 
 #timeslider-container {
@@ -18,6 +20,33 @@
 body {
     background: #0A0A0A;
     font-color: #1D8742;
+}
+
+#title {
+    text-align: center;
+    background-image: url("./images/title_bg")
+}
+
+.playfair-display-magnus {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#header {
+    background: #0A0A0A;
+}
+
+.title-text {
+  font-size: 56px;
+  color: #048A3D;
+}
+
+#subtitle {
+  font-size: 20px;
+  font-style: italic;
+  color: #048A3D;
 }
 
 /* slider styling stolen from https://www.w3schools.com/howto/howto_js_rangeslider.asp (thanks w3) */

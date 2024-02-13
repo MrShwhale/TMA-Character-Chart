@@ -66,6 +66,7 @@ for (let i = 1; i < rawGraphSteps.length; i++) {
     graphSteps.push(accumulateGraph(graphSteps[i-1], rawGraphSteps[i].episodeData));
 }
 
+// Listing graph
 console.log(graphSteps);
 
 function formatGraph(graphList) {
@@ -131,12 +132,20 @@ var graphs = formatGraph(graphSteps);
 let graphStyling = {
     style: [
         {
+            selector: 'node',
+            style: {
+                backgroundColor: '#9CAFB7',
+            },
+        },
+        {
             selector: 'node[displayName]',
             // Maybe only do first letter of name centered on the node, put the rest in the popup
             style: {
                 shape: 'ellipse',
-                color: '#1D8742',
-                label: 'data(displayName)',
+                color: '#0A0A0A',
+                label: 'data(displayName.0)',
+                "text-halign": 'center',
+                "text-valign": 'center',
             },
         },
         {
