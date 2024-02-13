@@ -15,6 +15,11 @@
     width: 100%;
 }
 
+body {
+    background: #0A0A0A;
+    font-color: #1D8742;
+}
+
 /* slider styling stolen from https://www.w3schools.com/howto/howto_js_rangeslider.asp (thanks w3) */
 
 .slider {

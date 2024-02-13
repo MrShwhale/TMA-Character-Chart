@@ -132,8 +132,10 @@ let graphStyling = {
     style: [
         {
             selector: 'node[displayName]',
+            // Maybe only do first letter of name centered on the node, put the rest in the popup
             style: {
                 shape: 'ellipse',
+                color: '#1D8742',
                 label: 'data(displayName)',
             },
         },
