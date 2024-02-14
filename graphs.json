@@ -3617,5 +3617,658 @@
                 ]
             }
         ]
+    },
+    {
+        "episodeNum": "034",
+        "episodeName": "Anatomy Class",
+        "episodeData": [
+            {
+                "displayName": "Lionel Elliott",
+                "fullName": "Lionel Elliott",
+                "id": "139",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Teacher of a very strange anatomy class.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "140",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Frustrated"
+                    }
+                ]
+            },
+            {
+                "displayName": "Elena Bower",
+                "fullName": "Elena Bower",
+                "id": "140",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Admissions officer at King's College.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "139",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Erika Mustermann",
+                "fullName": "Erika Mustermann",
+                "id": "141",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Mysterious anatomy student at King's College.",
+                "type": "Inhuman",
+                "status": "Alive",
+                "mindset": "Happy",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "139",
+                        "type": "Acquaintances",
+                        "text": "Student of",
+                        "feeling": "Thankful"
+                    }
+                ]
+            },
+            {
+                "displayName": "Jan Novak",
+                "fullName": "Jan Novak",
+                "id": "142",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Mysterious anatomy student at King's College.",
+                "type": "Inhuman",
+                "status": "Alive",
+                "mindset": "Happy",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "139",
+                        "type": "Acquaintances",
+                        "text": "Student of",
+                        "feeling": "Thankful"
+                    }
+                ]
+            },
+            {
+                "displayName": "Piotr Petrov",
+                "fullName": "Piotr Petrov",
+                "id": "143",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Mysterious anatomy student at King's College.",
+                "type": "Inhuman",
+                "status": "Alive",
+                "mindset": "Happy",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "139",
+                        "type": "Acquaintances",
+                        "text": "Student of",
+                        "feeling": "Thankful"
+                    }
+                ]
+            },
+            {
+                "displayName": "Pavel Petrov",
+                "fullName": "Pavel Petrov",
+                "id": "144",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Mysterious anatomy student at King's College.",
+                "type": "Inhuman",
+                "status": "Alive",
+                "mindset": "Happy",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "139",
+                        "type": "Acquaintances",
+                        "text": "Student of",
+                        "feeling": "Thankful"
+                    }
+                ]
+            },
+            {
+                "displayName": "John Doe",
+                "fullName": "John Doe",
+                "id": "145",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Mysterious anatomy student at King's College.",
+                "type": "Inhuman",
+                "status": "Alive",
+                "mindset": "Happy",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "139",
+                        "type": "Acquaintances",
+                        "text": "Student of",
+                        "feeling": "Thankful"
+                    }
+                ]
+            },
+            {
+                "displayName": "Fulan al-Fulani",
+                "fullName": "Fulan al-Fulani",
+                "id": "146",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Mysterious anatomy student at King's College.",
+                "type": "Inhuman",
+                "status": "Alive",
+                "mindset": "Happy",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "139",
+                        "type": "Acquaintances",
+                        "text": "Student of",
+                        "feeling": "Thankful"
+                    }
+                ]
+            },
+            {
+                "displayName": "Juan Pérez",
+                "fullName": "Juan Pérez",
+                "id": "147",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Mysterious anatomy student at King's College.",
+                "type": "Inhuman",
+                "status": "Alive",
+                "mindset": "Happy",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "139",
+                        "type": "Acquaintances",
+                        "text": "Student of",
+                        "feeling": "Thankful"
+                    }
+                ]
+            },
+            {
+                "displayName": "Laura Gill",
+                "fullName": "Laura Gill",
+                "id": "148",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Medical professor at King's College.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "139",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Rashid Sadana",
+                "fullName": "Rashid Sadana",
+                "id": "149",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Professor who killed himself after teaching anatomy.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None"
+            },
+            {
+                "groupName": "The Anatomy Class",
+                "groupId": "3",
+                "type": "Supernatual",
+                "relationType": "Unknown",
+                "feeling": "Good",
+                "memberIds": [
+                    "141",
+                    "142",
+                    "143",
+                    "144",
+                    "145",
+                    "146",
+                    "147"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "035",
+        "episodeName": "Old Passages",
+        "episodeData": [
+            {
+                "displayName": "Harold Silvana",
+                "fullName": "Harold Silvana",
+                "id": "150",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Architectural restorer in London.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "151",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "152",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "25",
+                        "type": "Work",
+                        "text": "Consulted by",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "28",
+                        "type": "Other",
+                        "text": "Met under Pall Mall",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Rachael Turley",
+                "fullName": "Rachael Turley",
+                "id": "151",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Does the marble work for Harold Silvana",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "150",
+                        "type": "Work",
+                        "text": "Works for",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Alfred Bartlett",
+                "fullName": "Alfred Bartlett",
+                "id": "152",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Did the water systems for Harold Silvana.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "150",
+                        "type": "Work",
+                        "text": "Works for",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "25",
+                "relationships": [
+                    {
+                        "targetId": "150",
+                        "type": "Work",
+                        "text": "Consulted",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "28",
+                "relationships": [
+                    {
+                        "targetId": "150",
+                        "type": "Other",
+                        "text": "Met under Pall Mall",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "112",
+                        "type": "Other",
+                        "text": "Seeked out the building of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "036",
+        "episodeName": "Taken Ill",
+        "episodeData": [
+            {
+                "displayName": "Nicole Baxter",
+                "fullName": "Nicole Baxter",
+                "id": "153",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Funeral director at Baxter and Gordon.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "154",
+                        "type": "Family",
+                        "text": "Niece and employee of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "156",
+                        "type": "Acquaintances",
+                        "text": "Acquaintance of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "157",
+                        "type": "Work",
+                        "text": "Called by",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "159",
+                        "type": "Family",
+                        "text": "Cousin of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "George Baxter",
+                "fullName": "George Baxter",
+                "id": "154",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Director of Baxter and Gordon funeral services.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "153",
+                        "type": "Family",
+                        "text": "Uncle and boss of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "155",
+                        "type": "Work",
+                        "text": "Business partner of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "William Gordon",
+                "fullName": "William Gordon",
+                "id": "155",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Former director of Baxter and Gordon funeral services.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "154",
+                        "type": "Work",
+                        "text": "Business partner of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Hannah Ramirez",
+                "fullName": "Hannah Ramirez",
+                "id": "156",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Former director of Ivy Medows care home.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "153",
+                        "type": "Acquaintances",
+                        "text": "Acquaintance of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Alenka Kozel",
+                "fullName": "Alenka Kozel",
+                "id": "157",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Nurse at Ivy Medows.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "153",
+                        "type": "Work",
+                        "text": "Called on",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "158",
+                        "type": "Other",
+                        "text": "Nurse of",
+                        "feeling": "Unknown"
+                    }
+                    {
+                        "targetId": "160",
+                        "type": "Work",
+                        "text": "Works for",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Bertrand Miller",
+                "fullName": "Bertrand Miller",
+                "id": "158",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Patient at Ivy Medows.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "157",
+                        "type": "Other",
+                        "text": "Patient of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Josh",
+                "fullName": "Josh",
+                "id": "159",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Funeral director at Baxter and Gordon.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "153",
+                        "type": "Family",
+                        "text": "Cousin of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "John Amherst",
+                "fullName": "John Amherst",
+                "id": "160",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "New director of Ivy Medows.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "157",
+                        "type": "Work ",
+                        "text": "Boss of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+        ]
+    },
+    {
+        "episodeNum": "037",
+        "episodeName": "Burnt Offering",
+        "episodeData": [
+            {
+                "id": "3",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Work",
+                        "text": "Works for",
+                        "feeling": "Concern"
+                    }
+                ]
+            },
+            {
+                "id": "0",
+                "mindset": "Tired, Confused",
+            },
+            {
+                "displayName": "Jason North",
+                "fullName": "Jason North",
+                "id": "161",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "162",
+                        "type": "Family",
+                        "text": "Father of",
+                        "feeling": "Love"
+                    },
+                    {
+                        "targetId": "163",
+                        "type": "Family",
+                        "text": "Husband of",
+                        "feeling": "Love"
+                    },
+                    {
+                        "targetId": "2",
+                        "type": "Other",
+                        "text": "Broke into a ritual circle of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Ethan North",
+                "fullName": "Ethan North",
+                "id": "162",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "161",
+                        "type": "Family",
+                        "text": "Son of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "163",
+                        "type": "Family",
+                        "text": "Son of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Lucy North",
+                "fullName": "Lucy North",
+                "id": "163",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Wife of North",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "161",
+                        "type": "Family",
+                        "text": "Wife of",
+                        "feeling": "Love"
+                    },
+                    {
+                        "targetId": "162",
+                        "type": "Family",
+                        "text": "Father of",
+                        "feeling": "Love"
+                    }
+                ]
+            }
+        ]
     }
 ]
