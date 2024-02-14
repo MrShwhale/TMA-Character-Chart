@@ -4095,7 +4095,7 @@
                         "type": "Other",
                         "text": "Nurse of",
                         "feeling": "Unknown"
-                    }
+                    },
                     {
                         "targetId": "160",
                         "type": "Work",
@@ -4163,7 +4163,7 @@
                         "feeling": "Unknown"
                     }
                 ]
-            },
+            }
         ]
     },
     {
@@ -4183,7 +4183,7 @@
             },
             {
                 "id": "0",
-                "mindset": "Tired, Confused",
+                "mindset": "Tired, Confused"
             },
             {
                 "displayName": "Jason North",
