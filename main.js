@@ -7,6 +7,9 @@ import popper from 'cytoscape-popper';
 cytoscape.use(cola);
 cytoscape.use(popper);
 
+// Season descriptors
+let seasonDescriptors = ["Something's Off", "It Could Be Anyone", "Knowledge is Power", "A New Low", "The End"]
+
 // Only add things that are changed in newEntries, don't touch anything else
 // TODO Group change support
 // TODO Add smooth adding
@@ -69,6 +72,7 @@ for (let i = 1; i < rawGraphSteps.length; i++) {
 // Listing graph
 console.log(graphSteps);
 
+// Add group support
 function formatGraph(graphList) {
     console.log("Formatting graph list...");
     // Create the nodes
@@ -81,7 +85,6 @@ function formatGraph(graphList) {
             // If this is a group node, do other stuff
             // DUE TO HOW THIS WORKS, GROUPS MUST BE LISTED LAST
             if (entry.hasOwnProperty('groupName')) {
-                console.log(entry.groupId);
                 for (const memberId of entry.memberIds) {
                     
                 }
@@ -194,11 +197,6 @@ let graphStyling = {
 
 function setUpGraph(graphIndex) {
     let data = graphs[graphIndex];
-    let graph = {
-        container: document.getElementById('cy'),
-        ...graphStyling,
-        ...data, 
-    };
 
     let layoutOptions = {
         name: 'cola',
@@ -244,9 +242,14 @@ function setUpGraph(graphIndex) {
         animate: false,
     };
 
+    let graph = {
+        container: document.getElementById('cy'),
+        ...graphStyling,
+        ...data,
+        layout: layoutOptions
+   };
+
     let cy = cytoscape(graph);
-    let layout = cy.layout(layoutOptions);
-    layout.run();
 
     cy.elements().unbind("mouseover");
     cy.elements().bind("mouseover", (event) => {
@@ -266,16 +269,20 @@ function setUpGraph(graphIndex) {
                 }
                 // Otherwise it is a normal one
                 else {
-                    content.innerHTML = 
-                    `<html>
-                        <head> <title>Page Title</title> </head>
-                        <body style="background: lightgrey"> 
-                            <p>${event.target._private.data.displayName}</p>
-                            <p>${event.target._private.data.fullName}</p>
-                            <br>
-                            <p>${event.target._private.data.summary}</p>
-                        </body> 
-                    </html>`; 
+                    content.innerHTML = `
+                    <head> <title>Page Title</title> </head>
+                    <body style="background: lightgrey"> 
+                        <p>${event.target._private.data.displayName}</p>
+                    </body>`
+                    // `<html>
+                    //     <head> <title>Page Title</title> </head>
+                    //     <body style="background: lightgrey"> 
+                    //         <p>${event.target._private.data.displayName}</p>
+                    //         <p>${event.target._private.data.fullName}</p>
+                    //         <br>
+                    //         <p>${event.target._private.data.summary}</p>
+                    //     </body> 
+                    // </html>`; 
                 }
 
                 document.body.appendChild(content);
@@ -291,6 +298,12 @@ function setUpGraph(graphIndex) {
             event.target.popperRefObj.destroy();
         }
     });
+
+    // Set up header
+    document.getElementById("episode-title").innerHTML = `MAG ${rawGraphSteps[graphIndex].episodeNum}<br> ${rawGraphSteps[graphIndex].episodeName}`;
+    console.log(parseInt(rawGraphSteps[graphIndex].episodeNum));
+    const seasonNumber = Math.floor((parseInt(rawGraphSteps[graphIndex].episodeNum) - 1) / 40);
+    document.getElementById("season-title").innerHTML = `Season ${seasonNumber + 1}: ${seasonDescriptors[seasonNumber]}`;
 }
 
 const input = document.getElementById("timeslider");

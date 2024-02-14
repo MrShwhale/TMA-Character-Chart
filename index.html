@@ -12,21 +12,29 @@
     <title>The Magnus Archives Characters</title>
   </head>
   <body>
-    <div id="header">
-        <div id="title">
-            <span class="title-text playfair-display-magnus">THE MAGNUS ARCHIVES</span>
-            <br>
-            <span id="subtitle">What a tangled web we weave when first we practice to decieve.</span>
-        </div>
-        <div>
-            <br>
-            <span id="subtitle">MAG 028: Skintight</span>
-        </div>
-    </div>
     <div class="timeslider-container">
-        <input type="range" min="1" max="200" value="1" class="slider" id="timeslider">
+        <input type="range" min="1" max="200" value="1" list="episodes" class="slider" id="timeslider">
     </div>
-    <div id="cy"></div>
+    <div id="page-content">
+        <div id="header">
+            <div id="episode-info">
+                <span id="episode-title"></span>
+                <br>
+                <span id="season-title"></span>
+            </div>
+            <div id="title">
+                <span id="title-text" class="playfair-display-magnus">THE MAGNUS ARCHIVES</span>
+                <br>
+                <span id="subtitle">What a tangled web we weave when first we practice to decieve</span>
+            </div>
+            <div id="settings">
+                <span>Disable unimportant characters</span>
+                <br>
+                <span>Light Mode</span>
+            </div>
+        </div>
+        <div id="cy"></div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
