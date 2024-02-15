@@ -389,15 +389,15 @@
                 ]
             },
             {
-                "displayName": "B&H Delivery man 1",
-                "fullName": "B&H Delivery man 1",
+                "displayName": "Breekon",
+                "fullName": "Breekon",
                 "id": "18",
                 "wikiLink": "",
                 "imageFile": "",
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Unknown",
-                "summary": "No problems taking away a spooky coffin.",
+                "summary": "Delivery man with no problems taking away a spooky coffin.",
                 "alignment": "None",
                 "relationships": [
                     {
@@ -415,15 +415,15 @@
                 ]
             },
             {
-                "displayName": "B&H Delivery man 2",
-                "fullName": "B&H Delivery man 2",
+                "displayName": "Hope",
+                "fullName": "Hope",
                 "id": "19",
                 "wikiLink": "",
                 "imageFile": "",
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Unknown",
-                "summary": "No problems taking away a spooky coffin.",
+                "summary": "Delivery man with no problems taking away a spooky coffin.",
                 "alignment": "None",
                 "relationships": [
                     {
@@ -4266,6 +4266,249 @@
                         "type": "Family",
                         "text": "Father of",
                         "feeling": "Love"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "038",
+        "episodeName": "Lost and Found",
+        "episodeData": [
+            {
+                "displayName": "Andre Ramao",
+                "fullName": "Andre Ramao",
+                "id": "164",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Antiques dealer who started losing things.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "69",
+                        "type": "Work",
+                        "text": "Client of",
+                        "feeling": "Dislike"
+                    },
+                    {
+                        "targetId": "166",
+                        "type": "Family",
+                        "text": "Husband of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "69",
+                "relationships": [
+                    {
+                        "targetId": "164",
+                        "type": "Work",
+                        "text": "Sold to",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "165",
+                        "type": "Work",
+                        "text": "Sold to",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Charlie Miller",
+                "fullName": "Charlie Miller",
+                "id": "165",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Antiques dealer who did time for working with Salesa.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "69",
+                        "type": "Work",
+                        "text": "Client of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "David Ramao",
+                "fullName": "David Ramao",
+                "id": "166",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Husband of Andre, who was lost.",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "164",
+                        "type": "Family",
+                        "text": "Husband of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "0",
+                "mindset": "Terrified"
+            }
+        ]
+    },
+    {
+        "episodeNum": "039",
+        "episodeName": "Infestation",
+        "episodeData": [
+            {
+                "id": "0",
+                "mindset": "Afraid",
+                "relationships": [
+                    {
+                        "targetId": "3",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "4",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "5",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "mindset": "Afraid",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "mindset": "Afraid",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "status": "Unknown",
+                "mindset": "Afraid",
+                "summary": "Researcher for the Magnus Institute. Something strage happened to her beneath the archives.",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "Not-Sasha",
+                "fullName": "Not-Sasha",
+                "id": "167",
+                "wikiLink": "Not-Sasha",
+                "imageFile": "",
+                "summary": "Something that is NOT Sasha.",
+                "type": "Unknown",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "5",
+                        "type": "Other",
+                        "text": "Did something to",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "040",
+        "episodeName": "Human Remains",
+        "episodeData": [
+            {
+                "id": "0",
+                "mindset": "Determined, Paranoid",
+                "relationships": [
+                    {
+                        "targetId": "1",
+                        "type": "Work",
+                        "text": "Works for",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "167",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Good",
+                    }
+                ]
+            },
+            {
+                "id": "1",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Worried",
+                    }
+                ]
+            }
+            {
+                "id": "3",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Work",
+                        "text": "Works for",
+                        "feeling": "Sorry"
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "mindset": "Traumatized"
+            },
+            {
+                "id": "167",
+                "summary": "Something that is NOT Sasha, but is pretending to be. Everyone believes her.",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Work",
+                        "text": "Works for",
+                        "feeling": "Unknown"
                     }
                 ]
             }
