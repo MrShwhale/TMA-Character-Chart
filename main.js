@@ -2,10 +2,13 @@ import rawGraphSteps from './graphs.json';
 import cytoscape from 'cytoscape';
 import cola from 'cytoscape-cola';
 import popper from 'cytoscape-popper';
+import elk from 'cytoscape-elk';
+
 
 // Initialize cy plugins
 cytoscape.use(cola);
 cytoscape.use(popper);
+cytoscape.use(elk);
 
 // Season descriptors
 let seasonDescriptors = ["Something's Off", "It Could Be Anyone", "Knowledge is Power", "A New Low", "The End"]
@@ -16,20 +19,26 @@ let seasonDescriptors = ["Something's Off", "It Could Be Anyone", "Knowledge is 
 function accumulateGraph(oldGraph, newEntries) {
     // This makes a 1-deep copy of oldGraph, except for the relationships array, which is itself a 1-deep copy
     // This makes the relationships array empty if none is found, replace this
-    let combined = oldGraph.map(a => ({...a, relationships: a.hasOwnProperty("relationships") ? a.relationships.map(b => ({...b})) : []}));
-    for (const entry of newEntries) {
+    let combined = {
+        characters: oldGraph.characters.map(a => ({...a, relationships: a.hasOwnProperty("relationships") ? a.relationships.map(b => ({...b})) : []})), 
+        groups: oldGraph.groups.map(c => ({...c}))
+    };
+
+    // Manage the characters
+
+    for (const character of newEntries.characters) {
         // Since ids are sequential, any id that can be used to index oldGraph must be a replacement
-        let intId = parseInt(entry.id);
-        if (intId < combined.length) {
+        let intId = parseInt(character.id);
+        if (intId < combined.characters.length) {
             // Replace as needed
-            for (const [key, value] of Object.entries(entry)) {
+            for (const [key, value] of Object.entries(character)) {
                 // Handle replacing relationships
                 if (key == "relationships") {
                     for (const relationship of value) {
                         let index = -1;
                         // Search the list of relationships
-                        for (let i = 0; i < combined[intId].relationships.length; i++) {
-                            if (combined[intId].relationships[i].targetId == relationship.targetId) {
+                        for (let i = 0; i < combined.characters[intId].relationships.length; i++) {
+                            if (combined.characters[intId].relationships[i].targetId == relationship.targetId) {
                                 index = i;
                                 break;
                             }
@@ -38,35 +47,56 @@ function accumulateGraph(oldGraph, newEntries) {
                         if (index >= 0) {
                             // If this is an existing relationship,
                             // Replace it
-                            combined[intId].relationships[index] = relationship;
+                            combined.characters[intId].relationships[index] = relationship;
                         }
                         else {
                             // If this is a new relationship, just add it
-                            combined[intId].relationships.push(relationship);
+                            combined.characters[intId].relationships.push(relationship);
                         }
                     }
                 }
                 else {
-                    combined[intId][key] = value;
+                    combined.characters[intId][key] = value;
                 }
             }
         }
         else {
             // Concatenate
-            combined.push(entry);
+            combined.characters.push(character);
+        }
+    }
+
+
+
+    // Manange the groups
+    if (newEntries.groups) {
+        for (const group of newEntries.groups) {
+            // Since ids are sequential, any id that can be used to index oldGraph must be a replacement
+            let groupId = parseInt(group.groupId);
+            if (groupId < combined.groups.length) {
+                // Replace as needed
+                // This means that members will have to be replaced all at once: every member must be listed every time
+                for (const [key, value] of Object.entries(entry)) {
+                    combined.groups[intId][key] = value;
+                }
+            }
+            else {
+                // Concatenate
+                combined.groups.push(group);
+            }
         }
     }
 
     return combined;
 }
 
-let graphSteps = [rawGraphSteps[0].episodeData];
+let graphSteps = [{characters: rawGraphSteps[0].episodeCharacters, groups: rawGraphSteps[0].episodeGroups}];
 
 console.log("Accumulating graph steps...")
 // Accumulate the graph
 for (let i = 1; i < rawGraphSteps.length; i++) {
     // Theoretically this passes by reference
-    graphSteps.push(accumulateGraph(graphSteps[i-1], rawGraphSteps[i].episodeData));
+    graphSteps.push(accumulateGraph(graphSteps[i-1], {characters: rawGraphSteps[i].episodeCharacters, groups: rawGraphSteps[i].episodeGroups}));
 }
 
 // Listing graph
@@ -80,19 +110,19 @@ function formatGraph(graphList) {
         // Keep track of the inverse of relations that already exist
         let complementaryRelations = {};
         let completedRelations = {};
+        let entries = [];
 
-        for (const entry of element) {
+        for (const entry of element.characters) {
             // If this is a group node, do other stuff
             // DUE TO HOW THIS WORKS, GROUPS MUST BE LISTED LAST
             if (entry.hasOwnProperty('groupName')) {
-                for (const memberId of entry.memberIds) {
-                    
-                }
+                groups.push(entry)
                 continue;
             }
 
             // If this entry has no relationships, skip it
             if (!entry.hasOwnProperty('relationships') || entry.relationships.length == 0) {
+                entries.push({data: entry});
                 continue;
             }
 
@@ -123,9 +153,33 @@ function formatGraph(graphList) {
                     }
                 }
             }
+
+            entries.push({data: entry});
         }
 
-        return {elements: element.map((entry) => ({data: entry})).concat(Object.values(completedRelations))};
+        let groups = [];
+        // Handle groups
+        for (const group of element.groups) {
+            // Make a parent node
+            let cyId = `g${group.groupId}`;
+            groups.push({
+                data: {
+                    id: cyId,
+                    feeling: group.feeling,
+                    groupName: group.groupName,
+                    type: group.type,
+                    relationType: group.relationType
+                }
+            });
+
+            // Attach the child nodes to it
+            for (const child of group.memberIds) {
+                let intMemberId = parseInt(child);
+                entries[intMemberId].data.parent = cyId;
+            }
+        }
+
+        return {elements: entries.concat(Object.values(completedRelations)).concat(groups)};
     });
     return formattedGraph;
 }
@@ -223,6 +277,16 @@ let graphStyling = {
                 lineColor: '#FF5757',
             },
         },
+        {
+            selector: ':parent',
+            style: {
+                shape: 'vee',
+                borderStyle: 'dashed',
+                borderColor: '#F0F0F0',
+                borderWidth: '3',
+                backgroundOpacity: '0'
+            },
+        },
     ],
 };
 
@@ -268,10 +332,7 @@ function setUpGraph(graphIndex) {
     };
 
     // Until cola looks good, use cose
-    layoutOptions = {
-        name: 'cose',
-        animate: false,
-    };
+
 
     let graph = {
         container: document.getElementById('cy'),

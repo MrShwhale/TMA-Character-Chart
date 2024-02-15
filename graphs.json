@@ -2,7 +2,7 @@
     {
         "episodeNum": "001",
         "episodeName": "The Anglerfish",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Jon",
                 "fullName": "Jonathan Sims",
@@ -290,7 +290,9 @@
                 "mindset": "Unknown",
                 "summary": "Something that may or may not exist. It makes people disappear near Old Fishmarket Close, Edinburgh.",
                 "alignment": "None"
-            },
+            }
+        ],
+        "episodeGroups": [
             {
                 "groupName": "The Magnus Institute",
                 "groupId": "0",
@@ -309,7 +311,7 @@
     {
         "episodeNum": "002",
         "episodeName": "Do Not Open",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Joshua Gillespie",
                 "fullName": "Joshua Gillespie",
@@ -445,7 +447,7 @@
     {
         "episodeNum": "003",
         "episodeName": "Across the Street",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Amy Patel",
                 "fullName": "Amy Patel",
@@ -511,7 +513,7 @@
     {
         "episodeNum": "004",
         "episodeName": "Page Turner",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Dominic Swain",
                 "fullName": "Dominic Swain",
@@ -673,7 +675,7 @@
     {
         "episodeNum": "005",
         "episodeName": "Thrown away",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Kieran Woodward",
                 "fullName": "Kieran Woodward",
@@ -684,33 +686,7 @@
                 "status": "Alive",
                 "mindset": "Unknown",
                 "summary": "Bin man in London who reported some suspicious trash to the Institute.",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "31",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Good"
-                    },
-                    {
-                        "targetId": "32",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Good"
-                    },
-                    {
-                        "targetId": "33",
-                        "type": "Work",
-                        "text": "Worked with",
-                        "feeling": "Bad"
-                    },
-                    {
-                        "targetId": "34",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Unknown"
-                    }
-                ]
+                "alignment": "None"
             },
             {
                 "displayName": "David Atayah",
@@ -722,33 +698,7 @@
                 "status": "Alive",
                 "mindset": "Unknown",
                 "summary": "Bin man in London.",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "30",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Good"
-                    },
-                    {
-                        "targetId": "32",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Good"
-                    },
-                    {
-                        "targetId": "33",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Bad"
-                    },
-                    {
-                        "targetId": "34",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Unknown"
-                    }
-                ]
+                "alignment": "None"
             },
             {
                 "displayName": "Matthew Wilkinson",
@@ -760,33 +710,7 @@
                 "status": "Alive",
                 "mindset": "Unknown",
                 "summary": "Bin man in London.",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "30",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Good"
-                    },
-                    {
-                        "targetId": "31",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Good"
-                    },
-                    {
-                        "targetId": "33",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Good"
-                    },
-                    {
-                        "targetId": "34",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Unknown"
-                    }
-                ]
+                "alignment": "None"
             },
             {
                 "displayName": "Alan Parfitt",
@@ -798,27 +722,7 @@
                 "status": "Unknown",
                 "mindset": "Obsessed",
                 "summary": "Bin man who became obsessed with a house that eventually disappeared him.",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "30",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Good"
-                    },
-                    {
-                        "targetId": "31",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Good"
-                    },
-                    {
-                        "targetId": "32",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Good"
-                    }
-                ]
+                "alignment": "None"
             },
             {
                 "displayName": "Guy Wardman",
@@ -830,34 +734,10 @@
                 "status": "Alive",
                 "mindset": "Unknown",
                 "summary": "Replacement after Alan went crazy.",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "30",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Unknown"
-                    },
-                    {
-                        "targetId": "31",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Good"
-                    },
-                    {
-                        "targetId": "32",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Good"
-                    },
-                    {
-                        "targetId": "33",
-                        "type": "Work",
-                        "text": "Replacement for",
-                        "feeling": "Unknown"
-                    }
-                ]
-            },
+                "alignment": "None"
+            }
+        ],
+        "episodeGroups": [
             {
                 "groupName": "London Trashmen",
                 "groupId": "1",
@@ -869,8 +749,7 @@
                     "31",
                     "32",
                     "33",
-                    "34",
-                    "35"
+                    "34"
                 ]
             }
         ]
@@ -878,7 +757,7 @@
     {
         "episodeNum": "006",
         "episodeName": "Squirm",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Timothy Hodge",
                 "fullName": "Timothy Hodge",
@@ -893,7 +772,7 @@
                 "relationships": [
                     {
                         "targetId": "36",
-                        "type": "Romantic",
+                        "type": "Acquaintances",
                         "text": "Slept with",
                         "feeling": "Sad"
                     }
@@ -913,7 +792,7 @@
                 "relationships": [
                     {
                         "targetId": "35",
-                        "type": "Other",
+                        "type": "Acquaintances",
                         "text": "Slept with",
                         "feeling": "Unknown"
                     }
@@ -944,7 +823,7 @@
     {
         "episodeNum": "007",
         "episodeName": "The Piper",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Clarence Berry",
                 "fullName": "Clarence Berry",
@@ -1034,7 +913,7 @@
     {
         "episodeNum": "008",
         "episodeName": "Burned Out",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Ivo Lensik",
                 "fullName": "Ivo Lensik",
@@ -1172,7 +1051,7 @@
     {
         "episodeNum": "009",
         "episodeName": "A Father's Love",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Julia Montauk",
                 "fullName": "Julia",
@@ -1244,7 +1123,7 @@
     {
         "episodeNum": "010",
         "episodeName": "Vampire Killer",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Trevor Herbert",
                 "fullName": "Trevor Herbert",
@@ -1344,7 +1223,7 @@
     {
         "episodeNum": "011",
         "episodeName": "Dreamer",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Antonio Blake",
                 "fullName": "\"Antonio Blake\"",
@@ -1427,7 +1306,7 @@
     {
         "episodeNum": "012",
         "episodeName": "First Aid",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Lesere Saraki",
                 "fullName": "Lesere Saraki",
@@ -1491,7 +1370,7 @@
     {
         "episodeNum": "013",
         "episodeName": "Alone",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Naomi Herne",
                 "fullName": "Naomi Herne",
@@ -1589,7 +1468,7 @@
     {
         "episodeNum": "014",
         "episodeName": "Piecemeal",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Lee Rentoul",
                 "fullName": "Lee Rentoul",
@@ -1751,7 +1630,7 @@
     {
         "episodeNum": "015",
         "episodeName": "Lost Johns' Cave",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Laura Popham",
                 "fullName": "Laura Popham",
@@ -1823,7 +1702,7 @@
     {
         "episodeNum": "016",
         "episodeName": "Arachnophobia",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Carlos Vittery",
                 "fullName": "Carlos Vittery",
@@ -1869,7 +1748,7 @@
     {
         "episodeNum": "017",
         "episodeName": "The Boneturner's Tale",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Sebastian Adekoya",
                 "fullName": "Sebastian Adekoya",
@@ -1952,7 +1831,7 @@
     {
         "episodeNum": "018",
         "episodeName": "The Man Upstairs",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Christof Rudenko",
                 "fullName": "Christof Rudenko",
@@ -2036,7 +1915,7 @@
     {
         "episodeNum": "019",
         "episodeName": "Confession",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "aliases": ["Annie", "Anne Willett"],
                 "id": "44",
@@ -2155,7 +2034,7 @@
     {
         "episodeNum": "020",
         "episodeName": "Desecrated Host",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "id": "47",
                 "relationships": [
@@ -2201,7 +2080,7 @@
     {
         "episodeNum": "021",
         "episodeName": "Freefall",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Moira Kelly",
                 "fullName": "Moira Kelly",
@@ -2337,7 +2216,7 @@
     {
         "episodeNum": "022",
         "episodeName": "Colony",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "id": "0",
                 "mindset": "Afraid",
@@ -2405,7 +2284,7 @@
     {
         "episodeNum": "023",
         "episodeName": "Schwartzwald",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Albrecht von Closen",
                 "fullName": "Albrecht von Closen",
@@ -2726,7 +2605,7 @@
     {
         "episodeNum": "024",
         "episodeName": "Strange Music",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Leanne Denikin",
                 "fullName": "Leanne Denikin",
@@ -2824,7 +2703,7 @@
     {
         "episodeNum": "025",
         "episodeName": "Growing Dark",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Mark Bilham",
                 "fullName": "Mark Bilham",
@@ -2908,7 +2787,7 @@
     {
         "episodeNum": "026",
         "episodeName": "A Distortion",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "fullName": "Sasha James",
                 "id": "5",
@@ -2981,7 +2860,7 @@
     {
         "episodeNum": "027",
         "episodeName": "A Sturdy Lock",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Paul McKenzie",
                 "fullName": "Paul McKenzie",
@@ -3085,7 +2964,7 @@
     {
         "episodeNum": "028",
         "episodeName": "Skintight",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Melanie King",
                 "fullName": "Melanie King",
@@ -3235,7 +3114,9 @@
                         "feeling": "Fear" 
                     }
                 ]
-            },
+            }
+        ],
+        "episodeGroups": [
             {
                 "groupName": "Ghost Hunt UK",
                 "groupId": "2",
@@ -3243,10 +3124,10 @@
                 "relationType": "Work",
                 "feeling": "Good",
                 "memberIds": [
-                    "18",
-                    "19",
-                    "20",
-                    "21"
+                    "118",
+                    "119",
+                    "120",
+                    "121"
                 ]
             }
         ]
@@ -3254,7 +3135,7 @@
     {
         "episodeNum": "029",
         "episodeName": "Cheating Death",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Nathaniel Thorp",
                 "fullName": "Nathaniel Thorp",
@@ -3284,7 +3165,7 @@
     {
         "episodeNum": "030",
         "episodeName": "Killing Floor",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "David Laylow",
                 "fullName": "David Laylow",
@@ -3356,7 +3237,7 @@
     {
         "episodeNum": "031",
         "episodeName": "First Hunt",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Lawrence Mortimer",
                 "fullName": "Lawrence Mortimer",
@@ -3422,7 +3303,7 @@
     {
         "episodeNum": "032",
         "episodeName": "Hive",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "id": "37",
                 "mindset": "Euphoria",
@@ -3481,7 +3362,7 @@
     {
         "episodeNum": "033",
         "episodeName": "Boatswain's Call",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Carlita Sloane",
                 "fullName": "Carlita Sloane",
@@ -3601,7 +3482,9 @@
                         "feeling": "Unknown"
                     }
                 ]
-            },
+            }
+        ],
+        "episodeGroups": [
             {
                 "groupName": "The Tundra",
                 "groupId": "3",
@@ -3621,7 +3504,7 @@
     {
         "episodeNum": "034",
         "episodeName": "Anatomy Class",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Lionel Elliott",
                 "fullName": "Lionel Elliott",
@@ -3833,10 +3716,12 @@
                 "status": "Dead",
                 "mindset": "Unknown",
                 "alignment": "None"
-            },
+            }
+        ],
+        "episodeGroups": [
             {
                 "groupName": "The Anatomy Class",
-                "groupId": "3",
+                "groupId": "4",
                 "type": "Supernatual",
                 "relationType": "Unknown",
                 "feeling": "Good",
@@ -3855,7 +3740,7 @@
     {
         "episodeNum": "035",
         "episodeName": "Old Passages",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Harold Silvana",
                 "fullName": "Harold Silvana",
@@ -3967,7 +3852,7 @@
     {
         "episodeNum": "036",
         "episodeName": "Taken Ill",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Nicole Baxter",
                 "fullName": "Nicole Baxter",
@@ -4169,7 +4054,7 @@
     {
         "episodeNum": "037",
         "episodeName": "Burnt Offering",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "id": "3",
                 "relationships": [
@@ -4274,7 +4159,7 @@
     {
         "episodeNum": "038",
         "episodeName": "Lost and Found",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "displayName": "Andre Ramao",
                 "fullName": "Andre Ramao",
@@ -4367,7 +4252,7 @@
     {
         "episodeNum": "039",
         "episodeName": "Infestation",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "id": "0",
                 "mindset": "Afraid",
@@ -4455,7 +4340,7 @@
     {
         "episodeNum": "040",
         "episodeName": "Human Remains",
-        "episodeData": [
+        "episodeCharacters": [
             {
                 "id": "0",
                 "mindset": "Determined, Paranoid",
@@ -4470,7 +4355,7 @@
                         "targetId": "167",
                         "type": "Work",
                         "text": "Boss of",
-                        "feeling": "Good",
+                        "feeling": "Good"
                     }
                 ]
             },
@@ -4481,10 +4366,10 @@
                         "targetId": "0",
                         "type": "Work",
                         "text": "Boss of",
-                        "feeling": "Worried",
+                        "feeling": "Worried"
                     }
                 ]
-            }
+            },
             {
                 "id": "3",
                 "relationships": [
