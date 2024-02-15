@@ -337,8 +337,8 @@
                 ]
             },
             {
-                "displayName": "\"John\"",
-                "fullName": "John",
+                "displayName": "John",
+                "fullName": "\"John\"",
                 "id": "16",
                 "wikiLink": "",
                 "imageFile": "",
@@ -913,7 +913,7 @@
                 "relationships": [
                     {
                         "targetId": "35",
-                        "type": "Romantic",
+                        "type": "Other",
                         "text": "Slept with",
                         "feeling": "Unknown"
                     }
@@ -1346,8 +1346,8 @@
         "episodeName": "Dreamer",
         "episodeData": [
             {
-                "displayName": "\"Antonio Blake\"",
-                "fullName": "Antonio Blake",
+                "displayName": "Antonio Blake",
+                "fullName": "\"Antonio Blake\"",
                 "id": "56",
                 "wikiLink": "Oliver_Banks",
                 "imageFile": "",
@@ -1506,9 +1506,9 @@
                 "relationships": [
                     {
                         "targetId": "62",
-                        "type": "Dating",
+                        "type": "Friends",
                         "text": "Fiance of",
-                        "feeling": ""
+                        "feeling": "Love"
                     },
                     {
                         "targetId": "63",
@@ -1538,9 +1538,9 @@
                 "relationships": [
                     {
                         "targetId": "61",
-                        "type": "Dating",
+                        "type": "Friends",
                         "text": "Fiance of",
-                        "feeling": ""
+                        "feeling": "Love"
                     }
                 ]
             },
@@ -1772,7 +1772,7 @@
                     },
                     {
                         "targetId": "73",
-                        "type": "Dating",
+                        "type": "Friends",
                         "text": "Fiance of",
                         "feeling": "Love"
                     }
@@ -1812,7 +1812,7 @@
                 "relationships": [
                     {
                         "targetId": "71",
-                        "type": "Dating",
+                        "type": "Friends",
                         "text": "Fiance of",
                         "feeling": "Love"
                     }
@@ -4158,7 +4158,7 @@
                 "relationships": [
                     {
                         "targetId": "157",
-                        "type": "Work ",
+                        "type": "Work",
                         "text": "Boss of",
                         "feeling": "Unknown"
                     }

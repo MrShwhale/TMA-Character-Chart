@@ -146,6 +146,8 @@ let graphStyling = {
             style: {
                 shape: 'ellipse',
                 color: '#0A0A0A',
+                fontFamily: "Noto Sans",
+                fontWeight: 700,
                 label: 'data(displayName.0)',
                 "text-halign": 'center',
                 "text-valign": 'center',
@@ -157,6 +159,12 @@ let graphStyling = {
                 // Green colorpicked from TMA logo
                 backgroundColor: "#157535",
             },
+        },
+        {
+            selector : 'edge',
+            style: {
+                width: '5',
+            }
         },
         {
             selector: 'edge[?directed]',
@@ -171,25 +179,48 @@ let graphStyling = {
                 curveStyle: 'straight',
             },
         },
+        // Relationship type coloring
+        // Probably doable better
         {
             selector: 'edge[type = \'Acquaintances\']',
             style: {
-                targetArrowColor: 'yellow',
-                lineColor: 'yellow',
+                targetArrowColor: '#FFDE59',
+                lineColor: '#FFDE59',
             },
         },
         {
             selector: 'edge[type = \'Friends\']',
             style: {
-                targetArrowColor: 'green',
-                lineColor: 'green',
+                targetArrowColor: '#C1FF72',
+                lineColor: '#C1FF72',
             },
         },
         {
             selector: 'edge[type = \'Work\']',
             style: {
-                targetArrowColor: 'blue',
-                lineColor: 'blue',
+                targetArrowColor: '#0097B2',
+                lineColor: '#0097B2',
+            },
+        },
+        {
+            selector: 'edge[type = \'Family\']',
+            style: {
+                targetArrowColor: '#8C52FF',
+                lineColor: '#8C52FF',
+            },
+        },
+        {
+            selector: 'edge[type = \'Other\']',
+            style: {
+                targetArrowColor: '#D9D9D9',
+                lineColor: '#D9D9D9',
+            },
+        },
+        {
+            selector: 'edge[type = \'Enemy\']',
+            style: {
+                targetArrowColor: '#FF5757',
+                lineColor: '#FF5757',
             },
         },
     ],
@@ -261,7 +292,10 @@ function setUpGraph(graphIndex) {
                 if (/^\d+-\d+$/.test(event.target.id())) {
                     content.innerHTML = 
                     `<html>
-                        <head> <title>Page Title</title> </head>
+                        <head> 
+                            <link rel="stylesheet" href="relationship.css"/>
+                            <title>Relationship page</title>
+                        </head>
                         <body style="background: lightgrey">
                             <p>${data.elements[parseInt(event.target._private.data.source)].data.displayName}: ${event.target._private.data.text} ${data.elements[parseInt(event.target._private.data.target)].data.displayName}</p>
                         </body> 
@@ -269,20 +303,15 @@ function setUpGraph(graphIndex) {
                 }
                 // Otherwise it is a normal one
                 else {
-                    content.innerHTML = `
-                    <head> <title>Page Title</title> </head>
-                    <body style="background: lightgrey"> 
-                        <p>${event.target._private.data.displayName}</p>
-                    </body>`
-                    // `<html>
-                    //     <head> <title>Page Title</title> </head>
-                    //     <body style="background: lightgrey"> 
-                    //         <p>${event.target._private.data.displayName}</p>
-                    //         <p>${event.target._private.data.fullName}</p>
-                    //         <br>
-                    //         <p>${event.target._private.data.summary}</p>
-                    //     </body> 
-                    // </html>`; 
+                    content.innerHTML = 
+                    `
+                        <div id="popper-node-container"> 
+                            <p>${event.target._private.data.displayName}</p>
+                            <p>${event.target._private.data.fullName}</p>
+                            <br>
+                            <p>${event.target._private.data.summary}</p>
+                        </div>
+                    `
                 }
 
                 document.body.appendChild(content);
