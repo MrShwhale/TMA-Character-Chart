@@ -294,11 +294,16 @@
         ],
         "episodeGroups": [
             {
-                "groupName": "The Magnus Institute",
+                "displayName": "The Magnus Institute",
+                "fullName": "The Magnus Institute",
                 "groupId": "0",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Core members in the giving of statements at the Magnus Institute.",
                 "type": "Mundane",
                 "relationType": "Work",
                 "feeling": "Good",
+                "alignment": "Magnus Institute",
                 "memberIds": [
                     "0",
                     "3",
@@ -739,11 +744,16 @@
         ],
         "episodeGroups": [
             {
-                "groupName": "London Trashmen",
+                "displayName": "London Trashmen",
+                "fullName": "London Trashmen",
                 "groupId": "1",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "People who worked the London trash circuit together.",
                 "type": "Mundane",
                 "relationType": "Work",
                 "feeling": "Good",
+                "alignment": "None",
                 "memberIds": [
                     "30",
                     "31",
@@ -3118,11 +3128,16 @@
         ],
         "episodeGroups": [
             {
-                "groupName": "Ghost Hunt UK",
+                "displayName": "Ghost Hunt UK",
+                "fullName": "Ghost Hunt UK",
                 "groupId": "2",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "The people behind Ghost Hunt UK.",
                 "type": "Mundane",
                 "relationType": "Work",
                 "feeling": "Good",
+                "alignment": "None",
                 "memberIds": [
                     "118",
                     "119",
@@ -3486,11 +3501,16 @@
         ],
         "episodeGroups": [
             {
-                "groupName": "The Tundra",
+                "displayName": "The Tundra",
+                "fullName": "The Tundra",
                 "groupId": "3",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Some crew of the mysterious ship The Tundra.",
                 "type": "Mundane",
                 "relationType": "Work",
                 "feeling": "Bad",
+                "alignment": "Lukas Family",
                 "memberIds": [
                     "133",
                     "134",
@@ -3522,6 +3542,12 @@
                         "type": "Work",
                         "text": "Coworkers with",
                         "feeling": "Frustrated"
+                    },
+                    {
+                        "targetId": "g4",
+                        "type": "Work",
+                        "text": "Teacher of",
+                        "feeling": "Afraid"
                     }
                 ]
             },
@@ -3535,15 +3561,7 @@
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Unknown",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "139",
-                        "type": "Work",
-                        "text": "Coworkers with",
-                        "feeling": "Unknown"
-                    }
-                ]
+                "alignment": "None"
             },
             {
                 "displayName": "Erika Mustermann",
@@ -3555,15 +3573,7 @@
                 "type": "Inhuman",
                 "status": "Alive",
                 "mindset": "Happy",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "139",
-                        "type": "Acquaintances",
-                        "text": "Student of",
-                        "feeling": "Thankful"
-                    }
-                ]
+                "alignment": "None"
             },
             {
                 "displayName": "Jan Novak",
@@ -3575,15 +3585,7 @@
                 "type": "Inhuman",
                 "status": "Alive",
                 "mindset": "Happy",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "139",
-                        "type": "Acquaintances",
-                        "text": "Student of",
-                        "feeling": "Thankful"
-                    }
-                ]
+                "alignment": "None"
             },
             {
                 "displayName": "Piotr Petrov",
@@ -3595,15 +3597,7 @@
                 "type": "Inhuman",
                 "status": "Alive",
                 "mindset": "Happy",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "139",
-                        "type": "Acquaintances",
-                        "text": "Student of",
-                        "feeling": "Thankful"
-                    }
-                ]
+                "alignment": "None"
             },
             {
                 "displayName": "Pavel Petrov",
@@ -3615,15 +3609,7 @@
                 "type": "Inhuman",
                 "status": "Alive",
                 "mindset": "Happy",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "139",
-                        "type": "Acquaintances",
-                        "text": "Student of",
-                        "feeling": "Thankful"
-                    }
-                ]
+                "alignment": "None"
             },
             {
                 "displayName": "John Doe",
@@ -3635,15 +3621,7 @@
                 "type": "Inhuman",
                 "status": "Alive",
                 "mindset": "Happy",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "139",
-                        "type": "Acquaintances",
-                        "text": "Student of",
-                        "feeling": "Thankful"
-                    }
-                ]
+                "alignment": "None"
             },
             {
                 "displayName": "Fulan al-Fulani",
@@ -3655,15 +3633,7 @@
                 "type": "Inhuman",
                 "status": "Alive",
                 "mindset": "Happy",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "139",
-                        "type": "Acquaintances",
-                        "text": "Student of",
-                        "feeling": "Thankful"
-                    }
-                ]
+                "alignment": "None"
             },
             {
                 "displayName": "Juan Pérez",
@@ -3675,15 +3645,7 @@
                 "type": "Inhuman",
                 "status": "Alive",
                 "mindset": "Happy",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "139",
-                        "type": "Acquaintances",
-                        "text": "Student of",
-                        "feeling": "Thankful"
-                    }
-                ]
+                "alignment": "None"
             },
             {
                 "displayName": "Laura Gill",
@@ -3720,11 +3682,16 @@
         ],
         "episodeGroups": [
             {
-                "groupName": "The Anatomy Class",
+                "displayName": "The Anatomy Class",
+                "fullName": "The Anatomy Class",
                 "groupId": "4",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Inhuman members of an anatomy class at King's College.",
                 "type": "Supernatual",
                 "relationType": "Unknown",
                 "feeling": "Good",
+                "alignment": "None",
                 "memberIds": [
                     "141",
                     "142",
@@ -3733,6 +3700,14 @@
                     "145",
                     "146",
                     "147"
+                ],
+                "relationships": [
+                    {
+                        "targetId": "139",
+                        "type": "Work",
+                        "text": "Students of",
+                        "feeling": "Thankful"
+                    }
                 ]
             }
         ]
@@ -4332,6 +4307,31 @@
                         "type": "Other",
                         "text": "Did something to",
                         "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "37",
+                "relationships": [
+                    {
+                        "targetId": "g0",
+                        "type": "Enemy",
+                        "text": "Attacked",
+                        "feeling": "Hate"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups": [
+            {
+                "groupId": "0",
+                "feeling": "Afraid",
+                "relationships": [
+                    {
+                        "targetId": "37",
+                        "type": "Enemy",
+                        "text": "Target of",
+                        "feeling": "Afraid"
                     }
                 ]
             }

@@ -2,19 +2,16 @@ import rawGraphSteps from './graphs.json';
 import cytoscape from 'cytoscape';
 import cola from 'cytoscape-cola';
 import popper from 'cytoscape-popper';
-import elk from 'cytoscape-elk';
 
 
 // Initialize cy plugins
 cytoscape.use(cola);
 cytoscape.use(popper);
-cytoscape.use(elk);
 
 // Season descriptors
 let seasonDescriptors = ["Something's Off", "It Could Be Anyone", "Knowledge is Power", "A New Low", "The End"]
 
 // Only add things that are changed in newEntries, don't touch anything else
-// TODO Group change support
 // TODO Add smooth adding
 function accumulateGraph(oldGraph, newEntries) {
     // This makes a 1-deep copy of oldGraph, except for the relationships array, which is itself a 1-deep copy
@@ -66,8 +63,6 @@ function accumulateGraph(oldGraph, newEntries) {
         }
     }
 
-
-
     // Manange the groups
     if (newEntries.groups) {
         for (const group of newEntries.groups) {
@@ -76,8 +71,8 @@ function accumulateGraph(oldGraph, newEntries) {
             if (groupId < combined.groups.length) {
                 // Replace as needed
                 // This means that members will have to be replaced all at once: every member must be listed every time
-                for (const [key, value] of Object.entries(entry)) {
-                    combined.groups[intId][key] = value;
+                for (const [key, value] of Object.entries(group)) {
+                    combined.groups[groupId][key] = value;
                 }
             }
             else {
@@ -113,13 +108,6 @@ function formatGraph(graphList) {
         let entries = [];
 
         for (const entry of element.characters) {
-            // If this is a group node, do other stuff
-            // DUE TO HOW THIS WORKS, GROUPS MUST BE LISTED LAST
-            if (entry.hasOwnProperty('groupName')) {
-                groups.push(entry)
-                continue;
-            }
-
             // If this entry has no relationships, skip it
             if (!entry.hasOwnProperty('relationships') || entry.relationships.length == 0) {
                 entries.push({data: entry});
@@ -131,6 +119,7 @@ function formatGraph(graphList) {
                 // The id of this entry, should it go through
                 let potentialId = `${entry.id}-${relation.targetId}`;
                 let inverseId = `${relation.targetId}-${entry.id}`;
+
 
                 // If there is already a version of this completed, mark it nondirectional
                 if (complementaryRelations.hasOwnProperty(potentialId) && complementaryRelations[potentialId] == relation.type) {
@@ -158,6 +147,7 @@ function formatGraph(graphList) {
         }
 
         let groups = [];
+
         // Handle groups
         for (const group of element.groups) {
             // Make a parent node
@@ -165,10 +155,7 @@ function formatGraph(graphList) {
             groups.push({
                 data: {
                     id: cyId,
-                    feeling: group.feeling,
-                    groupName: group.groupName,
-                    type: group.type,
-                    relationType: group.relationType
+                    ...group
                 }
             });
 
@@ -176,6 +163,37 @@ function formatGraph(graphList) {
             for (const child of group.memberIds) {
                 let intMemberId = parseInt(child);
                 entries[intMemberId].data.parent = cyId;
+            }
+
+            // If this entry has no relationships, skip it
+            if (group.hasOwnProperty('relationships') && group.relationships.length > 0) {
+                for (const relation of group.relationships)
+                {
+                    // The id of this entry, should it go through
+                    let potentialId = `${cyId}-${relation.targetId}`;
+                    let inverseId = `${relation.targetId}-${cyId}`;
+
+                    // If there is already a version of this completed, mark it nondirectional
+                    if (complementaryRelations.hasOwnProperty(potentialId) && complementaryRelations[potentialId] == relation.type) {
+                        completedRelations[inverseId].data.directed = false;
+                        continue;
+                    }
+
+                    // Add the inverse to the list of inverse relations
+                    complementaryRelations[inverseId] = relation.type;
+                    completedRelations[potentialId] = 
+                    {
+                        data: {
+                            id: potentialId,
+                            source: cyId,
+                            target: relation.targetId,
+                            type: relation.type,
+                            text: relation.text,
+                            feeling: relation.feeling,
+                            directed: true,
+                        }
+                    }
+                }
             }
         }
 
@@ -186,8 +204,10 @@ function formatGraph(graphList) {
 
 var graphs = formatGraph(graphSteps);
 
-let graphStyling = {
-    style: [
+function setUpGraph(graphIndex) {
+    let data = graphs[graphIndex];
+
+    let graphStyling = [
         {
             selector: 'node',
             style: {
@@ -287,17 +307,13 @@ let graphStyling = {
                 backgroundOpacity: '0'
             },
         },
-    ],
-};
-
-function setUpGraph(graphIndex) {
-    let data = graphs[graphIndex];
+    ];
 
     let layoutOptions = {
         name: 'cola',
         animate: true, // whether to show the layout as it's running
-        refresh: 1, // number of ticks per frame; higher is faster but more jerky
-        maxSimulationTime: 4000, // max length in ms to run the layout
+        refresh: 3, // number of ticks per frame; higher is faster but more jerky
+        maxSimulationTime: 2000, // max length in ms to run the layout
         ungrabifyWhileSimulating: false, // so you can't drag nodes during layout
         fit: true, // on every layout reposition of nodes, fit the viewport
         padding: 30, // padding around the simulation
@@ -331,20 +347,19 @@ function setUpGraph(graphIndex) {
         allConstIter: undefined, // initial layout iterations with all constraints including non-overlap
     };
 
-    // Until cola looks good, use cose
-
-
     let graph = {
         container: document.getElementById('cy'),
-        ...graphStyling,
+        style: graphStyling,
+        layout: layoutOptions,
+        minZoom: 0.3,
+        maxZoom: 3,
         ...data,
-        layout: layoutOptions
    };
 
     let cy = cytoscape(graph);
 
-    cy.elements().unbind("mouseover");
-    cy.elements().bind("mouseover", (event) => {
+    cy.elements().unbind("select");
+    cy.elements().bind("select", (event) => {
         event.target.popperRefObj = event.target.popper({
             content: () => {
                 let content = document.createElement("html");
@@ -381,17 +396,23 @@ function setUpGraph(graphIndex) {
         });
     });
 
-    cy.elements().unbind("mouseout");
-    cy.elements().bind("mouseout", (event) => {
+    // Will not work on parents: https://js.cytoscape.org/#events/event-bubbling
+    // TODO Fix this
+    
+    let destroyPop = ((event) => {
         if (event.target.popper) {
             event.target.popperRefObj.state.elements.popper.remove();
             event.target.popperRefObj.destroy();
         }
     });
 
+    cy.elements().unbind("unselect");
+    cy.elements().bind("unselect", destroyPop);
+    cy.elements().unbind("viewport");
+    cy.elements().bind("viewport", destroyPop);
+
     // Set up header
     document.getElementById("episode-title").innerHTML = `MAG ${rawGraphSteps[graphIndex].episodeNum}<br> ${rawGraphSteps[graphIndex].episodeName}`;
-    console.log(parseInt(rawGraphSteps[graphIndex].episodeNum));
     const seasonNumber = Math.floor((parseInt(rawGraphSteps[graphIndex].episodeNum) - 1) / 40);
     document.getElementById("season-title").innerHTML = `Season ${seasonNumber + 1}: ${seasonDescriptors[seasonNumber]}`;
 }
