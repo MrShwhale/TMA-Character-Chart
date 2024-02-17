@@ -2,6 +2,7 @@ import rawGraphSteps from './graphs.json';
 import cytoscape from 'cytoscape';
 import cola from 'cytoscape-cola';
 import popper from 'cytoscape-popper';
+import tippy from 'tippy.js';
 
 
 // Initialize cy plugins
@@ -12,7 +13,6 @@ cytoscape.use(popper);
 let seasonDescriptors = ["Something's Off", "It Could Be Anyone", "Knowledge is Power", "A New Low", "The End"]
 
 // Only add things that are changed in newEntries, don't touch anything else
-// TODO Add smooth adding
 function accumulateGraph(oldGraph, newEntries) {
     // This makes a 1-deep copy of oldGraph, except for the relationships array, which is itself a 1-deep copy
     // This makes the relationships array empty if none is found, replace this
@@ -300,11 +300,11 @@ function setUpGraph(graphIndex) {
         {
             selector: ':parent',
             style: {
-                shape: 'vee',
+                shape: 'round-rectangle',
                 borderStyle: 'dashed',
                 borderColor: '#F0F0F0',
                 borderWidth: '3',
-                backgroundOpacity: '0'
+                backgroundOpacity: '0',
             },
         },
     ];
@@ -360,6 +360,12 @@ function setUpGraph(graphIndex) {
 
     cy.elements().unbind("select");
     cy.elements().bind("select", (event) => {
+
+        // Prevent parents from double-displaying a page
+        if (event.runOnce) {
+            return;
+        }
+
         event.target.popperRefObj = event.target.popper({
             content: () => {
                 let content = document.createElement("html");
@@ -367,37 +373,36 @@ function setUpGraph(graphIndex) {
                 // If this is a relationship element
                 if (/^\d+-\d+$/.test(event.target.id())) {
                     content.innerHTML = 
-                    `<html>
-                        <head> 
-                            <link rel="stylesheet" href="relationship.css"/>
-                            <title>Relationship page</title>
-                        </head>
-                        <body style="background: lightgrey">
+                    `<div class="popper-relationship-container">
                             <p>${data.elements[parseInt(event.target._private.data.source)].data.displayName}: ${event.target._private.data.text} ${data.elements[parseInt(event.target._private.data.target)].data.displayName}</p>
-                        </body> 
-                    </html>`;
+                        </div>`;
                 }
                 // Otherwise it is a normal one
                 else {
                     content.innerHTML = 
-                    `
-                        <div id="popper-node-container"> 
-                            <p>${event.target._private.data.displayName}</p>
-                            <p>${event.target._private.data.fullName}</p>
+                    `<div class="popper-node-container"> 
+                            <div class="popper-node-title">
+                                <p class="displayName">${event.target._private.data.displayName}</p>
+                                <p class="fullName">${event.target._private.data.fullName}</p>
+                            </div>
+                            <hr>
+                            <i>${event.target._private.data.type}, ${event.target._private.data.status}</i>
                             <br>
+                            <p>Feeling: ${event.target._private.data.mindset}</p>
                             <p>${event.target._private.data.summary}</p>
-                        </div>
-                    `
+                        </div>`;
                 }
 
                 document.body.appendChild(content);
                 return content;
             },
+            style: {
+                "border-radius": "30px"
+            }
         });
-    });
 
-    // Will not work on parents: https://js.cytoscape.org/#events/event-bubbling
-    // TODO Fix this
+        event.runOnce = true;
+    });
     
     let destroyPop = ((event) => {
         if (event.target.popper) {

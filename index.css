@@ -59,10 +59,31 @@ body {
 }
 
 /* Popper things */
-#popper-node-container {
-    background-color: #9CAFB7;
-    border-radius: 1%;
+.popper-node-container {
+    background-color: #DFDBC3;
+    border-radius: 20%;
+    padding: 5%;
+    color: #657B83;
+}
+
+.popper-node-title {
     text-align: center;
+}
+
+.displayName {
+    font-size: 20px;
+}
+
+.fullName {
+    font-size: 18px;
+    color: #839496;
+}
+
+.popper-relationship-container  {
+    background-color: #DFDBC3;
+    border-radius: 20%;
+    padding: 5%;
+    color: #657B83;
 }
 
 /* Slider things */
