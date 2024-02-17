@@ -44,7 +44,7 @@ function accumulateGraph(oldGraph, newEntries) {
                         if (index >= 0) {
                             // If this is an existing relationship,
                             // Replace it
-                            combined.characters[intId].relationships[index] = relationship;
+                            combined.characters[intId].relationships[index] = {...combined.characters[intId].relationships[index], ...relationship};
                         }
                         else {
                             // If this is a new relationship, just add it

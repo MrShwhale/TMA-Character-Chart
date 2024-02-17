@@ -14,5 +14,6 @@ Fix letters being cut off
 Make cola less chaotic and more filling
 
 # Reminders
-Connect Nicole Baxter with Julia and Trevor on episode 107 (or add the ability to combine people and put the 2 mysterious people into episode 3h)
+Connect Nicole Baxter with Julia and Trevor on episode 107 (or add the ability to combine people and put the 2 mysterious people into episode 30-whatever)
+Connect Oliver Banks with Jennifer Ling after Oliver's statement (or add the ability to combine people and put the odd man into episode 42)
 Connect King to Ivy Medows director (through father) on episode 106

@@ -4398,5 +4398,210 @@
                 ]
             }
         ]
+    },
+    {
+        "episodeNum": "041",
+        "episodeName": "Too Deep",
+        "episodeCharacters": [
+            {
+                "id": "0",
+                "mindset": "Determined, Paranoid",
+                "relationships": [
+                    {
+                        "targetId": "1",
+                        "feeling": "Suspicious"
+                    },
+                    {
+                        "targetId": "3",
+                        "feeling": "Suspicious"
+                    },
+                    {
+                        "targetId": "4",
+                        "feeling": "Suspicious"
+                    },
+                    {
+                        "targetId": "5",
+                        "feeling": "Suspicious"
+                    }
+                ]
+            },
+            {
+                "displayName": "Jeremy Bentham",
+                "fullName": "Jeremy Bentham",
+                "id": "168",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "A philosopher who came up with the idea of the Panopticon.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None"
+            },
+            {
+                "id": "122",
+                "relationships": [
+                    {
+                        "targetId": "168",
+                        "type": "Work",
+                        "text": "Used the design of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "042",
+        "episodeName": "Grifter's Bone",
+        "episodeCharacters": [
+            {
+                "displayName": "Jennifer Ling",
+                "fullName": "Jennifer Ling",
+                "id": "169",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Writer who recorded and listened to Grifter's Bone.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "170",
+                        "type": "Other",
+                        "text": "Listened to",
+                        "feeling": "Fear"
+                    },
+                    {
+                        "targetId": "171",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "174",
+                        "type": "Other",
+                        "text": "Assulted",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Alfred Grifter",
+                "fullName": "Alfred Grifter",
+                "id": "170",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Band leader for Grifter's Bone.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Tommy Moncreef",
+                "fullName": "Tommy Moncreef",
+                "id": "171",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Leader of the Earful.com team.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "169",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "Mike Baker",
+                "fullName": "Mike Baker",
+                "id": "172",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Employee at Earful.com.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Lee Kipple",
+                "fullName": "Lee Kipple",
+                "id": "173",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Employee at Earful.com.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Agatha Norrell",
+                "fullName": "Agatha Norrell",
+                "id": "174",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Neighbor of Jennifer Ling.",
+                "type": "Human",
+                "status": "Coma",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "169",
+                        "type": "Other",
+                        "text": "Neighbor to",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Albert Sands",
+                "fullName": "Albert Sands",
+                "id": "175",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Man who died listening to Grifter's Bone.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "170",
+                        "type": "Other",
+                        "text": "Listened to",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups": [
+            {
+                "displayName": "Earful.com",
+                "fullName": "Earful.com",
+                "groupId": "5",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "People who work for the music journalism company Earful.com.",
+                "type": "Mundane",
+                "relationType": "Work",
+                "feeling": "Unknown",
+                "alignment": "None",
+                "memberIds": [
+                    "169",
+                    "171",
+                    "172",
+                    "173"
+                ]
+            }
+        ]
     }
 ]
