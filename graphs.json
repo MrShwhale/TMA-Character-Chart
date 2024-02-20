@@ -1341,6 +1341,7 @@
                         "text": "Had a strange experience with",
                         "feeling": "Fear"
                     }
+
                 ]
             },
             {
@@ -4600,6 +4601,149 @@
                     "171",
                     "172",
                     "173"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "043",
+        "episodeName": "Section 31",
+        "episodeCharacters": [
+            {
+                "displayName": "Basira Hussain",
+                "fullName": "Basira Hussain",
+                "id": "176",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Sectioned police officer who went to the Magnus Institute.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Acquaintances",
+                        "text": "Gave the tapes to",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "180",
+                        "type": "Work",
+                        "text": "Partner of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Richard Carver",
+                "fullName": "Richard Carver",
+                "id": "177",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Police officer who dealt with a lot of weirdness.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None"
+            },
+            {
+                "displayName": "John Spencer",
+                "fullName": "John Spencer",
+                "id": "178",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Police officer who died strangely.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Diego Molina",
+                "fullName": "Diego Molina",
+                "id": "179",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Arsonist who was terribly burned, and also really hot (literally).",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Daisy",
+                "fullName": "Alice Tonner",
+                "id": "180",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Sectioned police officer who is partners with Basira.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "176",
+                        "type": "Work",
+                        "text": "Partner of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Harry Altman",
+                "fullName": "Harry Altman",
+                "id": "181",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Sectioned police officer.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None"
+            },
+            {
+                "id": "0",
+                "relationships": [
+                    {
+                        "targetId": "176",
+                        "type": "Acquaintances",
+                        "text": "Got the Gertrude tapes from",
+                        "feeling": "Greatful"
+                    }
+                ]
+            },
+            {
+                "id": "59",
+                "relationships": [
+                    {
+                        "targetId": "179",
+                        "type": "Other",
+                        "text": "Met in the hosptial",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups": [
+            {
+                "displayName": "Sectioned Officers",
+                "fullName": "Sectioned Officers",
+                "groupId": "6",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Police officers who have signed a Section 31, so they can deal with the weird.",
+                "type": "Supernatual",
+                "relationType": "Work",
+                "feeling": "Unknown",
+                "alignment": "None",
+                "memberIds": [
+                    "176",
+                    "177",
+                    "178",
+                    "180",
+                    "181"
                 ]
             }
         ]

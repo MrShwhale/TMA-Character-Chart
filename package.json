@@ -18,7 +18,7 @@
         "cytoscape": "^3.28.1",
         "cytoscape-cola": "^2.5.1",
         "cytoscape-popper": "^2.0.0",
-        "esbuild": "^0.20.0",
+        "esbuild": "^0.20.1",
         "popper": "^1.0.1",
         "tippy": "^0.0.0",
         "tippy.js": "^6.3.7",
