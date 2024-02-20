@@ -4747,5 +4747,226 @@
                 ]
             }
         ]
+    },
+    {
+        "episodeNum": "044",
+        "episodeName": "Tightrope",
+        "episodeCharacters": [
+            {
+                "displayName": "Yuri Utkin",
+                "fullName": "Yuri Utkin",
+                "id": "182",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Person who went to the Circus of the Other as a boy.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "183",
+                        "type": "Family",
+                        "text": "Brother of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "184",
+                        "type": "Friends",
+                        "text": "Best friend of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Ivan Utkin",
+                "fullName": "Ivan Utkin",
+                "id": "183",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Person who went to the Circus of the Other as a boy, and had a nasty scare.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "182",
+                        "type": "Family",
+                        "text": "Brother of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Piotr",
+                "fullName": "Piotr",
+                "id": "184",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Broke his leg when he was a child.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "182",
+                        "type": "Friends",
+                        "text": "Best friend of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "0",
+                "relationships": [
+                    {
+                        "targetId": "2",
+                        "type": "Work",
+                        "text": "Replacement for",
+                        "feeling": "Interested"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups": [
+            {
+                "displayName": "Another Circus",
+                "fullName": "Another Circus",
+                "groupId": "7",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Supernatural Russian circus.",
+                "type": "Supernatual",
+                "relationType": "Work",
+                "feeling": "Unknown",
+                "alignment": "None",
+                "memberIds": [
+                    "18",
+                    "19",
+                    "106",
+                    "108" 
+                ],
+                "relationships": [
+                    {
+                        "targetId": "183",
+                        "type": "Other",
+                        "text": "Took %s for one night",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "045",
+        "episodeName": "Blood Bag",
+        "episodeCharacters": [
+            {
+                "displayName": "Thomas Neill",
+                "fullName": "Thomas Neill",
+                "id": "185",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "186",
+                        "type": "Friends",
+                        "text": "Friend/Coworker of",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "Neil Thompson",
+                "fullName": "Neil Thompson",
+                "id": "186",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "188",
+                        "type": "Work",
+                        "text": "Boss of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "187",
+                        "type": "Family",
+                        "text": "Ancestor of",
+                        "feeling": "Admiration"
+                    },
+                    {
+                        "targetId": "185",
+                        "type": "Friends",
+                        "text": "Friend/Coworker of",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "69",
+                        "type": "Other",
+                        "text": "Sold a syringe to",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "John Snow",
+                "fullName": "John Snow",
+                "id": "187",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "183",
+                        "type": "Family",
+                        "text": "Brother of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "184",
+                        "type": "Friends",
+                        "text": "Best friend of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "George Larson",
+                "fullName": "George Larson",
+                "id": "188",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "186",
+                        "type": "Work",
+                        "text": "Research assistant to",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ]
     }
 ]
