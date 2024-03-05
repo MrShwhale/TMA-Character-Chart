@@ -2503,8 +2503,8 @@
                 ]
             },
             {
-                "displayName": "Micheal Keay",
-                "fullName": "Micheal Keay",
+                "displayName": "Michael Keay",
+                "fullName": "Michael Keay",
                 "id": "101",
                 "wikiLink": "",
                 "imageFile": "",
@@ -2803,7 +2803,7 @@
                 "fullName": "Sasha James",
                 "id": "5",
                 "mindset": "Worried",
-                "summary": "Assistant archivist for the Magnus Institute. Had a run in with Micheal that left her struggling.",
+                "summary": "Assistant archivist for the Magnus Institute. Had a run in with Michael that left her struggling.",
                 "relationships": [
                     {
                         "targetId": "113",
@@ -2843,8 +2843,8 @@
                 ]
             },
             {
-                "displayName": "Micheal",
-                "fullName": "Micheal",
+                "displayName": "Michael",
+                "fullName": "Michael Crew",
                 "id": "113",
                 "wikiLink": "The_Distortion",
                 "imageFile": "",
@@ -4869,7 +4869,7 @@
                 "id": "185",
                 "wikiLink": "",
                 "imageFile": "",
-                "summary": "",
+                "summary": "Malaria researcher who worked on fake blood.",
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Unknown",
@@ -4889,7 +4889,7 @@
                 "id": "186",
                 "wikiLink": "",
                 "imageFile": "",
-                "summary": "",
+                "summary": "Researcher of malaria who ran out of funds.",
                 "type": "Human",
                 "status": "Dead",
                 "mindset": "Unknown",
@@ -4927,25 +4927,11 @@
                 "id": "187",
                 "wikiLink": "",
                 "imageFile": "",
-                "summary": "",
+                "summary": "Old epidemiologist who laid the group work for germ theory.",
                 "type": "Human",
                 "status": "Dead",
                 "mindset": "Unknown",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "183",
-                        "type": "Family",
-                        "text": "Brother of",
-                        "feeling": "Unknown"
-                    },
-                    {
-                        "targetId": "184",
-                        "type": "Friends",
-                        "text": "Best friend of",
-                        "feeling": "Unknown"
-                    }
-                ]
+                "alignment": "None"
             },
             {
                 "displayName": "George Larson",
@@ -4953,7 +4939,7 @@
                 "id": "188",
                 "wikiLink": "",
                 "imageFile": "",
-                "summary": "",
+                "summary": "Research assistant who accidentally dropped a bloodish bag.",
                 "type": "Human",
                 "status": "Dead",
                 "mindset": "Unknown",
@@ -4964,6 +4950,32 @@
                         "type": "Work",
                         "text": "Research assistant to",
                         "feeling": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "046",
+        "episodeName": "Literary Heights",
+        "episodeCharacters": [
+            {
+                "displayName": "Herbert Knox",
+                "fullName": "Herbert Knox",
+                "id": "189",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "186",
+                        "type": "Friends",
+                        "text": "Friend/Coworker of",
+                        "feeling": "Good"
                     }
                 ]
             }
