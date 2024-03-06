@@ -1,6 +1,6 @@
 [
     {
-        "episodeNum": "001",
+        "episodeNum": "1",
         "episodeName": "The Anglerfish",
         "episodeCharacters": [
             {
@@ -314,7 +314,7 @@
         ]
     },
     {
-        "episodeNum": "002",
+        "episodeNum": "2",
         "episodeName": "Do Not Open",
         "episodeCharacters": [
             {
@@ -326,7 +326,7 @@
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Indifferent",
-                "summary": "Got 10,000 pounds for a spooky coffin that did not end up killing him.",
+                "summary": "Got 10,0 pounds for a spooky coffin that did not end up killing him.",
                 "alignment": "None",
                 "relationships": [
                     {
@@ -450,7 +450,7 @@
         ]
     },
     {
-        "episodeNum": "003",
+        "episodeNum": "3",
         "episodeName": "Across the Street",
         "episodeCharacters": [
             {
@@ -462,7 +462,7 @@
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Unknown",
-                "summary": "",
+                "summary": "Criminology student at Birkbeck University.",
                 "alignment": "None",
                 "relationships": [
                     {
@@ -516,7 +516,7 @@
         ]
     },
     {
-        "episodeNum": "004",
+        "episodeNum": "4",
         "episodeName": "Page Turner",
         "episodeCharacters": [
             {
@@ -592,7 +592,7 @@
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Unknown",
-                "summary": "",
+                "summary": "Received a book of Jurgen Lightner's.",
                 "alignment": "None",
                 "relationships": [
                     {
@@ -644,7 +644,7 @@
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Unknown",
-                "summary": "",
+                "summary": "Mysterious son of Mary Keay, might not feel pain.",
                 "alignment": "None",
                 "relationships": [
                     {
@@ -659,12 +659,12 @@
                 "displayName": "Michael",
                 "fullName": "Michael Crew",
                 "id": "29",
-                "wikiLink": "",
+                "wikiLink": "The_Distortion",
                 "imageFile": "",
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Unknown",
-                "summary": "",
+                "summary": "Childhood friend of Dominic Swain who was struct by lightning.",
                 "alignment": "None",
                 "relationships": [
                     {
@@ -678,7 +678,7 @@
         ]
     },
     {
-        "episodeNum": "005",
+        "episodeNum": "5",
         "episodeName": "Thrown away",
         "episodeCharacters": [
             {
@@ -765,7 +765,7 @@
         ]
     },
     {
-        "episodeNum": "006",
+        "episodeNum": "6",
         "episodeName": "Squirm",
         "episodeCharacters": [
             {
@@ -831,7 +831,7 @@
         ]
     },
     {
-        "episodeNum": "007",
+        "episodeNum": "7",
         "episodeName": "The Piper",
         "episodeCharacters": [
             {
@@ -921,7 +921,7 @@
         ]
     },
     {
-        "episodeNum": "008",
+        "episodeNum": "8",
         "episodeName": "Burned Out",
         "episodeCharacters": [
             {
@@ -979,7 +979,7 @@
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Unknown",
-                "summary": "",
+                "summary": "Religious nurse at John Radcliffe hospital.",
                 "alignment": "None",
                 "relationships": [
                     {
@@ -1005,13 +1005,13 @@
                 "type": "Human",
                 "status": "Dead",
                 "mindset": "Unknown",
-                "summary": "",
+                "summary": "Offputting adopted daughter of Raymond Fielding.",
                 "alignment": "None",
                 "relationships": [
                     {
                         "targetId": "43",
                         "type": "Family",
-                        "text": "Adopted father to",
+                        "text": "Adopted daughter of",
                         "feeling": "Unknown"
                     }
                 ]
@@ -1059,7 +1059,7 @@
         ]
     },
     {
-        "episodeNum": "009",
+        "episodeNum": "9",
         "episodeName": "A Father's Love",
         "episodeCharacters": [
             {
@@ -1131,7 +1131,7 @@
         ]
     },
     {
-        "episodeNum": "010",
+        "episodeNum": "10",
         "episodeName": "Vampire Killer",
         "episodeCharacters": [
             {
@@ -1143,7 +1143,7 @@
                 "type": "Human",
                 "status": "Dead",
                 "mindset": "Unknown",
-                "summary": "",
+                "summary": "Self proclaimed vampire hunter who died of cancer.",
                 "alignment": "None",
                 "relationships": [
                     {
@@ -1231,7 +1231,7 @@
         ]
     },
     {
-        "episodeNum": "011",
+        "episodeNum": "11",
         "episodeName": "Dreamer",
         "episodeCharacters": [
             {
@@ -1314,7 +1314,7 @@
         ]
     },
     {
-        "episodeNum": "012",
+        "episodeNum": "12",
         "episodeName": "First Aid",
         "episodeCharacters": [
             {
@@ -1379,7 +1379,7 @@
         ]
     },
     {
-        "episodeNum": "013",
+        "episodeNum": "13",
         "episodeName": "Alone",
         "episodeCharacters": [
             {
@@ -1477,7 +1477,7 @@
         ]
     },
     {
-        "episodeNum": "014",
+        "episodeNum": "14",
         "episodeName": "Piecemeal",
         "episodeCharacters": [
             {
@@ -1639,7 +1639,7 @@
         ]
     },
     {
-        "episodeNum": "015",
+        "episodeNum": "15",
         "episodeName": "Lost Johns' Cave",
         "episodeCharacters": [
             {
@@ -1711,7 +1711,7 @@
         ]
     },
     {
-        "episodeNum": "016",
+        "episodeNum": "16",
         "episodeName": "Arachnophobia",
         "episodeCharacters": [
             {
@@ -1757,7 +1757,7 @@
         ]
     },
     {
-        "episodeNum": "017",
+        "episodeNum": "17",
         "episodeName": "The Boneturner's Tale",
         "episodeCharacters": [
             {
@@ -1840,7 +1840,7 @@
         ]
     },
     {
-        "episodeNum": "018",
+        "episodeNum": "18",
         "episodeName": "The Man Upstairs",
         "episodeCharacters": [
             {
@@ -1924,7 +1924,7 @@
         ]
     },
     {
-        "episodeNum": "019",
+        "episodeNum": "19",
         "episodeName": "Confession",
         "episodeCharacters": [
             {
@@ -2043,7 +2043,7 @@
         ]
     },
     {
-        "episodeNum": "020",
+        "episodeNum": "20",
         "episodeName": "Desecrated Host",
         "episodeCharacters": [
             {
@@ -2089,7 +2089,7 @@
         ]
     },
     {
-        "episodeNum": "021",
+        "episodeNum": "21",
         "episodeName": "Freefall",
         "episodeCharacters": [
             {
@@ -2225,7 +2225,7 @@
         ]
     },
     {
-        "episodeNum": "022",
+        "episodeNum": "22",
         "episodeName": "Colony",
         "episodeCharacters": [
             {
@@ -2293,7 +2293,7 @@
         ]
     },
     {
-        "episodeNum": "023",
+        "episodeNum": "23",
         "episodeName": "Schwartzwald",
         "episodeCharacters": [
             {
@@ -2614,7 +2614,7 @@
         ]
     },
     {
-        "episodeNum": "024",
+        "episodeNum": "24",
         "episodeName": "Strange Music",
         "episodeCharacters": [
             {
@@ -2712,7 +2712,7 @@
         ]
     },
     {
-        "episodeNum": "025",
+        "episodeNum": "25",
         "episodeName": "Growing Dark",
         "episodeCharacters": [
             {
@@ -2796,7 +2796,7 @@
         ]
     },
     {
-        "episodeNum": "026",
+        "episodeNum": "26",
         "episodeName": "A Distortion",
         "episodeCharacters": [
             {
@@ -2806,7 +2806,7 @@
                 "summary": "Assistant archivist for the Magnus Institute. Had a run in with Michael that left her struggling.",
                 "relationships": [
                     {
-                        "targetId": "113",
+                        "targetId": "29",
                         "type": "Other",
                         "text": "Helped(?) by",
                         "feeling": "Unknown" 
@@ -2843,11 +2843,7 @@
                 ]
             },
             {
-                "displayName": "Michael",
-                "fullName": "Michael Crew",
-                "id": "113",
-                "wikiLink": "The_Distortion",
-                "imageFile": "",
+                "id": "29",
                 "summary": "Inhuman distortion of reality that calls itself by name.",
                 "type": "Inhuman",
                 "status": "Unknown",
@@ -2869,29 +2865,29 @@
         ]
     },
     {
-        "episodeNum": "027",
+        "episodeNum": "27",
         "episodeName": "A Sturdy Lock",
         "episodeCharacters": [
             {
                 "displayName": "Paul McKenzie",
                 "fullName": "Paul McKenzie",
-                "id": "114",
+                "id": "113",
                 "wikiLink": "",
                 "imageFile": "",
-                "summary": "",
+                "summary": "Man who had his door shook violently each night by an invisible thing.",
                 "type": "Human",
                 "status": "Dead",
                 "mindset": "Unknown",
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "115",
+                        "targetId": "114",
                         "type": "Family",
                         "text": "Father of",
                         "feeling": "Love" 
                     },
                     {
-                        "targetId": "116",
+                        "targetId": "115",
                         "type": "Family",
                         "text": "Husband of",
                         "feeling": "Love" 
@@ -2901,23 +2897,23 @@
             {
                 "displayName": "Marcus McKenzie",
                 "fullName": "Marcus McKenzie",
-                "id": "115",
+                "id": "114",
                 "wikiLink": "",
                 "imageFile": "",
-                "summary": "",
+                "summary": "Son of Paul McKenzie who left home.",
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Unknown",
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "114",
+                        "targetId": "113",
                         "type": "Family",
                         "text": "Son of",
                         "feeling": "Frustrated" 
                     },
                     {
-                        "targetId": "116",
+                        "targetId": "115",
                         "type": "Family",
                         "text": "Son of",
                         "feeling": "Unknown" 
@@ -2927,23 +2923,23 @@
             {
                 "displayName": "Diane McKenzie",
                 "fullName": "Diane McKenzie",
-                "id": "116",
+                "id": "115",
                 "wikiLink": "",
                 "imageFile": "",
-                "summary": "",
+                "summary": "Deceased wife of Paul McKenzie, hated mopers.",
                 "type": "Human",
                 "status": "Dead",
                 "mindset": "Unknown",
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "114",
+                        "targetId": "113",
                         "type": "Family",
                         "text": "Wife of",
                         "feeling": "Love" 
                     },
                     {
-                        "targetId": "115",
+                        "targetId": "114",
                         "type": "Family",
                         "text": "Mother of",
                         "feeling": "Unknown" 
@@ -2953,17 +2949,17 @@
             {
                 "displayName": "Sarah Carpenter",
                 "fullName": "Sarah Carpenter",
-                "id": "117",
+                "id": "116",
                 "wikiLink": "",
                 "imageFile": "",
-                "summary": "",
+                "summary": "Former Magnus Institute employee who did some investigative work.",
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Unknown",
                 "alignment": "Magnus Institute",
                 "relationships": [
                     {
-                        "targetId": "114",
+                        "targetId": "113",
                         "type": "Other",
                         "text": "Examined the house of",
                         "feeling": "Unknown" 
@@ -2973,13 +2969,13 @@
         ]
     },
     {
-        "episodeNum": "028",
+        "episodeNum": "28",
         "episodeName": "Skintight",
         "episodeCharacters": [
             {
                 "displayName": "Melanie King",
                 "fullName": "Melanie King",
-                "id": "118",
+                "id": "117",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Host of the YouTube channel Ghost Hunt UK.",
@@ -2988,6 +2984,12 @@
                 "mindset": "Unknown",
                 "alignment": "None",
                 "relationships": [
+                    {
+                        "targetId": "118",
+                        "type": "Work",
+                        "text": "Works with",
+                        "feeling": "Good" 
+                    },
                     {
                         "targetId": "119",
                         "type": "Work",
@@ -3002,12 +3004,6 @@
                     },
                     {
                         "targetId": "121",
-                        "type": "Work",
-                        "text": "Works with",
-                        "feeling": "Good" 
-                    },
-                    {
-                        "targetId": "122",
                         "type": "Friends",
                         "text": "Friend of",
                         "feeling": "Good" 
@@ -3017,7 +3013,7 @@
             {
                 "displayName": "Andy Caine",
                 "fullName": "Andy Caine",
-                "id": "119",
+                "id": "118",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Co-host of the YouTube channel Ghost Hunt UK.",
@@ -3027,7 +3023,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "118",
+                        "targetId": "117",
                         "type": "Work",
                         "text": "Works with",
                         "feeling": "Good" 
@@ -3037,7 +3033,7 @@
             {
                 "displayName": "Peter Warhol",
                 "fullName": "Peter Warhol",
-                "id": "120",
+                "id": "119",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Sound tech for Ghost Hunt UK.",
@@ -3047,7 +3043,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "118",
+                        "targetId": "117",
                         "type": "Work",
                         "text": "Works with",
                         "feeling": "Good" 
@@ -3057,7 +3053,7 @@
             {
                 "displayName": "Antonia Farron",
                 "fullName": "Antonia Farron",
-                "id": "121",
+                "id": "120",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Cameraman for Ghost Hunt UK.",
@@ -3067,7 +3063,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "118",
+                        "targetId": "117",
                         "type": "Work",
                         "text": "Works with",
                         "feeling": "Good" 
@@ -3077,7 +3073,7 @@
             {
                 "displayName": "Georgie",
                 "fullName": "Georgina Barker",
-                "id": "122",
+                "id": "121",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Podcast ",
@@ -3087,7 +3083,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "118",
+                        "targetId": "117",
                         "type": "Friends",
                         "text": "Friend of",
                         "feeling": "Good" 
@@ -3107,13 +3103,13 @@
                 "status": "Alive",
                 "relationships": [
                     {
-                        "targetId": "122",
+                        "targetId": "121",
                         "type": "Work",
                         "text": "Worked with",
                         "feeling": "Disinterest" 
                     },
                     {
-                        "targetId": "118",
+                        "targetId": "117",
                         "type": "Work",
                         "text": "Worked with",
                         "feeling": "Disinterest" 
@@ -3140,22 +3136,22 @@
                 "feeling": "Good",
                 "alignment": "None",
                 "memberIds": [
+                    "117",
                     "118",
                     "119",
-                    "120",
-                    "121"
+                    "120"
                 ]
             }
         ]
     },
     {
-        "episodeNum": "029",
+        "episodeNum": "29",
         "episodeName": "Cheating Death",
         "episodeCharacters": [
             {
                 "displayName": "Nathaniel Thorp",
                 "fullName": "Nathaniel Thorp",
-                "id": "123",
+                "id": "122",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Soldier in the revolutionary war who beat Death at his own game.",
@@ -3167,7 +3163,7 @@
             {
                 "displayName": "Fiona Law",
                 "fullName": "Fiona Law",
-                "id": "124",
+                "id": "123",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Magnus Institute researcher who died of liver complications.",
@@ -3179,13 +3175,13 @@
         ]
     },
     {
-        "episodeNum": "030",
+        "episodeNum": "30",
         "episodeName": "Killing Floor",
         "episodeCharacters": [
             {
                 "displayName": "David Laylow",
                 "fullName": "David Laylow",
-                "id": "125",
+                "id": "124",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Person who worked the killing floor, and one to bolt Tom Haan.",
@@ -3195,13 +3191,13 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "126",
+                        "targetId": "125",
                         "type": "Work",
                         "text": "Worked with",
                         "feeling": "Unknown" 
                     },
                     {
-                        "targetId": "127",
+                        "targetId": "126",
                         "type": "Work",
                         "text": "Worked with",
                         "feeling": "Unknown" 
@@ -3211,7 +3207,7 @@
             {
                 "displayName": "Tony Mulholland",
                 "fullName": "Tony Mulholland",
-                "id": "126",
+                "id": "125",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Person who used to work on the killing floor.",
@@ -3221,7 +3217,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "125",
+                        "targetId": "124",
                         "type": "Work",
                         "text": "Worked with",
                         "feeling": "Unknown" 
@@ -3231,7 +3227,7 @@
             {
                 "displayName": "Tom Haan",
                 "fullName": "Tom Haan",
-                "id": "127",
+                "id": "126",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Person who used to work on the killing floor, who bolted himself into oblivion.",
@@ -3241,7 +3237,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "125",
+                        "targetId": "124",
                         "type": "Work",
                         "text": "Worked with",
                         "feeling": "Unknown" 
@@ -3251,38 +3247,18 @@
         ]
     },
     {
-        "episodeNum": "031",
+        "episodeNum": "31",
         "episodeName": "First Hunt",
         "episodeCharacters": [
             {
                 "displayName": "Lawrence Mortimer",
                 "fullName": "Lawrence Mortimer",
-                "id": "128",
+                "id": "127",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "British first time hunter who went hunting in the Appalachians.",
                 "type": "Human",
                 "status": "Alive",
-                "mindset": "Unknown",
-                "alignment": "None",
-                "relationships": [
-                    {
-                        "targetId": "129",
-                        "type": "Friends",
-                        "text": "Friends with",
-                        "feeling": "Good" 
-                    }
-                ]
-            },
-            {
-                "displayName": "Arden Neeli",
-                "fullName": "Arden Neeli",
-                "id": "129",
-                "wikiLink": "",
-                "imageFile": "",
-                "summary": "American casual hunter who died in the Appalachians.",
-                "type": "Human",
-                "status": "Dead",
                 "mindset": "Unknown",
                 "alignment": "None",
                 "relationships": [
@@ -3295,9 +3271,29 @@
                 ]
             },
             {
+                "displayName": "Arden Neeli",
+                "fullName": "Arden Neeli",
+                "id": "128",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "American casual hunter who died in the Appalachians.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "127",
+                        "type": "Friends",
+                        "text": "Friends with",
+                        "feeling": "Good" 
+                    }
+                ]
+            },
+            {
                 "displayName": "Wolfman Hiker",
                 "fullName": "Wolfman Hiker",
-                "id": "130",
+                "id": "129",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "A werewolf who was hiking in the Appalachians.",
@@ -3307,7 +3303,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "129",
+                        "targetId": "128",
                         "type": "Other",
                         "text": "Killed",
                         "feeling": "Nuetral" 
@@ -3317,7 +3313,7 @@
         ]
     },
     {
-        "episodeNum": "032",
+        "episodeNum": "32",
         "episodeName": "Hive",
         "episodeCharacters": [
             {
@@ -3326,7 +3322,7 @@
                 "summary": "A woman who suffered from a terrible parasite, and became something else.",
                 "relationships": [
                     {
-                        "targetId": "132",
+                        "targetId": "131",
                         "type": "Other",
                         "text": "Tenant of",
                         "feeling": "Dislike"
@@ -3336,7 +3332,7 @@
             {
                 "displayName": "Oliver",
                 "fullName": "Oliver",
-                "id": "131",
+                "id": "130",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Someone who looked at Jane Prentiss sorrowfully.",
@@ -3356,7 +3352,7 @@
             {
                 "displayName": "Arthur Nolan",
                 "fullName": "Arthur Nolan",
-                "id": "132",
+                "id": "131",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Landlord of Jane Prentiss. ",
@@ -3376,13 +3372,13 @@
         ]
     },
     {
-        "episodeNum": "033",
+        "episodeNum": "33",
         "episodeName": "Boatswain's Call",
         "episodeCharacters": [
             {
                 "displayName": "Carlita Sloane",
                 "fullName": "Carlita Sloane",
-                "id": "133",
+                "id": "132",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Sailor",
@@ -3392,7 +3388,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "134",
+                        "targetId": "133",
                         "type": "Work",
                         "text": "Worked for",
                         "feeling": "Unknown"
@@ -3402,7 +3398,7 @@
             {
                 "displayName": "Peter Lukas",
                 "fullName": "Peter Lukas",
-                "id": "134",
+                "id": "133",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Captain of the Tundra.",
@@ -3412,7 +3408,7 @@
                 "alignment": "Lukas Family",
                 "relationships": [
                     {
-                        "targetId": "133",
+                        "targetId": "132",
                         "type": "Work",
                         "text": "Related to",
                         "feeling": "Unknown"
@@ -3422,7 +3418,7 @@
             {
                 "displayName": "Tadeas Dahl",
                 "fullName": "Tadeas Dahl",
-                "id": "135",
+                "id": "134",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "First mate of the Tundra, the ship of Peter Lukas.",
@@ -3432,7 +3428,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "134",
+                        "targetId": "133",
                         "type": "Work",
                         "text": "Worked for",
                         "feeling": "Unknown"
@@ -3442,7 +3438,7 @@
             {
                 "displayName": "Sean Kelly",
                 "fullName": "Sean Kelly",
-                "id": "136",
+                "id": "135",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Crewmate on the Tundra who was left behind on it.",
@@ -3452,7 +3448,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "134",
+                        "targetId": "133",
                         "type": "Work",
                         "text": "Worked for",
                         "feeling": "Unknown"
@@ -3462,7 +3458,7 @@
             {
                 "displayName": "Kim Duong",
                 "fullName": "Kim Duong",
-                "id": "137",
+                "id": "136",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Crewmate of the Tundra who told Carlita Sloane it wasn't an easy choice.",
@@ -3472,7 +3468,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "134",
+                        "targetId": "133",
                         "type": "Work",
                         "text": "Worked for",
                         "feeling": "Unknown"
@@ -3482,7 +3478,7 @@
             {
                 "displayName": "Nathaniel Lukas",
                 "fullName": "Nathaniel Lukas",
-                "id": "138",
+                "id": "137",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Member of the Lukas family who owns the Tundra.",
@@ -3492,7 +3488,7 @@
                 "alignment": "Lukas Family",
                 "relationships": [
                     {
-                        "targetId": "133",
+                        "targetId": "132",
                         "type": "Family",
                         "text": "Relative of",
                         "feeling": "Unknown"
@@ -3513,23 +3509,23 @@
                 "feeling": "Bad",
                 "alignment": "Lukas Family",
                 "memberIds": [
+                    "132",
                     "133",
                     "134",
                     "135",
-                    "136",
-                    "137"
+                    "136"
                 ]
             }
         ]
     },
     {
-        "episodeNum": "034",
+        "episodeNum": "34",
         "episodeName": "Anatomy Class",
         "episodeCharacters": [
             {
                 "displayName": "Lionel Elliott",
                 "fullName": "Lionel Elliott",
-                "id": "139",
+                "id": "138",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Teacher of a very strange anatomy class.",
@@ -3539,7 +3535,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "140",
+                        "targetId": "139",
                         "type": "Work",
                         "text": "Coworkers with",
                         "feeling": "Frustrated"
@@ -3555,7 +3551,7 @@
             {
                 "displayName": "Elena Bower",
                 "fullName": "Elena Bower",
-                "id": "140",
+                "id": "139",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Admissions officer at King's College.",
@@ -3567,7 +3563,7 @@
             {
                 "displayName": "Erika Mustermann",
                 "fullName": "Erika Mustermann",
-                "id": "141",
+                "id": "140",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Mysterious anatomy student at King's College.",
@@ -3579,7 +3575,7 @@
             {
                 "displayName": "Jan Novak",
                 "fullName": "Jan Novak",
-                "id": "142",
+                "id": "141",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Mysterious anatomy student at King's College.",
@@ -3591,7 +3587,7 @@
             {
                 "displayName": "Piotr Petrov",
                 "fullName": "Piotr Petrov",
-                "id": "143",
+                "id": "142",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Mysterious anatomy student at King's College.",
@@ -3603,7 +3599,7 @@
             {
                 "displayName": "Pavel Petrov",
                 "fullName": "Pavel Petrov",
-                "id": "144",
+                "id": "143",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Mysterious anatomy student at King's College.",
@@ -3615,7 +3611,7 @@
             {
                 "displayName": "John Doe",
                 "fullName": "John Doe",
-                "id": "145",
+                "id": "144",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Mysterious anatomy student at King's College.",
@@ -3627,7 +3623,7 @@
             {
                 "displayName": "Fulan al-Fulani",
                 "fullName": "Fulan al-Fulani",
-                "id": "146",
+                "id": "145",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Mysterious anatomy student at King's College.",
@@ -3639,7 +3635,7 @@
             {
                 "displayName": "Juan Pérez",
                 "fullName": "Juan Pérez",
-                "id": "147",
+                "id": "146",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Mysterious anatomy student at King's College.",
@@ -3651,7 +3647,7 @@
             {
                 "displayName": "Laura Gill",
                 "fullName": "Laura Gill",
-                "id": "148",
+                "id": "147",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Medical professor at King's College.",
@@ -3661,7 +3657,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "139",
+                        "targetId": "138",
                         "type": "Work",
                         "text": "Coworkers with",
                         "feeling": "Unknown"
@@ -3671,7 +3667,7 @@
             {
                 "displayName": "Rashid Sadana",
                 "fullName": "Rashid Sadana",
-                "id": "149",
+                "id": "148",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Professor who killed himself after teaching anatomy.",
@@ -3694,17 +3690,17 @@
                 "feeling": "Good",
                 "alignment": "None",
                 "memberIds": [
+                    "140",
                     "141",
                     "142",
                     "143",
                     "144",
                     "145",
-                    "146",
-                    "147"
+                    "146"
                 ],
                 "relationships": [
                     {
-                        "targetId": "139",
+                        "targetId": "138",
                         "type": "Work",
                         "text": "Students of",
                         "feeling": "Thankful"
@@ -3714,13 +3710,13 @@
         ]
     },
     {
-        "episodeNum": "035",
+        "episodeNum": "35",
         "episodeName": "Old Passages",
         "episodeCharacters": [
             {
                 "displayName": "Harold Silvana",
                 "fullName": "Harold Silvana",
-                "id": "150",
+                "id": "149",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Architectural restorer in London.",
@@ -3730,13 +3726,13 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "151",
+                        "targetId": "150",
                         "type": "Work",
                         "text": "Boss of",
                         "feeling": "Unknown"
                     },
                     {
-                        "targetId": "152",
+                        "targetId": "151",
                         "type": "Work",
                         "text": "Boss of",
                         "feeling": "Unknown"
@@ -3758,7 +3754,7 @@
             {
                 "displayName": "Rachael Turley",
                 "fullName": "Rachael Turley",
-                "id": "151",
+                "id": "150",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Does the marble work for Harold Silvana",
@@ -3768,7 +3764,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "150",
+                        "targetId": "149",
                         "type": "Work",
                         "text": "Works for",
                         "feeling": "Unknown"
@@ -3778,7 +3774,7 @@
             {
                 "displayName": "Alfred Bartlett",
                 "fullName": "Alfred Bartlett",
-                "id": "152",
+                "id": "151",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Did the water systems for Harold Silvana.",
@@ -3788,7 +3784,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "150",
+                        "targetId": "149",
                         "type": "Work",
                         "text": "Works for",
                         "feeling": "Unknown"
@@ -3799,7 +3795,7 @@
                 "id": "25",
                 "relationships": [
                     {
-                        "targetId": "150",
+                        "targetId": "149",
                         "type": "Work",
                         "text": "Consulted",
                         "feeling": "Unknown"
@@ -3810,7 +3806,7 @@
                 "id": "28",
                 "relationships": [
                     {
-                        "targetId": "150",
+                        "targetId": "149",
                         "type": "Other",
                         "text": "Met under Pall Mall",
                         "feeling": "Unknown"
@@ -3826,13 +3822,13 @@
         ]
     },
     {
-        "episodeNum": "036",
+        "episodeNum": "36",
         "episodeName": "Taken Ill",
         "episodeCharacters": [
             {
                 "displayName": "Nicole Baxter",
                 "fullName": "Nicole Baxter",
-                "id": "153",
+                "id": "152",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Funeral director at Baxter and Gordon.",
@@ -3842,25 +3838,25 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "154",
+                        "targetId": "153",
                         "type": "Family",
                         "text": "Niece and employee of",
                         "feeling": "Unknown"
                     },
                     {
-                        "targetId": "156",
+                        "targetId": "155",
                         "type": "Acquaintances",
                         "text": "Acquaintance of",
                         "feeling": "Unknown"
                     },
                     {
-                        "targetId": "157",
+                        "targetId": "156",
                         "type": "Work",
                         "text": "Called by",
                         "feeling": "Unknown"
                     },
                     {
-                        "targetId": "159",
+                        "targetId": "158",
                         "type": "Family",
                         "text": "Cousin of",
                         "feeling": "Unknown"
@@ -3870,7 +3866,7 @@
             {
                 "displayName": "George Baxter",
                 "fullName": "George Baxter",
-                "id": "154",
+                "id": "153",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Director of Baxter and Gordon funeral services.",
@@ -3880,31 +3876,11 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "153",
+                        "targetId": "152",
                         "type": "Family",
                         "text": "Uncle and boss of",
                         "feeling": "Unknown"
                     },
-                    {
-                        "targetId": "155",
-                        "type": "Work",
-                        "text": "Business partner of",
-                        "feeling": "Unknown"
-                    }
-                ]
-            },
-            {
-                "displayName": "William Gordon",
-                "fullName": "William Gordon",
-                "id": "155",
-                "wikiLink": "",
-                "imageFile": "",
-                "summary": "Former director of Baxter and Gordon funeral services.",
-                "type": "Human",
-                "status": "Dead",
-                "mindset": "Unknown",
-                "alignment": "None",
-                "relationships": [
                     {
                         "targetId": "154",
                         "type": "Work",
@@ -3914,9 +3890,29 @@
                 ]
             },
             {
+                "displayName": "William Gordon",
+                "fullName": "William Gordon",
+                "id": "154",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Former director of Baxter and Gordon funeral services.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "153",
+                        "type": "Work",
+                        "text": "Business partner of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
                 "displayName": "Hannah Ramirez",
                 "fullName": "Hannah Ramirez",
-                "id": "156",
+                "id": "155",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Former director of Ivy Medows care home.",
@@ -3926,7 +3922,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "153",
+                        "targetId": "152",
                         "type": "Acquaintances",
                         "text": "Acquaintance of",
                         "feeling": "Unknown"
@@ -3936,7 +3932,7 @@
             {
                 "displayName": "Alenka Kozel",
                 "fullName": "Alenka Kozel",
-                "id": "157",
+                "id": "156",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Nurse at Ivy Medows.",
@@ -3946,19 +3942,19 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "153",
+                        "targetId": "152",
                         "type": "Work",
                         "text": "Called on",
                         "feeling": "Unknown"
                     },
                     {
-                        "targetId": "158",
+                        "targetId": "157",
                         "type": "Other",
                         "text": "Nurse of",
                         "feeling": "Unknown"
                     },
                     {
-                        "targetId": "160",
+                        "targetId": "159",
                         "type": "Work",
                         "text": "Works for",
                         "feeling": "Unknown"
@@ -3968,7 +3964,7 @@
             {
                 "displayName": "Bertrand Miller",
                 "fullName": "Bertrand Miller",
-                "id": "158",
+                "id": "157",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Patient at Ivy Medows.",
@@ -3978,7 +3974,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "157",
+                        "targetId": "156",
                         "type": "Other",
                         "text": "Patient of",
                         "feeling": "Unknown"
@@ -3988,7 +3984,7 @@
             {
                 "displayName": "Josh",
                 "fullName": "Josh",
-                "id": "159",
+                "id": "158",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Funeral director at Baxter and Gordon.",
@@ -3998,7 +3994,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "153",
+                        "targetId": "152",
                         "type": "Family",
                         "text": "Cousin of",
                         "feeling": "Unknown"
@@ -4008,7 +4004,7 @@
             {
                 "displayName": "John Amherst",
                 "fullName": "John Amherst",
-                "id": "160",
+                "id": "159",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "New director of Ivy Medows.",
@@ -4018,7 +4014,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "157",
+                        "targetId": "156",
                         "type": "Work",
                         "text": "Boss of",
                         "feeling": "Unknown"
@@ -4028,7 +4024,7 @@
         ]
     },
     {
-        "episodeNum": "037",
+        "episodeNum": "37",
         "episodeName": "Burnt Offering",
         "episodeCharacters": [
             {
@@ -4049,23 +4045,23 @@
             {
                 "displayName": "Jason North",
                 "fullName": "Jason North",
-                "id": "161",
+                "id": "160",
                 "wikiLink": "",
                 "imageFile": "",
-                "summary": "",
+                "summary": "Man who disrupted a strange circle and lost everything.",
                 "type": "Human",
                 "status": "Dead",
                 "mindset": "Unknown",
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "162",
+                        "targetId": "161",
                         "type": "Family",
                         "text": "Father of",
                         "feeling": "Love"
                     },
                     {
-                        "targetId": "163",
+                        "targetId": "162",
                         "type": "Family",
                         "text": "Husband of",
                         "feeling": "Love"
@@ -4081,23 +4077,23 @@
             {
                 "displayName": "Ethan North",
                 "fullName": "Ethan North",
-                "id": "162",
+                "id": "161",
                 "wikiLink": "",
                 "imageFile": "",
-                "summary": "",
+                "summary": "Formerly missing son of Jason North.",
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Unknown",
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "161",
+                        "targetId": "160",
                         "type": "Family",
                         "text": "Son of",
                         "feeling": "Unknown"
                     },
                     {
-                        "targetId": "163",
+                        "targetId": "162",
                         "type": "Family",
                         "text": "Son of",
                         "feeling": "Unknown"
@@ -4107,7 +4103,7 @@
             {
                 "displayName": "Lucy North",
                 "fullName": "Lucy North",
-                "id": "163",
+                "id": "162",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Wife of North",
@@ -4117,13 +4113,13 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "161",
+                        "targetId": "160",
                         "type": "Family",
                         "text": "Wife of",
                         "feeling": "Love"
                     },
                     {
-                        "targetId": "162",
+                        "targetId": "161",
                         "type": "Family",
                         "text": "Father of",
                         "feeling": "Love"
@@ -4133,13 +4129,13 @@
         ]
     },
     {
-        "episodeNum": "038",
+        "episodeNum": "38",
         "episodeName": "Lost and Found",
         "episodeCharacters": [
             {
                 "displayName": "Andre Ramao",
                 "fullName": "Andre Ramao",
-                "id": "164",
+                "id": "163",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Antiques dealer who started losing things.",
@@ -4155,7 +4151,7 @@
                         "feeling": "Dislike"
                     },
                     {
-                        "targetId": "166",
+                        "targetId": "165",
                         "type": "Family",
                         "text": "Husband of",
                         "feeling": "Unknown"
@@ -4166,13 +4162,13 @@
                 "id": "69",
                 "relationships": [
                     {
-                        "targetId": "164",
+                        "targetId": "163",
                         "type": "Work",
                         "text": "Sold to",
                         "feeling": "Unknown"
                     },
                     {
-                        "targetId": "165",
+                        "targetId": "164",
                         "type": "Work",
                         "text": "Sold to",
                         "feeling": "Unknown"
@@ -4182,7 +4178,7 @@
             {
                 "displayName": "Charlie Miller",
                 "fullName": "Charlie Miller",
-                "id": "165",
+                "id": "164",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Antiques dealer who did time for working with Salesa.",
@@ -4202,7 +4198,7 @@
             {
                 "displayName": "David Ramao",
                 "fullName": "David Ramao",
-                "id": "166",
+                "id": "165",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Husband of Andre, who was lost.",
@@ -4212,7 +4208,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "164",
+                        "targetId": "163",
                         "type": "Family",
                         "text": "Husband of",
                         "feeling": "Unknown"
@@ -4226,7 +4222,7 @@
         ]
     },
     {
-        "episodeNum": "039",
+        "episodeNum": "39",
         "episodeName": "Infestation",
         "episodeCharacters": [
             {
@@ -4294,7 +4290,7 @@
             {
                 "displayName": "Not-Sasha",
                 "fullName": "Not-Sasha",
-                "id": "167",
+                "id": "166",
                 "wikiLink": "Not-Sasha",
                 "imageFile": "",
                 "summary": "Something that is NOT Sasha.",
@@ -4339,7 +4335,7 @@
         ]
     },
     {
-        "episodeNum": "040",
+        "episodeNum": "40",
         "episodeName": "Human Remains",
         "episodeCharacters": [
             {
@@ -4353,7 +4349,7 @@
                         "feeling": "Good"
                     },
                     {
-                        "targetId": "167",
+                        "targetId": "166",
                         "type": "Work",
                         "text": "Boss of",
                         "feeling": "Good"
@@ -4387,7 +4383,7 @@
                 "mindset": "Traumatized"
             },
             {
-                "id": "167",
+                "id": "166",
                 "summary": "Something that is NOT Sasha, but is pretending to be. Everyone believes her.",
                 "relationships": [
                     {
@@ -4401,7 +4397,7 @@
         ]
     },
     {
-        "episodeNum": "041",
+        "episodeNum": "41",
         "episodeName": "Too Deep",
         "episodeCharacters": [
             {
@@ -4429,7 +4425,7 @@
             {
                 "displayName": "Jeremy Bentham",
                 "fullName": "Jeremy Bentham",
-                "id": "168",
+                "id": "167",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "A philosopher who came up with the idea of the Panopticon.",
@@ -4439,10 +4435,10 @@
                 "alignment": "None"
             },
             {
-                "id": "122",
+                "id": "121",
                 "relationships": [
                     {
-                        "targetId": "168",
+                        "targetId": "167",
                         "type": "Work",
                         "text": "Used the design of",
                         "feeling": "Unknown"
@@ -4452,13 +4448,13 @@
         ]
     },
     {
-        "episodeNum": "042",
+        "episodeNum": "42",
         "episodeName": "Grifter's Bone",
         "episodeCharacters": [
             {
                 "displayName": "Jennifer Ling",
                 "fullName": "Jennifer Ling",
-                "id": "169",
+                "id": "168",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Writer who recorded and listened to Grifter's Bone.",
@@ -4468,19 +4464,19 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "170",
+                        "targetId": "169",
                         "type": "Other",
                         "text": "Listened to",
                         "feeling": "Fear"
                     },
                     {
-                        "targetId": "171",
+                        "targetId": "170",
                         "type": "Friends",
                         "text": "Friends with",
                         "feeling": "Good"
                     },
                     {
-                        "targetId": "174",
+                        "targetId": "173",
                         "type": "Other",
                         "text": "Assulted",
                         "feeling": "Unknown"
@@ -4490,7 +4486,7 @@
             {
                 "displayName": "Alfred Grifter",
                 "fullName": "Alfred Grifter",
-                "id": "170",
+                "id": "169",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Band leader for Grifter's Bone.",
@@ -4502,7 +4498,7 @@
             {
                 "displayName": "Tommy Moncreef",
                 "fullName": "Tommy Moncreef",
-                "id": "171",
+                "id": "170",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Leader of the Earful.com team.",
@@ -4512,7 +4508,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "169",
+                        "targetId": "168",
                         "type": "Friends",
                         "text": "Friends with",
                         "feeling": "Good"
@@ -4522,7 +4518,7 @@
             {
                 "displayName": "Mike Baker",
                 "fullName": "Mike Baker",
-                "id": "172",
+                "id": "171",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Employee at Earful.com.",
@@ -4534,7 +4530,7 @@
             {
                 "displayName": "Lee Kipple",
                 "fullName": "Lee Kipple",
-                "id": "173",
+                "id": "172",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Employee at Earful.com.",
@@ -4546,7 +4542,7 @@
             {
                 "displayName": "Agatha Norrell",
                 "fullName": "Agatha Norrell",
-                "id": "174",
+                "id": "173",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Neighbor of Jennifer Ling.",
@@ -4556,7 +4552,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "169",
+                        "targetId": "168",
                         "type": "Other",
                         "text": "Neighbor to",
                         "feeling": "Unknown"
@@ -4566,7 +4562,7 @@
             {
                 "displayName": "Albert Sands",
                 "fullName": "Albert Sands",
-                "id": "175",
+                "id": "174",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Man who died listening to Grifter's Bone.",
@@ -4576,7 +4572,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "170",
+                        "targetId": "169",
                         "type": "Other",
                         "text": "Listened to",
                         "feeling": "Unknown"
@@ -4597,22 +4593,22 @@
                 "feeling": "Unknown",
                 "alignment": "None",
                 "memberIds": [
-                    "169",
+                    "168",
+                    "170",
                     "171",
-                    "172",
-                    "173"
+                    "172"
                 ]
             }
         ]
     },
     {
-        "episodeNum": "043",
+        "episodeNum": "43",
         "episodeName": "Section 31",
         "episodeCharacters": [
             {
                 "displayName": "Basira Hussain",
                 "fullName": "Basira Hussain",
-                "id": "176",
+                "id": "175",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Sectioned police officer who went to the Magnus Institute.",
@@ -4628,7 +4624,7 @@
                         "feeling": "Unknown"
                     },
                     {
-                        "targetId": "180",
+                        "targetId": "179",
                         "type": "Work",
                         "text": "Partner of",
                         "feeling": "Unknown"
@@ -4638,7 +4634,7 @@
             {
                 "displayName": "Richard Carver",
                 "fullName": "Richard Carver",
-                "id": "177",
+                "id": "176",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Police officer who dealt with a lot of weirdness.",
@@ -4650,7 +4646,7 @@
             {
                 "displayName": "John Spencer",
                 "fullName": "John Spencer",
-                "id": "178",
+                "id": "177",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Police officer who died strangely.",
@@ -4662,7 +4658,7 @@
             {
                 "displayName": "Diego Molina",
                 "fullName": "Diego Molina",
-                "id": "179",
+                "id": "178",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Arsonist who was terribly burned, and also really hot (literally).",
@@ -4674,7 +4670,7 @@
             {
                 "displayName": "Daisy",
                 "fullName": "Alice Tonner",
-                "id": "180",
+                "id": "179",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Sectioned police officer who is partners with Basira.",
@@ -4684,7 +4680,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "176",
+                        "targetId": "175",
                         "type": "Work",
                         "text": "Partner of",
                         "feeling": "Unknown"
@@ -4694,7 +4690,7 @@
             {
                 "displayName": "Harry Altman",
                 "fullName": "Harry Altman",
-                "id": "181",
+                "id": "180",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Sectioned police officer.",
@@ -4707,7 +4703,7 @@
                 "id": "0",
                 "relationships": [
                     {
-                        "targetId": "176",
+                        "targetId": "175",
                         "type": "Acquaintances",
                         "text": "Got the Gertrude tapes from",
                         "feeling": "Greatful"
@@ -4718,7 +4714,7 @@
                 "id": "59",
                 "relationships": [
                     {
-                        "targetId": "179",
+                        "targetId": "178",
                         "type": "Other",
                         "text": "Met in the hosptial",
                         "feeling": "Unknown"
@@ -4739,23 +4735,23 @@
                 "feeling": "Unknown",
                 "alignment": "None",
                 "memberIds": [
+                    "175",
                     "176",
                     "177",
-                    "178",
-                    "180",
-                    "181"
+                    "179",
+                    "180"
                 ]
             }
         ]
     },
     {
-        "episodeNum": "044",
+        "episodeNum": "44",
         "episodeName": "Tightrope",
         "episodeCharacters": [
             {
                 "displayName": "Yuri Utkin",
                 "fullName": "Yuri Utkin",
-                "id": "182",
+                "id": "181",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Person who went to the Circus of the Other as a boy.",
@@ -4765,13 +4761,13 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "183",
+                        "targetId": "182",
                         "type": "Family",
                         "text": "Brother of",
                         "feeling": "Unknown"
                     },
                     {
-                        "targetId": "184",
+                        "targetId": "183",
                         "type": "Friends",
                         "text": "Best friend of",
                         "feeling": "Unknown"
@@ -4781,7 +4777,7 @@
             {
                 "displayName": "Ivan Utkin",
                 "fullName": "Ivan Utkin",
-                "id": "183",
+                "id": "182",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Person who went to the Circus of the Other as a boy, and had a nasty scare.",
@@ -4791,7 +4787,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "182",
+                        "targetId": "181",
                         "type": "Family",
                         "text": "Brother of",
                         "feeling": "Unknown"
@@ -4801,7 +4797,7 @@
             {
                 "displayName": "Piotr",
                 "fullName": "Piotr",
-                "id": "184",
+                "id": "183",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Broke his leg when he was a child.",
@@ -4811,7 +4807,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "182",
+                        "targetId": "181",
                         "type": "Friends",
                         "text": "Best friend of",
                         "feeling": "Unknown"
@@ -4850,7 +4846,7 @@
                 ],
                 "relationships": [
                     {
-                        "targetId": "183",
+                        "targetId": "182",
                         "type": "Other",
                         "text": "Took %s for one night",
                         "feeling": "Unknown"
@@ -4860,13 +4856,13 @@
         ]
     },
     {
-        "episodeNum": "045",
+        "episodeNum": "45",
         "episodeName": "Blood Bag",
         "episodeCharacters": [
             {
                 "displayName": "Thomas Neill",
                 "fullName": "Thomas Neill",
-                "id": "185",
+                "id": "184",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Malaria researcher who worked on fake blood.",
@@ -4876,7 +4872,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "186",
+                        "targetId": "185",
                         "type": "Friends",
                         "text": "Friend/Coworker of",
                         "feeling": "Good"
@@ -4886,7 +4882,7 @@
             {
                 "displayName": "Neil Thompson",
                 "fullName": "Neil Thompson",
-                "id": "186",
+                "id": "185",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Researcher of malaria who ran out of funds.",
@@ -4896,19 +4892,19 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "188",
+                        "targetId": "187",
                         "type": "Work",
                         "text": "Boss of",
                         "feeling": "Unknown"
                     },
                     {
-                        "targetId": "187",
+                        "targetId": "186",
                         "type": "Family",
                         "text": "Ancestor of",
                         "feeling": "Admiration"
                     },
                     {
-                        "targetId": "185",
+                        "targetId": "184",
                         "type": "Friends",
                         "text": "Friend/Coworker of",
                         "feeling": "Good"
@@ -4924,7 +4920,7 @@
             {
                 "displayName": "John Snow",
                 "fullName": "John Snow",
-                "id": "187",
+                "id": "186",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Old epidemiologist who laid the group work for germ theory.",
@@ -4936,7 +4932,7 @@
             {
                 "displayName": "George Larson",
                 "fullName": "George Larson",
-                "id": "188",
+                "id": "187",
                 "wikiLink": "",
                 "imageFile": "",
                 "summary": "Research assistant who accidentally dropped a bloodish bag.",
@@ -4946,7 +4942,7 @@
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "186",
+                        "targetId": "185",
                         "type": "Work",
                         "text": "Research assistant to",
                         "feeling": "Unknown"
@@ -4956,29 +4952,67 @@
         ]
     },
     {
-        "episodeNum": "046",
+        "episodeNum": "46",
         "episodeName": "Literary Heights",
         "episodeCharacters": [
             {
                 "displayName": "Herbert Knox",
                 "fullName": "Herbert Knox",
-                "id": "189",
+                "id": "188",
                 "wikiLink": "",
                 "imageFile": "",
-                "summary": "",
+                "summary": "Antique book seller who came into possession of a lightner they would later sell.",
                 "type": "Human",
                 "status": "Alive",
                 "mindset": "Unknown",
                 "alignment": "None",
                 "relationships": [
                     {
-                        "targetId": "186",
+                        "targetId": "29",
+                        "type": "Acquaintances",
+                        "text": "Regular vendor to",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "189",
                         "type": "Friends",
-                        "text": "Friend/Coworker of",
+                        "text": "Rival book dealer and friend of",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "id": "29",
+                "summary": "Formerly human distortion of reality that calls itself by name. In 1998, it stole a Lightner and become something else.",
+                "relationships": [
+                    {
+                        "targetId": "188",
+                        "type": "Acquaintances",
+                        "text": "Regular customer of",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "Kirstin Bowman",
+                "fullName": "Kirstin Bowman",
+                "id": "189",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Dead antique book seller who had a Lightner.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "188",
+                        "type": "Friends",
+                        "text": "Rival book dealer and friend of",
                         "feeling": "Good"
                     }
                 ]
             }
-        ]
+       ]
     }
 ]
