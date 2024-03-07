@@ -5055,5 +5055,85 @@
                 ]
             }
        ]
+    },
+    {
+        "episodeNum": "47",
+        "episodeName": "The New Door",
+        "episodeCharacters": [
+            {
+                "displayName": "Helen Richardson",
+                "fullName": "Helen Richardson",
+                "id": "191",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Real estate agent",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Insane",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "192",
+                        "type": "Work",
+                        "text": "Real estate agent to",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "113",
+                        "type": "Other",
+                        "text": "Entered the domain of",
+                        "feeling": "Fear"
+                    }
+                ]
+            },
+            {
+                "displayName": "Adrian Lombardi",
+                "fullName": "Adrian Lombardi",
+                "id": "192",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Man who was supposed to come to a house showing.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "191",
+                        "type": "Work",
+                        "text": "Client of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "113",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "type": "Other",
+                        "text": "Appeared to",
+                        "feeling": "Amusement"
+                    },
+                    {
+                        "targetId": "191",
+                        "type": "Other",
+                        "text": "Claimed",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "0",
+                "relationships": [
+                    {
+                        "targetId": "113",
+                        "type": "Other",
+                        "text": "Met",
+                        "feeling": "Hatred"
+                    }
+                ]
+            }
+       ]
     }
 ]
