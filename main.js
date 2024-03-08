@@ -298,6 +298,13 @@ function setUpGraph(graphIndex) {
             },
         },
         {
+            selector: 'edge[type = \'Is\']',
+            style: {
+                targetArrowColor: '#F4AFFF',
+                lineColor: '#F4AFFF',
+            },
+        },
+        {
             selector: ':parent',
             style: {
                 shape: 'round-rectangle',
