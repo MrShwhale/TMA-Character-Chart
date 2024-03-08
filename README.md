@@ -27,9 +27,6 @@ Make character summaries MUCH more informational
 
 ## Design
 
-# Progress
-Most recent episode completed: 46
-
 # Reminders
 Connect Nicole Baxter with Julia and Trevor on episode 107 (or add the ability to combine people and put the 2 mysterious people into episode 30-whatever)
 
