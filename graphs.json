@@ -5135,5 +5135,215 @@
                 ]
             }
        ]
+    },
+    {
+        "episodeNum": "48",
+        "episodeName": "Lost in the Crowd",
+        "episodeCharacters": [
+            {
+                "displayName": "Andrea Nunis",
+                "fullName": "Andrea Nunis",
+                "id": "193",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "World traveler who went into the incomprehensible Genoa market.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "194",
+                        "type": "Acquaintances",
+                        "text": "Stayed with",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "28",
+                        "type": "Other",
+                        "text": "Was warned by",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Ethan Taylor",
+                "fullName": "Ethan Taylor",
+                "id": "194",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Traveler who went missing in the mysterious Genoa crowd.",
+                "type": "Human",
+                "status": "Unknown",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "193",
+                        "type": "Acquaintances",
+                        "text": "Stayed with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "28",
+                "relationships": [
+                    {
+                        "targetId": "193",
+                        "type": "Other",
+                        "text": "Warned",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "feeling": "Worried"
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "relationships": [
+                    {
+                        "targetId": "0",
+                        "feeling": "Worried"
+                    }
+                ]
+            }
+       ]
+    },
+    {
+        "episodeNum": "49",
+        "episodeName": "The Butcher's Window",
+        "episodeCharacters": [
+            {
+                "displayName": "Gregory Pryor",
+                "fullName": "Gregory Pryor",
+                "id": "195",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Former PI who incidentally investigated Jared Hopworth.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "196",
+                        "type": "Work",
+                        "text": "PI for",
+                        "feeling": "Neutral"
+                    }
+                ]
+            },
+            {
+                "displayName": "Nicola Laredo",
+                "fullName": "Nicola Laredo",
+                "id": "196",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Woman who was trying to divorce her husband.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "195",
+                        "type": "Work",
+                        "text": "Hired %s as a PI",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "197",
+                        "type": "Family",
+                        "text": "Formerly married to",
+                        "feeling": "Hatred"
+                    }
+                ]
+            },
+            {
+                "displayName": "Hector Laredo",
+                "fullName": "Hector Laredo",
+                "id": "197",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Husband who worked as a drug mule for the mafia.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "196",
+                        "type": "Family",
+                        "text": "Formerly married to",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "78",
+                "summary": "Former man who read the Boneturner's tale. Worked for the mafia pulling bones.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "197",
+                        "type": "Other",
+                        "text": "Killed",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "198",
+                        "type": "Other",
+                        "text": "Killed?/Took the shop of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Harry Gough",
+                "fullName": "Harry Gough",
+                "id": "198",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Man found dead under the floor of Jared Hopworth's butcher shop.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None"
+            },
+            {
+                "displayName": "James Wright",
+                "fullName": "James Wright",
+                "id": "199",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Former head of the Magnus Institute, until his death.",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "Magnus Institute"
+            },
+            {
+                "id": "1",
+                "relationships": [
+                    {
+                        "targetId": "199",
+                        "type": "Work",
+                        "text": "Replacement for",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+       ]
     }
 ]
