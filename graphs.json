@@ -5345,5 +5345,143 @@
                 ]
             }
        ]
+    },
+    {
+        "episodeNum": "50",
+        "episodeName": "Foundations",
+        "episodeCharacters": [
+            {
+                "displayName": "Sampson Kempthrone",
+                "fullName": "Sampson Kempthrone",
+                "id": "200",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "94",
+                        "type": "Friend",
+                        "text": "Friend of",
+                        "feeling": "Good"
+                    },
+                    {
+                        "targetId": "20",
+                        "type": "Work",
+                        "text": "Former boss of",
+                        "feeling": "Unease"
+                    }
+                ]
+            },
+            {
+                "id": "94",
+                "relationships": [
+                    {
+                        "targetId": "200",
+                        "type": "Friend",
+                        "text": "Friend of",
+                        "feeling": "Good"
+                    }
+                ]
+            },
+            {
+                "displayName": "George Gilbert Scott",
+                "fullName": "George Gilbert Scott",
+                "id": "201",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "200",
+                        "type": "Work",
+                        "text": "Former assistant to",
+                        "feeling": "Dislike"
+                    },
+                    {
+                        "targetId": "202",
+                        "type": "Work",
+                        "text": "Former student of",
+                        "feeling": "Neutral"
+                    },
+                    {
+                        "targetId": "113",
+                        "type": "Work",
+                        "text": "Former student of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "Henry Roberts",
+                "fullName": "Henry Roberts",
+                "id": "202",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "201",
+                        "type": "Work",
+                        "text": "Former teacher of",
+                        "feeling": "Neutral"
+                    },
+                    {
+                        "targetId": "112",
+                        "type": "Friend",
+                        "text": "Friend of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName": "William Bonython Moffatt",
+                "fullName": "William Bonython Moffatt",
+                "id": "203",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Dead",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "201",
+                        "type": "Work",
+                        "text": "Partner of",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "112",
+                "relationships": [
+                    {
+                        "targetId": "202",
+                        "type": "Friend",
+                        "text": "Friend of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "201",
+                        "type": "Work",
+                        "text": "Former teacher of",
+                        "feeling": "Neutral"
+                    }
+                ]
+            }
+        ]
     }
 ]
