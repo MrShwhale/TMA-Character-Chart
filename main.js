@@ -4,7 +4,6 @@ import cola from 'cytoscape-cola';
 import popper from 'cytoscape-popper';
 import tippy from 'tippy.js';
 
-
 // Initialize cy plugins
 cytoscape.use(cola);
 cytoscape.use(popper);
@@ -22,7 +21,6 @@ function accumulateGraph(oldGraph, newEntries) {
     };
 
     // Manage the characters
-
     for (const character of newEntries.characters) {
         // Since ids are sequential, any id that can be used to index oldGraph must be a replacement
         let intId = parseInt(character.id);
@@ -377,26 +375,55 @@ function setUpGraph(graphIndex) {
             content: () => {
                 let content = document.createElement("html");
 
+                let eventData = event.target._private.data;
+
                 // If this is a relationship element
+                // BUG this is broken with groups, should probably handle them totally differently
                 if (/^\d+-\d+$/.test(event.target.id())) {
+                    let source = data.elements[parseInt(eventData.source)].data.displayName;
+                    let target = data.elements[parseInt(eventData.target)].data.displayName;
+                    // No clue how I'm going to do this
+                    // But when you do, keep in mind that the default value is "Unknown"
+                    // let feeling = data;
+
+                    let relationshipText = eventData.text;
+                    if (relationshipText.indexOf('%') >= 0) {
+                        relationshipText.replace("%s", target);
+                    }
+                    else {
+                        relationshipText += " " + target;
+                    }
+
                     content.innerHTML = 
                     `<div class="popper-relationship-container">
-                            <p>${data.elements[parseInt(event.target._private.data.source)].data.displayName}: ${event.target._private.data.text} ${data.elements[parseInt(event.target._private.data.target)].data.displayName}</p>
+                            <p>${source}: ${relationshipText}</p>
                         </div>`;
                 }
                 // Otherwise it is a normal one
                 else {
+                    let displayName = eventData.displayName;
+                    let fullName = eventData.fullName;
+                    // Setting defaults
+                    let type = eventData.type ? eventData.type : "Human";
+                    let status = eventData.status ? eventData.status : "Alive";
+                    let mindset = eventData.mindset ? eventData.mindset : "Unknown";
+                    let summary = eventData.summary;
+                    let nameLine = `<p class="fullName">${fullName}</p>`
+                    if (eventData.wikiLink) {
+                        nameLine = `<a href="https://the-magnus-archives.fandom.com/wiki/${eventData.wikiLink}">` + nameLine + "</a>"
+                    }
+
                     content.innerHTML = 
                     `<div class="popper-node-container"> 
                             <div class="popper-node-title">
-                                <p class="displayName">${event.target._private.data.displayName}</p>
-                                <p class="fullName">${event.target._private.data.fullName}</p>
+                                <p class="displayName">${displayName}</p>
+                                ${nameLine}
                             </div>
                             <hr>
-                            <i>${event.target._private.data.type}, ${event.target._private.data.status}</i>
+                            <i>${type}, ${status}</i>
                             <br>
-                            <p>Feeling: ${event.target._private.data.mindset}</p>
-                            <p>${event.target._private.data.summary}</p>
+                            <p>Feeling: ${mindset}</p>
+                            <p>${summary}</p>
                         </div>`;
                 }
 
