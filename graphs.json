@@ -222,7 +222,6 @@
         "episodeGroups":[
             {
                 "displayName":"The Magnus Institute",
-                "fullName":"The Magnus Institute",
                 "groupId":"0",
                 "summary":"Core members in the giving of statements at the Magnus Institute.",
                 "type":"Mundane",
@@ -238,7 +237,6 @@
             },
             {
                 "displayName":"Anglerfish Alley",
-                "fullName":"Anglerfish Alley",
                 "groupId":"1",
                 "summary":"People who went missing at Anglerfish Alley.",
                 "type":"Supernatural",
@@ -560,7 +558,6 @@
         "episodeGroups":[
             {
                 "displayName":"London Trashmen",
-                "fullName":"London Trashmen",
                 "groupId":"2",
                 "summary":"People who worked the London trash circuit together.",
                 "type":"Mundane",
@@ -2400,7 +2397,6 @@
         "episodeGroups":[
             {
                 "displayName":"Ghost Hunt UK",
-                "fullName":"Ghost Hunt UK",
                 "groupId":"3",
                 "summary":"The people behind Ghost Hunt UK.",
                 "type":"Mundane",
@@ -2672,7 +2668,6 @@
         "episodeGroups":[
             {
                 "displayName":"The Tundra",
-                "fullName":"The Tundra",
                 "groupId":"4",
                 "summary":"Some crew of the mysterious ship The Tundra.",
                 "type":"Mundane",
@@ -2804,7 +2799,6 @@
         "episodeGroups":[
             {
                 "displayName":"The Anatomy Class",
-                "fullName":"The Anatomy Class",
                 "groupId":"5",
                 "summary":"Inhuman members of an anatomy class at King's College.",
                 "type":"Supernatual",
@@ -3516,7 +3510,6 @@
         "episodeGroups":[
             {
                 "displayName":"Earful.com",
-                "fullName":"Earful.com",
                 "groupId":"6",
                 "summary":"People who work for the music journalism company Earful.com.",
                 "type":"Mundane",
@@ -3620,7 +3613,6 @@
         "episodeGroups":[
             {
                 "displayName":"Sectioned Officers",
-                "fullName":"Sectioned Officers",
                 "groupId":"7",
                 "summary":"Police officers who have signed a Section 31, so they can deal with the weird.",
                 "type":"Supernatual",
@@ -3696,7 +3688,6 @@
         "episodeGroups":[
             {
                 "displayName":"Another Circus",
-                "fullName":"Another Circus",
                 "groupId":"8",
                 "summary":"Supernatural Russian circus.",
                 "type":"Supernatual",
@@ -4359,7 +4350,6 @@
         "episodeGroups":[
             {
                 "displayName":"Wakefield Prison",
-                "fullName":"Wakefield Prison",
                 "groupId":"9",
                 "summary":"People who live or work in the Wakefield Prison.",
                 "type":"Mundane",
