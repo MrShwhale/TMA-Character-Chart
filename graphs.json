@@ -1145,6 +1145,12 @@
                         "type": "Work",
                         "text": "Works with",
                         "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "41",
+                        "type": "Family",
+                        "text": "Descendant of",
+                        "feeling": "Unknown"
                     }
                 ]
             }
@@ -5581,6 +5587,172 @@
                         "text": "Employee of",
                         "feeling": "Unknown"
                     }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum": "52",
+        "episodeName": "Exceptional Risk",
+        "episodeCharacters": [
+            {
+                "displayName": "Philip Brown",
+                "fullName": "Philip Brown",
+                "id": "207",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "205",
+                        "type": "Work",
+                        "text": "Employee of",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "210",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Unknown"
+                    },
+                    {
+                        "targetId": "211",
+                        "type": "Family",
+                        "text": "Ex-husband of",
+                        "feeling": "Regret"
+                    }
+                ]
+            },
+            {
+                "id": "49",
+                "summary": "Prolific British serial killer with connections to the occult. Died in prison to a monster of darkness.",
+                "relationships": [
+                    {
+                        "targetId": "50",
+                        "type": "Work",
+                        "text": "Worked with",
+                        "feeling": "Hate"
+                    }
+                ]
+            },
+            {
+                "displayName": "Ivan Ilich",
+                "fullName": "Ivan Ilich",
+                "id": "208",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Prisoner at Wakefield who tried to beat up Robert Montauk.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown"
+            },
+            {
+                "displayName": "Dave Harrington",
+                "fullName": "Dave Harrington",
+                "id": "209",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Prisoner at Wakefield who would spread fake gossip.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None"
+            },
+            {
+                "displayName": "Pete Gordo",
+                "fullName": "Pete Gordo",
+                "id": "210",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Prison employee who interacted with the living dark.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "207",
+                        "type": "Work",
+                        "text": "Coworkers with",
+                        "feeling": "Unknown"
+                    }
+                ]
+            },
+            {
+                "id": "50",
+                "summary": "Cult leader of the Peoples' Church of the Divine Host. Worked with Robert Montauk and visited him in prison until his death.",
+                "relationships": [
+                    {
+                        "targetId": "49",
+                        "type": "Work",
+                        "text": "Worked with",
+                        "feeling": "Hate"
+                    }
+                ]
+            },
+            {
+                "displayName": "Caroline Brodie",
+                "fullName": "Caroline Brodie",
+                "id": "211",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Ex-wife of Philip Brown who left him due to abuse.",
+                "type": "Human",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "207",
+                        "type": "Family",
+                        "text": "Ex-wife of",
+                        "feeling": "Hate"
+                    }
+                ]
+            },
+            {
+                "displayName": "Monster of darkness",
+                "fullName": "Monster of darkness",
+                "id": "212",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "Something that came in the dark to Wakefield Prison and killed Robert Montauk.",
+                "type": "Unknown",
+                "status": "Alive",
+                "mindset": "Unknown",
+                "alignment": "None",
+                "relationships": [
+                    {
+                        "targetId": "49",
+                        "type": "Other",
+                        "text": "Killed",
+                        "feeling": "Unknown"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups": [
+            {
+                "displayName": "Wakefield Prison",
+                "fullName": "Wakefield Prison",
+                "groupId": "9",
+                "wikiLink": "",
+                "imageFile": "",
+                "summary": "People who live or work in the Wakefield Prison.",
+                "type": "Mundane",
+                "relationType": "Work",
+                "feeling": "Bad",
+                "alignment": "None",
+                "memberIds": [
+                    "207",
+                    "49",
+                    "208",
+                    "209",
+                    "210"
                 ]
             }
         ]
