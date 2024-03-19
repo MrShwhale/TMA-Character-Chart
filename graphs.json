@@ -39,7 +39,8 @@
                         "type":"Work",
                         "text":"Boss of"
                     }
-                ]
+                ],
+                "parent":"g0"
             },
             {
                 "displayName":"Elias",
@@ -79,7 +80,6 @@
             },
             {
                 "displayName":"Martin",
-                "fullName":"Martin",
                 "id":"3",
                 "wikiLink":"Martin_Blackwood",
                 "summary":"Researcher for the Magnus Institute.",
@@ -90,11 +90,11 @@
                         "type":"Work",
                         "text":"Works for"
                     }
-                ]
+                ],
+                "parent":"g0"
             },
             {
                 "displayName":"Tim",
-                "fullName":"Tim",
                 "id":"4",
                 "wikiLink":"Timothy_Stoker",
                 "summary":"Researcher for the Magnus Institute.",
@@ -105,11 +105,11 @@
                         "type":"Work",
                         "text":"Works for"
                     }
-                ]
+                ],
+                "parent":"g0"
             },
             {
                 "displayName":"Sasha",
-                "fullName":"Sasha",
                 "id":"5",
                 "wikiLink":"Sasha_James",
                 "summary":"Researcher for the Magnus Institute.",
@@ -120,11 +120,11 @@
                         "type":"Work",
                         "text":"Works for"
                     }
-                ]
+                ],
+                "parent":"g0"
             },
             {
                 "displayName":"Nathan Watts",
-                "fullName":"Nathan Watts",
                 "id":"6",
                 "summary":"Smoker who saw the Anglerfish and lived to tell the tale.",
                 "relationships":[
@@ -143,7 +143,6 @@
             },
             {
                 "displayName":"Michael MacAulay",
-                "fullName":"Michael MacAulay",
                 "id":"7",
                 "summary":"Good friend of Nathan Watts.",
                 "relationships":[
@@ -157,7 +156,6 @@
             },
             {
                 "displayName":"John Fellowes",
-                "fullName":"John Fellowes",
                 "id":"8",
                 "status":"Unknown",
                 "summary":"Went missing near the Anglerfish alley.",
@@ -167,52 +165,52 @@
                         "type":"Acquaintances",
                         "text":"Classmates with"
                     }
-                ]
+                ],
+                "parent":"g1"
             },
             {
                 "displayName":"Jessica McEwen",
-                "fullName":"Jessica McEwen",
                 "id":"9",
                 "status":"Unknown",
                 "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g1"
             },
             {
                 "displayName":"Sarah Baldwin",
-                "fullName":"Sarah Baldwin",
                 "id":"10",
                 "wikiLink":"Sarah_Baldwin",
                 "status":"Unknown",
                 "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g1"
             },
             {
                 "displayName":"Daniel Rawlings",
-                "fullName":"Daniel Rawlings",
                 "id":"11",
                 "status":"Unknown",
                 "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g1"
             },
             {
                 "displayName":"Ashley Dobson",
-                "fullName":"Ashley Dobson",
                 "id":"12",
                 "status":"Unknown",
                 "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g1"
             },
             {
                 "displayName":"Megan Shaw",
-                "fullName":"Megan Shaw",
                 "id":"13",
                 "status":"Unknown",
                 "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g1"
             },
             {
                 "displayName":"The Anglerfish",
-                "fullName":"The Anglerfish",
                 "id":"14",
                 "wikiLink":"The_Anglerfish",
                 "type":"Unknown",
@@ -262,7 +260,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Joshua Gillespie",
-                "fullName":"Joshua Gillespie",
                 "id":"15",
                 "mindset":"Indifferent",
                 "summary":"Got 10,0 pounds for a spooky coffin that did not end up killing him.",
@@ -308,7 +305,6 @@
             },
             {
                 "displayName":"Richard",
-                "fullName":"Richard",
                 "id":"17",
                 "type":"Unknown",
                 "status":"Unknown",
@@ -324,7 +320,6 @@
             },
             {
                 "displayName":"Breekon",
-                "fullName":"Breekon",
                 "id":"18",
                 "summary":"Delivery man with no problems taking away a spooky coffin.",
                 "relationships":[
@@ -342,7 +337,6 @@
             },
             {
                 "displayName":"Hope",
-                "fullName":"Hope",
                 "id":"19",
                 "summary":"Delivery man with no problems taking away a spooky coffin.",
                 "relationships":[
@@ -366,7 +360,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Amy Patel",
-                "fullName":"Amy Patel",
                 "id":"20",
                 "summary":"Criminology student at Birkbeck University.",
                 "relationships":[
@@ -380,7 +373,6 @@
             },
             {
                 "displayName":"Graham Folger",
-                "fullName":"Graham Folger",
                 "id":"21",
                 "status":"Unknown",
                 "summary":"An eccentric boy in a criminology class.",
@@ -394,7 +386,6 @@
             },
             {
                 "displayName":"Not-Graham",
-                "fullName":"Not-Graham",
                 "id":"22",
                 "type":"Unknown",
                 "summary":"Something that calls itself Graham.",
@@ -414,7 +405,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Dominic Swain",
-                "fullName":"Dominic Swain",
                 "id":"23",
                 "summary":"Bought a Lightner, then sold it ASAP.",
                 "relationships":[
@@ -440,7 +430,6 @@
             },
             {
                 "displayName":"Katherine Mendes",
-                "fullName":"Katherine Mendes",
                 "id":"24",
                 "summary":"Actress in London.",
                 "relationships":[
@@ -454,7 +443,6 @@
             },
             {
                 "displayName":"Jurgen Lightner",
-                "fullName":"Jurgen Lightner",
                 "id":"25",
                 "wikiLink":"Jurgen_Lightner",
                 "status":"Unknown",
@@ -463,7 +451,6 @@
             },
             {
                 "displayName":"MacGregor Mathers",
-                "fullName":"MacGregor Mathers",
                 "id":"26",
                 "summary":"Received a book of Jurgen Lightner's.",
                 "relationships":[
@@ -476,7 +463,6 @@
             },
             {
                 "displayName":"Mary Keay",
-                "fullName":"Mary Keay",
                 "id":"27",
                 "type":"Unknown",
                 "summary":"Bookseller who likes Lightners.",
@@ -502,7 +488,6 @@
             },
             {
                 "displayName":"Gerard Keay",
-                "fullName":"Gerard Keay",
                 "id":"28",
                 "summary":"Mysterious son of Mary Keay, might not feel pain.",
                 "relationships":[
@@ -516,7 +501,6 @@
             },
             {
                 "displayName":"Michael Crew",
-                "fullName":"Michael Crew",
                 "id":"29",
                 "wikiLink":"The_Distortion",
                 "summary":"Childhood friend of Dominic Swain who was struct by lightning.",
@@ -537,40 +521,40 @@
         "episodeCharacters":[
             {
                 "displayName":"Kieran Woodward",
-                "fullName":"Kieran Woodward",
                 "id":"30",
                 "summary":"Bin man in London who reported some suspicious trash to the Institute.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g2"
             },
             {
                 "displayName":"David Atayah",
-                "fullName":"David Atayah",
                 "id":"31",
                 "summary":"Bin man in London.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g2"
             },
             {
                 "displayName":"Matthew Wilkinson",
-                "fullName":"Matthew Wilkinson",
                 "id":"32",
                 "summary":"Bin man in London.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g2"
             },
             {
                 "displayName":"Alan Parfitt",
-                "fullName":"Alan Parfitt",
                 "id":"33",
                 "status":"Unknown",
                 "mindset":"Obsessed",
                 "summary":"Bin man who became obsessed with a house that eventually disappeared him.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g2"
             },
             {
                 "displayName":"Guy Wardman",
-                "fullName":"Guy Wardman",
                 "id":"34",
                 "summary":"Replacement after Alan went crazy.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g2"
             }
         ],
         "episodeGroups":[
@@ -598,7 +582,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Timothy Hodge",
-                "fullName":"Timothy Hodge",
                 "id":"35",
                 "wikiLink":"Timothy_Hodge",
                 "mindset":"Worried",
@@ -614,7 +597,6 @@
             },
             {
                 "displayName":"Harriet Lee",
-                "fullName":"Harriet Lee",
                 "id":"36",
                 "summary":"Student who turned into a pile of worms, or perhaps was one.",
                 "relationships":[
@@ -627,7 +609,6 @@
             },
             {
                 "displayName":"Jane Prentiss",
-                "fullName":"Jane Prentiss",
                 "id":"37",
                 "wikiLink":"Jane_Prentiss",
                 "mindset":"Violent",
@@ -648,7 +629,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Clarence Berry",
-                "fullName":"Clarence Berry",
                 "id":"38",
                 "status":"Dead",
                 "summary":"Great British infantryman in the Great War.",
@@ -663,7 +643,6 @@
             },
             {
                 "displayName":"Wilfred Owen",
-                "fullName":"Wilfred Owen",
                 "id":"39",
                 "status":"Dead",
                 "summary":"Great British infantryman in the Great War who saw the Piper.",
@@ -689,7 +668,6 @@
             },
             {
                 "displayName":"The Piper",
-                "fullName":"The Piper",
                 "id":"40",
                 "type":"Unknown",
                 "summary":"Humanoid that roams the battlefield, entrancing with haunitng pipes.",
@@ -703,7 +681,6 @@
             },
             {
                 "displayName":"Joseph Rayner",
-                "fullName":"Joseph Rayner",
                 "id":"41",
                 "status":"Dead",
                 "summary":"Dead man found near Wilfred Owen.",
@@ -717,7 +694,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Ivo Lensik",
-                "fullName":"Ivo Lensik",
                 "id":"42",
                 "mindset":"Worried",
                 "summary":"A builder who worked on a project on Hilltop Road.",
@@ -732,7 +708,6 @@
             },
             {
                 "displayName":"Raymond Fielding",
-                "fullName":"Raymond Fielding",
                 "id":"43",
                 "wikiLink":"Raymond_Fielding",
                 "status":"Dead",
@@ -752,7 +727,6 @@
             },
             {
                 "displayName":"Anna Kasuma",
-                "fullName":"Anna Kasuma",
                 "id":"44",
                 "summary":"Religious nurse at John Radcliffe hospital.",
                 "relationships":[
@@ -772,7 +746,6 @@
             },
             {
                 "displayName":"Agnes Montague",
-                "fullName":"Agnes Montague",
                 "id":"45",
                 "status":"Dead",
                 "summary":"Offputting adopted daughter of Raymond Fielding.",
@@ -786,7 +759,6 @@
             },
             {
                 "displayName":"Henry White",
-                "fullName":"Henry White",
                 "id":"46",
                 "status":"Unknown",
                 "summary":"Child who disappeared from old Hilltop Road.",
@@ -800,7 +772,6 @@
             },
             {
                 "displayName":"Edwin Burroughs",
-                "fullName":"Edwin Burroughs",
                 "id":"47",
                 "wikiLink":"Edwin_Burroughs",
                 "summary":"A priest that did an exorscism on Hilltop Road.",
@@ -836,7 +807,6 @@
             },
             {
                 "displayName":"Robert Montauk",
-                "fullName":"Robert Montauk",
                 "id":"49",
                 "wikiLink":"Robert_Montauk",
                 "status":"Dead",
@@ -857,7 +827,6 @@
             },
             {
                 "displayName":"Maxwell Rayner",
-                "fullName":"Maxwell Rayner",
                 "id":"50",
                 "wikiLink":"Maxwell_Rayner",
                 "summary":"Cult leader of the Peoples' Church of the Divine Host.",
@@ -882,7 +851,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Trevor Herbert",
-                "fullName":"Trevor Herbert",
                 "id":"51",
                 "status":"Dead",
                 "summary":"Self proclaimed vampire hunter who died of cancer.",
@@ -915,7 +883,6 @@
             },
             {
                 "displayName":"Sylvia McDonald",
-                "fullName":"Sylvia McDonald",
                 "id":"52",
                 "type":"Vampire",
                 "status":"Dead",
@@ -924,7 +891,6 @@
             },
             {
                 "displayName":"Nigel Herbert",
-                "fullName":"Nigel Herbert",
                 "id":"53",
                 "status":"Dead",
                 "summary":"Brother of Trevor Herbert.",
@@ -939,7 +905,6 @@
             },
             {
                 "displayName":"Robert Arden",
-                "fullName":"Robert Arden",
                 "id":"54",
                 "type":"Vampire",
                 "status":"Dead",
@@ -948,7 +913,6 @@
             },
             {
                 "displayName":"Alard Dupont",
-                "fullName":"Alard Dupont",
                 "id":"55",
                 "status":"Dead",
                 "summary":"A human killed by Trevor Herbert, who thought he was a vampire.",
@@ -983,7 +947,6 @@
             },
             {
                 "displayName":"John Uzel",
-                "fullName":"John Uzel",
                 "id":"57",
                 "status":"Dead",
                 "summary":"Old line manager of Antonio Blake.",
@@ -997,7 +960,6 @@
             },
             {
                 "displayName":"Rosie",
-                "fullName":"Rosie",
                 "id":"58",
                 "wikiLink":"Rosie_Zampano",
                 "summary":"A secretary at the Magnus Institute.",
@@ -1029,7 +991,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Lesere Saraki",
-                "fullName":"Lesere Saraki",
                 "id":"59",
                 "summary":"A nurse at St. Thomas hospital.",
                 "relationships":[
@@ -1048,7 +1009,6 @@
             },
             {
                 "displayName":"Kayleigh Grice",
-                "fullName":"Kayleigh Grice",
                 "id":"60",
                 "summary":"A doctor at St. Thomas hospital.",
                 "relationships":[
@@ -1079,7 +1039,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Naomi Herne",
-                "fullName":"Naomi Herne",
                 "id":"61",
                 "summary":"Fiance to Evan Lukas.",
                 "relationships":[
@@ -1105,7 +1064,6 @@
             },
             {
                 "displayName":"Evan Lukas",
-                "fullName":"Evan Lukas",
                 "id":"62",
                 "status":"Dead",
                 "summary":"Man who died a rare death and had a very strange funeral.",
@@ -1121,7 +1079,6 @@
             },
             {
                 "displayName":"Pastor David",
-                "fullName":"Pastor David",
                 "id":"63",
                 "summary":"Advisor who advised against isolation.",
                 "relationships":[
@@ -1135,7 +1092,6 @@
             },
             {
                 "displayName":"Michael Getty",
-                "fullName":"Michael Getty",
                 "id":"64",
                 "summary":"Man who hit Naomi Herne with his car.",
                 "relationships":[
@@ -1155,7 +1111,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Lee Rentoul",
-                "fullName":"Lee Rentoul",
                 "id":"65",
                 "status":"Unknown",
                 "mindset":"Afraid",
@@ -1188,7 +1143,6 @@
             },
             {
                 "displayName":"Paul Noriega",
-                "fullName":"Paul Noriega",
                 "id":"66",
                 "status":"Dead",
                 "summary":"Man who was cursed to fall to pieces.",
@@ -1208,7 +1162,6 @@
             },
             {
                 "displayName":"Toby McMullen",
-                "fullName":"Toby McMullen",
                 "id":"67",
                 "summary":"Druggie who was attacked by Paul Noriega.",
                 "relationships":[
@@ -1228,7 +1181,6 @@
             },
             {
                 "displayName":"Angela",
-                "fullName":"Angela",
                 "id":"68",
                 "summary":"Old lady with a love of puzzles who curses people when asked.",
                 "relationships":[
@@ -1246,7 +1198,6 @@
             },
             {
                 "displayName":"Mikaele Salesa",
-                "fullName":"Mikaele Salesa",
                 "id":"69",
                 "wikiLink":"Mikaele_Salesa",
                 "summary":"Dealer in stolen art.",
@@ -1260,7 +1211,6 @@
             },
             {
                 "displayName":"Hester",
-                "fullName":"Hester",
                 "id":"70",
                 "summary":"Friend of Lee Rentoul who gave a statement.",
                 "relationships":[
@@ -1279,7 +1229,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Laura Popham",
-                "fullName":"Laura Popham",
                 "id":"71",
                 "mindset":"Traumatized",
                 "summary":"Caver who lost her sister.",
@@ -1300,7 +1249,6 @@
             },
             {
                 "displayName":"Alena Popham",
-                "fullName":"Alena Popham",
                 "id":"72",
                 "status":"Unknown",
                 "summary":"Sister of Laura Popham.",
@@ -1315,7 +1263,6 @@
             },
             {
                 "displayName":"Alistair",
-                "fullName":"Alistair",
                 "id":"73",
                 "summary":"Fiance of Laura who found her after her disappearance.",
                 "relationships":[
@@ -1335,7 +1282,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Carlos Vittery",
-                "fullName":"Carlos Vittery",
                 "id":"74",
                 "status":"Dead",
                 "mindset":"Afraid",
@@ -1351,7 +1297,6 @@
             },
             {
                 "displayName":"Immortal Spider",
-                "fullName":"Immortal Spider",
                 "id":"75",
                 "type":"Spider",
                 "summary":"A spider that, when killed, comes back to life.",
@@ -1371,7 +1316,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Sebastian Adekoya",
-                "fullName":"Sebastian Adekoya",
                 "id":"76",
                 "status":"Dead",
                 "mindset":"Normal",
@@ -1392,7 +1336,6 @@
             },
             {
                 "displayName":"Ruth Weaver",
-                "fullName":"Ruth Weaver",
                 "id":"77",
                 "summary":"Librarian who Mr. Adekoya worked for.",
                 "relationships":[
@@ -1437,7 +1380,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Christof Rudenko",
-                "fullName":"Christof Rudenko",
                 "id":"79",
                 "mindset":"Normal",
                 "summary":"Man who moved into a buliding that would eventually pour meat on him.",
@@ -1456,7 +1398,6 @@
             },
             {
                 "displayName":"Dianne",
-                "fullName":"Dianne",
                 "id":"80",
                 "summary":"Spinster who lived next to Christof Rudenko.",
                 "relationships":[
@@ -1474,7 +1415,6 @@
             },
             {
                 "displayName":"Toby Carlisle",
-                "fullName":"Toby Carlisle",
                 "id":"81",
                 "status":"Dead",
                 "mindset":"Insane",
@@ -1553,7 +1493,6 @@
             },
             {
                 "displayName":"Father Harrogate",
-                "fullName":"Father Harrogate",
                 "id":"82",
                 "summary":"Former fellow priest with Edinburgh Burroughs.",
                 "relationships":[
@@ -1567,7 +1506,6 @@
             },
             {
                 "displayName":"Father Singh",
-                "fullName":"Father Singh",
                 "id":"83",
                 "summary":"Former fellow priest with Edinburgh Burroughs.",
                 "relationships":[
@@ -1581,7 +1519,6 @@
             },
             {
                 "displayName":"Bethany O' Connor",
-                "fullName":"Bethany O' Connor",
                 "id":"84",
                 "summary":"Student who came to Father Burroughs for an exorscism.",
                 "relationships":[
@@ -1618,7 +1555,6 @@
             },
             {
                 "displayName":"James Mann",
-                "fullName":"James Mann",
                 "id":"85",
                 "status":"Dead",
                 "summary":"Student was killed and eaten by Edwin Burroughs.",
@@ -1626,7 +1562,6 @@
             },
             {
                 "displayName":"Christopher Bilham",
-                "fullName":"Christopher Bilham",
                 "id":"86",
                 "status":"Dead",
                 "summary":"Student was killed by Edwin Burroughs.",
@@ -1640,7 +1575,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Moira Kelly",
-                "fullName":"Moira Kelly",
                 "id":"87",
                 "mindset":"Afraid",
                 "summary":"Mother of Robert Kelly who heard about his story and passed it to the institute.",
@@ -1661,7 +1595,6 @@
             },
             {
                 "displayName":"Robert Kelly",
-                "fullName":"Robert Kelly",
                 "id":"88",
                 "status":"Unknown",
                 "mindset":"Afraid",
@@ -1689,7 +1622,6 @@
             },
             {
                 "displayName":"Stephen Kelly",
-                "fullName":"Stephen Kelly",
                 "id":"89",
                 "status":"Dead",
                 "summary":"Father of Robert Kelly who died unexpectedly.",
@@ -1710,7 +1642,6 @@
             },
             {
                 "displayName":"Simon",
-                "fullName":"Simon",
                 "id":"90",
                 "status":"Unknown",
                 "mindset":"Happy",
@@ -1726,7 +1657,6 @@
             },
             {
                 "displayName":"Harriet Fairchild",
-                "fullName":"Harriet Fairchild",
                 "id":"91",
                 "status":"Unknown",
                 "mindset":"Happy",
@@ -1783,7 +1713,6 @@
             },
             {
                 "displayName":"Yasir Kundi",
-                "fullName":"Yasir Kundi",
                 "id":"92",
                 "summary":"Owner of the building where Carlos Vittery lived.",
                 "relationships":[
@@ -1814,7 +1743,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Albrecht von Closen",
-                "fullName":"Albrecht von Closen",
                 "id":"93",
                 "status":"Dead",
                 "summary":"Friend of Jonah Magnus who had a supernatual experience in the Schwartzwald.",
@@ -1853,7 +1781,6 @@
             },
             {
                 "displayName":"Jonah Magnus",
-                "fullName":"Jonah Magnus",
                 "id":"94",
                 "wikiLink":"Jonah_Magnus",
                 "status":"Dead",
@@ -1876,7 +1803,6 @@
             },
             {
                 "displayName":"Wolfgang",
-                "fullName":"Wolfgang",
                 "id":"95",
                 "status":"Dead",
                 "summary":"Friend of Albrecht von Closen and Jonah Magnus.",
@@ -1897,7 +1823,6 @@
             },
             {
                 "displayName":"Henrik von Closen",
-                "fullName":"Henrik von Closen",
                 "id":"96",
                 "status":"Dead",
                 "summary":"Brother of Albrecht who died early.",
@@ -1918,7 +1843,6 @@
             },
             {
                 "displayName":"Wilhelm von Closen",
-                "fullName":"Wilhelm von Closen",
                 "id":"97",
                 "status":"Dead",
                 "summary":"Nephew of Albrecht who lived near the Schwartzwald.",
@@ -1933,7 +1857,6 @@
             },
             {
                 "displayName":"Clara/Carla von Closen",
-                "fullName":"Clara/Carla von Closen",
                 "id":"98",
                 "status":"Dead",
                 "summary":"Wife of Albrecht. Has two names?",
@@ -1948,7 +1871,6 @@
             },
             {
                 "displayName":"Johann von Württemberg",
-                "fullName":"Johann von Württemberg",
                 "id":"99",
                 "status":"Dead",
                 "summary":"Unknown member of the Württemberg family. May be the child of Ulricht I.",
@@ -1956,7 +1878,6 @@
             },
             {
                 "displayName":"Elsa von Closen",
-                "fullName":"Elsa von Closen",
                 "id":"100",
                 "status":"Dead",
                 "summary":"Descendant of Wilhelm von Closen, mother of one Mary Keay.",
@@ -1982,7 +1903,6 @@
             },
             {
                 "displayName":"Michael Keay",
-                "fullName":"Michael Keay",
                 "id":"101",
                 "status":"Dead",
                 "summary":"Father of Mary Keay, married into the von Closen family.",
@@ -2019,7 +1939,6 @@
             },
             {
                 "displayName":"Tobias Kohler",
-                "fullName":"Tobias Kohler",
                 "id":"102",
                 "status":"Dead",
                 "summary":"Old man who played a dangerous game with the crypt in the Schwartzwald.",
@@ -2034,7 +1953,6 @@
             },
             {
                 "displayName":"Hans Winkler",
-                "fullName":"Hans Winkler",
                 "id":"103",
                 "status":"Dead",
                 "summary":"Child who almost played the game with Tobias Kohler.",
@@ -2055,7 +1973,6 @@
             },
             {
                 "displayName":"Ms. Winkler",
-                "fullName":"Ms. Winkler",
                 "id":"104",
                 "status":"Dead",
                 "summary":"Mother who went missing after going after her child in the crypt.",
@@ -2076,7 +1993,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Leanne Denikin",
-                "fullName":"Leanne Denikin",
                 "id":"105",
                 "summary":"Person who inherited her grandfather's red calliope.",
                 "relationships":[
@@ -2096,7 +2012,6 @@
             },
             {
                 "displayName":"Nikolai Denikin",
-                "fullName":"Nikolai Denikin",
                 "id":"106",
                 "status":"Dead",
                 "summary":"Grandfather who played the calliope in the Circus of the Other.",
@@ -2132,7 +2047,6 @@
             },
             {
                 "displayName":"Gregor Orsinov",
-                "fullName":"Gregor Orsinov",
                 "id":"108",
                 "wikiLink":"Gregor_Orsinov",
                 "status":"Dead",
@@ -2154,7 +2068,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Mark Bilham",
-                "fullName":"Mark Bilham",
                 "id":"109",
                 "summary":"Person who doesn't believe in the supernatual, but had a strange experience due to a roommate.",
                 "relationships":[
@@ -2194,7 +2107,6 @@
             },
             {
                 "displayName":"Natalie Ennis",
-                "fullName":"Natalie Ennis",
                 "id":"111",
                 "summary":"A person who joined a cult of darkness, and tried to get her friends to.",
                 "relationships":[
@@ -2240,7 +2152,6 @@
             },
             {
                 "displayName":"Robert Smirke",
-                "fullName":"Robert Smirke",
                 "id":"112",
                 "summary":"Architect that Tim is obsessed with.",
                 "status":"Unknown",
@@ -2284,7 +2195,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Paul McKenzie",
-                "fullName":"Paul McKenzie",
                 "id":"114",
                 "summary":"Man who had his door shook violently each night by an invisible thing.",
                 "status":"Dead",
@@ -2305,7 +2215,6 @@
             },
             {
                 "displayName":"Marcus McKenzie",
-                "fullName":"Marcus McKenzie",
                 "id":"115",
                 "summary":"Son of Paul McKenzie who left home.",
                 "relationships":[
@@ -2325,7 +2234,6 @@
             },
             {
                 "displayName":"Diane McKenzie",
-                "fullName":"Diane McKenzie",
                 "id":"116",
                 "summary":"Deceased wife of Paul McKenzie, hated mopers.",
                 "status":"Dead",
@@ -2346,7 +2254,6 @@
             },
             {
                 "displayName":"Sarah Carpenter",
-                "fullName":"Sarah Carpenter",
                 "id":"117",
                 "summary":"Former Magnus Institute employee who did some investigative work.",
                 "alignment":"Magnus Institute",
@@ -2367,7 +2274,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Melanie King",
-                "fullName":"Melanie King",
                 "id":"118",
                 "summary":"Host of the YouTube channel Ghost Hunt UK.",
                 "status":"Dead",
@@ -2396,11 +2302,11 @@
                         "text":"Friend of",
                         "feeling":"Good"
                     }
-                ]
+                ],
+                "parent":"g3"
             },
             {
                 "displayName":"Andy Caine",
-                "fullName":"Andy Caine",
                 "id":"119",
                 "summary":"Co-host of the YouTube channel Ghost Hunt UK.",
                 "status":"Dead",
@@ -2411,11 +2317,11 @@
                         "text":"Works with",
                         "feeling":"Good"
                     }
-                ]
+                ],
+                "parent":"g3"
             },
             {
                 "displayName":"Peter Warhol",
-                "fullName":"Peter Warhol",
                 "id":"120",
                 "summary":"Sound tech for Ghost Hunt UK.",
                 "status":"Dead",
@@ -2426,11 +2332,11 @@
                         "text":"Works with",
                         "feeling":"Good"
                     }
-                ]
+                ],
+                "parent":"g3"
             },
             {
                 "displayName":"Antonia Farron",
-                "fullName":"Antonia Farron",
                 "id":"121",
                 "summary":"Cameraman for Ghost Hunt UK.",
                 "status":"Dead",
@@ -2441,7 +2347,8 @@
                         "text":"Works with",
                         "feeling":"Good"
                     }
-                ]
+                ],
+                "parent":"g3"
             },
             {
                 "displayName":"Georgie",
@@ -2514,7 +2421,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Nathaniel Thorp",
-                "fullName":"Nathaniel Thorp",
                 "id":"123",
                 "summary":"Soldier in the revolutionary war who beat Death at his own game.",
                 "type":"Unknown",
@@ -2523,7 +2429,6 @@
             },
             {
                 "displayName":"Fiona Law",
-                "fullName":"Fiona Law",
                 "id":"124",
                 "summary":"Magnus Institute researcher who died of liver complications.",
                 "status":"Dead",
@@ -2537,7 +2442,6 @@
         "episodeCharacters":[
             {
                 "displayName":"David Laylow",
-                "fullName":"David Laylow",
                 "id":"125",
                 "summary":"Person who worked the killing floor, and one to bolt Tom Haan.",
                 "mindset":"Empty",
@@ -2558,7 +2462,6 @@
             },
             {
                 "displayName":"Tony Mulholland",
-                "fullName":"Tony Mulholland",
                 "id":"126",
                 "summary":"Person who used to work on the killing floor.",
                 "relationships":[
@@ -2572,7 +2475,6 @@
             },
             {
                 "displayName":"Tom Haan",
-                "fullName":"Tom Haan",
                 "id":"127",
                 "summary":"Person who used to work on the killing floor, who bolted himself into oblivion.",
                 "type":"Unknown",
@@ -2594,7 +2496,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Lawrence Mortimer",
-                "fullName":"Lawrence Mortimer",
                 "id":"128",
                 "summary":"British first time hunter who went hunting in the Appalachians.",
                 "relationships":[
@@ -2608,7 +2509,6 @@
             },
             {
                 "displayName":"Arden Neeli",
-                "fullName":"Arden Neeli",
                 "id":"129",
                 "summary":"American casual hunter who died in the Appalachians.",
                 "status":"Dead",
@@ -2623,7 +2523,6 @@
             },
             {
                 "displayName":"Wolfman Hiker",
-                "fullName":"Wolfman Hiker",
                 "id":"130",
                 "summary":"A werewolf who was hiking in the Appalachians.",
                 "type":"Inhuman",
@@ -2657,7 +2556,6 @@
             },
             {
                 "displayName":"Oliver",
-                "fullName":"Oliver",
                 "id":"131",
                 "summary":"Someone who looked at Jane Prentiss sorrowfully.",
                 "type":"Inhuman",
@@ -2672,7 +2570,6 @@
             },
             {
                 "displayName":"Arthur Nolan",
-                "fullName":"Arthur Nolan",
                 "id":"132",
                 "summary":"Landlord of Jane Prentiss. ",
                 "status":"Dead",
@@ -2693,7 +2590,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Carlita Sloane",
-                "fullName":"Carlita Sloane",
                 "id":"133",
                 "summary":"Sailor",
                 "relationships":[
@@ -2702,11 +2598,11 @@
                         "type":"Work",
                         "text":"Worked for"
                     }
-                ]
+                ],
+                "parent":"g4"
             },
             {
                 "displayName":"Peter Lukas",
-                "fullName":"Peter Lukas",
                 "id":"134",
                 "summary":"Captain of the Tundra.",
                 "alignment":"Lukas Family",
@@ -2716,11 +2612,11 @@
                         "type":"Work",
                         "text":"Related to"
                     }
-                ]
+                ],
+                "parent":"g4"
             },
             {
                 "displayName":"Tadeas Dahl",
-                "fullName":"Tadeas Dahl",
                 "id":"135",
                 "summary":"First mate of the Tundra, the ship of Peter Lukas.",
                 "relationships":[
@@ -2729,11 +2625,11 @@
                         "type":"Work",
                         "text":"Worked for"
                     }
-                ]
+                ],
+                "parent":"g4"
             },
             {
                 "displayName":"Sean Kelly",
-                "fullName":"Sean Kelly",
                 "id":"136",
                 "summary":"Crewmate on the Tundra who was left behind on it.",
                 "status":"Dead",
@@ -2743,11 +2639,11 @@
                         "type":"Work",
                         "text":"Worked for"
                     }
-                ]
+                ],
+                "parent":"g4"
             },
             {
                 "displayName":"Kim Duong",
-                "fullName":"Kim Duong",
                 "id":"137",
                 "summary":"Crewmate of the Tundra who told Carlita Sloane it wasn't an easy choice.",
                 "relationships":[
@@ -2756,11 +2652,11 @@
                         "type":"Work",
                         "text":"Worked for"
                     }
-                ]
+                ],
+                "parent":"g4"
             },
             {
                 "displayName":"Nathaniel Lukas",
-                "fullName":"Nathaniel Lukas",
                 "id":"138",
                 "summary":"Member of the Lukas family who owns the Tundra.",
                 "alignment":"Lukas Family",
@@ -2799,7 +2695,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Lionel Elliott",
-                "fullName":"Lionel Elliott",
                 "id":"139",
                 "summary":"Teacher of a very strange anatomy class.",
                 "relationships":[
@@ -2819,77 +2714,75 @@
             },
             {
                 "displayName":"Elena Bower",
-                "fullName":"Elena Bower",
                 "id":"140",
                 "summary":"Admissions officer at King's College.",
                 "alignment":"None"
             },
             {
                 "displayName":"Erika Mustermann",
-                "fullName":"Erika Mustermann",
                 "id":"141",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g5"
             },
             {
                 "displayName":"Jan Novak",
-                "fullName":"Jan Novak",
                 "id":"142",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g5"
             },
             {
                 "displayName":"Piotr Petrov",
-                "fullName":"Piotr Petrov",
                 "id":"143",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g5"
             },
             {
                 "displayName":"Pavel Petrov",
-                "fullName":"Pavel Petrov",
                 "id":"144",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g5"
             },
             {
                 "displayName":"John Doe",
-                "fullName":"John Doe",
                 "id":"145",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g5"
             },
             {
                 "displayName":"Fulan al-Fulani",
-                "fullName":"Fulan al-Fulani",
                 "id":"146",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g5"
             },
             {
                 "displayName":"Juan Pérez",
-                "fullName":"Juan Pérez",
                 "id":"147",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g5"
             },
             {
                 "displayName":"Laura Gill",
-                "fullName":"Laura Gill",
                 "id":"148",
                 "summary":"Medical professor at King's College.",
                 "relationships":[
@@ -2902,7 +2795,6 @@
             },
             {
                 "displayName":"Rashid Sadana",
-                "fullName":"Rashid Sadana",
                 "id":"149",
                 "summary":"Professor who killed himself after teaching anatomy.",
                 "status":"Dead",
@@ -2944,7 +2836,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Harold Silvana",
-                "fullName":"Harold Silvana",
                 "id":"150",
                 "summary":"Architectural restorer in London.",
                 "relationships":[
@@ -2972,7 +2863,6 @@
             },
             {
                 "displayName":"Rachael Turley",
-                "fullName":"Rachael Turley",
                 "id":"151",
                 "summary":"Does the marble work for Harold Silvana",
                 "relationships":[
@@ -2985,7 +2875,6 @@
             },
             {
                 "displayName":"Alfred Bartlett",
-                "fullName":"Alfred Bartlett",
                 "id":"152",
                 "summary":"Did the water systems for Harold Silvana.",
                 "status":"Dead",
@@ -3030,7 +2919,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Nicole Baxter",
-                "fullName":"Nicole Baxter",
                 "id":"153",
                 "summary":"Funeral director at Baxter and Gordon.",
                 "relationships":[
@@ -3058,7 +2946,6 @@
             },
             {
                 "displayName":"George Baxter",
-                "fullName":"George Baxter",
                 "id":"154",
                 "summary":"Director of Baxter and Gordon funeral services.",
                 "relationships":[
@@ -3076,7 +2963,6 @@
             },
             {
                 "displayName":"William Gordon",
-                "fullName":"William Gordon",
                 "id":"155",
                 "summary":"Former director of Baxter and Gordon funeral services.",
                 "status":"Dead",
@@ -3090,7 +2976,6 @@
             },
             {
                 "displayName":"Hannah Ramirez",
-                "fullName":"Hannah Ramirez",
                 "id":"156",
                 "summary":"Former director of Ivy Medows care home.",
                 "relationships":[
@@ -3103,7 +2988,6 @@
             },
             {
                 "displayName":"Alenka Kozel",
-                "fullName":"Alenka Kozel",
                 "id":"157",
                 "summary":"Nurse at Ivy Medows.",
                 "status":"Dead",
@@ -3127,7 +3011,6 @@
             },
             {
                 "displayName":"Bertrand Miller",
-                "fullName":"Bertrand Miller",
                 "id":"158",
                 "summary":"Patient at Ivy Medows.",
                 "status":"Dead",
@@ -3141,7 +3024,6 @@
             },
             {
                 "displayName":"Josh",
-                "fullName":"Josh",
                 "id":"159",
                 "summary":"Funeral director at Baxter and Gordon.",
                 "status":"Dead",
@@ -3155,7 +3037,6 @@
             },
             {
                 "displayName":"John Amherst",
-                "fullName":"John Amherst",
                 "id":"160",
                 "summary":"New director of Ivy Medows.",
                 "status":"Dead",
@@ -3190,7 +3071,6 @@
             },
             {
                 "displayName":"Jason North",
-                "fullName":"Jason North",
                 "id":"161",
                 "summary":"Man who disrupted a strange circle and lost everything.",
                 "status":"Dead",
@@ -3216,7 +3096,6 @@
             },
             {
                 "displayName":"Ethan North",
-                "fullName":"Ethan North",
                 "id":"162",
                 "summary":"Formerly missing son of Jason North.",
                 "relationships":[
@@ -3234,7 +3113,6 @@
             },
             {
                 "displayName":"Lucy North",
-                "fullName":"Lucy North",
                 "id":"163",
                 "summary":"Wife of North",
                 "status":"Dead",
@@ -3261,7 +3139,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Andre Ramao",
-                "fullName":"Andre Ramao",
                 "id":"164",
                 "summary":"Antiques dealer who started losing things.",
                 "relationships":[
@@ -3295,7 +3172,6 @@
             },
             {
                 "displayName":"Charlie Miller",
-                "fullName":"Charlie Miller",
                 "id":"165",
                 "summary":"Antiques dealer who did time for working with Salesa.",
                 "relationships":[
@@ -3308,7 +3184,6 @@
             },
             {
                 "displayName":"David Ramao",
-                "fullName":"David Ramao",
                 "id":"166",
                 "summary":"Husband of Andre, who was lost.",
                 "status":"Unknown",
@@ -3382,7 +3257,7 @@
                 "id":"5",
                 "status":"Unknown",
                 "mindset":"Afraid",
-                "summary":"Researcher for the Magnus Institute. Something strage happened to her beneath the archives.",
+                "summary":"Researcher for the Magnus Institute. Something strange happened to her beneath the archives.",
                 "relationships":[
                     {
                         "targetId":"0",
@@ -3394,7 +3269,6 @@
             },
             {
                 "displayName":"Not-Sasha",
-                "fullName":"Not-Sasha",
                 "id":"167",
                 "wikiLink":"Not-Sasha",
                 "summary":"Something that is NOT Sasha.",
@@ -3405,7 +3279,8 @@
                         "type":"Other",
                         "text":"Did something to"
                     }
-                ]
+                ],
+                "parent":"g0"
             },
             {
                 "id":"37",
@@ -3530,7 +3405,6 @@
             },
             {
                 "displayName":"Jeremy Bentham",
-                "fullName":"Jeremy Bentham",
                 "id":"168",
                 "summary":"A philosopher who came up with the idea of the Panopticon.",
                 "status":"Dead",
@@ -3554,7 +3428,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Jennifer Ling",
-                "fullName":"Jennifer Ling",
                 "id":"169",
                 "summary":"Writer who recorded and listened to Grifter's Bone.",
                 "status":"Dead",
@@ -3576,18 +3449,17 @@
                         "type":"Other",
                         "text":"Assulted"
                     }
-                ]
+                ],
+                "parent":"g6"
             },
             {
                 "displayName":"Alfred Grifter",
-                "fullName":"Alfred Grifter",
                 "id":"170",
                 "summary":"Band leader for Grifter's Bone.",
                 "alignment":"None"
             },
             {
                 "displayName":"Tommy Moncreef",
-                "fullName":"Tommy Moncreef",
                 "id":"171",
                 "summary":"Leader of the Earful.com team.",
                 "relationships":[
@@ -3597,25 +3469,25 @@
                         "text":"Friends with",
                         "feeling":"Good"
                     }
-                ]
+                ],
+                "parent":"g6"
             },
             {
                 "displayName":"Mike Baker",
-                "fullName":"Mike Baker",
                 "id":"172",
                 "summary":"Employee at Earful.com.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g6"
             },
             {
                 "displayName":"Lee Kipple",
-                "fullName":"Lee Kipple",
                 "id":"173",
                 "summary":"Employee at Earful.com.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g6"
             },
             {
                 "displayName":"Agatha Norrell",
-                "fullName":"Agatha Norrell",
                 "id":"174",
                 "summary":"Neighbor of Jennifer Ling.",
                 "status":"Coma",
@@ -3629,7 +3501,6 @@
             },
             {
                 "displayName":"Albert Sands",
-                "fullName":"Albert Sands",
                 "id":"175",
                 "summary":"Man who died listening to Grifter's Bone.",
                 "status":"Dead",
@@ -3665,7 +3536,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Basira Hussain",
-                "fullName":"Basira Hussain",
                 "id":"176",
                 "summary":"Sectioned police officer who went to the Magnus Institute.",
                 "relationships":[
@@ -3679,26 +3549,26 @@
                         "type":"Work",
                         "text":"Partner of"
                     }
-                ]
+                ],
+                "parent":"g7"
             },
             {
                 "displayName":"Richard Carver",
-                "fullName":"Richard Carver",
                 "id":"177",
                 "summary":"Police officer who dealt with a lot of weirdness.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g7"
             },
             {
                 "displayName":"John Spencer",
-                "fullName":"John Spencer",
                 "id":"178",
                 "summary":"Police officer who died strangely.",
                 "status":"Dead",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g7"
             },
             {
                 "displayName":"Diego Molina",
-                "fullName":"Diego Molina",
                 "id":"179",
                 "summary":"Arsonist who was terribly burned, and also really hot (literally).",
                 "status":"Dead",
@@ -3715,14 +3585,15 @@
                         "type":"Work",
                         "text":"Partner of"
                     }
-                ]
+                ],
+                "parent":"g7"
             },
             {
                 "displayName":"Harry Altman",
-                "fullName":"Harry Altman",
                 "id":"181",
                 "summary":"Sectioned police officer.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g7"
             },
             {
                 "id":"0",
@@ -3770,7 +3641,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Yuri Utkin",
-                "fullName":"Yuri Utkin",
                 "id":"182",
                 "summary":"Person who went to the Circus of the Other as a boy.",
                 "relationships":[
@@ -3788,7 +3658,6 @@
             },
             {
                 "displayName":"Ivan Utkin",
-                "fullName":"Ivan Utkin",
                 "id":"183",
                 "summary":"Person who went to the Circus of the Other as a boy, and had a nasty scare.",
                 "status":"Dead",
@@ -3802,7 +3671,6 @@
             },
             {
                 "displayName":"Piotr",
-                "fullName":"Piotr",
                 "id":"184",
                 "summary":"Broke his leg when he was a child.",
                 "relationships":[
@@ -3855,7 +3723,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Thomas Neill",
-                "fullName":"Thomas Neill",
                 "id":"185",
                 "summary":"Malaria researcher who worked on fake blood.",
                 "relationships":[
@@ -3869,7 +3736,6 @@
             },
             {
                 "displayName":"Neil Thompson",
-                "fullName":"Neil Thompson",
                 "id":"186",
                 "summary":"Researcher of malaria who ran out of funds.",
                 "status":"Dead",
@@ -3900,7 +3766,6 @@
             },
             {
                 "displayName":"John Snow",
-                "fullName":"John Snow",
                 "id":"187",
                 "summary":"Old epidemiologist who laid the group work for germ theory.",
                 "status":"Dead",
@@ -3908,7 +3773,6 @@
             },
             {
                 "displayName":"George Larson",
-                "fullName":"George Larson",
                 "id":"188",
                 "summary":"Research assistant who accidentally dropped a bloodish bag.",
                 "status":"Dead",
@@ -3928,7 +3792,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Herbert Knox",
-                "fullName":"Herbert Knox",
                 "id":"189",
                 "summary":"Antique book seller who came into possession of a lightner they would later sell.",
                 "relationships":[
@@ -3966,7 +3829,6 @@
             },
             {
                 "displayName":"Kirstin Bowman",
-                "fullName":"Kirstin Bowman",
                 "id":"190",
                 "summary":"Dead antique book seller who had a Lightner.",
                 "status":"Dead",
@@ -3998,7 +3860,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Helen Richardson",
-                "fullName":"Helen Richardson",
                 "id":"191",
                 "summary":"Real estate agent",
                 "status":"Unknown",
@@ -4019,7 +3880,6 @@
             },
             {
                 "displayName":"Adrian Lombardi",
-                "fullName":"Adrian Lombardi",
                 "id":"192",
                 "summary":"Man who was supposed to come to a house showing.",
                 "relationships":[
@@ -4065,7 +3925,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Andrea Nunis",
-                "fullName":"Andrea Nunis",
                 "id":"193",
                 "summary":"World traveler who went into the incomprehensible Genoa market.",
                 "relationships":[
@@ -4084,7 +3943,6 @@
             },
             {
                 "displayName":"Ethan Taylor",
-                "fullName":"Ethan Taylor",
                 "id":"194",
                 "summary":"Traveler who went missing in the mysterious Genoa crowd.",
                 "status":"Unknown",
@@ -4132,7 +3990,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Gregory Pryor",
-                "fullName":"Gregory Pryor",
                 "id":"195",
                 "summary":"Former PI who incidentally investigated Jared Hopworth.",
                 "relationships":[
@@ -4146,7 +4003,6 @@
             },
             {
                 "displayName":"Nicola Laredo",
-                "fullName":"Nicola Laredo",
                 "id":"196",
                 "summary":"Woman who was trying to divorce her husband.",
                 "relationships":[
@@ -4166,7 +4022,6 @@
             },
             {
                 "displayName":"Hector Laredo",
-                "fullName":"Hector Laredo",
                 "id":"197",
                 "summary":"Husband who worked as a drug mule for the mafia.",
                 "relationships":[
@@ -4195,7 +4050,6 @@
             },
             {
                 "displayName":"Harry Gough",
-                "fullName":"Harry Gough",
                 "id":"198",
                 "summary":"Man found dead under the floor of Jared Hopworth's butcher shop.",
                 "status":"Dead",
@@ -4203,7 +4057,6 @@
             },
             {
                 "displayName":"James Wright",
-                "fullName":"James Wright",
                 "id":"199",
                 "summary":"Former head of the Magnus Institute, until his death.",
                 "status":"Dead",
@@ -4227,7 +4080,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Sampson Kempthrone",
-                "fullName":"Sampson Kempthrone",
                 "id":"200",
                 "summary":"",
                 "status":"Dead",
@@ -4259,7 +4111,6 @@
             },
             {
                 "displayName":"George Gilbert Scott",
-                "fullName":"George Gilbert Scott",
                 "id":"201",
                 "summary":"",
                 "status":"Dead",
@@ -4285,7 +4136,6 @@
             },
             {
                 "displayName":"Henry Roberts",
-                "fullName":"Henry Roberts",
                 "id":"202",
                 "summary":"",
                 "status":"Dead",
@@ -4305,7 +4155,6 @@
             },
             {
                 "displayName":"William Bonython Moffatt",
-                "fullName":"William Bonython Moffatt",
                 "id":"203",
                 "summary":"",
                 "status":"Dead",
@@ -4341,7 +4190,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Antonia Hayley",
-                "fullName":"Antonia Hayley",
                 "id":"204",
                 "summary":"Diver who found something unspeakably vast.",
                 "mindset":"Traumatized",
@@ -4355,7 +4203,6 @@
             },
             {
                 "displayName":"Morten Kemp",
-                "fullName":"Morten Kemp",
                 "id":"205",
                 "summary":"Captain of a salvage ship that found something for Simon Fairchild.",
                 "relationships":[
@@ -4379,7 +4226,6 @@
             },
             {
                 "displayName":"Simon Fairchild",
-                "fullName":"Simon Fairchild",
                 "id":"90",
                 "summary":"Man who puts people in situations with REALLY big things.",
                 "relationships":[
@@ -4392,7 +4238,6 @@
             },
             {
                 "displayName":"Julio Hernandez",
-                "fullName":"Julio Hernandez",
                 "id":"206",
                 "summary":"Diver who went down with Antonia Hayley and never came back.",
                 "status":"Unknown",
@@ -4412,7 +4257,6 @@
         "episodeCharacters":[
             {
                 "displayName":"Philip Brown",
-                "fullName":"Philip Brown",
                 "id":"207",
                 "summary":"",
                 "relationships":[
@@ -4432,7 +4276,8 @@
                         "text":"Ex-husband of",
                         "feeling":"Regret"
                     }
-                ]
+                ],
+                "parent":"g9"
             },
             {
                 "id":"49",
@@ -4448,20 +4293,19 @@
             },
             {
                 "displayName":"Ivan Ilich",
-                "fullName":"Ivan Ilich",
                 "id":"208",
-                "summary":"Prisoner at Wakefield who tried to beat up Robert Montauk."
+                "summary":"Prisoner at Wakefield who tried to beat up Robert Montauk.",
+                "parent":"g9"
             },
             {
                 "displayName":"Dave Harrington",
-                "fullName":"Dave Harrington",
                 "id":"209",
                 "summary":"Prisoner at Wakefield who would spread fake gossip.",
-                "alignment":"None"
+                "alignment":"None",
+                "parent":"g9"
             },
             {
                 "displayName":"Pete Gordo",
-                "fullName":"Pete Gordo",
                 "id":"210",
                 "summary":"Prison employee who interacted with the living dark.",
                 "relationships":[
@@ -4470,7 +4314,8 @@
                         "type":"Work",
                         "text":"Coworkers with"
                     }
-                ]
+                ],
+                "parent":"g9"
             },
             {
                 "id":"50",
@@ -4486,7 +4331,6 @@
             },
             {
                 "displayName":"Caroline Brodie",
-                "fullName":"Caroline Brodie",
                 "id":"211",
                 "summary":"Ex-wife of Philip Brown who left him due to abuse.",
                 "relationships":[
@@ -4500,7 +4344,6 @@
             },
             {
                 "displayName":"Monster of darkness",
-                "fullName":"Monster of darkness",
                 "id":"212",
                 "summary":"Something that came in the dark to Wakefield Prison and killed Robert Montauk.",
                 "type":"Unknown",

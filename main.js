@@ -408,16 +408,21 @@ function setUpGraph(graphIndex) {
                     let status = eventData.status ? eventData.status : "Alive";
                     let mindset = eventData.mindset ? eventData.mindset : "Unknown";
                     let summary = eventData.summary;
-                    let nameLine = `<p class="fullName">${fullName}</p>`
+                    let nameLine = `<p class="displayName">${displayName}</p>`;
                     if (eventData.wikiLink) {
                         nameLine = `<a href="https://the-magnus-archives.fandom.com/wiki/${eventData.wikiLink}">` + nameLine + "</a>"
+                    }
+
+                    let fullNameLine = "";
+                    if (eventData.fullName) {
+                        fullNameLine = `<p class="fullName">${fullName}</p>`;
                     }
 
                     content.innerHTML = 
                     `<div class="popper-node-container"> 
                             <div class="popper-node-title">
-                                <p class="displayName">${displayName}</p>
                                 ${nameLine}
+                                ${fullNameLine}
                             </div>
                             <hr>
                             <i>${type}, ${status}</i>

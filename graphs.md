@@ -9,6 +9,7 @@ Each episode is based on the information available by the end of the episode.
 ## Field description
 ### Character
 Display name: The name to be displayed. This should be a shorter version of the name that listeners would know, such as "Jon" for "Jonathan Simms"
+ - *Default: Full name*
 Full name: The full name of the character. For characters with many names, one is picked and others may be listed in the summary.
 Id: unique number that identifys this character within the program. Never changes, and is based on internal use only (though generally is sequential by appearance).
 Wiki link: Link to The Magnus Archives fandom wiki, only the extension (the thing after https://the-magnus-archives.fandom.com/wiki/)
@@ -44,38 +45,38 @@ Member ids: List of character ids that are members of this group.
 ## Templates
 ### Character
 ```{
-    "displayName": "",
-    "fullName": "",
-    "id": "",
-    "wikiLink": "",
-    "imageFile": "",
-    "type": "",
-    "status": "",
-    "mindset": "",
-    "summary": "",
-    "alignment": "",
-    "relationships": [
+    "displayName":"",
+    "fullName":"",
+    "id":"",
+    "wikiLink":"",
+    "imageFile":"",
+    "type":"",
+    "status":"",
+    "mindset":"",
+    "summary":"",
+    "alignment":"",
+    "relationships":[
         {
-            "targetId": "",
-            "type": "",
-            "text": "",
-            "feeling": ""
+            "targetId":"",
+            "type":"",
+            "text":"",
+            "feeling":""
         }
     ]
 }```
 ### Group
 ```{
-    "displayName": "",
-    "fullName": "",
-    "groupId": "",
-    "wikiLink": "",
-    "imageFile": "",
-    "summary": "",
-    "type": "",
-    "relationType": "",
-    "feeling": "",
-    "alignment": "",
-    "memberIds": [
+    "displayName":"",
+    "fullName":"",
+    "groupId":"",
+    "wikiLink":"",
+    "imageFile":"",
+    "summary":"",
+    "type":"",
+    "relationType":"",
+    "feeling":"",
+    "alignment":"",
+    "memberIds":[
         ""
     ]
 }```
