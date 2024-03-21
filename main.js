@@ -121,6 +121,7 @@ function formatGraph(graphList) {
 
                 // If there is already a version of this completed, mark it nondirectional
                 if (complementaryRelations.hasOwnProperty(potentialId) && complementaryRelations[potentialId] == relation.type) {
+                    completedRelations[inverseId].data.secondText = relation.text;
                     completedRelations[inverseId].data.directed = false;
                     continue;
                 }
@@ -165,8 +166,7 @@ function formatGraph(graphList) {
 
             // If this entry has no relationships, skip it
             if (group.hasOwnProperty('relationships') && group.relationships.length > 0) {
-                for (const relation of group.relationships)
-                {
+                for (const relation of group.relationships) {
                     // The id of this entry, should it go through
                     let potentialId = `${cyId}-${relation.targetId}`;
                     let inverseId = `${relation.targetId}-${cyId}`;
@@ -179,8 +179,7 @@ function formatGraph(graphList) {
 
                     // Add the inverse to the list of inverse relations
                     complementaryRelations[inverseId] = relation.type;
-                    completedRelations[potentialId] = 
-                    {
+                    completedRelations[potentialId] = {
                         data: {
                             id: potentialId,
                             source: cyId,
@@ -379,28 +378,40 @@ function setUpGraph(graphIndex) {
 
                 // If this is a relationship element
                 // BUG this is broken with groups, should probably handle them totally differently
-                if (/^\d+-\d+$/.test(event.target.id())) {
-                    let source = data.elements[parseInt(eventData.source)].data.displayName;
-                    let target = data.elements[parseInt(eventData.target)].data.displayName;
+                if (event.target.id().indexOf('-') >= 0) {
                     // No clue how I'm going to do this
                     // But when you do, keep in mind that the default value is "Unknown"
                     // let feeling = data;
 
                     let relationshipText = eventData.text;
                     if (relationshipText.indexOf('%') >= 0) {
-                        relationshipText.replace("%s", target);
+                        relationshipText = relationshipText.replace("%s", target);
                     }
                     else {
                         relationshipText += " " + target;
                     }
 
+                    let secondLine = "";
+                    if (!eventData.directed) {
+                        let secondRelationshipText = eventData.secondText;
+                        if (secondRelationshipText.indexOf('%') >= 0) {
+                            secondRelationshipText = secondRelationshipText.replace("%s", source);
+                        }
+                        else {
+                            secondRelationshipText += " " + source;
+                        }
+                        secondLine = `<hr><p>${target}: ${secondRelationshipText}</p>`;
+                    }
+
                     content.innerHTML = 
                     `<div class="popper-relationship-container">
-                            <p>${source}: ${relationshipText}</p>
-                        </div>`;
+                        <p>${source}: ${relationshipText}</p>
+                        ${secondLine}
+                    </div>`;
                 }
                 // Otherwise it is a normal one
                 else {
+                    // BUG this doesn't work for group elements
                     let displayName = eventData.displayName;
                     let fullName = eventData.fullName;
                     // Setting defaults
