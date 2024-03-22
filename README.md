@@ -33,3 +33,5 @@ Connect Nicole Baxter with Julia and Trevor on episode 107 (or add the ability t
 Connect Oliver Banks with Jennifer Ling after Oliver's statement (or add the ability to combine people and put the odd man into episode 42)
 
 Connect King to Ivy Medows director (through father) on episode 106
+
+Mark the hospitaller as being of the Magnus Institute/Eye in episode 191

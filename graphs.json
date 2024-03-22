@@ -39,8 +39,7 @@
                         "type":"Work",
                         "text":"Boss of"
                     }
-                ],
-                "parent":"g0"
+                ]
             },
             {
                 "displayName":"Elias",
@@ -90,8 +89,7 @@
                         "type":"Work",
                         "text":"Works for"
                     }
-                ],
-                "parent":"g0"
+                ]
             },
             {
                 "displayName":"Tim",
@@ -105,8 +103,7 @@
                         "type":"Work",
                         "text":"Works for"
                     }
-                ],
-                "parent":"g0"
+                ]
             },
             {
                 "displayName":"Sasha",
@@ -120,8 +117,7 @@
                         "type":"Work",
                         "text":"Works for"
                     }
-                ],
-                "parent":"g0"
+                ]
             },
             {
                 "displayName":"Nathan Watts",
@@ -165,16 +161,14 @@
                         "type":"Acquaintances",
                         "text":"Classmates with"
                     }
-                ],
-                "parent":"g1"
+                ]
             },
             {
                 "displayName":"Jessica McEwen",
                 "id":"9",
                 "status":"Unknown",
                 "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None",
-                "parent":"g1"
+                "alignment":"None"
             },
             {
                 "displayName":"Sarah Baldwin",
@@ -182,32 +176,28 @@
                 "wikiLink":"Sarah_Baldwin",
                 "status":"Unknown",
                 "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None",
-                "parent":"g1"
+                "alignment":"None"
             },
             {
                 "displayName":"Daniel Rawlings",
                 "id":"11",
                 "status":"Unknown",
                 "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None",
-                "parent":"g1"
+                "alignment":"None"
             },
             {
                 "displayName":"Ashley Dobson",
                 "id":"12",
                 "status":"Unknown",
                 "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None",
-                "parent":"g1"
+                "alignment":"None"
             },
             {
                 "displayName":"Megan Shaw",
                 "id":"13",
                 "status":"Unknown",
                 "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None",
-                "parent":"g1"
+                "alignment":"None"
             },
             {
                 "displayName":"The Anglerfish",
@@ -521,22 +511,19 @@
                 "displayName":"Kieran Woodward",
                 "id":"30",
                 "summary":"Bin man in London who reported some suspicious trash to the Institute.",
-                "alignment":"None",
-                "parent":"g2"
+                "alignment":"None"
             },
             {
                 "displayName":"David Atayah",
                 "id":"31",
                 "summary":"Bin man in London.",
-                "alignment":"None",
-                "parent":"g2"
+                "alignment":"None"
             },
             {
                 "displayName":"Matthew Wilkinson",
                 "id":"32",
                 "summary":"Bin man in London.",
-                "alignment":"None",
-                "parent":"g2"
+                "alignment":"None"
             },
             {
                 "displayName":"Alan Parfitt",
@@ -544,15 +531,13 @@
                 "status":"Unknown",
                 "mindset":"Obsessed",
                 "summary":"Bin man who became obsessed with a house that eventually disappeared him.",
-                "alignment":"None",
-                "parent":"g2"
+                "alignment":"None"
             },
             {
                 "displayName":"Guy Wardman",
                 "id":"34",
                 "summary":"Replacement after Alan went crazy.",
-                "alignment":"None",
-                "parent":"g2"
+                "alignment":"None"
             }
         ],
         "episodeGroups":[
@@ -2299,8 +2284,7 @@
                         "text":"Friend of",
                         "feeling":"Good"
                     }
-                ],
-                "parent":"g3"
+                ]
             },
             {
                 "displayName":"Andy Caine",
@@ -2314,8 +2298,7 @@
                         "text":"Works with",
                         "feeling":"Good"
                     }
-                ],
-                "parent":"g3"
+                ]
             },
             {
                 "displayName":"Peter Warhol",
@@ -2329,8 +2312,7 @@
                         "text":"Works with",
                         "feeling":"Good"
                     }
-                ],
-                "parent":"g3"
+                ]
             },
             {
                 "displayName":"Antonia Farron",
@@ -2344,8 +2326,7 @@
                         "text":"Works with",
                         "feeling":"Good"
                     }
-                ],
-                "parent":"g3"
+                ]
             },
             {
                 "displayName":"Georgie",
@@ -2594,8 +2575,7 @@
                         "type":"Work",
                         "text":"Worked for"
                     }
-                ],
-                "parent":"g4"
+                ]
             },
             {
                 "displayName":"Peter Lukas",
@@ -2608,8 +2588,7 @@
                         "type":"Work",
                         "text":"Related to"
                     }
-                ],
-                "parent":"g4"
+                ]
             },
             {
                 "displayName":"Tadeas Dahl",
@@ -2621,8 +2600,7 @@
                         "type":"Work",
                         "text":"Worked for"
                     }
-                ],
-                "parent":"g4"
+                ]
             },
             {
                 "displayName":"Sean Kelly",
@@ -2635,8 +2613,7 @@
                         "type":"Work",
                         "text":"Worked for"
                     }
-                ],
-                "parent":"g4"
+                ]
             },
             {
                 "displayName":"Kim Duong",
@@ -2648,8 +2625,7 @@
                         "type":"Work",
                         "text":"Worked for"
                     }
-                ],
-                "parent":"g4"
+                ]
             },
             {
                 "displayName":"Nathaniel Lukas",
@@ -2719,8 +2695,7 @@
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None",
-                "parent":"g5"
+                "alignment":"None"
             },
             {
                 "displayName":"Jan Novak",
@@ -2728,8 +2703,7 @@
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None",
-                "parent":"g5"
+                "alignment":"None"
             },
             {
                 "displayName":"Piotr Petrov",
@@ -2737,8 +2711,7 @@
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None",
-                "parent":"g5"
+                "alignment":"None"
             },
             {
                 "displayName":"Pavel Petrov",
@@ -2746,8 +2719,7 @@
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None",
-                "parent":"g5"
+                "alignment":"None"
             },
             {
                 "displayName":"John Doe",
@@ -2755,8 +2727,7 @@
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None",
-                "parent":"g5"
+                "alignment":"None"
             },
             {
                 "displayName":"Fulan al-Fulani",
@@ -2764,8 +2735,7 @@
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None",
-                "parent":"g5"
+                "alignment":"None"
             },
             {
                 "displayName":"Juan Pérez",
@@ -2773,8 +2743,7 @@
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
                 "mindset":"Happy",
-                "alignment":"None",
-                "parent":"g5"
+                "alignment":"None"
             },
             {
                 "displayName":"Laura Gill",
@@ -3273,8 +3242,7 @@
                         "type":"Other",
                         "text":"Did something to"
                     }
-                ],
-                "parent":"g0"
+                ]
             },
             {
                 "id":"37",
@@ -3443,8 +3411,7 @@
                         "type":"Other",
                         "text":"Assulted"
                     }
-                ],
-                "parent":"g6"
+                ]
             },
             {
                 "displayName":"Alfred Grifter",
@@ -3463,22 +3430,19 @@
                         "text":"Friends with",
                         "feeling":"Good"
                     }
-                ],
-                "parent":"g6"
+                ]
             },
             {
                 "displayName":"Mike Baker",
                 "id":"172",
                 "summary":"Employee at Earful.com.",
-                "alignment":"None",
-                "parent":"g6"
+                "alignment":"None"
             },
             {
                 "displayName":"Lee Kipple",
                 "id":"173",
                 "summary":"Employee at Earful.com.",
-                "alignment":"None",
-                "parent":"g6"
+                "alignment":"None"
             },
             {
                 "displayName":"Agatha Norrell",
@@ -3542,23 +3506,20 @@
                         "type":"Work",
                         "text":"Partner of"
                     }
-                ],
-                "parent":"g7"
+                ]
             },
             {
                 "displayName":"Richard Carver",
                 "id":"177",
                 "summary":"Police officer who dealt with a lot of weirdness.",
-                "alignment":"None",
-                "parent":"g7"
+                "alignment":"None"
             },
             {
                 "displayName":"John Spencer",
                 "id":"178",
                 "summary":"Police officer who died strangely.",
                 "status":"Dead",
-                "alignment":"None",
-                "parent":"g7"
+                "alignment":"None"
             },
             {
                 "displayName":"Diego Molina",
@@ -3578,15 +3539,13 @@
                         "type":"Work",
                         "text":"Partner of"
                     }
-                ],
-                "parent":"g7"
+                ]
             },
             {
                 "displayName":"Harry Altman",
                 "id":"181",
                 "summary":"Sectioned police officer.",
-                "alignment":"None",
-                "parent":"g7"
+                "alignment":"None"
             },
             {
                 "id":"0",
@@ -4267,8 +4226,7 @@
                         "text":"Ex-husband of",
                         "feeling":"Regret"
                     }
-                ],
-                "parent":"g9"
+                ]
             },
             {
                 "id":"49",
@@ -4285,15 +4243,13 @@
             {
                 "displayName":"Ivan Ilich",
                 "id":"208",
-                "summary":"Prisoner at Wakefield who tried to beat up Robert Montauk.",
-                "parent":"g9"
+                "summary":"Prisoner at Wakefield who tried to beat up Robert Montauk."
             },
             {
                 "displayName":"Dave Harrington",
                 "id":"209",
                 "summary":"Prisoner at Wakefield who would spread fake gossip.",
-                "alignment":"None",
-                "parent":"g9"
+                "alignment":"None"
             },
             {
                 "displayName":"Pete Gordo",
@@ -4305,8 +4261,7 @@
                         "type":"Work",
                         "text":"Coworkers with"
                     }
-                ],
-                "parent":"g9"
+                ]
             },
             {
                 "id":"50",
@@ -4361,6 +4316,86 @@
                     "208",
                     "209",
                     "210"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"53",
+        "episodeName":"Crusader",
+        "episodeCharacters":[
+            {
+                "displayName":"Walter Heller",
+                "id":"213",
+                "summary":"Tank gunner in WWII who found a supernatual area.",
+                "status":"Dead",
+                "mindset":"Traumatized",
+                "relationships":[
+                    {
+                        "targetId":"214",
+                        "type":"Family",
+                        "text":"Brother of",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"218",
+                        "type":"Other",
+                        "text":"Discovered",
+                        "feeling":"Fear"
+                    }
+                ]
+            },
+            {
+                "displayName":"Frances Heller",
+                "id":"214",
+                "summary":"Fighter in WWII that died in Arras.",
+                "status":"Dead",
+                "relationships":[
+                    {
+                        "targetId":"213",
+                        "type":"Family",
+                        "text":"Brother of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Frank Malloy",
+                "id":"215",
+                "summary":"Commander of a tank in WWII who was captured by Italian forces."
+            },
+            {
+                "displayName":"Ralph McCulloch",
+                "id":"216",
+                "summary":"Tank driver in WWII who was captured by Italian forces."
+            },
+            {
+                "displayName":"Dicky",
+                "id":"217",
+                "mindset":"Afraid",
+                "summary":"Tank loader in WWII who died in a tank.",
+                "status":"Dead"
+            },
+            {
+                "displayName":"Hospitaller \"corpse\"",
+                "id":"218",
+                "summary":"Seemingly dead thing that might have been an archivist.",
+                "type":"Inhuman",
+                "status":"Dead"
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"WWII Tank crew",
+                "groupId":"10",
+                "summary":"Tank crew that had their tank destroyed in WWII.",
+                "type":"Mundane",
+                "relationType":"Work",
+                "feeling":"Good",
+                "memberIds":[
+                    "213",
+                    "215",
+                    "216",
+                    "217"
                 ]
             }
         ]
