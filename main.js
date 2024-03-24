@@ -383,6 +383,11 @@ function setUpGraph(graphIndex) {
                     // But when you do, keep in mind that the default value is "Unknown"
                     // let feeling = data;
 
+                    console.log([parseInt(eventData.target)]);
+
+                    let source = data.elements[parseInt(eventData.source)].data.displayName;
+                    let target = data.elements[parseInt(eventData.target)].data.displayName;
+
                     let relationshipText = eventData.text;
                     if (relationshipText.indexOf('%') >= 0) {
                         relationshipText = relationshipText.replace("%s", target);

@@ -4399,5 +4399,74 @@
                 ]
             }
         ]
+    },
+    {
+        "episodeNum":"54",
+        "episodeName":"Still Life",
+        "episodeCharacters":[
+            {
+                "displayName":"Alexander Scaplehorn",
+                "fullName":"",
+                "id":"219",
+                "wikiLink":"",
+                "imageFile":"",
+                "type":"",
+                "status":"",
+                "mindset":"Afraid",
+                "summary":"A tax inspector who escaped a supernatual interaction on the job.",
+                "alignment":"",
+                "relationships":[
+                    {
+                        "targetId":"220",
+                        "type":"Work",
+                        "text":"Inspected the shop of",
+                        "feeling":"Fear"
+                    }
+                ]
+            },
+            {
+                "displayName":"Daniel Rawlings",
+                "id":"220",
+                "status":"Unknown",
+                "summary":"Man who went missing and had his self changed.",
+                "relationships":[
+                    {
+                        "targetId":"18",
+                        "type":"Other",
+                        "text":"Knows"
+                    },
+                    {
+                        "targetId":"19",
+                        "type":"Other",
+                        "text":"Knows"
+                    },
+                    {
+                        "targetId":"219",
+                        "type":"Work",
+                        "text":"Gave a tour to"
+                    }
+                ]
+            },
+            {
+                "id":"18",
+                "relationships":[
+                    {
+                        "targetId":"220",
+                        "type":"Other",
+                        "text":"Knows"
+                    }
+                ]
+            },
+            {
+                "id":"19",
+                "relationships":[
+                    {
+                        "targetId":"220",
+                        "type":"Other",
+                        "text":"Knows"
+                    }
+                ]
+            }
+        ]
     }
 ]
