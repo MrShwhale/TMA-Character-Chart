@@ -2548,7 +2548,7 @@
             {
                 "displayName":"Arthur Nolan",
                 "id":"132",
-                "summary":"Landlord of Jane Prentiss. ",
+                "summary":"Landlord of Jane Prentiss.",
                 "status":"Dead",
                 "relationships":[
                     {
@@ -4406,15 +4406,9 @@
         "episodeCharacters":[
             {
                 "displayName":"Alexander Scaplehorn",
-                "fullName":"",
                 "id":"219",
-                "wikiLink":"",
-                "imageFile":"",
-                "type":"",
-                "status":"",
                 "mindset":"Afraid",
                 "summary":"A tax inspector who escaped a supernatual interaction on the job.",
-                "alignment":"",
                 "relationships":[
                     {
                         "targetId":"220",
@@ -4464,6 +4458,66 @@
                         "targetId":"220",
                         "type":"Other",
                         "text":"Knows"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"55",
+        "episodeName":"Pest Control",
+        "episodeCharacters":[
+            {
+                "displayName":"Jordan Kennedy",
+                "id":"221",
+                "mindset":"Afraid",
+                "summary":"Exterminator who had to destroy the nest of Jane Prentiss. Was almost killed by John Amherst when he tried to cleanse a house.",
+                "relationships":[
+                    {
+                        "targetId":"132",
+                        "type":"Work",
+                        "text":"Was called by",
+                        "feeling":"Afraid"
+                    }
+                ]
+            },
+            {
+                "displayName":"Laura Star",
+                "id":"222",
+                "summary":"Neighbor who called Jordan Kennedy to cleanse John Amherst's home.",
+                "relationships":[
+                    {
+                        "targetId":"221",
+                        "type":"Work",
+                        "text":"Called in"
+                    }
+                ]
+            },
+            {
+                "displayName":"Arthur Nolan",
+                "id":"132",
+                "status":"Dead",
+                "summary":"Landlord of Jane Prentiss. Had a flame scar and lit himself on fire to kill a wasp nest.",
+                "relationships":[
+                    {
+                        "targetId":"221",
+                        "type":"Work",
+                        "text":"Called in",
+                        "feeling":"Annoyed"
+                    }
+                ]
+            },
+            {
+                "displayName":"John Amherst",
+                "id":"160",
+                "type":"Inhuman",
+                "summary":"New director of Ivy Medows. Burned really easily and hates exterminators.",
+                "relationships":[
+                    {
+                        "targetId":"221",
+                        "type":"Other",
+                        "text":"Tried to kill",
+                        "feeling":"Hate"
                     }
                 ]
             }
