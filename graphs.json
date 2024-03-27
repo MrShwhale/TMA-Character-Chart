@@ -4301,6 +4301,28 @@
                         "text":"Killed"
                     }
                 ]
+            },
+            {
+                "displayName":"Tom",
+                "id":"232",
+                "summary":"Boyfriend of Not!Sasha who she goes to see on her long lunch breaks.",
+                "relationships":[
+                    {
+                        "targetId":"167",
+                        "type":"Friends",
+                        "text":"Boyfriend of"
+                    }
+                ]
+            },
+            {
+                "id":"167",
+                "relationships":[
+                    {
+                        "targetId":"232",
+                        "type":"Friends",
+                        "text":"Girlfriend of"
+                    }
+                ]
             }
         ],
         "episodeGroups":[
@@ -4716,26 +4738,8 @@
                 ]
             },
             {
-                "displayName":"Tom",
                 "id":"232",
-                "summary":"Real man who Jon has seen photos of. Looks like a stock photo person.",
-                "relationships":[
-                    {
-                        "targetId":"167",
-                        "type":"Friends",
-                        "text":"Boyfriend of"
-                    }
-                ]
-            },
-            {
-                "id":"167",
-                "relationships":[
-                    {
-                        "targetId":"232",
-                        "type":"Friends",
-                        "text":"Girlfriend of"
-                    }
-                ]
+                "summary":"Boyfriend of Not!Sasha who she goes to see on her long lunch breaks. Looks like a stock photo."
             }
         ]
     }
