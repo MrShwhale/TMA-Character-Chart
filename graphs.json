@@ -896,6 +896,7 @@
             {
                 "displayName":"Alard Dupont",
                 "id":"55",
+                "wikiLink":"Alard_Dupont",
                 "status":"Dead",
                 "summary":"A human killed by Trevor Herbert, who thought he was a vampire.",
                 "alignment":"None"
@@ -3231,7 +3232,7 @@
                 ]
             },
             {
-                "displayName":"Not-Sasha",
+                "displayName":"Not!Sasha",
                 "id":"167",
                 "wikiLink":"Not-Sasha",
                 "summary":"Something that is NOT Sasha.",
@@ -4518,6 +4519,221 @@
                         "type":"Other",
                         "text":"Tried to kill",
                         "feeling":"Hate"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"56",
+        "episodeName":"Children of the night",
+        "episodeCharacters":[
+            {
+                "displayName":"Trevor Herbert",
+                "id":"51",
+                "status":"Dead",
+                "mindset":"Obsessed",
+                "summary":"Self proclaimed vampire hunter who died of cancer. He is obsessed with hunting vampires.",
+                "relationships":[
+                    {
+                        "targetId":"223",
+                        "type":"Friend",
+                        "text":"Friends with",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"224",
+                        "type":"Other",
+                        "text":"Killed",
+                        "feeling":"Hate"
+                    },
+                    {
+                        "targetId":"225",
+                        "type":"Other",
+                        "text":"Killed",
+                        "feeling":"Hate"
+                    },
+                    {
+                        "targetId":"226",
+                        "type":"Acquaintance",
+                        "text":"Knew of",
+                        "feeling":"Neutral"
+                    },
+                    {
+                        "targetId":"227",
+                        "type":"Other",
+                        "text":"Killed",
+                        "feeling":"Obsessed"
+                    }
+                ]
+            },
+            {
+                "displayName":"Stanley Kubrick",
+                "fullName":"\"Stanley Kubrick\"",
+                "id":"223",
+                "summary":"Kid who knew Alard Dupont. Might be named Stanley Kubrick, or it could be a bit.",
+                "relationships":[
+                    {
+                        "targetId":"55",
+                        "type":"Acquaintance",
+                        "text":"Bought drugs from",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"51",
+                        "type":"Friend",
+                        "text":"Friends with",
+                        "feeling":"Unknown"
+                    }
+                ]
+            },
+            {
+                "displayName":"Alard Dupont",
+                "id":"55",
+                "relationships":[
+                    {
+                        "targetId":"223",
+                        "type":"Acquaintance",
+                        "text":"Sold drugs"
+                    }
+                ]
+            },
+            {
+                "displayName":"Hannah Edwards",
+                "id":"224",
+                "summary":"Final (probably) vampire that Trevor Herbert killed."
+            },
+            {
+                "displayName":"Jane Lewis",
+                "id":"225",
+                "summary":"Vampire killed by Trevor Herbert who killed someone before Trevor could stop them."
+            },
+            {
+                "displayName":"Craig",
+                "id":"226",
+                "summary":"Homeless man who went out into the night."
+            },
+            {
+                "displayName":"Hollow Spider Woman",
+                "id":"227",
+                "type":"Inhuman",
+                "status":"Dead",
+                "summary":"Woman filled with spiders who lured homeless people into the night. Fought against Trevor Herbert and lost."
+            },
+            {
+                "id":"3",
+                "summary":"Researcher for the Magnus Institute. Lied on his CV. Very worried about Jon."
+            }
+        ]
+    },
+    {
+        "episodeNum":"57",
+        "episodeName":"Personal Space",
+        "episodeCharacters":[
+            {
+                "displayName":"Carter Chilcott",
+                "id":"228",
+                "mindset":"Relieved",
+                "summary":"Crew member of the Daedalus who somehow experienced complete loneliness, away from the earth.",
+                "relationships":[
+                    {
+                        "targetId":"229",
+                        "type":"Work",
+                        "text":"Manned the spacecraft of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Conrad Lukas",
+                "id":"229",
+                "summary":"Man who ran an isolation experiment that went supernatually in space.",
+                "alignment":"Lukas Family",
+                "relationships":[
+                    {
+                        "targetId":"228",
+                        "type":"Work",
+                        "text":"Hired",
+                        "feeling":"Annoyed"
+                    },
+                    {
+                        "targetId":"230",
+                        "type":"Work",
+                        "text":"Hired"
+                    },
+                    {
+                        "targetId":"231",
+                        "type":"Work",
+                        "text":"Hired"
+                    }
+                ]
+            },
+            {
+                "displayName":"Yan Killbride",
+                "id":"230",
+                "summary":"Crew member of the Daedalus.",
+                "relationships":[
+                    {
+                        "targetId":"229",
+                        "type":"Work",
+                        "text":"Manned the spacecraft of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Manuela Dominguez",
+                "id":"231",
+                "summary":"Crew member of the Daedalus.",
+                "relationships":[
+                    {
+                        "targetId":"229",
+                        "type":"Work",
+                        "text":"Manned the spacecraft of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Nathaniel Lukas",
+                "id":"138",
+                "summary":"Member of the Lukas family who owns the Tundra. Also invested in the Daedalus.",
+                "relationships":[
+                    {
+                        "targetId":"229",
+                        "type":"Work",
+                        "text":"Invested in the work of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Simon Fairchild",
+                "id":"90",
+                "summary":"Man who puts people in situations with REALLY big things. Also invested in the Daedalus.",
+                "relationships":[
+                    {
+                        "targetId":"229",
+                        "type":"Work",
+                        "text":"Invested in the work of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Tom",
+                "id":"232",
+                "summary":"Real man who Jon has seen photos of. Looks like a stock photo person.",
+                "relationships":[
+                    {
+                        "targetId":"167",
+                        "type":"Friends",
+                        "text":"Boyfriend of"
+                    }
+                ]
+            },
+            {
+                "id":"167",
+                "relationships":[
+                    {
+                        "targetId":"232",
+                        "type":"Friends",
+                        "text":"Girlfriend of"
                     }
                 ]
             }
