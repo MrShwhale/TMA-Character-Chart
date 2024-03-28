@@ -4742,5 +4742,119 @@
                 "summary":"Boyfriend of Not!Sasha who she goes to see on her long lunch breaks. Looks like a stock photo."
             }
         ]
+    },
+    {
+        "episodeNum":"58",
+        "episodeName":"Trail Rations",
+        "episodeCharacters":[
+            {
+                "displayName":"Mrs. Carlisle",
+                "id":"233",
+                "status":"Dead",
+                "mindset":"Traumatized",
+                "summary":"Wife of Benjamin Carlisle who wrote a letter about what happened to them. Left her home behind for Benjamin.",
+                "relationships":[
+                    {
+                        "targetId":"234",
+                        "type":"Other",
+                        "text":"Member of %s's congregation",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"237",
+                        "type":"Other",
+                        "text":"Denied %s's proposal"
+                    },
+                    {
+                        "targetId":"235",
+                        "type":"Family",
+                        "text":"Wife of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Pastor Lawrence",
+                "id":"234",
+                "status":"Dead",
+                "summary":"Pastor who officiated the marriage of Benjamin Carlisle.",
+                "relationships":[
+                    {
+                        "targetId":"233",
+                        "type":"Other",
+                        "text":"Pastor of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Benjamin Carlisle",
+                "id":"235",
+                "status":"Dead",
+                "mindset":"Traumatized",
+                "summary":"Man who wanted to move to Oregan in 1845. Married a girl for more land and died on the way.",
+                "relationships":[
+                    {
+                        "targetId":"233",
+                        "type":"Family",
+                        "text":"Husband of"
+                    },
+                    {
+                        "targetId":"236",
+                        "type":"Other",
+                        "text":"Hired"
+                    }
+                ]
+            },
+            {
+                "displayName":"Eustace Wick",
+                "id":"236",
+                "status":"Dead",
+                "mindset":"Traumatized",
+                "summary":"Former Lutheran preist who ate people. Posed as a guide for Benjamin Carlisle.",
+                "relationships":[
+                    {
+                        "targetId":"235",
+                        "type":"Other",
+                        "text":"Killed"
+                    }
+                ]
+            },
+            {
+                "displayName":"Adam Hawthorne",
+                "id":"237",
+                "status":"Dead",
+                "summary":"Proposed to Mrs. Carlisle before she left Savannah.",
+                "relationships":[
+                    {
+                        "targetId":"233",
+                        "type":"Other",
+                        "text":"Proposed to"
+                    }
+                ]
+            },
+            {
+                "displayName":"Bruce",
+                "id":"238",
+                "status":"Dead",
+                "mindset":"Traumatized",
+                "summary":"Manager at Fort John. Not a very caring person.",
+                "relationships":[
+                    {
+                        "targetId":"235",
+                        "type":"Other",
+                        "text":"Warned %s of traveling",
+                        "feeling":"Indifferent"
+                    }
+                ]
+            },
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"3",
+                        "feeling":"Good"
+                    }
+                ]
+            }
+        ]
     }
 ]
