@@ -698,12 +698,12 @@
                     {
                         "targetId":"45",
                         "type":"Family",
-                        "text":"Adopted father to"
+                        "text":"Close familial relationship with"
                     },
                     {
-                        "targetId":"46",
+                        "targetId":"g3",
                         "type":"Family",
-                        "text":"Adopted father to"
+                        "text":"Adoptive father to"
                     }
                 ]
             },
@@ -735,7 +735,7 @@
                     {
                         "targetId":"43",
                         "type":"Family",
-                        "text":"Adopted daughter of"
+                        "text":"Close familial relationship with"
                     }
                 ]
             },
@@ -743,14 +743,7 @@
                 "displayName":"Henry White",
                 "id":"46",
                 "status":"Unknown",
-                "summary":"Child who disappeared from old Hilltop Road.",
-                "relationships":[
-                    {
-                        "targetId":"43",
-                        "type":"Family",
-                        "text":"Adopted son to"
-                    }
-                ]
+                "summary":"Child who disappeared from old Hilltop Road."
             },
             {
                 "displayName":"Edwin Burroughs",
@@ -762,6 +755,28 @@
                         "targetId":"44",
                         "type":"Acquaintances",
                         "text":"Acquaintances with",
+                        "feeling":"Good"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Hilltop Road Kids",
+                "groupId":"3",
+                "summary":"Kids adopted by Raymond Fielding who lived on Hilltop Road.",
+                "type":"Mundane",
+                "relationType":"Family",
+                "feeling":"Nuetral",
+                "memberIds":[
+                    "45",
+                    "46"
+                ],
+                "relationships":[
+                    {
+                        "targetId":"43",
+                        "type":"Family",
+                        "text":"Adopted by",
                         "feeling":"Good"
                     }
                 ]
@@ -925,6 +940,21 @@
                         "type":"Other",
                         "text":"Predicted the death of",
                         "feeling":"Sad"
+                    },
+                    {
+                        "targetId":"21",
+                        "type":"Friends",
+                        "text":"Ex-boyfriend of"
+                    }
+                ]
+            },
+            {
+                "id":"21",
+                "relationships":[
+                    {
+                        "targetId":"56",
+                        "type":"Friends",
+                        "text":"Ex-boyfriend of"
                     }
                 ]
             },
@@ -2379,7 +2409,7 @@
         "episodeGroups":[
             {
                 "displayName":"Ghost Hunt UK",
-                "groupId":"3",
+                "groupId":"4",
                 "summary":"The people behind Ghost Hunt UK.",
                 "type":"Mundane",
                 "relationType":"Work",
@@ -2645,7 +2675,7 @@
         "episodeGroups":[
             {
                 "displayName":"The Tundra",
-                "groupId":"4",
+                "groupId":"5",
                 "summary":"Some crew of the mysterious ship The Tundra.",
                 "type":"Mundane",
                 "relationType":"Work",
@@ -2677,7 +2707,7 @@
                         "feeling":"Frustrated"
                     },
                     {
-                        "targetId":"g4",
+                        "targetId":"g6",
                         "type":"Work",
                         "text":"Teacher of",
                         "feeling":"Afraid"
@@ -2769,7 +2799,7 @@
         "episodeGroups":[
             {
                 "displayName":"The Anatomy Class",
-                "groupId":"5",
+                "groupId":"6",
                 "summary":"Inhuman members of an anatomy class at King's College.",
                 "type":"Supernatual",
                 "relationType":"Unknown",
@@ -3475,7 +3505,7 @@
         "episodeGroups":[
             {
                 "displayName":"Earful.com",
-                "groupId":"6",
+                "groupId":"7",
                 "summary":"People who work for the music journalism company Earful.com.",
                 "type":"Mundane",
                 "relationType":"Work",
@@ -3573,7 +3603,7 @@
         "episodeGroups":[
             {
                 "displayName":"Sectioned Officers",
-                "groupId":"7",
+                "groupId":"8",
                 "summary":"Police officers who have signed a Section 31, so they can deal with the weird.",
                 "type":"Supernatual",
                 "relationType":"Work",
@@ -3648,7 +3678,7 @@
         "episodeGroups":[
             {
                 "displayName":"Another Circus",
-                "groupId":"8",
+                "groupId":"9",
                 "summary":"Supernatural Russian circus.",
                 "type":"Supernatual",
                 "relationType":"Work",
@@ -4328,7 +4358,7 @@
         "episodeGroups":[
             {
                 "displayName":"Wakefield Prison",
-                "groupId":"9",
+                "groupId":"10",
                 "summary":"People who live or work in the Wakefield Prison.",
                 "type":"Mundane",
                 "relationType":"Work",
@@ -4409,7 +4439,7 @@
         "episodeGroups":[
             {
                 "displayName":"WWII Tank crew",
-                "groupId":"10",
+                "groupId":"11",
                 "summary":"Tank crew that had their tank destroyed in WWII.",
                 "type":"Mundane",
                 "relationType":"Work",
@@ -4853,6 +4883,121 @@
                         "targetId":"3",
                         "feeling":"Good"
                     }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"59",
+        "episodeName":"Recluse",
+        "episodeCharacters":[
+            {
+                "displayName":"Ronald Sinclair",
+                "id":"239",
+                "mindset":"Traumatized",
+                "summary":"Troubled child who ended up at the halfway house on Hilltop Road. Lived through it, and escaped.",
+                "relationships":[
+                    {
+                        "targetId":"241",
+                        "type":"Other",
+                        "text":"Lit %s's bins on fire",
+                        "feeling":"Dislike"
+                    },
+                    {
+                        "targetId":"240",
+                        "type":"Friends",
+                        "text":"Friends with",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Raymond Fielding",
+                "id":"43",
+                "status":"Dead",
+                "summary":"Ran a halfway house for mentally disturbed teens",
+                "relationships":[
+                    {
+                        "targetId":"240",
+                        "type":"Other",
+                        "text":"Killed"
+                    },
+                    {
+                        "targetId":"242",
+                        "type":"Other",
+                        "text":"Killed"
+                    },
+                    {
+                        "targetId":"243",
+                        "type":"Other",
+                        "text":"Killed"
+                    }
+                ]
+            },
+            {
+                "displayName":"Dick Barrowdale",
+                "id":"240",
+                "status":"Dead",
+                "summary":"Child who ended up at the Hilltop Road halfway house. Died in web in Raymond Fielding's study.",
+                "relationships":[
+                    {
+                        "targetId":"239",
+                        "type":"Friends",
+                        "text":"Friends with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Mr. Hainsley",
+                "id":"241",
+                "summary":"Townsman who lived in the area around Hilltop Road. Feels the same way about the kids as everyone else in town.",
+                "relationships":[
+                    {
+                        "targetId":"g3",
+                        "type":"Other",
+                        "text":"Glares at",
+                        "feeling":"Dislike"
+                    }
+                ]
+            },
+            {
+                "id":"45",
+                "relationships":[
+                    {
+                        "targetId":"239",
+                        "type":"Other",
+                        "text":"Gave a kiss to"
+                    }
+                ]
+            },
+            {
+                "displayName":"Doris Hardy",
+                "id":"242",
+                "status":"Dead",
+                "summary":"Child who ended up at the Hilltop Road halfway house. Died in web in Raymond Fielding's study."
+            },
+            {
+                "displayName":"Greg Montgomery",
+                "id":"243",
+                "status":"Dead",
+                "summary":"Child who ended up at the Hilltop Road halfway house. Died in web in Raymond Fielding's study."
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Hilltop Road Teens",
+                "groupId":"3",
+                "summary":"Kids adopted by Raymond Fielding who lived on Hilltop Road.",
+                "type":"Mundane",
+                "relationType":"Family",
+                "feeling":"Nuetral",
+                "memberIds":[
+                    "239",
+                    "240",
+                    "242",
+                    "243",
+                    "45",
+                    "46"
                 ]
             }
         ]

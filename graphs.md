@@ -43,6 +43,15 @@ Alignment: Same as above.
 Feeling: General feeling between characters in the group.
 Member ids: List of character ids that are members of this group.
 ## Templates
+### Episode
+```{
+    "episodeNum":"",
+    "episodeName":"",
+    "episodeCharacters":[
+    ],
+    "episodeGroups":[
+    ]
+}```
 ### Character
 ```{
     "displayName":"",
@@ -78,5 +87,13 @@ Member ids: List of character ids that are members of this group.
     "alignment":"",
     "memberIds":[
         ""
+    ],
+    "relationships":[
+        {
+            "targetId":"",
+            "type":"",
+            "text":"",
+            "feeling":""
+        }
     ]
 }```
