@@ -37,3 +37,7 @@ Connect Oliver Banks with Jennifer Ling after Oliver's statement (or add the abi
 Connect King to Ivy Medows director (through father) on episode 106
 
 Mark the hospitaller as being of the Magnus Institute/Eye in episode 191
+
+Perhaps connect people through shared artifacts (Calliope, Web table)
+
+Consider people like Christopher Meyer, who is connected to the old Institute but not part of it.

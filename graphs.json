@@ -220,6 +220,7 @@
                 "alignment":"Magnus Institute",
                 "memberIds":[
                     "0",
+                    "1",
                     "3",
                     "4",
                     "5"
@@ -3523,7 +3524,8 @@
         "episodeName":"Section 31",
         "episodeCharacters":[
             {
-                "displayName":"Basira Hussain",
+                "displayName":"Basira",
+                "fullName":"Basira Hussain",
                 "id":"176",
                 "summary":"Sectioned police officer who went to the Magnus Institute.",
                 "relationships":[
@@ -4998,6 +5000,167 @@
                     "243",
                     "45",
                     "46"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"60",
+        "episodeName":"The Observer Effect",
+        "episodeCharacters":[
+            {
+                "displayName":"Rosa Meyer",
+                "id":"244",
+                "status":"Dead",
+                "mindset":"Insane",
+                "summary":"Woman who felt as if she was constantly being watched. Tried to burn down the Institute.",
+                "relationships":[
+                    {
+                        "targetId":"245",
+                        "type":"Family",
+                        "text":"Sister of"
+                    },
+                    {
+                        "targetId":"g0",
+                        "type":"Enemy",
+                        "text":"Tried to burn"
+                    },
+                    {
+                        "targetId":"247",
+                        "type":"Other",
+                        "text":"Killed"
+                    }
+                ]
+            },
+            {
+                "displayName":"Christopher Meyer",
+                "id":"245",
+                "status":"Dead",
+                "summary":"Man who did some investigation into the Outer Cults, with some help from the Institute. Died of a stroke at 38.",
+                "relationships":[
+                    {
+                        "targetId":"g0",
+                        "type":"Work",
+                        "text":"Consulted with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Angus Cartwright",
+                "id":"246",
+                "summary":"Member of the history department at the University of Southampton.",
+                "relationships":[
+                    {
+                        "targetId":"245",
+                        "type":"Work",
+                        "text":"Colleauge of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Danilo Costich",
+                "id":"247",
+                "status":"Dead",
+                "summary":"Driver for Paper Run Limited, who supplied stationary to the Institute."
+            },
+            {
+                "id":"4",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "feeling":"Angry"
+                    }
+                ]
+            },
+            {
+                "id":"167",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "feeling":"Angry"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"61",
+        "episodeName":"Hard Shoulder",
+        "episodeCharacters":[
+            {
+                "displayName":"Daisy",
+                "fullName":"Alice Tonner",
+                "id":"248",
+                "wikiLink":"Alice_\"Daisy\"_Tonner",
+                "mindset":"Angry",
+                "summary":"Cop who works with Basira. Has a violent side, and no other side.",
+                "relationships":[
+                    {
+                        "targetId":"249",
+                        "type":"Work",
+                        "text":"Junior officer of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Isaac Masters",
+                "id":"249",
+                "status":"Unknown",
+                "summary":"Cop who worked with Daisy until stepping into the coffin from episode 2.",
+                "relationships":[
+                    {
+                        "targetId":"248",
+                        "type":"Work",
+                        "text":"Senior officer of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Tom",
+                "id":"232",
+                "summary":"Boyfriend of Not!Sasha who she goes to see on her long lunch breaks.",
+                "relationships":[
+                    {
+                        "targetId":"18",
+                        "type":"Work",
+                        "text":"Delivery man for"
+                    },
+                    {
+                        "targetId":"19",
+                        "type":"Work",
+                        "text":"Delivery man for"
+                    }
+                ]
+            },
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"176",
+                        "type":"Acquaintances",
+                        "text":"Got the Gertrude tapes from",
+                        "feeling":"Neutral"
+                    },
+                    {
+                        "targetId":"248",
+                        "type":"Acquaintances",
+                        "text":"Got a statement from",
+                        "feeling":"Afraid"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "groupId":"8",
+                "memberIds":[
+                    "176",
+                    "177",
+                    "178",
+                    "180",
+                    "181",
+                    "248"
                 ]
             }
         ]
