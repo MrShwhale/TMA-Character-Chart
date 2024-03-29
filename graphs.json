@@ -5117,9 +5117,7 @@
                 ]
             },
             {
-                "displayName":"Tom",
                 "id":"232",
-                "summary":"Boyfriend of Not!Sasha who she goes to see on her long lunch breaks.",
                 "relationships":[
                     {
                         "targetId":"18",
@@ -5161,6 +5159,96 @@
                     "180",
                     "181",
                     "248"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"62",
+        "episodeName":"First Edition",
+        "episodeCharacters":[
+            {
+                "displayName":"Mary Keay",
+                "id":"27",
+                "summary":"Bookseller who likes Lightners. Does genuinely supernatual things with the books she collects.",
+                "relationships":[
+                    {
+                        "targetId":"251",
+                        "type":"Other",
+                        "text":"Killed",
+                        "feeling":"Hate"
+                    },
+                    {
+                        "targetId":"253",
+                        "type":"Other",
+                        "text":"Killed"
+                    },
+                    {
+                        "targetId":"2",
+                        "type":"Acquaintances",
+                        "text":"Frenemy of",
+                        "feeling":"Dislke"
+                    }
+                ]
+            },
+            {
+                "displayName":"Mrs. Keay",
+                "id":"250",
+                "mindset":"Obsessed",
+                "summary":"Woman who was devoted to the Patron of the Institute.",
+                "alignment":"Magnus Institute",
+                "relationships":[
+                    {
+                        "targetId":"27",
+                        "type":"Family",
+                        "text":"Mother of"
+                    },
+                    {
+                        "targetId":"252",
+                        "type":"Family",
+                        "text":"Wife of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Margaret Tellison",
+                "id":"251",
+                "status":"Dead",
+                "summary":"Doctor who came across 2 Lightner books before he owned them. Used them to make money through necromancy."
+            },
+            {
+                "displayName":"Mr. Keay",
+                "id":"252",
+                "status":"Dead",
+                "summary":"Father of Mary Keay who committed suicide when she was a child.",
+                "relationships":[
+                    {
+                        "targetId":"27",
+                        "type":"Family",
+                        "text":"Father of"
+                    },
+                    {
+                        "targetId":"250",
+                        "type":"Family",
+                        "text":"Husband of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Eric",
+                "id":"253",
+                "status":"Dead",
+                "summary":"Man who Mary Keay knew, and probably killed."
+            },
+            {
+                "id":"2",
+                "relationships":[
+                    {
+                        "targetId":"27",
+                        "type":"Acquaintances",
+                        "text":"Frenemy of",
+                        "feeling":"Dislke"
+                    }
                 ]
             }
         ]
