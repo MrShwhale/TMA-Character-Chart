@@ -2290,7 +2290,6 @@
                 "displayName":"Melanie King",
                 "id":"118",
                 "summary":"Host of the YouTube channel Ghost Hunt UK.",
-                "status":"Dead",
                 "relationships":[
                     {
                         "targetId":"119",
@@ -2322,7 +2321,6 @@
                 "displayName":"Andy Caine",
                 "id":"119",
                 "summary":"Co-host of the YouTube channel Ghost Hunt UK.",
-                "status":"Dead",
                 "relationships":[
                     {
                         "targetId":"118",
@@ -2336,7 +2334,6 @@
                 "displayName":"Peter Warhol",
                 "id":"120",
                 "summary":"Sound tech for Ghost Hunt UK.",
-                "status":"Dead",
                 "relationships":[
                     {
                         "targetId":"118",
@@ -2350,7 +2347,6 @@
                 "displayName":"Antonia Farron",
                 "id":"121",
                 "summary":"Cameraman for Ghost Hunt UK.",
-                "status":"Dead",
                 "relationships":[
                     {
                         "targetId":"118",
@@ -2365,7 +2361,6 @@
                 "fullName":"Georgina Barker",
                 "id":"122",
                 "summary":"Podcast ",
-                "status":"Dead",
                 "relationships":[
                     {
                         "targetId":"118",
@@ -4111,7 +4106,7 @@
                         "feeling":"Neutral"
                     },
                     {
-                        "targetId":"113",
+                        "targetId":"112",
                         "type":"Work",
                         "text":"Former student of"
                     }
@@ -5248,6 +5243,209 @@
                         "type":"Acquaintances",
                         "text":"Frenemy of",
                         "feeling":"Dislke"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"",
+        "episodeName":"",
+        "episodeCharacters":[
+            {
+                "displayName":"Erin Gallagher-Nelson",
+                "id":"254",
+                "mindset":"Afraid",
+                "summary":"Urban explorer who had a dangerous supernatual experience in the dark at St. Paul's cathedral.",
+                "relationships":[
+                    {
+                        "targetId":"255",
+                        "type":"Work",
+                        "text":"Photographer with",
+                        "feeling":"Decent"
+                    },
+                    {
+                        "targetId":"256",
+                        "type":"Family",
+                        "text":"Wife of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Luke Nelson",
+                "id":"255",
+                "status":"Dead",
+                "mindset":"Afraid",
+                "summary":"Lighting tech for Erin Gallagher-Nelson who died consumed by the darkness in St. Paul's.",
+                "relationships":[
+                    {
+                        "targetId":"254",
+                        "type":"Work",
+                        "text":"Lighting tech for"
+                    },
+                    {
+                        "targetId":"256",
+                        "type":"Family",
+                        "text":"Brother of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Stephanie Gallagher-Nelson",
+                "id":"256",
+                "mindset":"Sad",
+                "summary":"Wife of Erin Gallagher-Nelson who has stopped the Institute from investigating.",
+                "alignment":"",
+                "relationships":[
+                    {
+                        "targetId":"255",
+                        "type":"Family",
+                        "text":"Sister of",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"254",
+                        "type":"Family",
+                        "text":"Wife of",
+                        "feeling":"Worried"
+                    }
+                ]
+            },
+            {
+                "id":"118",
+                "summary":"Former host of the YouTube channel Ghost Hunt UK. No longer trusted by her group.",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Acquaintances",
+                        "text":"Went to for help",
+                        "feeling":"Bad"
+                    }
+                ]
+            },
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"118",
+                        "type":"Acquaintances",
+                        "text":"Helped get into the archives",
+                        "feeling":"Sorrow"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Former Ghost Hunt UK",
+                "groupId":"4",
+                "summary":"The people formerly behind Ghost Hunt UK.",
+                "feeling":"Bad"
+            }
+        ]
+    },
+    {
+        "episodeNum":"64",
+        "episodeName":"Burial Rites",
+        "episodeCharacters":[
+            {
+                "displayName":"Donna Gwynne",
+                "id":"257",
+                "mindset":"",
+                "summary":"Archeologist for the illegal archeology ring run by Stevo."
+            },
+            {
+                "displayName":"Stavo",
+                "id":"258",
+                "summary":"Head of an illegal archeology ring."
+            },
+            {
+                "displayName":"Grigori",
+                "id":"259",
+                "summary":"Geologist for the illegal archeology ring run by Stevo."
+            },
+            {
+                "displayName":"Norman",
+                "id":"260",
+                "summary":"Fence for the illegal archeology ring run by Stevo."
+            },
+            {
+                "displayName":"Barry",
+                "id":"261",
+                "summary":"Muscle for the illegal archeology ring run by Stevo."
+            },
+            {
+                "displayName":"Paul",
+                "id":"262",
+                "summary":"Muscle for the illegal archeology ring run by Stevo."
+            },
+            {
+                "displayName":"Living Mummy",
+                "id":"263",
+                "type":"Inhuman",
+                "status":"Alive",
+                "mindset":"Pain",
+                "summary":"Corpse that was alive in a pyramid for many years. Can't die."
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Illegal archeology ring",
+                "groupId":"12",
+                "summary":"Group that finds archeological things and sells them on the black market.",
+                "type":"Illegal",
+                "relationType":"Work",
+                "feeling":"Good",
+                "memberIds":[
+                    "257",
+                    "258",
+                    "259",
+                    "260",
+                    "261",
+                    "262"
+                ],
+                "relationships":[
+                    {
+                        "targetId":"263",
+                        "type":"Other",
+                        "text":"Found",
+                        "feeling":"Afraid"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"65",
+        "episodeName":"Binary",
+        "episodeCharacters":[
+            {
+                "displayName":"Tessa Winters",
+                "id":"264",
+                "summary":"Computer programmer who downloaded a supernatual file to her computer. Unlocked Gertrude's laptop.",
+                "relationships":[
+                    {
+                        "targetId":"265",
+                        "type":"Other",
+                        "text":"Downloaded",
+                        "feeling":"Afraid"
+                    }
+                ]
+            },
+            {
+                "displayName":"Sergey Ushanka",
+                "id":"265",
+                "type":"Digital human",
+                "status":"Alive",
+                "mindset":"Pain",
+                "summary":"Man/myth who put himself into a computer. It did not go well.",
+                "relationships":[
+                    {
+                        "targetId":"264",
+                        "type":"Other",
+                        "text":"Tormented",
+                        "feeling":"Greatful"
                     }
                 ]
             }
