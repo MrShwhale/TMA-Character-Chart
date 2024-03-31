@@ -67,7 +67,7 @@
                 "id":"2",
                 "wikiLink":"Gertrude_Robinson",
                 "status":"Dead",
-                "summary":"The former archivist for the Magnus Institute.",
+                "summary":"The former archivist for the Magnus Institute. Somewhat incompetent.",
                 "alignment":"Magnus Institute",
                 "relationships":[
                     {
@@ -441,14 +441,7 @@
             {
                 "displayName":"MacGregor Mathers",
                 "id":"26",
-                "summary":"Received a book of Jurgen Lightner's.",
-                "relationships":[
-                    {
-                        "targetId":"25",
-                        "type":"Other",
-                        "text":"Owned a book from"
-                    }
-                ]
+                "summary":"Received a book of Jurgen Lightner's."
             },
             {
                 "displayName":"Mary Keay",
@@ -728,8 +721,10 @@
                 ]
             },
             {
-                "displayName":"Agnes Montague",
+                "displayName":"Agnes",
+                "fullName":"Agnes Fielding",
                 "id":"45",
+                "wikiLink":"Agnes_Montague",
                 "status":"Dead",
                 "summary":"Offputting adopted daughter of Raymond Fielding.",
                 "relationships":[
@@ -1759,7 +1754,7 @@
                 "displayName":"Albrecht von Closen",
                 "id":"93",
                 "status":"Dead",
-                "summary":"Friend of Jonah Magnus who had a supernatual experience in the Schwartzwald.",
+                "summary":"Friend of Jonah Magnus who had a supernatural experience in the Schwartzwald.",
                 "relationships":[
                     {
                         "targetId":"94",
@@ -2083,7 +2078,7 @@
             {
                 "displayName":"Mark Bilham",
                 "id":"109",
-                "summary":"Person who doesn't believe in the supernatual, but had a strange experience due to a roommate.",
+                "summary":"Person who doesn't believe in the supernatural, but had a strange experience due to a roommate.",
                 "relationships":[
                     {
                         "targetId":"110",
@@ -2797,7 +2792,7 @@
                 "displayName":"The Anatomy Class",
                 "groupId":"6",
                 "summary":"Inhuman members of an anatomy class at King's College.",
-                "type":"Supernatual",
+                "type":"Supernatural",
                 "relationType":"Unknown",
                 "feeling":"Good",
                 "memberIds":[
@@ -3076,11 +3071,6 @@
                         "type":"Family",
                         "text":"Husband of",
                         "feeling":"Love"
-                    },
-                    {
-                        "targetId":"2",
-                        "type":"Other",
-                        "text":"Broke into a ritual circle of"
                     }
                 ]
             },
@@ -3602,7 +3592,7 @@
                 "displayName":"Sectioned Officers",
                 "groupId":"8",
                 "summary":"Police officers who have signed a Section 31, so they can deal with the weird.",
-                "type":"Supernatual",
+                "type":"Supernatural",
                 "relationType":"Work",
                 "memberIds":[
                     "176",
@@ -3677,7 +3667,7 @@
                 "displayName":"Another Circus",
                 "groupId":"9",
                 "summary":"Supernatural Russian circus.",
-                "type":"Supernatual",
+                "type":"Supernatural",
                 "relationType":"Work",
                 "memberIds":[
                     "18",
@@ -4377,7 +4367,7 @@
             {
                 "displayName":"Walter Heller",
                 "id":"213",
-                "summary":"Tank gunner in WWII who found a supernatual area.",
+                "summary":"Tank gunner in WWII who found a Supernatural area.",
                 "status":"Dead",
                 "mindset":"Traumatized",
                 "relationships":[
@@ -4458,7 +4448,7 @@
                 "displayName":"Alexander Scaplehorn",
                 "id":"219",
                 "mindset":"Afraid",
-                "summary":"A tax inspector who escaped a supernatual interaction on the job.",
+                "summary":"A tax inspector who escaped a Supernatural interaction on the job.",
                 "relationships":[
                     {
                         "targetId":"220",
@@ -4695,7 +4685,7 @@
             {
                 "displayName":"Conrad Lukas",
                 "id":"229",
-                "summary":"Man who ran an isolation experiment that went supernatually in space.",
+                "summary":"Man who ran an isolation experiment that went supernaturally in space.",
                 "alignment":"Lukas Family",
                 "relationships":[
                     {
@@ -5165,7 +5155,7 @@
             {
                 "displayName":"Mary Keay",
                 "id":"27",
-                "summary":"Bookseller who likes Lightners. Does genuinely supernatual things with the books she collects.",
+                "summary":"Bookseller who likes Lightners. Does genuinely Supernatural things with the books she collects.",
                 "relationships":[
                     {
                         "targetId":"251",
@@ -5256,7 +5246,7 @@
                 "displayName":"Erin Gallagher-Nelson",
                 "id":"254",
                 "mindset":"Afraid",
-                "summary":"Urban explorer who had a dangerous supernatual experience in the dark at St. Paul's cathedral.",
+                "summary":"Urban explorer who had a dangerous Supernatural experience in the dark at St. Paul's cathedral.",
                 "relationships":[
                     {
                         "targetId":"255",
@@ -5423,7 +5413,7 @@
             {
                 "displayName":"Tessa Winters",
                 "id":"264",
-                "summary":"Computer programmer who downloaded a supernatual file to her computer. Unlocked Gertrude's laptop.",
+                "summary":"Computer programmer who downloaded a Supernatural file to her computer. Unlocked Gertrude's laptop.",
                 "relationships":[
                     {
                         "targetId":"265",
@@ -5446,6 +5436,162 @@
                         "type":"Other",
                         "text":"Tormented",
                         "feeling":"Greatful"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"66",
+        "episodeName":"Held In Customs",
+        "episodeCharacters":[
+            {
+                "displayName":"Vincent Yang",
+                "id":"266",
+                "mindset":"Traumatized",
+                "summary":"Former customs worker who was trapped in a coffin for days.",
+                "relationships":[
+                    {
+                        "targetId":"69",
+                        "type":"Work",
+                        "text":"Inspected the cargo of",
+                        "feeling":"Afraid"
+                    }
+                ]
+            },
+            {
+                "displayName":"Mikaele Salesa",
+                "id":"69",
+                "summary":"Dealer in stolen art. Doesn't feel the cold.",
+                "relationships":[
+                    {
+                        "targetId":"134",
+                        "type":"Acquaintances",
+                        "text":"Knows"
+                    }
+                ]
+            },
+            {
+                "displayName":"Peter Lukas",
+                "id":"134",
+                "relationships":[
+                    {
+                        "targetId":"69",
+                        "type":"Acquaintances",
+                        "text":"Knows"
+                    }
+                ]
+            },
+            {
+                "id":"2",
+                "summary":"The former archivist for the Magnus Institute. Clearly knew what was going on, and had a travel budget.",
+                "relationships":[
+                    {
+                        "targetId":"26",
+                        "type":"Work",
+                        "text":"Bought a Lightner from"
+                    },
+                    {
+                        "targetId":"25",
+                        "type":"Other",
+                        "text":"Buys the books of"
+                    }
+                ]
+            }
+        ]    
+    },
+    {
+        "episodeNum":"67",
+        "episodeName":"Burning Desire",
+        "episodeCharacters":[
+            {
+                "displayName":"Jack Barnabas",
+                "id":"267",
+                "summary":"Man with terrible burns who briefly dated Agnes Montague. It ended somewhat poorly.",
+                "relationships":[
+                    {
+                        "targetId":"45",
+                        "type":"Friends",
+                        "text":"Dated",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"268",
+                        "type":"Work",
+                        "text":"Employee of",
+                        "feeling":"Annoyed"
+                    }
+                ]
+            },
+            {
+                "fullName":"Agnes Montague",
+                "id":"45",
+                "type":"Inhuman",
+                "summary":"Offputting adopted daughter of Raymond Fielding. Seemingly ageless and REALLY hot.",
+                "relationships":[
+                    {
+                        "targetId":"267",
+                        "type":"Friends",
+                        "text":"Dated",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Deliah Aconjo",
+                "id":"268",
+                "summary":"Worker at a cafe that had the same Agnes come in every day for 15 years.",
+                "relationships":[
+                    {
+                        "targetId":"267",
+                        "type":"Work",
+                        "text":"Boss of",
+                        "feeling":"Sorrow"
+                    }
+                ]
+            },
+            {
+                "displayName":"Short Muscular Asian Woman",
+                "id":"269",
+                "wikiLink":"Jude_Perry",
+                "summary":"Woman who talked to Agnes. Has a scary tatoo."
+            },
+            {
+                "id":"161",
+                "relationships":[
+                    {
+                        "targetId":"g13",
+                        "type":"Other",
+                        "text":"Disrupted the ritual of"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Cult of the Lightless Flame",
+                "groupId":"13",
+                "wikiLink":"The_Cult_of_the_Lightless_Flame",
+                "summary":"Cult that deals with very hot things, though they are not often visible.",
+                "type":"Supernatural",
+                "relationType":"Other",
+                "memberIds":[
+                    "45",
+                    "132",
+                    "179",
+                    "269"
+                ],
+                "relationships":[
+                    {
+                        "targetId":"2",
+                        "type":"Other",
+                        "text":"Made a ritual circle about"
+                    },
+                    {
+                        "targetId":"161",
+                        "type":"Other",
+                        "text":"Cursed",
+                        "feeling":"Hatred" 
                     }
                 ]
             }
