@@ -167,37 +167,32 @@
                 "displayName":"Jessica McEwen",
                 "id":"9",
                 "status":"Unknown",
-                "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None"
+                "summary":"Went missing near the Anglerfish alley."
             },
             {
                 "displayName":"Sarah Baldwin",
                 "id":"10",
                 "wikiLink":"Sarah_Baldwin",
                 "status":"Unknown",
-                "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None"
+                "summary":"Went missing near the Anglerfish alley."
             },
             {
                 "displayName":"Daniel Rawlings",
                 "id":"11",
                 "status":"Unknown",
-                "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None"
+                "summary":"Went missing near the Anglerfish alley."
             },
             {
                 "displayName":"Ashley Dobson",
                 "id":"12",
                 "status":"Unknown",
-                "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None"
+                "summary":"Went missing near the Anglerfish alley."
             },
             {
                 "displayName":"Megan Shaw",
                 "id":"13",
                 "status":"Unknown",
-                "summary":"Went missing near the Anglerfish alley.",
-                "alignment":"None"
+                "summary":"Went missing near the Anglerfish alley."
             },
             {
                 "displayName":"The Anglerfish",
@@ -205,8 +200,7 @@
                 "wikiLink":"The_Anglerfish",
                 "type":"Unknown",
                 "status":"Unknown",
-                "summary":"Something that may or may not exist. It makes people disappear near Old Fishmarket Close, Edinburgh.",
-                "alignment":"None"
+                "summary":"Something that may or may not exist. It makes people disappear near Old Fishmarket Close, Edinburgh."
             }
         ],
         "episodeGroups":[
@@ -435,8 +429,7 @@
                 "id":"25",
                 "wikiLink":"Jurgen_Lightner",
                 "status":"Unknown",
-                "summary":"A man with a library of great and strange danger.",
-                "alignment":"None"
+                "summary":"A man with a library of great and strange danger."
             },
             {
                 "displayName":"MacGregor Mathers",
@@ -2716,56 +2709,49 @@
                 "id":"141",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
-                "mindset":"Happy",
-                "alignment":"None"
+                "mindset":"Happy"
             },
             {
                 "displayName":"Jan Novak",
                 "id":"142",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
-                "mindset":"Happy",
-                "alignment":"None"
+                "mindset":"Happy"
             },
             {
                 "displayName":"Piotr Petrov",
                 "id":"143",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
-                "mindset":"Happy",
-                "alignment":"None"
+                "mindset":"Happy"
             },
             {
                 "displayName":"Pavel Petrov",
                 "id":"144",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
-                "mindset":"Happy",
-                "alignment":"None"
+                "mindset":"Happy"
             },
             {
                 "displayName":"John Doe",
                 "id":"145",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
-                "mindset":"Happy",
-                "alignment":"None"
+                "mindset":"Happy"
             },
             {
                 "displayName":"Fulan al-Fulani",
                 "id":"146",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
-                "mindset":"Happy",
-                "alignment":"None"
+                "mindset":"Happy"
             },
             {
                 "displayName":"Juan Pérez",
                 "id":"147",
                 "summary":"Mysterious anatomy student at King's College.",
                 "type":"Inhuman",
-                "mindset":"Happy",
-                "alignment":"None"
+                "mindset":"Happy"
             },
             {
                 "displayName":"Laura Gill",
@@ -3543,8 +3529,7 @@
                 "displayName":"Diego Molina",
                 "id":"179",
                 "summary":"Arsonist who was terribly burned, and also really hot (literally).",
-                "status":"Dead",
-                "alignment":"None"
+                "status":"Dead"
             },
             {
                 "displayName":"Daisy",
@@ -3562,8 +3547,7 @@
             {
                 "displayName":"Harry Altman",
                 "id":"181",
-                "summary":"Sectioned police officer.",
-                "alignment":"None"
+                "summary":"Sectioned police officer."
             },
             {
                 "id":"0",
@@ -3736,8 +3720,7 @@
                 "displayName":"John Snow",
                 "id":"187",
                 "summary":"Old epidemiologist who laid the group work for germ theory.",
-                "status":"Dead",
-                "alignment":"None"
+                "status":"Dead"
             },
             {
                 "displayName":"George Larson",
@@ -4020,8 +4003,7 @@
                 "displayName":"Harry Gough",
                 "id":"198",
                 "summary":"Man found dead under the floor of Jared Hopworth's butcher shop.",
-                "status":"Dead",
-                "alignment":"None"
+                "status":"Dead"
             },
             {
                 "displayName":"James Wright",
@@ -4266,8 +4248,7 @@
             {
                 "displayName":"Dave Harrington",
                 "id":"209",
-                "summary":"Prisoner at Wakefield who would spread fake gossip.",
-                "alignment":"None"
+                "summary":"Prisoner at Wakefield who would spread fake gossip."
             },
             {
                 "displayName":"Pete Gordo",
@@ -4548,7 +4529,6 @@
                 ]
             },
             {
-                "displayName":"John Amherst",
                 "id":"160",
                 "type":"Inhuman",
                 "summary":"New director of Ivy Medows. Burned really easily and hates exterminators.",
@@ -5498,7 +5478,7 @@
                     }
                 ]
             }
-        ]    
+        ]
     },
     {
         "episodeNum":"67",
@@ -5591,7 +5571,138 @@
                         "targetId":"161",
                         "type":"Other",
                         "text":"Cursed",
-                        "feeling":"Hatred" 
+                        "feeling":"Hatred"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"68",
+        "episodeName":"The Tale of a Field Hospital",
+        "episodeCharacters":[
+            {
+                "displayName":"Joseph Russo",
+                "id":"270",
+                "summary":"A Magnus Institute fanboy and conspiracy theorist.",
+                "relationships":[
+                    {
+                        "targetId":"g0",
+                        "type":"Other",
+                        "text":"Fan of",
+                        "feeling":"Admiration"
+                    }
+                ]
+            },
+            {
+                "id":"160",
+                "mindset":"Happy",
+                "summary":"New, evil director of Ivy Medows who burns really easily and hates exterminators. Mentioned in The Tale of a Field Hospital, where he died many times and sickness ran rampant. Also known as Jeffery Amherst.",
+                "relationships":[
+                    {
+                        "targetId":"271",
+                        "type":"Work",
+                        "text":"Spread infection in %s' hospital"
+                    }
+                ]
+            },
+            {
+                "displayName":"Frederick Treeves",
+                "id":"271",
+                "summary":"Doctor who wrote The Tale of a Field Hospital.",
+                "relationships":[
+                    {
+                        "targetId":"160",
+                        "type":"Work",
+                        "text":"Common patient of",
+                        "feeling":"Afraid"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"69",
+        "episodeName":"Thought for the Day",
+        "episodeCharacters":[
+            {
+                "displayName":"Darren Harlow",
+                "id":"272",
+                "mindset":"Moving on",
+                "summary":"Man who cleaned up the Psychology department when the Fear/ESP experiment was going on.",
+                "relationships":[
+                    {
+                        "targetId":"273",
+                        "type":"Work",
+                        "text":"Cleaned for",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"275",
+                        "type":"Family",
+                        "text":"Husband of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Elizabeth Bates",
+                "id":"273",
+                "summary":"Psychologist who did the experiment using fear and ESP that created Annabelle Cane.",
+                "relationships":[
+                    {
+                        "targetId":"274",
+                        "type":"Work",
+                        "text":"Did an experiment on"
+                    },
+                    {
+                        "targetId":"272",
+                        "type":"Work",
+                        "text":"Boss of",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"276",
+                        "type":"Work",
+                        "text":"Teacher of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Annabelle Cane",
+                "id":"274",
+                "wikiLink":"Annabelle_Cane",
+                "type":"Inhuman",
+                "status":"Unknown",
+                "mindset":"Insane",
+                "summary":"Severe arachnophobe who was involved with a spider study. Became a sort of spider-human and disappeared."
+            },
+            {
+                "displayName":"Laura Harlow",
+                "id":"275",
+                "summary":"Wife of Darren Harlow.",
+                "relationships":[
+                    {
+                        "targetId":"272",
+                        "type":"Family",
+                        "text":"Wife of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Mark Voight",
+                "id":"276",
+                "summary":"Postgrad student who worked on the Fear/ESP experiment. Tried to stop Annabelle Cane.",
+                "relationships":[
+                    {
+                        "targetId":"274",
+                        "type":"Other",
+                        "text":"Broke control of"
+                    },
+                    {
+                        "targetId":"273",
+                        "type":"Work",
+                        "text":"Student of"
                     }
                 ]
             }
