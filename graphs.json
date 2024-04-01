@@ -477,7 +477,7 @@
             {
                 "displayName":"Michael Crew",
                 "id":"29",
-                "wikiLink":"The_Distortion",
+                "wikiLink":"Michael_Crew",
                 "summary":"Childhood friend of Dominic Swain who was struct by lightning.",
                 "relationships":[
                     {
@@ -2110,6 +2110,7 @@
             {
                 "displayName":"Natalie Ennis",
                 "id":"111",
+                "wikiLink":"Natalie_Ennis",
                 "summary":"A person who joined a cult of darkness, and tried to get her friends to.",
                 "relationships":[
                     {
@@ -2123,6 +2124,12 @@
                         "type":"Friends",
                         "text":"Roommate of",
                         "feeling":"Like"
+                    },
+                    {
+                        "targetId":"50",
+                        "type":"Other",
+                        "text":"Joined the cult of",
+                        "feeling":"Greatful"
                     }
                 ]
             }
@@ -3770,11 +3777,6 @@
                         "type":"Acquaintances",
                         "text":"Regular customer of",
                         "feeling":"Good"
-                    },
-                    {
-                        "targetId":"113",
-                        "type":"Is",
-                        "text":"Became"
                     }
                 ]
             },
@@ -3789,17 +3791,6 @@
                         "type":"Friends",
                         "text":"Rival book dealer and friend of",
                         "feeling":"Good"
-                    }
-                ]
-            },
-            {
-                "id":"113",
-                "summary":"Formerly human distortion of reality that calls itself by name. Became Michael in 1999.",
-                "relationships":[
-                    {
-                        "targetId":"29",
-                        "type":"Is",
-                        "text":"Subsumed"
                     }
                 ]
             }
@@ -5703,6 +5694,427 @@
                         "targetId":"273",
                         "type":"Work",
                         "text":"Student of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"70",
+        "episodeName":"Book of the Dead",
+        "episodeCharacters":[
+            {
+                "displayName":"Masato Murray",
+                "id":"277",
+                "status":"Dead",
+                "mindset":"Afraid",
+                "summary":"Man who read a book of his own death, then went missing.",
+                "relationships":[
+                    {
+                        "targetId":"278",
+                        "type":"Acquaintances",
+                        "text":"Knew",
+                        "feeling":"Hatred"
+                    },
+                    {
+                        "targetId":"280",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Philip Doah",
+                "id":"278",
+                "status":"Dead",
+                "summary":"Man who died on train tracks and left a book to his \"friend\".",
+                "relationships":[
+                    {
+                        "targetId":"278",
+                        "type":"Acquaintances",
+                        "text":"Knew",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "displayName":"Alexander Willard",
+                "id":"279",
+                "status":"Dead",
+                "summary":"Previous owner of the Book of the Dead who died mysteriously in 1983."
+            },
+            {
+                "displayName":"John Kendrick",
+                "id":"280",
+                "summary":"Person who Masato Murray stayed with.",
+                "relationships":[
+                    {
+                        "targetId":"277",
+                        "type":"Friend",
+                        "text":"Friend of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"71",
+        "episodeName":"Underground",
+        "episodeCharacters":[
+            {
+                "displayName":"Karolina Górka",
+                "id":"281",
+                "mindset":"Indifferent",
+                "summary":"Woman who escaped the mysterious Underground when it tried to keep her.",
+                "alignment":"",
+                "relationships":[
+                    {
+                        "targetId":"285",
+                        "type":"Other",
+                        "text":"Met on the Underground",
+                        "feeling":"Sad"
+                    }
+                ]
+            },
+            {
+                "displayName":"Andrew Barnet",
+                "id":"282",
+                "summary":"Colleague of Karolina Górka who celebrated post New Year's Eve with her."
+            },
+            {
+                "displayName":"Leanne Hillard",
+                "id":"283",
+                "summary":"Friend of Karolina Górka who celebrated post New Year's Eve with her.",
+                "relationships":[
+                    {
+                        "targetId":"284",
+                        "type":"Family",
+                        "text":"Wife of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Mark Hillard",
+                "id":"284",
+                "summary":"Husband of Leanne Hillard who celebrated post New Year's Eve with her.",
+                "relationships":[
+                    {
+                        "targetId":"283",
+                        "type":"Family",
+                        "text":"Husband of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Tamara Simpkin",
+                "id":"285",
+                "summary":"Housmate of Karolina Górka who celebrated post New Year's Eve with her."
+            },
+            {
+                "displayName":"Nicholas Lekman",
+                "id":"286",
+                "status":"Unknown",
+                "mindset":"Sad",
+                "summary":"Claustrophobe who went missing on the Underground and may still be there.",
+                "relationships":[
+                    {
+                        "targetId":"281",
+                        "type":"Other",
+                        "text":"Met on the Underground"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Post New Year's Eve Celebrators",
+                "groupId":"14",
+                "summary":"Group of people who celebrate New Year's Eve together a week after it happens.",
+                "type":"Mundane",
+                "relationType":"Friends",
+                "feeling":"Good",
+                "memberIds":[
+                    "281",
+                    "282",
+                    "283",
+                    "284",
+                    "285"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"72",
+        "episodeName":"Takeaway",
+        "episodeCharacters":[
+            {
+                "displayName":"Craig Goodall",
+                "id":"287",
+                "mindset":"Unsettled",
+                "summary":"Man who lived near John Haan's restaurant and went exploring in it.",
+                "relationships":[
+                    {
+                        "targetId":"290",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    }
+                ]
+            },
+            {
+                "displayName":"John Haan",
+                "id":"288",
+                "mindset":"Insane",
+                "summary":"Man who killed his wife and sold her as meat.",
+                "relationships":[
+                    {
+                        "targetId":"289",
+                        "type":"Family",
+                        "text":"Husband/killer of"
+                    },
+                    {
+                        "targetId":"127",
+                        "type":"Family",
+                        "text":"Uncle of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Lanying Haan",
+                "id":"289",
+                "status":"Dead",
+                "summary":"Wife of John Haan who was put into the food served at his restaurant.",
+                "relationships":[
+                    {
+                        "targetId":"288",
+                        "type":"Family",
+                        "text":"Wife of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Leroy Yates",
+                "id":"290",
+                "summary":"Urban explorer friend of Craig Goodall who saved him from Tom Haan.",
+                "relationships":[
+                    {
+                        "targetId":"287",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    }
+                ]
+            },
+            {
+                "id":"127",
+                "summary":"Person who used to work on the killing floor, who bolted himself into oblivion. Almost killed someone at his uncle's shop.",
+                "relationships":[
+                    {
+                        "targetId":"288",
+                        "type":"Family",
+                        "text":"Nephew of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"73",
+        "episodeName":"Police Lights",
+        "episodeCharacters":[
+            {
+                "displayName":"Callum Brodie",
+                "id":"291",
+                "wikiLink":"Callum_Brodie",
+                "summary":"Child kidnapping and stapped down by Maxwell Rayner's cult. Made it out \"fine\".",
+                "relationships":[
+                    {
+                        "targetId":"211",
+                        "type":"Family",
+                        "text":"Son of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Goodman",
+                "id":"292",
+                "summary":"Counter terrorist firearms squad member who was partnered with Basira during the Rayner Raid."
+            },
+            {
+                "displayName":"Leo Altman",
+                "id":"293",
+                "status":"Dead",
+                "summary":"Friendly sectioned officer who died during the Rayner Raid after touching some black goop."
+            },
+            {
+                "id":"50",
+                "summary":"Cult leader of the Peoples' Church of the Divine Host. Worked with Robert Montauk and visited him in prison until his death.",
+                "relationships":[
+                    {
+                        "targetId":"49",
+                        "type":"Work",
+                        "text":"Worked with",
+                        "feeling":"Hate"
+                    }
+                ]
+            },
+            {
+                "id":"111",
+                "status":"Dead",
+                "summary":"A person who joined a cult of darkness, and tried to get her friends to. Died trying to help Maxwell Rayner.",
+                "relationships":[
+                    {
+                        "targetId":"50",
+                        "type":"Other",
+                        "text":"Died for"
+                    }
+                ]
+            },
+            {
+                "id":"211",
+                "relationships":[
+                    {
+                        "targetId":"291",
+                        "type":"Family",
+                        "text":"Mother of"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"The People's Church of the Divine Host",
+                "groupId":"15",
+                "wikiLink":"The_People%27s_Church_of_the_Divine_Host",
+                "summary":"Cult that worships the darkness. Founded and led by Maxwell Rayner.",
+                "type":"Supernatural",
+                "relationType":"Other",
+                "memberIds":[
+                    "111",
+                    "50"
+                ],
+                "relationships":[
+                    {
+                        "targetId":"g8",
+                        "type":"Enemy",
+                        "text":"Was raided by",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "groupId":"8",
+                "memberIds":[
+                    "176",
+                    "177",
+                    "178",
+                    "180",
+                    "181",
+                    "292",
+                    "293"
+                ],
+                "relationships":[
+                    {
+                        "targetId":"g15",
+                        "type":"Enemy",
+                        "text":"Raided"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"74",
+        "episodeName":"Fatigue",
+        "episodeCharacters":[
+            {
+                "displayName":"Lydia Halligan",
+                "id":"294",
+                "status":"Dead",
+                "mindset":"Afraid",
+                "summary":"Freelance writer who suffered from terrible insomnia and horrific, confusing waking dreams.",
+                "relationships":[
+                    {
+                        "targetId":"113",
+                        "type":"Other",
+                        "text":"Met in a dream"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"75",
+        "episodeName":"Long Way Down",
+        "episodeCharacters":[
+            {
+                "displayName":"Stephen Walker",
+                "id":"295",
+                "summary":"Man who went on a trip to Paris with his brother and came back alone.",
+                "relationships":[
+                    {
+                        "targetId":"296",
+                        "type":"Family",
+                        "text":"Brother of",
+                        "feeling":"Sorry"
+                    },
+                    {
+                        "targetId":"298",
+                        "type":"Acquaintances",
+                        "text":"Former boyfriend of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Grant Walker",
+                "id":"296",
+                "status":"Unknown",
+                "mindset":"Afraid",
+                "summary":"Man who lost his job twice before going on a trip to Paris. Very scared of heights.",
+                "relationships":[
+                    {
+                        "targetId":"295",
+                        "type":"Family",
+                        "text":"Brother of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Jim Hancock",
+                "id":"297",
+                "summary":"Very Cockney builder with a ladder.",
+                "relationships":[
+                    {
+                        "targetId":"295",
+                        "type":"Acquaintances",
+                        "text":"Neighbor of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Carly",
+                "id":"298",
+                "summary":"Ex-girlfriend of Stephen Walker.",
+                "relationships":[
+                    {
+                        "targetId":"295",
+                        "type":"Acquaintances",
+                        "text":"Former girlfriend of"
+                    }
+                ]
+            },
+            {
+                "id":"176",
+                "summary":"Former sectioned police officer who went to the Magnus Institute. Quit her job and stole the tapes for Jon when they covered Leo Altman's death."
+            },
+            {
+                "id":"29",
+                "status":"Inhuman",
+                "relationships":[
+                    {
+                        "targetId":"189",
+                        "type":"Other",
+                        "text":"Took",
+                        "feeling":"296"
                     }
                 ]
             }
