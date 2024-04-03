@@ -416,6 +416,7 @@ function setUpGraph(graphIndex) {
                 }
                 // Otherwise it is a normal one
                 else {
+                    console.log(eventData);
                     // BUG this doesn't work for group elements
                     let displayName = eventData.displayName;
                     let fullName = eventData.fullName;

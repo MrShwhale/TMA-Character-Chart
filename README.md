@@ -43,3 +43,9 @@ Perhaps connect people through shared artifacts (Calliope, Web table)
 Consider people like Christopher Meyer, who is connected to the old Institute but not part of it.
 
 Potentially connect Hezekiah Wakely (152) and Karolina Górka (71)
+
+Add Officer Altman in 5, and perhaps pick an Altman to connect him to?
+
+Perhaps change how the NotThem is connected (current: Is connection to each alias, each alias kills the replaced).
+
+Gerard Keay's assult of Lightner might have been mentioned earlier than episode 80.

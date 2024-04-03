@@ -245,7 +245,7 @@
                 "displayName":"Joshua Gillespie",
                 "id":"15",
                 "mindset":"Indifferent",
-                "summary":"Got 10,0 pounds for a spooky coffin that did not end up killing him.",
+                "summary":"Got 10,000 pounds for a spooky coffin that did not end up killing him.",
                 "relationships":[
                     {
                         "targetId":"16",
@@ -368,7 +368,7 @@
                 ]
             },
             {
-                "displayName":"Not-Graham",
+                "displayName":"Not!Graham",
                 "id":"22",
                 "type":"Unknown",
                 "summary":"Something that calls itself Graham.",
@@ -2287,24 +2287,6 @@
                 "summary":"Host of the YouTube channel Ghost Hunt UK.",
                 "relationships":[
                     {
-                        "targetId":"119",
-                        "type":"Work",
-                        "text":"Works with",
-                        "feeling":"Good"
-                    },
-                    {
-                        "targetId":"120",
-                        "type":"Work",
-                        "text":"Works with",
-                        "feeling":"Good"
-                    },
-                    {
-                        "targetId":"121",
-                        "type":"Work",
-                        "text":"Works with",
-                        "feeling":"Good"
-                    },
-                    {
                         "targetId":"122",
                         "type":"Friends",
                         "text":"Friend of",
@@ -2315,41 +2297,17 @@
             {
                 "displayName":"Andy Caine",
                 "id":"119",
-                "summary":"Co-host of the YouTube channel Ghost Hunt UK.",
-                "relationships":[
-                    {
-                        "targetId":"118",
-                        "type":"Work",
-                        "text":"Works with",
-                        "feeling":"Good"
-                    }
-                ]
+                "summary":"Co-host of the YouTube channel Ghost Hunt UK."
             },
             {
                 "displayName":"Peter Warhol",
                 "id":"120",
-                "summary":"Sound tech for Ghost Hunt UK.",
-                "relationships":[
-                    {
-                        "targetId":"118",
-                        "type":"Work",
-                        "text":"Works with",
-                        "feeling":"Good"
-                    }
-                ]
+                "summary":"Sound tech for Ghost Hunt UK."
             },
             {
                 "displayName":"Antonia Farron",
                 "id":"121",
-                "summary":"Cameraman for Ghost Hunt UK.",
-                "relationships":[
-                    {
-                        "targetId":"118",
-                        "type":"Work",
-                        "text":"Works with",
-                        "feeling":"Good"
-                    }
-                ]
+                "summary":"Cameraman for Ghost Hunt UK."
             },
             {
                 "displayName":"Georgie",
@@ -4293,7 +4251,7 @@
             },
             {
                 "displayName":"Tom",
-                "id":"232",
+                "id":"213",
                 "summary":"Boyfriend of Not!Sasha who she goes to see on her long lunch breaks.",
                 "relationships":[
                     {
@@ -4307,7 +4265,7 @@
                 "id":"167",
                 "relationships":[
                     {
-                        "targetId":"232",
+                        "targetId":"213",
                         "type":"Friends",
                         "text":"Girlfriend of"
                     }
@@ -4338,19 +4296,19 @@
         "episodeCharacters":[
             {
                 "displayName":"Walter Heller",
-                "id":"213",
+                "id":"214",
                 "summary":"Tank gunner in WWII who found a Supernatural area.",
                 "status":"Dead",
                 "mindset":"Traumatized",
                 "relationships":[
                     {
-                        "targetId":"214",
+                        "targetId":"215",
                         "type":"Family",
                         "text":"Brother of",
                         "feeling":"Good"
                     },
                     {
-                        "targetId":"218",
+                        "targetId":"219",
                         "type":"Other",
                         "text":"Discovered",
                         "feeling":"Fear"
@@ -4359,12 +4317,12 @@
             },
             {
                 "displayName":"Frances Heller",
-                "id":"214",
+                "id":"215",
                 "summary":"Fighter in WWII that died in Arras.",
                 "status":"Dead",
                 "relationships":[
                     {
-                        "targetId":"213",
+                        "targetId":"214",
                         "type":"Family",
                         "text":"Brother of"
                     }
@@ -4372,24 +4330,24 @@
             },
             {
                 "displayName":"Frank Malloy",
-                "id":"215",
+                "id":"216",
                 "summary":"Commander of a tank in WWII who was captured by Italian forces."
             },
             {
                 "displayName":"Ralph McCulloch",
-                "id":"216",
+                "id":"217",
                 "summary":"Tank driver in WWII who was captured by Italian forces."
             },
             {
                 "displayName":"Dicky",
-                "id":"217",
+                "id":"218",
                 "mindset":"Afraid",
                 "summary":"Tank loader in WWII who died in a tank.",
                 "status":"Dead"
             },
             {
                 "displayName":"Hospitaller \"corpse\"",
-                "id":"218",
+                "id":"219",
                 "summary":"Seemingly dead thing that might have been an archivist.",
                 "type":"Inhuman",
                 "status":"Dead"
@@ -4404,10 +4362,10 @@
                 "relationType":"Work",
                 "feeling":"Good",
                 "memberIds":[
-                    "213",
-                    "215",
+                    "214",
                     "216",
-                    "217"
+                    "217",
+                    "218"
                 ]
             }
         ]
@@ -4418,12 +4376,12 @@
         "episodeCharacters":[
             {
                 "displayName":"Alexander Scaplehorn",
-                "id":"219",
+                "id":"220",
                 "mindset":"Afraid",
                 "summary":"A tax inspector who escaped a Supernatural interaction on the job.",
                 "relationships":[
                     {
-                        "targetId":"220",
+                        "targetId":"221",
                         "type":"Work",
                         "text":"Inspected the shop of",
                         "feeling":"Fear"
@@ -4432,7 +4390,7 @@
             },
             {
                 "displayName":"Daniel Rawlings",
-                "id":"220",
+                "id":"221",
                 "status":"Unknown",
                 "summary":"Man who went missing and had his self changed.",
                 "relationships":[
@@ -4447,7 +4405,7 @@
                         "text":"Knows"
                     },
                     {
-                        "targetId":"219",
+                        "targetId":"220",
                         "type":"Work",
                         "text":"Gave a tour to"
                     }
@@ -4457,7 +4415,7 @@
                 "id":"18",
                 "relationships":[
                     {
-                        "targetId":"220",
+                        "targetId":"221",
                         "type":"Other",
                         "text":"Knows"
                     }
@@ -4467,7 +4425,7 @@
                 "id":"19",
                 "relationships":[
                     {
-                        "targetId":"220",
+                        "targetId":"221",
                         "type":"Other",
                         "text":"Knows"
                     }
@@ -4481,7 +4439,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Jordan Kennedy",
-                "id":"221",
+                "id":"222",
                 "mindset":"Afraid",
                 "summary":"Exterminator who had to destroy the nest of Jane Prentiss. Was almost killed by John Amherst when he tried to cleanse a house.",
                 "relationships":[
@@ -4495,11 +4453,11 @@
             },
             {
                 "displayName":"Laura Star",
-                "id":"222",
+                "id":"223",
                 "summary":"Neighbor who called Jordan Kennedy to cleanse John Amherst's home.",
                 "relationships":[
                     {
-                        "targetId":"221",
+                        "targetId":"222",
                         "type":"Work",
                         "text":"Called in"
                     }
@@ -4512,7 +4470,7 @@
                 "summary":"Landlord of Jane Prentiss. Had a flame scar and lit himself on fire to kill a wasp nest.",
                 "relationships":[
                     {
-                        "targetId":"221",
+                        "targetId":"222",
                         "type":"Work",
                         "text":"Called in",
                         "feeling":"Annoyed"
@@ -4525,7 +4483,7 @@
                 "summary":"New director of Ivy Medows. Burned really easily and hates exterminators.",
                 "relationships":[
                     {
-                        "targetId":"221",
+                        "targetId":"222",
                         "type":"Other",
                         "text":"Tried to kill",
                         "feeling":"Hate"
@@ -4546,16 +4504,10 @@
                 "summary":"Self proclaimed vampire hunter who died of cancer. He is obsessed with hunting vampires.",
                 "relationships":[
                     {
-                        "targetId":"223",
+                        "targetId":"224",
                         "type":"Friend",
                         "text":"Friends with",
                         "feeling":"Good"
-                    },
-                    {
-                        "targetId":"224",
-                        "type":"Other",
-                        "text":"Killed",
-                        "feeling":"Hate"
                     },
                     {
                         "targetId":"225",
@@ -4565,12 +4517,18 @@
                     },
                     {
                         "targetId":"226",
+                        "type":"Other",
+                        "text":"Killed",
+                        "feeling":"Hate"
+                    },
+                    {
+                        "targetId":"227",
                         "type":"Acquaintance",
                         "text":"Knew of",
                         "feeling":"Neutral"
                     },
                     {
-                        "targetId":"227",
+                        "targetId":"228",
                         "type":"Other",
                         "text":"Killed",
                         "feeling":"Obsessed"
@@ -4580,7 +4538,7 @@
             {
                 "displayName":"Stanley Kubrick",
                 "fullName":"\"Stanley Kubrick\"",
-                "id":"223",
+                "id":"224",
                 "summary":"Kid who knew Alard Dupont. Might be named Stanley Kubrick, or it could be a bit.",
                 "relationships":[
                     {
@@ -4602,7 +4560,7 @@
                 "id":"55",
                 "relationships":[
                     {
-                        "targetId":"223",
+                        "targetId":"224",
                         "type":"Acquaintance",
                         "text":"Sold drugs"
                     }
@@ -4610,22 +4568,22 @@
             },
             {
                 "displayName":"Hannah Edwards",
-                "id":"224",
+                "id":"225",
                 "summary":"Final (probably) vampire that Trevor Herbert killed."
             },
             {
                 "displayName":"Jane Lewis",
-                "id":"225",
+                "id":"226",
                 "summary":"Vampire killed by Trevor Herbert who killed someone before Trevor could stop them."
             },
             {
                 "displayName":"Craig",
-                "id":"226",
+                "id":"227",
                 "summary":"Homeless man who went out into the night."
             },
             {
                 "displayName":"Hollow Spider Woman",
-                "id":"227",
+                "id":"228",
                 "type":"Inhuman",
                 "status":"Dead",
                 "summary":"Woman filled with spiders who lured homeless people into the night. Fought against Trevor Herbert and lost."
@@ -4642,12 +4600,12 @@
         "episodeCharacters":[
             {
                 "displayName":"Carter Chilcott",
-                "id":"228",
+                "id":"229",
                 "mindset":"Relieved",
                 "summary":"Crew member of the Daedalus who somehow experienced complete loneliness, away from the earth.",
                 "relationships":[
                     {
-                        "targetId":"229",
+                        "targetId":"230",
                         "type":"Work",
                         "text":"Manned the spacecraft of"
                     }
@@ -4655,23 +4613,23 @@
             },
             {
                 "displayName":"Conrad Lukas",
-                "id":"229",
+                "id":"230",
                 "summary":"Man who ran an isolation experiment that went supernaturally in space.",
                 "alignment":"Lukas Family",
                 "relationships":[
                     {
-                        "targetId":"228",
+                        "targetId":"229",
                         "type":"Work",
                         "text":"Hired",
                         "feeling":"Annoyed"
                     },
                     {
-                        "targetId":"230",
+                        "targetId":"231",
                         "type":"Work",
                         "text":"Hired"
                     },
                     {
-                        "targetId":"231",
+                        "targetId":"232",
                         "type":"Work",
                         "text":"Hired"
                     }
@@ -4679,11 +4637,11 @@
             },
             {
                 "displayName":"Yan Killbride",
-                "id":"230",
+                "id":"231",
                 "summary":"Crew member of the Daedalus.",
                 "relationships":[
                     {
-                        "targetId":"229",
+                        "targetId":"230",
                         "type":"Work",
                         "text":"Manned the spacecraft of"
                     }
@@ -4691,11 +4649,11 @@
             },
             {
                 "displayName":"Manuela Dominguez",
-                "id":"231",
+                "id":"232",
                 "summary":"Crew member of the Daedalus.",
                 "relationships":[
                     {
-                        "targetId":"229",
+                        "targetId":"230",
                         "type":"Work",
                         "text":"Manned the spacecraft of"
                     }
@@ -4707,7 +4665,7 @@
                 "summary":"Member of the Lukas family who owns the Tundra. Also invested in the Daedalus.",
                 "relationships":[
                     {
-                        "targetId":"229",
+                        "targetId":"230",
                         "type":"Work",
                         "text":"Invested in the work of"
                     }
@@ -4719,14 +4677,14 @@
                 "summary":"Man who puts people in situations with REALLY big things. Also invested in the Daedalus.",
                 "relationships":[
                     {
-                        "targetId":"229",
+                        "targetId":"230",
                         "type":"Work",
                         "text":"Invested in the work of"
                     }
                 ]
             },
             {
-                "id":"232",
+                "id":"213",
                 "summary":"Boyfriend of Not!Sasha who she goes to see on her long lunch breaks. Looks like a stock photo."
             }
         ]
@@ -5073,7 +5031,7 @@
                 ]
             },
             {
-                "id":"232",
+                "id":"213",
                 "relationships":[
                     {
                         "targetId":"18",
@@ -5302,7 +5260,7 @@
                 "displayName":"Former Ghost Hunt UK",
                 "groupId":"4",
                 "summary":"The people formerly behind Ghost Hunt UK.",
-                "feeling":"Bad"
+                "feeling":"Distant"
             }
         ]
     },
@@ -6115,6 +6073,454 @@
                         "type":"Other",
                         "text":"Took",
                         "feeling":"296"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"76",
+        "episodeName":"The Smell of Blood",
+        "episodeCharacters":[
+            {
+                "id":"118",
+                "summary":"Former host of the YouTube channel Ghost Hunt UK. No longer trusted by her group. Is finding more real ghosts than ever, due to going off the path of the normal."
+            },
+            {
+                "displayName":"William W. Hay",
+                "id":"299",
+                "status":"Dead",
+                "summary":"Noted occultist who worked on the 11th Hospital Train and saw terrible violence on it."
+            }
+        ]
+    },
+    {
+        "episodeNum":"77",
+        "episodeName":"The Kind Mother",
+        "episodeCharacters":[
+            {
+                "displayName":"Lucy Cooper",
+                "id":"300",
+                "mindset":"Traumatized",
+                "summary":"Woman who found her mother replaced by a stranger one day.",
+                "relationships":[
+                    {
+                        "targetId":"301",
+                        "type":"Family",
+                        "text":"Daughter of",
+                        "feeling":"Hatred"
+                    },
+                    {
+                        "targetId":"302",
+                        "type":"Friends",
+                        "text":"Fiance of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Rose Cooper",
+                "id":"301",
+                "status":"Dead",
+                "summary":"Woman who did not like her child. Was replaced by the NotThem.",
+                "relationships":[
+                    {
+                        "targetId":"300",
+                        "type":"Family",
+                        "text":"Mother of",
+                        "feeling":"Hatred"
+                    },
+                    {
+                        "targetId":"302",
+                        "type":"Family",
+                        "text":"Wife of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Laurence",
+                "id":"302",
+                "summary":"Fiance of Lucy Cooper.",
+                "relationships":[
+                    {
+                        "targetId":"300",
+                        "type":"Friends",
+                        "text":"Fiance of"
+                    }
+                ]
+            },
+            {
+                "displayName":"George Cooper",
+                "id":"303",
+                "status":"Dead",
+                "summary":"Man who could not see through the NotThem when it replaced his wife.",
+                "relationships":[
+                    {
+                        "targetId":"300",
+                        "type":"Family",
+                        "text":"Father of",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"301",
+                        "type":"Family",
+                        "text":"Husband of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Not!Rose",
+                "id":"304",
+                "type":"Inhuman",
+                "status":"Unknown",
+                "summary":"Thing that replaced and killed Rose Cooper. An alias of the NotThem.",
+                "relationships":[
+                    {
+                        "targetId":"301",
+                        "type":"Other",
+                        "text":"Killed and replaced"
+                    },
+                    {
+                        "targetId":"309",
+                        "type":"Is",
+                        "text":"Is"
+                    }
+                ]
+            },
+            {
+                "displayName":"Tom Harrison",
+                "id":"305",
+                "summary":"Neighbor who lived by Rose Cooper.",
+                "relationships":[
+                    {
+                        "targetId":"300",
+                        "type":"Acquaintances",
+                        "text":"Neighbor of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Joanne Fisher",
+                "id":"306",
+                "summary":"Neighbor who lived by Rose Cooper.",
+                "relationships":[
+                    {
+                        "targetId":"300",
+                        "type":"Acquaintances",
+                        "text":"Neighbor of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Neil Angus",
+                "id":"307",
+                "summary":"Pastor who heard Rose Cooper \"fall\".",
+                "relationships":[
+                    {
+                        "targetId":"301",
+                        "type":"Acquaintances",
+                        "text":"Pastor of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Adelard Dekker",
+                "id":"308",
+                "summary":"Man who knows what the NotThem is, and gave a statement about it to the Institute."
+            },
+            {
+                "displayName":"NotThem",
+                "id":"309",
+                "wikiLink":"NotThem",
+                "type":"Inhuman",
+                "summary":"Changeling creature that kills and takes the place of someone, replacing all memories and digital references to them. Someone always remembers the original person.",
+                "alignment":"The Stranger",
+                "relationships":[
+                    {
+                        "targetId":"22",
+                        "type":"Is",
+                        "text":"Is"
+                    },
+                    {
+                        "targetId":"167",
+                        "type":"Is",
+                        "text":"Is"
+                    },
+                    {
+                        "targetId":"304",
+                        "type":"Is",
+                        "text":"Is"
+                    }
+                ]
+            },
+            {
+                "displayName":"Not!Graham",
+                "id":"22",
+                "summary":"Something that calls itself Graham. An alias of the NotThem.",
+                "relationships":[
+                    {
+                        "targetId":"21",
+                        "type":"Other",
+                        "text":"Killed and replaced"
+                    },
+                    {
+                        "targetId":"309",
+                        "type":"Is",
+                        "text":"Is"
+                    }
+                ]
+            },
+            {
+                "displayName":"Not!Sasha",
+                "id":"167",
+                "wikiLink":"Not-Sasha",
+                "summary":"Something that is NOT Sasha, but is pretending to be. Everyone believes her. An alias of the NotThem.",
+                "type":"Unknown",
+                "relationships":[
+                    {
+                        "targetId":"5",
+                        "type":"Other",
+                        "text":"Killed and replaced"
+                    },
+                    {
+                        "targetId":"309",
+                        "type":"Is",
+                        "text":"Is"
+                    }
+                ]
+            },
+            {
+                "id":"5",
+                "status":"Dead"
+            },
+            {
+                "id":"21",
+                "status":"Dead"
+            }
+        ]
+    },
+    {
+        "episodeNum":"78",
+        "episodeName":"Distant Cousin",
+        "episodeCharacters":[
+            {
+                "displayName":"Lawrence Moore",
+                "id":"310",
+                "summary":"Man whose cousin was replaced.",
+                "relationships":[
+                    {
+                        "targetId":"311",
+                        "type":"Family",
+                        "text":"Cousin of",
+                        "feeling":"Nuetral"
+                    },
+                    {
+                        "targetId":"312",
+                        "type":"Family",
+                        "text":"Brother of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Carl Moore",
+                "id":"311",
+                "status":"Dead",
+                "summary":"Person who was replaced by the NotThem.",
+                "relationships":[
+                    {
+                        "targetId":"310",
+                        "type":"Family",
+                        "text":"Cousin of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Adam Moore",
+                "id":"312",
+                "summary":"Man who did not notice when his cousin was replaced by the NotThem.",
+                "relationships":[
+                    {
+                        "targetId":"310",
+                        "type":"Family",
+                        "text":"Brother of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Adelard Dekker",
+                "id":"308",
+                "summary":"Man who knows what the NotThem is, and gave a statement about it to the Institute."
+            },
+            {
+                "id":"309",
+                "status":"Unknown",
+                "relationships":[
+                    {
+                        "targetId":"311",
+                        "type":"Other",
+                        "text":"Killed and replaced by"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"79",
+        "episodeName":"Hide and Seek",
+        "episodeCharacters":[
+            {
+                "id":"0",
+                "mindset":"Afraid"
+            },
+            {
+                "id":"3",
+                "mindset":"Afraid"
+            },
+            {
+                "id":"4",
+                "mindset":"Afraid"
+            },
+            {
+                "id":"309",
+                "status":"Unknown",
+                "mindset":"Good",
+                "summary":"Changeling creature that kills and takes the place of someone, replacing all memories and digital references to them. Someone always remembers the original person, to scare them. Used to be trapped in the spiral table, but was freed.",
+                "relationships":[
+                    {
+                        "targetId":"g0",
+                        "type":"Enemy",
+                        "text":"Enemy of",
+                        "feeling":"Hatred"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"80",
+        "episodeName":"The Librarian",
+        "episodeCharacters":[
+            {
+                "displayName":"Jurgen Lightner",
+                "id":"25",
+                "status":"Dead",
+                "summary":"A man with a library of great and strange danger. Was trying to protect the world from the books he put in the library, while also trying to get more.",
+                "relationships":[
+                    {
+                        "targetId":"2",
+                        "type":"Other",
+                        "text":"Collaborated with"
+                    },
+                    {
+                        "targetId":"g16",
+                        "type":"Work",
+                        "text":"Hired"
+                    }
+                ]
+            },
+            {
+                "id":"28",
+                "relationships":[
+                    {
+                        "targetId":"25",
+                        "type":"Other",
+                        "text":"Assulted",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "displayName":"Jacob Feng",
+                "id":"313",
+                "status":"Unknown",
+                "summary":"Assistant of Jurgen Lightner who disappeared from the world after reading too much of a book."
+            },
+            {
+                "displayName":"Desmond Lorell",
+                "id":"314",
+                "status":"Dead",
+                "summary":"Man who first showed Lightner one of the books he would become famous for.",
+                "relationships":[
+                    {
+                        "targetId":"25",
+                        "type":"Acquaintances",
+                        "text":"Knows"
+                    }
+                ]
+            },
+            {
+                "displayName":"Albert Stross",
+                "id":"315",
+                "status":"Dead",
+                "summary":"First assistant of Jurgen Lightner."
+            },
+            {
+                "displayName":"Thomas McMann",
+                "id":"316",
+                "status":"Dead",
+                "summary":"Assistant of Jurgen Lightner. Died when the library went down."
+            },
+            {
+                "displayName":"Mary Johnson",
+                "id":"317",
+                "status":"Dead",
+                "summary":"Assistant of Jurgen Lightner. Died when the library went down."
+            },
+            {
+                "displayName":"Gregory Todd",
+                "id":"318",
+                "status":"Dead",
+                "summary":"Assistant of Jurgen Lightner. Died when the library went down."
+            },
+            {
+                "displayName":"Leandra Toulouse",
+                "id":"319",
+                "status":"Dead",
+                "summary":"Assistant of Jurgen Lightner. Died when the library went down."
+            },
+            {
+                "id":"2",
+                "summary":"The former archivist for the Magnus Institute. Clearly knew what was going on, and had a travel budget.",
+                "relationships":[
+                    {
+                        "targetId":"25",
+                        "type":"Other",
+                        "text":"Collaborated with"
+                    }
+                ]
+            },
+            {
+                "id":"1",
+                "summary":"The head of the Magnus Institute. Knows what is going on and is somehow involved, probably in an evil way.",
+                "alignment":"Magnus Institute",
+                "relationships":[
+                    {
+                        "targetId":"25",
+                        "type":"Other",
+                        "text":"Killed"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Jurgen Lightner's Assistants",
+                "groupId":"16",
+                "summary":"People who were at one time or another the assistants of Jurgen Lightner.",
+                "type":"Supernatural",
+                "relationType":"Work",
+                "memberIds":[
+                    "313",
+                    "315",
+                    "316",
+                    "317",
+                    "318",
+                    "319"
+                ],
+                "relationships":[
+                    {
+                        "targetId":"25",
+                        "type":"Work",
+                        "text":"Worked for"
                     }
                 ]
             }
