@@ -2313,7 +2313,7 @@
                 "displayName":"Georgie",
                 "fullName":"Georgina Barker",
                 "id":"122",
-                "summary":"Podcast ",
+                "summary":"Podcast host of \"What The Ghost?\"",
                 "relationships":[
                     {
                         "targetId":"118",
@@ -6521,6 +6521,43 @@
                         "targetId":"25",
                         "type":"Work",
                         "text":"Worked for"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"81",
+        "episodeName":"A Guest For Mr. Spider",
+        "episodeCharacters":[
+            {
+                "displayName":"Georgie",
+                "id":"122",
+                "summary":"Podcast host of \"What The Ghost?\"",
+                "relationships":[
+                    {
+                        "targetId":"118",
+                        "type":"Friends",
+                        "text":"Friend of",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"10",
+                        "type":"Work",
+                        "text":"Worked with",
+                        "feeling":"Neutral"
+                    }
+                ]
+            },
+            {
+                "id":"0",
+                "summary":"The former head archivist for the Magnus Institute, London. Currently on the run as he is suspected of a murder and was working for a fear entity.",
+                "relationships":[
+                    {
+                        "targetId":"118",
+                        "type":"Friends",
+                        "text":"Friend of",
+                        "feeling":"Good"
                     }
                 ]
             }
