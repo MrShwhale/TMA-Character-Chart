@@ -5168,8 +5168,8 @@
         ]
     },
     {
-        "episodeNum":"",
-        "episodeName":"",
+        "episodeNum":"63",
+        "episodeName":"The End of the Tunnel",
         "episodeCharacters":[
             {
                 "displayName":"Erin Gallagher-Nelson",
@@ -5238,7 +5238,7 @@
                     {
                         "targetId":"0",
                         "type":"Acquaintances",
-                        "text":"Went to for help",
+                        "text":"Went to %s for help",
                         "feeling":"Bad"
                     }
                 ]
@@ -5251,6 +5251,22 @@
                         "type":"Acquaintances",
                         "text":"Helped get into the archives",
                         "feeling":"Sorrow"
+                    },
+                    {
+                        "targetId":"122",
+                        "type":"Friends",
+                        "text":"Old friends with"
+                    }
+                ]
+            },
+            {
+                "id":"122",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Friends",
+                        "text":"Old friends with",
+                        "feeling":"Good"
                     }
                 ]
             }
@@ -6531,21 +6547,13 @@
         "episodeName":"A Guest For Mr. Spider",
         "episodeCharacters":[
             {
-                "displayName":"Georgie",
                 "id":"122",
-                "summary":"Podcast host of \"What The Ghost?\"",
                 "relationships":[
                     {
-                        "targetId":"118",
+                        "targetId":"0",
                         "type":"Friends",
-                        "text":"Friend of",
+                        "text":"Living with",
                         "feeling":"Good"
-                    },
-                    {
-                        "targetId":"10",
-                        "type":"Work",
-                        "text":"Worked with",
-                        "feeling":"Neutral"
                     }
                 ]
             },
@@ -6556,7 +6564,7 @@
                     {
                         "targetId":"118",
                         "type":"Friends",
-                        "text":"Friend of",
+                        "text":"Living with",
                         "feeling":"Good"
                     }
                 ]
