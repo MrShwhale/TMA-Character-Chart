@@ -6570,5 +6570,133 @@
                 ]
             }
         ]
+    },
+    {
+        "episodeNum":"82",
+        "episodeName":"The Eyewitnesses",
+        "episodeCharacters":[
+            {
+                "id":"1",
+                "summary":"The head of the Magnus Institute. Knows what is going on and is somehow involved, probably in an evil way. Has suspiciously good blackmail on Daisy."
+            },
+            {
+                "id":"248",
+                "summary":"Cop who works with Basira. Murders monsters and people for fun and work.",
+                "relationships":[
+                    {
+                        "targetId":"1",
+                        "type":"Enemy",
+                        "text":"Really wants to kill",
+                        "feeling":"Hatred"
+                    },
+                    {
+                        "targetId":"320",
+                        "type":"Other",
+                        "text":"Old friend of and killed",
+                        "feeling":""
+                    }
+                ]
+            },
+            {
+                "displayName":"Calvin Benchley",
+                "id":"320",
+                "status":"Dead",
+                "summary":"Man who met a creature that whispered in his ear as a child and completely changed his personality. Became a violent wreck that was never punished.",
+                "relationships":[
+                    {
+                        "targetId":"248",
+                        "type":"Other",
+                        "text":"Old friend of"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "groupId":"0",
+                "feeling":"Stressed",
+                "memberIds":[
+                    "3",
+                    "4",
+                    "5"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"83",
+        "episodeName":"Drawing a Blank",
+        "episodeCharacters":[
+            {
+                "id":"122",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Friends",
+                        "text":"Living with",
+                        "feeling":"Worried"
+                    }
+                ]
+            },
+            {
+                "displayName":"Chloe Ashburt",
+                "id":"321",
+                "summary":"Department store worker who noticed that something was off about the main mannequin."
+            },
+            {
+                "displayName":"Lana",
+                "id":"322",
+                "status":"Dead",
+                "summary":"Line manager at a department store who was brutally killed."
+            },
+            {
+                "displayName":"Jan",
+                "id":"323",
+                "summary":"Worker at a department store."
+            },
+            {
+                "displayName":"Liam",
+                "id":"324",
+                "summary":"Worker at a department store."
+            },
+            {
+                "displayName":"Mannequin thing",
+                "id":"325",
+                "type":"Unknown",
+                "status":"Alive",
+                "summary":"Creature that killed a worker and left the area. Faceless, slightly off of human.",
+                "alignment":"The Stranger",
+                "relationships":[
+                    {
+                        "targetId":"322",
+                        "type":"Other",
+                        "text":"Killed"
+                    }
+                ]
+            },
+            {
+                "id":"18",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"19",
+                "alignment":"The Stranger"
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Department store workers",
+                "groupId":"17",
+                "summary":"People who worked at the department store that the mannequin thing was at.",
+                "type":"Mundane",
+                "relationType":"Work",
+                "memberIds":[
+                    "321",
+                    "322",
+                    "323",
+                    "324"
+                ]
+            }
+        ]
     }
 ]
