@@ -6698,5 +6698,53 @@
                 ]
             }
         ]
+    },
+    {
+        "episodeNum":"84",
+        "episodeName":"Possessive",
+        "episodeCharacters":[
+            {
+                "displayName":"Adrian Weiss",
+                "fullName":"",
+                "id":"",
+                "wikiLink":"",
+                "imageFile":"",
+                "type":"",
+                "status":"",
+                "mindset":"",
+                "summary":"",
+                "alignment":"",
+                "relationships":[
+                    {
+                        "targetId":"",
+                        "type":"",
+                        "text":"",
+                        "feeling":""
+                    }
+                ]
+            },
+            {
+                "displayName":"Gordon Goodman",
+                "fullName":"",
+                "id":"",
+                "wikiLink":"",
+                "imageFile":"",
+                "type":"",
+                "status":"",
+                "mindset":"",
+                "summary":"",
+                "alignment":"",
+                "relationships":[
+                    {
+                        "targetId":"",
+                        "type":"",
+                        "text":"",
+                        "feeling":""
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+        ]
     }
 ]
