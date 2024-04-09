@@ -6705,46 +6705,81 @@
         "episodeCharacters":[
             {
                 "displayName":"Adrian Weiss",
-                "fullName":"",
-                "id":"",
-                "wikiLink":"",
-                "imageFile":"",
-                "type":"",
-                "status":"",
-                "mindset":"",
-                "summary":"",
-                "alignment":"",
+                "id":"326",
+                "summary":"Man who grew up in a small town and saw the strangeness that happened in the dump.",
                 "relationships":[
                     {
-                        "targetId":"",
-                        "type":"",
-                        "text":"",
-                        "feeling":""
+                        "targetId":"327",
+                        "type":"Friends",
+                        "text":"Former friend of",
+                        "feeling":"Pity"
+                    },
+                    {
+                        "targetId":"329",
+                        "type":"Acquaintances",
+                        "text":"Knew"
                     }
                 ]
             },
             {
                 "displayName":"Gordon Goodman",
-                "fullName":"",
-                "id":"",
-                "wikiLink":"",
-                "imageFile":"",
-                "type":"",
-                "status":"",
-                "mindset":"",
-                "summary":"",
-                "alignment":"",
+                "id":"327",
+                "type":"Unknown",
+                "status":"Alive",
+                "summary":"Boy who went missing for a few days in the dump before coming back slightly off.",
                 "relationships":[
                     {
-                        "targetId":"",
-                        "type":"",
-                        "text":"",
-                        "feeling":""
+                        "targetId":"326",
+                        "type":"Friends",
+                        "text":"Former friend of"
+                    },
+                    {
+                        "targetId":"328",
+                        "type":"Other",
+                        "text":"Brought food to",
+                        "feeling":"Fear"
+                    }
+                ]
+            },
+            {
+                "displayName":"Maggie",
+                "fullName":"Margaret Carnegie",
+                "id":"328",
+                "type":"Unknown",
+                "status":"Dead",
+                "summary":"Hoarder who was doing something supernatural.",
+                "relationships":[
+                    {
+                        "targetId":"327",
+                        "type":"Other",
+                        "text":"Did something to"
+                    }
+                ]
+            },
+            {
+                "displayName":"Davey Morgan",
+                "id":"329",
+                "summary":"Boy who spread rumors about Maggie.",
+                "relationships":[
+                    {
+                        "targetId":"326",
+                        "type":"Acquaintances",
+                        "text":"Knew"
                     }
                 ]
             }
         ],
         "episodeGroups":[
+            {
+                "groupId":"0",
+                "feeling":"Stressed",
+                "memberIds":[
+                    "3",
+                    "4",
+                    "5",
+                    "118"
+                ]
+            }
         ]
     }
 ]
