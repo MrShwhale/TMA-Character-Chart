@@ -6797,7 +6797,7 @@
                 "displayName":"Eric Delano",
                 "id":"253",
                 "wikiLink":"Eric_Delano",
-                "summary":"Man who Mary Keay knew, and probably killed. He had correspondance with Gertrude Robinson."
+                "summary":"Man who Mary Keay knew, and probably killed. He had correspondance with Gertrude Robinson.",
                 "relationships":[
                     {
                         "targetId":"1",
@@ -6871,19 +6871,13 @@
             {
                 "displayName":"Sebastian Skinner",
                 "id":"333",
-                "wikiLink":"",
-                "imageFile":"",
-                "type":"",
-                "status":"",
-                "mindset":"",
-                "summary":"",
-                "alignment":"",
+                "status":"Dead",
+                "summary":"VERY oblivious plumber who was almost used in a Stranger ritual.",
                 "relationships":[
                     {
-                        "targetId":"",
-                        "type":"",
-                        "text":"",
-                        "feeling":""
+                        "targetId":"13",
+                        "type":"Work",
+                        "text":"Hired by"
                     }
                 ]
             },
@@ -6900,6 +6894,11 @@
                         "targetId":"325",
                         "type":"Is",
                         "text":"Is"
+                    },
+                    {
+                        "targetId":"333",
+                        "type":"Work",
+                        "text":"Hired"
                     }
                 ]
             },
