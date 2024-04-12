@@ -756,7 +756,7 @@
                 "summary":"Kids adopted by Raymond Fielding who lived on Hilltop Road.",
                 "type":"Mundane",
                 "relationType":"Family",
-                "feeling":"Nuetral",
+                "feeling":"Neutral",
                 "memberIds":[
                     "45",
                     "46"
@@ -2488,7 +2488,7 @@
                         "targetId":"129",
                         "type":"Other",
                         "text":"Killed",
-                        "feeling":"Nuetral"
+                        "feeling":"Neutral"
                     }
                 ]
             }
@@ -4906,7 +4906,7 @@
                 "summary":"Kids adopted by Raymond Fielding who lived on Hilltop Road.",
                 "type":"Mundane",
                 "relationType":"Family",
-                "feeling":"Nuetral",
+                "feeling":"Neutral",
                 "memberIds":[
                     "239",
                     "240",
@@ -6327,7 +6327,7 @@
                         "targetId":"311",
                         "type":"Family",
                         "text":"Cousin of",
-                        "feeling":"Nuetral"
+                        "feeling":"Neutral"
                     },
                     {
                         "targetId":"312",
@@ -6562,7 +6562,7 @@
                 "summary":"The former head archivist for the Magnus Institute, London. Currently on the run as he is suspected of a murder and was working for a fear entity.",
                 "relationships":[
                     {
-                        "targetId":"118",
+                        "targetId":"122",
                         "type":"Friends",
                         "text":"Living with",
                         "feeling":"Good"
@@ -6662,6 +6662,7 @@
             {
                 "displayName":"Mannequin thing",
                 "id":"325",
+                "wikiLink":"Nikola_Orsinov",
                 "type":"Unknown",
                 "status":"Alive",
                 "summary":"Creature that killed a worker and left the area. Faceless, slightly off of human.",
@@ -6779,6 +6780,174 @@
                     "5",
                     "118"
                 ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"85",
+        "episodeName":"Upon the Stair",
+        "episodeCharacters":[
+            {
+                "displayName":"William Hughes Mearns",
+                "id":"330",
+                "status":"Dead",
+                "summary":"Poet who wrote of a man that wasn't there."
+            },
+            {
+                "displayName":"Eric Delano",
+                "id":"253",
+                "wikiLink":"Eric_Delano",
+                "summary":"Man who Mary Keay knew, and probably killed. He had correspondance with Gertrude Robinson."
+                "relationships":[
+                    {
+                        "targetId":"1",
+                        "type":"Work",
+                        "text":"Typed a statement for"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"86",
+        "episodeName":"Tucked In",
+        "episodeCharacters":[
+            {
+                "displayName":"Benjamin Hatendi",
+                "id":"331",
+                "status":"Dead",
+                "mindset":"Afraid",
+                "summary":"Man who checked on a frind, then was tormented by a shadow creature.",
+                "relationships":[
+                    {
+                        "targetId":"332",
+                        "type":"Friends",
+                        "text":"Old friend of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Robin Patton",
+                "id":"332",
+                "status":"Dead",
+                "mindset":"Afraid",
+                "summary":"Man who was found dead in his wardrobe, in constant fear.",
+                "relationships":[
+                    {
+                        "targetId":"331",
+                        "type":"Friends",
+                        "text":"Old friend of"
+                    }
+                ]
+            },
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"118",
+                        "type":"Acquaintances",
+                        "text":"Co-conspirator with",
+                        "feeling":"Neutral"
+                    }
+                ]
+            },
+            {
+                "id":"118",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Acquaintances",
+                        "text":"Co-conspirator with",
+                        "feeling":"Neutral"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"87",
+        "episodeName":"The Uncanny Valley",
+        "episodeCharacters":[
+            {
+                "displayName":"Sebastian Skinner",
+                "id":"333",
+                "wikiLink":"",
+                "imageFile":"",
+                "type":"",
+                "status":"",
+                "mindset":"",
+                "summary":"",
+                "alignment":"",
+                "relationships":[
+                    {
+                        "targetId":"",
+                        "type":"",
+                        "text":"",
+                        "feeling":""
+                    }
+                ]
+            },
+            {
+                "displayName":"Megan",
+                "id":"13",
+                "type":"Inhuman",
+                "status":"Dead",
+                "mindset":"Happy",
+                "summary":"Near human thing that greeted a plumber, and tried to kidnap him.",
+                "alignment":"The Stranger",
+                "relationships":[
+                    {
+                        "targetId":"325",
+                        "type":"Is",
+                        "text":"Is"
+                    }
+                ]
+            },
+            {
+                "displayName":"Ms. Orsinov",
+                "id":"325",
+                "type":"Inhuman",
+                "status":"Dead",
+                "mindset":"Happy",
+                "summary":"Slightly inhuman being of plastic that kidnaps people for a ritual. Appeared to be burned to death in a fire.",
+                "alignment":"The Stranger",
+                "relationships":[
+                    {
+                        "targetId":"13",
+                        "type":"Is",
+                        "text":"Is"
+                    },
+                    {
+                        "targetId":"269",
+                        "type":"Acquaintances",
+                        "text":"Possible ally of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Jude Perry",
+                "id":"269",
+                "summary":"Woman who talked to Agnes. Has a scary tatoo. Also worked with Nikola Orsinov by burning down a forest.",
+                "alignment":"Desolation",
+                "relationships":[
+                    {
+                        "targetId":"325",
+                        "type":"Acquaintances",
+                        "text":"Possible ally of"
+                    }
+                ]
+            },
+            {
+                "id":"45",
+                "alignment":"Desolation"
+            },
+            {
+                "id":"132",
+                "alignment":"Desolation"
+            },
+            {
+                "id":"179",
+                "alignment":"Desolation"
             }
         ]
     }
