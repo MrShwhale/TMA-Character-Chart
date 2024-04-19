@@ -6949,5 +6949,235 @@
                 "alignment":"Desolation"
             }
         ]
+    },
+    {
+        "episodeNum":"88",
+        "episodeName":"Dig",
+        "episodeCharacters":[
+            {
+                "displayName":"Enrique MacMillan",
+                "id":"326",
+                "status":"Dead",
+                "mindset":"Insane",
+                "summary":"Man who became obssesed with digging after finding a book under the sand."
+            },
+            {
+                "id":"176",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Acquaintances",
+                        "text":"Gave the tapes to",
+                        "feeling":"Worried"
+                    }
+                ]
+            },
+            {
+                "displayName":"Sonja",
+                "id":"327",
+                "summary":"The person to talk to about Artifact Storage at the Magnus Institute.",
+                "alignment":"Magnus Institute"
+            }
+        ]
+    },
+    {
+        "episodeNum":"89",
+        "episodeName":"Twice as Bright",
+        "episodeCharacters":[
+            {
+                "displayName":"Jude Perry",
+                "id":"269",
+                "type":"Inhuman",
+                "summary":"Woman who serves the Desolation, hates the Archivist less than others (still a lot). Used to be a stock market player, but has since started killing people. Knew Agnes well.",
+                "relationships":[
+                    {
+                        "targetId":"329",
+                        "type":"Other",
+                        "text":"Killed",
+                        "feeling":"Neutral"
+                    },
+                    {
+                        "targetId":"332",
+                        "type":"Friends",
+                        "text":"Former girlfriend of"
+                    },
+                    {
+                        "targetId":"29",
+                        "type":"Acquaintances",
+                        "text":"Knows",
+                        "feeling":"Dislike"
+                    }
+                ]
+            },
+            {
+                "displayName":"Sandy",
+                "id":"328",
+                "type":"Inhuman",
+                "summary":"Woman who Jude Perry met when she was first going to join the Cult of the Lightless Flame.",
+                "alignment":"Desolation"
+            },
+            {
+                "displayName":"Nicholas Tregenza",
+                "id":"329",
+                "status":"Dead",
+                "mindset":"Happy",
+                "summary":"Stock broker who had some good things happen to him, which led to some bad things happening to him.",
+                "relationships":[
+                    {
+                        "targetId":"269",
+                        "type":"Other",
+                        "text":"Worked with",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Julia Tregenza",
+                "id":"330",
+                "status":"Dead",
+                "summary":"Wife of Nicholas Tregenza, died after having nearly everything taken from her.",
+                "relationships":[
+                    {
+                        "targetId":"329",
+                        "type":"Other",
+                        "text":"Worked with",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Desmond Tregenza",
+                "id":"331",
+                "summary":"Child who was orphaned by Jude Perry. Life might get worse for him if things start to go his way.",
+                "relationships":[
+                    {
+                        "targetId":"329",
+                        "type":"Family",
+                        "text":"Son of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Gretchen",
+                "id":"332",
+                "summary":"Girlfriend of Jude Perry before her transformation.",
+                "relationships":[
+                    {
+                        "targetId":"269",
+                        "type":"Friends",
+                        "text":"Former girlfriend of"
+                    }
+                ]
+            },
+            {
+                "id":"29",
+                "relationships":[
+                    {
+                        "targetId":"269",
+                        "type":"Acquaintances",
+                        "text":"Knows",
+                        "feeling":"Dislike"
+                    },
+                    {
+                        "targetId":"90",
+                        "type":"Friends",
+                        "text":"Hangs out with"
+                    }
+                ]
+            },
+            {
+                "id":"90",
+                "relationships":[
+                    {
+                        "targetId":"29",
+                        "type":"Friends",
+                        "text":"Hangs out with"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Cult of the Lightless Flame",
+                "groupId":"13",
+                "memberIds":[
+                    "45",
+                    "132",
+                    "179",
+                    "269",
+                    "328"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"90",
+        "episodeName":"Body Builder",
+        "episodeCharacters":[
+            {
+                "displayName":"Ross Davenport",
+                "id":"333",
+                "mindset":"Traumatized",
+                "summary":"Bodybuilder who turned to steroids to get his ideal look. The gym experience was too much for him.",
+                "relationships":[
+                    {
+                        "targetId":"333",
+                        "type":"Work",
+                        "text":"Used to go to the gym of"
+                    },
+                    {
+                        "targetId":"335",
+                        "type":"Friends",
+                        "text":"Gym buddy of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Matt",
+                "id":"334",
+                "summary":"Very anti-steroids gym owner whose partner had a heart attack.",
+                "relationships":[
+                    {
+                        "targetId":"333",
+                        "type":"Work",
+                        "text":"Owner of %s's previous gym"
+                    }
+                ]
+            },
+            {
+                "displayName":"Marie Balandin",
+                "id":"335",
+                "type":"Unknown",
+                "status":"Unknown",
+                "summary":"Bodybuilder who went to Jared Hopworth's gym.",
+                "relationships":[
+                    {
+                        "targetId":"78",
+                        "type":"Work",
+                        "text":"Went to the gym of"
+                    },
+                    {
+                        "targetId":"333",
+                        "type":"Friends",
+                        "text":"Gym buddy of"
+                    }
+                ]
+            },
+            {
+                "id":"78",
+                "relationships":[
+                    {
+                        "targetId":"335",
+                        "type":"Work",
+                        "text":"Owner of %s's gym"
+                    },
+                    {
+                        "targetId":"333",
+                        "type":"Work",
+                        "text":"Owner of %s's former gym"
+                    }
+                ]
+            }
+        ]
     }
 ]
