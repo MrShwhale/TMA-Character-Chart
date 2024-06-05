@@ -214,7 +214,6 @@
                 "alignment":"Magnus Institute",
                 "memberIds":[
                     "0",
-                    "1",
                     "3",
                     "4",
                     "5"
@@ -245,7 +244,7 @@
                 "displayName":"Joshua Gillespie",
                 "id":"15",
                 "mindset":"Indifferent",
-                "summary":"Got 10,000 pounds for a spooky coffin that did not end up killing him.",
+                "summary":"Got 10,0 pounds for a spooky coffin that did not end up killing him.",
                 "relationships":[
                     {
                         "targetId":"16",
@@ -3237,9 +3236,9 @@
                 ],
                 "relationships":[
                     {
-                        "targetId":"37",
-                        "type":"Enemy",
-                        "text":"Target of",
+                        "targetId":"1",
+                        "type":"Work",
+                        "text":"Works for",
                         "feeling":"Afraid"
                     }
                 ]
@@ -4736,7 +4735,7 @@
                 "id":"235",
                 "status":"Dead",
                 "mindset":"Traumatized",
-                "summary":"Man who wanted to move to Oregan in 1845. Married a girl for more land and died on the way.",
+                "summary":"Man who wanted to move to Oregan in 1844. Married a girl for more land and died on the way.",
                 "relationships":[
                     {
                         "targetId":"233",
@@ -5004,13 +5003,13 @@
             {
                 "displayName":"Daisy",
                 "fullName":"Alice Tonner",
-                "id":"248",
+                "id":"180",
                 "wikiLink":"Alice_\"Daisy\"_Tonner",
                 "mindset":"Angry",
                 "summary":"Cop who works with Basira. Has a violent side, and no other side.",
                 "relationships":[
                     {
-                        "targetId":"249",
+                        "targetId":"248",
                         "type":"Work",
                         "text":"Junior officer of",
                         "feeling":"Good"
@@ -5019,12 +5018,12 @@
             },
             {
                 "displayName":"Isaac Masters",
-                "id":"249",
+                "id":"248",
                 "status":"Unknown",
                 "summary":"Cop who worked with Daisy until stepping into the coffin from episode 2.",
                 "relationships":[
                     {
-                        "targetId":"248",
+                        "targetId":"180",
                         "type":"Work",
                         "text":"Senior officer of"
                     }
@@ -5055,7 +5054,7 @@
                         "feeling":"Neutral"
                     },
                     {
-                        "targetId":"248",
+                        "targetId":"180",
                         "type":"Acquaintances",
                         "text":"Got a statement from",
                         "feeling":"Afraid"
@@ -5071,8 +5070,7 @@
                     "177",
                     "178",
                     "180",
-                    "181",
-                    "248"
+                    "181"
                 ]
             }
         ]
@@ -5087,13 +5085,13 @@
                 "summary":"Bookseller who likes Lightners. Does genuinely Supernatural things with the books she collects.",
                 "relationships":[
                     {
-                        "targetId":"251",
+                        "targetId":"250",
                         "type":"Other",
                         "text":"Killed",
                         "feeling":"Hate"
                     },
                     {
-                        "targetId":"253",
+                        "targetId":"252",
                         "type":"Other",
                         "text":"Killed"
                     },
@@ -5107,7 +5105,7 @@
             },
             {
                 "displayName":"Mrs. Keay",
-                "id":"250",
+                "id":"249",
                 "mindset":"Obsessed",
                 "summary":"Woman who was devoted to the Patron of the Institute.",
                 "alignment":"Magnus Institute",
@@ -5118,7 +5116,7 @@
                         "text":"Mother of"
                     },
                     {
-                        "targetId":"252",
+                        "targetId":"251",
                         "type":"Family",
                         "text":"Wife of"
                     }
@@ -5126,13 +5124,13 @@
             },
             {
                 "displayName":"Margaret Tellison",
-                "id":"251",
+                "id":"250",
                 "status":"Dead",
                 "summary":"Doctor who came across 2 Lightner books before he owned them. Used them to make money through necromancy."
             },
             {
                 "displayName":"Mr. Keay",
-                "id":"252",
+                "id":"251",
                 "status":"Dead",
                 "summary":"Father of Mary Keay who committed suicide when she was a child.",
                 "relationships":[
@@ -5142,7 +5140,7 @@
                         "text":"Father of"
                     },
                     {
-                        "targetId":"250",
+                        "targetId":"249",
                         "type":"Family",
                         "text":"Husband of"
                     }
@@ -5150,7 +5148,7 @@
             },
             {
                 "displayName":"Eric",
-                "id":"253",
+                "id":"252",
                 "status":"Dead",
                 "summary":"Man who Mary Keay knew, and probably killed."
             },
@@ -5173,18 +5171,18 @@
         "episodeCharacters":[
             {
                 "displayName":"Erin Gallagher-Nelson",
-                "id":"254",
+                "id":"253",
                 "mindset":"Afraid",
                 "summary":"Urban explorer who had a dangerous Supernatural experience in the dark at St. Paul's cathedral.",
                 "relationships":[
                     {
-                        "targetId":"255",
+                        "targetId":"254",
                         "type":"Work",
                         "text":"Photographer with",
                         "feeling":"Decent"
                     },
                     {
-                        "targetId":"256",
+                        "targetId":"255",
                         "type":"Family",
                         "text":"Wife of",
                         "feeling":"Good"
@@ -5193,18 +5191,18 @@
             },
             {
                 "displayName":"Luke Nelson",
-                "id":"255",
+                "id":"254",
                 "status":"Dead",
                 "mindset":"Afraid",
                 "summary":"Lighting tech for Erin Gallagher-Nelson who died consumed by the darkness in St. Paul's.",
                 "relationships":[
                     {
-                        "targetId":"254",
+                        "targetId":"253",
                         "type":"Work",
                         "text":"Lighting tech for"
                     },
                     {
-                        "targetId":"256",
+                        "targetId":"255",
                         "type":"Family",
                         "text":"Brother of"
                     }
@@ -5212,19 +5210,19 @@
             },
             {
                 "displayName":"Stephanie Gallagher-Nelson",
-                "id":"256",
+                "id":"255",
                 "mindset":"Sad",
                 "summary":"Wife of Erin Gallagher-Nelson who has stopped the Institute from investigating.",
                 "alignment":"",
                 "relationships":[
                     {
-                        "targetId":"255",
+                        "targetId":"254",
                         "type":"Family",
                         "text":"Sister of",
                         "feeling":"Good"
                     },
                     {
-                        "targetId":"254",
+                        "targetId":"253",
                         "type":"Family",
                         "text":"Wife of",
                         "feeling":"Worried"
@@ -5286,38 +5284,38 @@
         "episodeCharacters":[
             {
                 "displayName":"Donna Gwynne",
-                "id":"257",
+                "id":"256",
                 "mindset":"",
                 "summary":"Archeologist for the illegal archeology ring run by Stevo."
             },
             {
                 "displayName":"Stavo",
-                "id":"258",
+                "id":"257",
                 "summary":"Head of an illegal archeology ring."
             },
             {
                 "displayName":"Grigori",
-                "id":"259",
+                "id":"258",
                 "summary":"Geologist for the illegal archeology ring run by Stevo."
             },
             {
                 "displayName":"Norman",
-                "id":"260",
+                "id":"259",
                 "summary":"Fence for the illegal archeology ring run by Stevo."
             },
             {
                 "displayName":"Barry",
-                "id":"261",
+                "id":"260",
                 "summary":"Muscle for the illegal archeology ring run by Stevo."
             },
             {
                 "displayName":"Paul",
-                "id":"262",
+                "id":"261",
                 "summary":"Muscle for the illegal archeology ring run by Stevo."
             },
             {
                 "displayName":"Living Mummy",
-                "id":"263",
+                "id":"262",
                 "type":"Inhuman",
                 "status":"Alive",
                 "mindset":"Pain",
@@ -5333,16 +5331,16 @@
                 "relationType":"Work",
                 "feeling":"Good",
                 "memberIds":[
+                    "256",
                     "257",
                     "258",
                     "259",
                     "260",
-                    "261",
-                    "262"
+                    "261"
                 ],
                 "relationships":[
                     {
-                        "targetId":"263",
+                        "targetId":"262",
                         "type":"Other",
                         "text":"Found",
                         "feeling":"Afraid"
@@ -5357,11 +5355,11 @@
         "episodeCharacters":[
             {
                 "displayName":"Tessa Winters",
-                "id":"264",
+                "id":"263",
                 "summary":"Computer programmer who downloaded a Supernatural file to her computer. Unlocked Gertrude's laptop.",
                 "relationships":[
                     {
-                        "targetId":"265",
+                        "targetId":"264",
                         "type":"Other",
                         "text":"Downloaded",
                         "feeling":"Afraid"
@@ -5370,14 +5368,14 @@
             },
             {
                 "displayName":"Sergey Ushanka",
-                "id":"265",
+                "id":"264",
                 "type":"Digital human",
                 "status":"Alive",
                 "mindset":"Pain",
                 "summary":"Man/myth who put himself into a computer. It did not go well.",
                 "relationships":[
                     {
-                        "targetId":"264",
+                        "targetId":"263",
                         "type":"Other",
                         "text":"Tormented",
                         "feeling":"Greatful"
@@ -5392,7 +5390,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Vincent Yang",
-                "id":"266",
+                "id":"265",
                 "mindset":"Traumatized",
                 "summary":"Former customs worker who was trapped in a coffin for days.",
                 "relationships":[
@@ -5451,7 +5449,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Jack Barnabas",
-                "id":"267",
+                "id":"266",
                 "summary":"Man with terrible burns who briefly dated Agnes Montague. It ended somewhat poorly.",
                 "relationships":[
                     {
@@ -5461,7 +5459,7 @@
                         "feeling":"Good"
                     },
                     {
-                        "targetId":"268",
+                        "targetId":"267",
                         "type":"Work",
                         "text":"Employee of",
                         "feeling":"Annoyed"
@@ -5475,7 +5473,7 @@
                 "summary":"Offputting adopted daughter of Raymond Fielding. Seemingly ageless and REALLY hot.",
                 "relationships":[
                     {
-                        "targetId":"267",
+                        "targetId":"266",
                         "type":"Friends",
                         "text":"Dated",
                         "feeling":"Good"
@@ -5484,11 +5482,11 @@
             },
             {
                 "displayName":"Deliah Aconjo",
-                "id":"268",
+                "id":"267",
                 "summary":"Worker at a cafe that had the same Agnes come in every day for 15 years.",
                 "relationships":[
                     {
-                        "targetId":"267",
+                        "targetId":"266",
                         "type":"Work",
                         "text":"Boss of",
                         "feeling":"Sorrow"
@@ -5497,7 +5495,7 @@
             },
             {
                 "displayName":"Short Muscular Asian Woman",
-                "id":"269",
+                "id":"268",
                 "wikiLink":"Jude_Perry",
                 "summary":"Woman who talked to Agnes. Has a scary tatoo."
             },
@@ -5524,7 +5522,7 @@
                     "45",
                     "132",
                     "179",
-                    "269"
+                    "268"
                 ],
                 "relationships":[
                     {
@@ -5548,7 +5546,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Joseph Russo",
-                "id":"270",
+                "id":"269",
                 "summary":"A Magnus Institute fanboy and conspiracy theorist.",
                 "relationships":[
                     {
@@ -5565,7 +5563,7 @@
                 "summary":"New, evil director of Ivy Medows who burns really easily and hates exterminators. Mentioned in The Tale of a Field Hospital, where he died many times and sickness ran rampant. Also known as Jeffery Amherst.",
                 "relationships":[
                     {
-                        "targetId":"271",
+                        "targetId":"270",
                         "type":"Work",
                         "text":"Spread infection in %s' hospital"
                     }
@@ -5573,7 +5571,7 @@
             },
             {
                 "displayName":"Frederick Treeves",
-                "id":"271",
+                "id":"270",
                 "summary":"Doctor who wrote The Tale of a Field Hospital.",
                 "relationships":[
                     {
@@ -5592,18 +5590,18 @@
         "episodeCharacters":[
             {
                 "displayName":"Darren Harlow",
-                "id":"272",
+                "id":"271",
                 "mindset":"Moving on",
                 "summary":"Man who cleaned up the Psychology department when the Fear/ESP experiment was going on.",
                 "relationships":[
                     {
-                        "targetId":"273",
+                        "targetId":"272",
                         "type":"Work",
                         "text":"Cleaned for",
                         "feeling":"Good"
                     },
                     {
-                        "targetId":"275",
+                        "targetId":"274",
                         "type":"Family",
                         "text":"Husband of",
                         "feeling":"Good"
@@ -5612,22 +5610,22 @@
             },
             {
                 "displayName":"Elizabeth Bates",
-                "id":"273",
+                "id":"272",
                 "summary":"Psychologist who did the experiment using fear and ESP that created Annabelle Cane.",
                 "relationships":[
                     {
-                        "targetId":"274",
+                        "targetId":"273",
                         "type":"Work",
                         "text":"Did an experiment on"
                     },
                     {
-                        "targetId":"272",
+                        "targetId":"271",
                         "type":"Work",
                         "text":"Boss of",
                         "feeling":"Good"
                     },
                     {
-                        "targetId":"276",
+                        "targetId":"275",
                         "type":"Work",
                         "text":"Teacher of"
                     }
@@ -5635,7 +5633,7 @@
             },
             {
                 "displayName":"Annabelle Cane",
-                "id":"274",
+                "id":"273",
                 "wikiLink":"Annabelle_Cane",
                 "type":"Inhuman",
                 "status":"Unknown",
@@ -5644,11 +5642,11 @@
             },
             {
                 "displayName":"Laura Harlow",
-                "id":"275",
+                "id":"274",
                 "summary":"Wife of Darren Harlow.",
                 "relationships":[
                     {
-                        "targetId":"272",
+                        "targetId":"271",
                         "type":"Family",
                         "text":"Wife of"
                     }
@@ -5656,16 +5654,16 @@
             },
             {
                 "displayName":"Mark Voight",
-                "id":"276",
+                "id":"275",
                 "summary":"Postgrad student who worked on the Fear/ESP experiment. Tried to stop Annabelle Cane.",
                 "relationships":[
                     {
-                        "targetId":"274",
+                        "targetId":"273",
                         "type":"Other",
                         "text":"Broke control of"
                     },
                     {
-                        "targetId":"273",
+                        "targetId":"272",
                         "type":"Work",
                         "text":"Student of"
                     }
@@ -5679,19 +5677,19 @@
         "episodeCharacters":[
             {
                 "displayName":"Masato Murray",
-                "id":"277",
+                "id":"276",
                 "status":"Dead",
                 "mindset":"Afraid",
                 "summary":"Man who read a book of his own death, then went missing.",
                 "relationships":[
                     {
-                        "targetId":"278",
+                        "targetId":"277",
                         "type":"Acquaintances",
                         "text":"Knew",
                         "feeling":"Hatred"
                     },
                     {
-                        "targetId":"280",
+                        "targetId":"279",
                         "type":"Friends",
                         "text":"Friend of"
                     }
@@ -5699,12 +5697,12 @@
             },
             {
                 "displayName":"Philip Doah",
-                "id":"278",
+                "id":"277",
                 "status":"Dead",
                 "summary":"Man who died on train tracks and left a book to his \"friend\".",
                 "relationships":[
                     {
-                        "targetId":"278",
+                        "targetId":"277",
                         "type":"Acquaintances",
                         "text":"Knew",
                         "feeling":"Hatred"
@@ -5713,17 +5711,17 @@
             },
             {
                 "displayName":"Alexander Willard",
-                "id":"279",
+                "id":"278",
                 "status":"Dead",
-                "summary":"Previous owner of the Book of the Dead who died mysteriously in 1983."
+                "summary":"Previous owner of the Book of the Dead who died mysteriously in 1982."
             },
             {
                 "displayName":"John Kendrick",
-                "id":"280",
+                "id":"279",
                 "summary":"Person who Masato Murray stayed with.",
                 "relationships":[
                     {
-                        "targetId":"277",
+                        "targetId":"276",
                         "type":"Friend",
                         "text":"Friend of"
                     }
@@ -5737,13 +5735,13 @@
         "episodeCharacters":[
             {
                 "displayName":"Karolina Górka",
-                "id":"281",
+                "id":"280",
                 "mindset":"Indifferent",
                 "summary":"Woman who escaped the mysterious Underground when it tried to keep her.",
                 "alignment":"",
                 "relationships":[
                     {
-                        "targetId":"285",
+                        "targetId":"284",
                         "type":"Other",
                         "text":"Met on the Underground",
                         "feeling":"Sad"
@@ -5752,16 +5750,16 @@
             },
             {
                 "displayName":"Andrew Barnet",
-                "id":"282",
+                "id":"281",
                 "summary":"Colleague of Karolina Górka who celebrated post New Year's Eve with her."
             },
             {
                 "displayName":"Leanne Hillard",
-                "id":"283",
+                "id":"282",
                 "summary":"Friend of Karolina Górka who celebrated post New Year's Eve with her.",
                 "relationships":[
                     {
-                        "targetId":"284",
+                        "targetId":"283",
                         "type":"Family",
                         "text":"Wife of"
                     }
@@ -5769,11 +5767,11 @@
             },
             {
                 "displayName":"Mark Hillard",
-                "id":"284",
+                "id":"283",
                 "summary":"Husband of Leanne Hillard who celebrated post New Year's Eve with her.",
                 "relationships":[
                     {
-                        "targetId":"283",
+                        "targetId":"282",
                         "type":"Family",
                         "text":"Husband of"
                     }
@@ -5781,18 +5779,18 @@
             },
             {
                 "displayName":"Tamara Simpkin",
-                "id":"285",
+                "id":"284",
                 "summary":"Housmate of Karolina Górka who celebrated post New Year's Eve with her."
             },
             {
                 "displayName":"Nicholas Lekman",
-                "id":"286",
+                "id":"285",
                 "status":"Unknown",
                 "mindset":"Sad",
                 "summary":"Claustrophobe who went missing on the Underground and may still be there.",
                 "relationships":[
                     {
-                        "targetId":"281",
+                        "targetId":"280",
                         "type":"Other",
                         "text":"Met on the Underground"
                     }
@@ -5808,11 +5806,11 @@
                 "relationType":"Friends",
                 "feeling":"Good",
                 "memberIds":[
+                    "280",
                     "281",
                     "282",
                     "283",
-                    "284",
-                    "285"
+                    "284"
                 ]
             }
         ]
@@ -5823,12 +5821,12 @@
         "episodeCharacters":[
             {
                 "displayName":"Craig Goodall",
-                "id":"287",
+                "id":"286",
                 "mindset":"Unsettled",
                 "summary":"Man who lived near John Haan's restaurant and went exploring in it.",
                 "relationships":[
                     {
-                        "targetId":"290",
+                        "targetId":"289",
                         "type":"Friends",
                         "text":"Friend of"
                     }
@@ -5836,12 +5834,12 @@
             },
             {
                 "displayName":"John Haan",
-                "id":"288",
+                "id":"287",
                 "mindset":"Insane",
                 "summary":"Man who killed his wife and sold her as meat.",
                 "relationships":[
                     {
-                        "targetId":"289",
+                        "targetId":"288",
                         "type":"Family",
                         "text":"Husband/killer of"
                     },
@@ -5854,12 +5852,12 @@
             },
             {
                 "displayName":"Lanying Haan",
-                "id":"289",
+                "id":"288",
                 "status":"Dead",
                 "summary":"Wife of John Haan who was put into the food served at his restaurant.",
                 "relationships":[
                     {
-                        "targetId":"288",
+                        "targetId":"287",
                         "type":"Family",
                         "text":"Wife of"
                     }
@@ -5867,11 +5865,11 @@
             },
             {
                 "displayName":"Leroy Yates",
-                "id":"290",
+                "id":"289",
                 "summary":"Urban explorer friend of Craig Goodall who saved him from Tom Haan.",
                 "relationships":[
                     {
-                        "targetId":"287",
+                        "targetId":"286",
                         "type":"Friends",
                         "text":"Friend of"
                     }
@@ -5882,7 +5880,7 @@
                 "summary":"Person who used to work on the killing floor, who bolted himself into oblivion. Almost killed someone at his uncle's shop.",
                 "relationships":[
                     {
-                        "targetId":"288",
+                        "targetId":"287",
                         "type":"Family",
                         "text":"Nephew of"
                     }
@@ -5896,7 +5894,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Callum Brodie",
-                "id":"291",
+                "id":"290",
                 "wikiLink":"Callum_Brodie",
                 "summary":"Child kidnapping and stapped down by Maxwell Rayner's cult. Made it out \"fine\".",
                 "relationships":[
@@ -5909,12 +5907,12 @@
             },
             {
                 "displayName":"Goodman",
-                "id":"292",
+                "id":"291",
                 "summary":"Counter terrorist firearms squad member who was partnered with Basira during the Rayner Raid."
             },
             {
                 "displayName":"Leo Altman",
-                "id":"293",
+                "id":"292",
                 "status":"Dead",
                 "summary":"Friendly sectioned officer who died during the Rayner Raid after touching some black goop."
             },
@@ -5946,7 +5944,7 @@
                 "id":"211",
                 "relationships":[
                     {
-                        "targetId":"291",
+                        "targetId":"290",
                         "type":"Family",
                         "text":"Mother of"
                     }
@@ -5982,8 +5980,8 @@
                     "178",
                     "180",
                     "181",
-                    "292",
-                    "293"
+                    "291",
+                    "292"
                 ],
                 "relationships":[
                     {
@@ -6001,7 +5999,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Lydia Halligan",
-                "id":"294",
+                "id":"293",
                 "status":"Dead",
                 "mindset":"Afraid",
                 "summary":"Freelance writer who suffered from terrible insomnia and horrific, confusing waking dreams.",
@@ -6021,17 +6019,17 @@
         "episodeCharacters":[
             {
                 "displayName":"Stephen Walker",
-                "id":"295",
+                "id":"294",
                 "summary":"Man who went on a trip to Paris with his brother and came back alone.",
                 "relationships":[
                     {
-                        "targetId":"296",
+                        "targetId":"295",
                         "type":"Family",
                         "text":"Brother of",
                         "feeling":"Sorry"
                     },
                     {
-                        "targetId":"298",
+                        "targetId":"297",
                         "type":"Acquaintances",
                         "text":"Former boyfriend of"
                     }
@@ -6039,13 +6037,13 @@
             },
             {
                 "displayName":"Grant Walker",
-                "id":"296",
+                "id":"295",
                 "status":"Unknown",
                 "mindset":"Afraid",
                 "summary":"Man who lost his job twice before going on a trip to Paris. Very scared of heights.",
                 "relationships":[
                     {
-                        "targetId":"295",
+                        "targetId":"294",
                         "type":"Family",
                         "text":"Brother of",
                         "feeling":"Good"
@@ -6054,11 +6052,11 @@
             },
             {
                 "displayName":"Jim Hancock",
-                "id":"297",
+                "id":"296",
                 "summary":"Very Cockney builder with a ladder.",
                 "relationships":[
                     {
-                        "targetId":"295",
+                        "targetId":"294",
                         "type":"Acquaintances",
                         "text":"Neighbor of"
                     }
@@ -6066,11 +6064,11 @@
             },
             {
                 "displayName":"Carly",
-                "id":"298",
+                "id":"297",
                 "summary":"Ex-girlfriend of Stephen Walker.",
                 "relationships":[
                     {
-                        "targetId":"295",
+                        "targetId":"294",
                         "type":"Acquaintances",
                         "text":"Former girlfriend of"
                     }
@@ -6088,7 +6086,7 @@
                         "targetId":"189",
                         "type":"Other",
                         "text":"Took",
-                        "feeling":"296"
+                        "feeling":"295"
                     }
                 ]
             }
@@ -6104,7 +6102,7 @@
             },
             {
                 "displayName":"William W. Hay",
-                "id":"299",
+                "id":"298",
                 "status":"Dead",
                 "summary":"Noted occultist who worked on the 11th Hospital Train and saw terrible violence on it."
             }
@@ -6116,18 +6114,18 @@
         "episodeCharacters":[
             {
                 "displayName":"Lucy Cooper",
-                "id":"300",
+                "id":"299",
                 "mindset":"Traumatized",
                 "summary":"Woman who found her mother replaced by a stranger one day.",
                 "relationships":[
                     {
-                        "targetId":"301",
+                        "targetId":"300",
                         "type":"Family",
                         "text":"Daughter of",
                         "feeling":"Hatred"
                     },
                     {
-                        "targetId":"302",
+                        "targetId":"301",
                         "type":"Friends",
                         "text":"Fiance of"
                     }
@@ -6135,18 +6133,18 @@
             },
             {
                 "displayName":"Rose Cooper",
-                "id":"301",
+                "id":"300",
                 "status":"Dead",
                 "summary":"Woman who did not like her child. Was replaced by the NotThem.",
                 "relationships":[
                     {
-                        "targetId":"300",
+                        "targetId":"299",
                         "type":"Family",
                         "text":"Mother of",
                         "feeling":"Hatred"
                     },
                     {
-                        "targetId":"302",
+                        "targetId":"301",
                         "type":"Family",
                         "text":"Wife of"
                     }
@@ -6154,11 +6152,11 @@
             },
             {
                 "displayName":"Laurence",
-                "id":"302",
+                "id":"301",
                 "summary":"Fiance of Lucy Cooper.",
                 "relationships":[
                     {
-                        "targetId":"300",
+                        "targetId":"299",
                         "type":"Friends",
                         "text":"Fiance of"
                     }
@@ -6166,18 +6164,18 @@
             },
             {
                 "displayName":"George Cooper",
-                "id":"303",
+                "id":"302",
                 "status":"Dead",
                 "summary":"Man who could not see through the NotThem when it replaced his wife.",
                 "relationships":[
                     {
-                        "targetId":"300",
+                        "targetId":"299",
                         "type":"Family",
                         "text":"Father of",
                         "feeling":"Good"
                     },
                     {
-                        "targetId":"301",
+                        "targetId":"300",
                         "type":"Family",
                         "text":"Husband of"
                     }
@@ -6185,18 +6183,18 @@
             },
             {
                 "displayName":"Not!Rose",
-                "id":"304",
+                "id":"303",
                 "type":"Inhuman",
                 "status":"Unknown",
                 "summary":"Thing that replaced and killed Rose Cooper. An alias of the NotThem.",
                 "relationships":[
                     {
-                        "targetId":"301",
+                        "targetId":"300",
                         "type":"Other",
                         "text":"Killed and replaced"
                     },
                     {
-                        "targetId":"309",
+                        "targetId":"308",
                         "type":"Is",
                         "text":"Is"
                     }
@@ -6204,11 +6202,11 @@
             },
             {
                 "displayName":"Tom Harrison",
-                "id":"305",
+                "id":"304",
                 "summary":"Neighbor who lived by Rose Cooper.",
                 "relationships":[
                     {
-                        "targetId":"300",
+                        "targetId":"299",
                         "type":"Acquaintances",
                         "text":"Neighbor of"
                     }
@@ -6216,11 +6214,11 @@
             },
             {
                 "displayName":"Joanne Fisher",
-                "id":"306",
+                "id":"305",
                 "summary":"Neighbor who lived by Rose Cooper.",
                 "relationships":[
                     {
-                        "targetId":"300",
+                        "targetId":"299",
                         "type":"Acquaintances",
                         "text":"Neighbor of"
                     }
@@ -6228,11 +6226,11 @@
             },
             {
                 "displayName":"Neil Angus",
-                "id":"307",
+                "id":"306",
                 "summary":"Pastor who heard Rose Cooper \"fall\".",
                 "relationships":[
                     {
-                        "targetId":"301",
+                        "targetId":"300",
                         "type":"Acquaintances",
                         "text":"Pastor of"
                     }
@@ -6240,12 +6238,12 @@
             },
             {
                 "displayName":"Adelard Dekker",
-                "id":"308",
+                "id":"307",
                 "summary":"Man who knows what the NotThem is, and gave a statement about it to the Institute."
             },
             {
                 "displayName":"NotThem",
-                "id":"309",
+                "id":"308",
                 "wikiLink":"NotThem",
                 "type":"Inhuman",
                 "summary":"Changeling creature that kills and takes the place of someone, replacing all memories and digital references to them. Someone always remembers the original person.",
@@ -6262,7 +6260,7 @@
                         "text":"Is"
                     },
                     {
-                        "targetId":"304",
+                        "targetId":"303",
                         "type":"Is",
                         "text":"Is"
                     }
@@ -6279,7 +6277,7 @@
                         "text":"Killed and replaced"
                     },
                     {
-                        "targetId":"309",
+                        "targetId":"308",
                         "type":"Is",
                         "text":"Is"
                     }
@@ -6298,7 +6296,7 @@
                         "text":"Killed and replaced"
                     },
                     {
-                        "targetId":"309",
+                        "targetId":"308",
                         "type":"Is",
                         "text":"Is"
                     }
@@ -6320,17 +6318,17 @@
         "episodeCharacters":[
             {
                 "displayName":"Lawrence Moore",
-                "id":"310",
+                "id":"309",
                 "summary":"Man whose cousin was replaced.",
                 "relationships":[
                     {
-                        "targetId":"311",
+                        "targetId":"310",
                         "type":"Family",
                         "text":"Cousin of",
                         "feeling":"Neutral"
                     },
                     {
-                        "targetId":"312",
+                        "targetId":"311",
                         "type":"Family",
                         "text":"Brother of"
                     }
@@ -6338,12 +6336,12 @@
             },
             {
                 "displayName":"Carl Moore",
-                "id":"311",
+                "id":"310",
                 "status":"Dead",
                 "summary":"Person who was replaced by the NotThem.",
                 "relationships":[
                     {
-                        "targetId":"310",
+                        "targetId":"309",
                         "type":"Family",
                         "text":"Cousin of"
                     }
@@ -6351,11 +6349,11 @@
             },
             {
                 "displayName":"Adam Moore",
-                "id":"312",
+                "id":"311",
                 "summary":"Man who did not notice when his cousin was replaced by the NotThem.",
                 "relationships":[
                     {
-                        "targetId":"310",
+                        "targetId":"309",
                         "type":"Family",
                         "text":"Brother of"
                     }
@@ -6363,15 +6361,15 @@
             },
             {
                 "displayName":"Adelard Dekker",
-                "id":"308",
+                "id":"307",
                 "summary":"Man who knows what the NotThem is, and gave a statement about it to the Institute."
             },
             {
-                "id":"309",
+                "id":"308",
                 "status":"Unknown",
                 "relationships":[
                     {
-                        "targetId":"311",
+                        "targetId":"310",
                         "type":"Other",
                         "text":"Killed and replaced by"
                     }
@@ -6396,7 +6394,7 @@
                 "mindset":"Afraid"
             },
             {
-                "id":"309",
+                "id":"308",
                 "status":"Unknown",
                 "mindset":"Good",
                 "summary":"Changeling creature that kills and takes the place of someone, replacing all memories and digital references to them. Someone always remembers the original person, to scare them. Used to be trapped in the spiral table, but was freed.",
@@ -6446,13 +6444,13 @@
             },
             {
                 "displayName":"Jacob Feng",
-                "id":"313",
+                "id":"312",
                 "status":"Unknown",
                 "summary":"Assistant of Jurgen Lightner who disappeared from the world after reading too much of a book."
             },
             {
                 "displayName":"Desmond Lorell",
-                "id":"314",
+                "id":"313",
                 "status":"Dead",
                 "summary":"Man who first showed Lightner one of the books he would become famous for.",
                 "relationships":[
@@ -6465,31 +6463,31 @@
             },
             {
                 "displayName":"Albert Stross",
-                "id":"315",
+                "id":"314",
                 "status":"Dead",
                 "summary":"First assistant of Jurgen Lightner."
             },
             {
                 "displayName":"Thomas McMann",
-                "id":"316",
+                "id":"315",
                 "status":"Dead",
                 "summary":"Assistant of Jurgen Lightner. Died when the library went down."
             },
             {
                 "displayName":"Mary Johnson",
-                "id":"317",
+                "id":"316",
                 "status":"Dead",
                 "summary":"Assistant of Jurgen Lightner. Died when the library went down."
             },
             {
                 "displayName":"Gregory Todd",
-                "id":"318",
+                "id":"317",
                 "status":"Dead",
                 "summary":"Assistant of Jurgen Lightner. Died when the library went down."
             },
             {
                 "displayName":"Leandra Toulouse",
-                "id":"319",
+                "id":"318",
                 "status":"Dead",
                 "summary":"Assistant of Jurgen Lightner. Died when the library went down."
             },
@@ -6525,12 +6523,12 @@
                 "type":"Supernatural",
                 "relationType":"Work",
                 "memberIds":[
-                    "313",
+                    "312",
+                    "314",
                     "315",
                     "316",
                     "317",
-                    "318",
-                    "319"
+                    "318"
                 ],
                 "relationships":[
                     {
@@ -6580,7 +6578,7 @@
                 "summary":"The head of the Magnus Institute. Knows what is going on and is somehow involved, probably in an evil way. Has suspiciously good blackmail on Daisy."
             },
             {
-                "id":"248",
+                "id":"180",
                 "summary":"Cop who works with Basira. Murders monsters and people for fun and work.",
                 "relationships":[
                     {
@@ -6590,7 +6588,7 @@
                         "feeling":"Hatred"
                     },
                     {
-                        "targetId":"320",
+                        "targetId":"319",
                         "type":"Other",
                         "text":"Old friend of and killed",
                         "feeling":""
@@ -6599,12 +6597,12 @@
             },
             {
                 "displayName":"Calvin Benchley",
-                "id":"320",
+                "id":"319",
                 "status":"Dead",
                 "summary":"Man who met a creature that whispered in his ear as a child and completely changed his personality. Became a violent wreck that was never punished.",
                 "relationships":[
                     {
-                        "targetId":"248",
+                        "targetId":"180",
                         "type":"Other",
                         "text":"Old friend of"
                     }
@@ -6640,28 +6638,28 @@
             },
             {
                 "displayName":"Chloe Ashburt",
-                "id":"321",
+                "id":"320",
                 "summary":"Department store worker who noticed that something was off about the main mannequin."
             },
             {
                 "displayName":"Lana",
-                "id":"322",
+                "id":"321",
                 "status":"Dead",
                 "summary":"Line manager at a department store who was brutally killed."
             },
             {
                 "displayName":"Jan",
-                "id":"323",
+                "id":"322",
                 "summary":"Worker at a department store."
             },
             {
                 "displayName":"Liam",
-                "id":"324",
+                "id":"323",
                 "summary":"Worker at a department store."
             },
             {
                 "displayName":"Mannequin thing",
-                "id":"325",
+                "id":"324",
                 "wikiLink":"Nikola_Orsinov",
                 "type":"Unknown",
                 "status":"Alive",
@@ -6669,7 +6667,7 @@
                 "alignment":"The Stranger",
                 "relationships":[
                     {
-                        "targetId":"322",
+                        "targetId":"321",
                         "type":"Other",
                         "text":"Killed"
                     }
@@ -6692,10 +6690,10 @@
                 "type":"Mundane",
                 "relationType":"Work",
                 "memberIds":[
+                    "320",
                     "321",
                     "322",
-                    "323",
-                    "324"
+                    "323"
                 ]
             }
         ]
@@ -6706,17 +6704,17 @@
         "episodeCharacters":[
             {
                 "displayName":"Adrian Weiss",
-                "id":"326",
+                "id":"325",
                 "summary":"Man who grew up in a small town and saw the strangeness that happened in the dump.",
                 "relationships":[
                     {
-                        "targetId":"327",
+                        "targetId":"326",
                         "type":"Friends",
                         "text":"Former friend of",
                         "feeling":"Pity"
                     },
                     {
-                        "targetId":"329",
+                        "targetId":"328",
                         "type":"Acquaintances",
                         "text":"Knew"
                     }
@@ -6724,18 +6722,18 @@
             },
             {
                 "displayName":"Gordon Goodman",
-                "id":"327",
+                "id":"326",
                 "type":"Unknown",
                 "status":"Alive",
                 "summary":"Boy who went missing for a few days in the dump before coming back slightly off.",
                 "relationships":[
                     {
-                        "targetId":"326",
+                        "targetId":"325",
                         "type":"Friends",
                         "text":"Former friend of"
                     },
                     {
-                        "targetId":"328",
+                        "targetId":"327",
                         "type":"Other",
                         "text":"Brought food to",
                         "feeling":"Fear"
@@ -6745,13 +6743,13 @@
             {
                 "displayName":"Maggie",
                 "fullName":"Margaret Carnegie",
-                "id":"328",
+                "id":"327",
                 "type":"Unknown",
                 "status":"Dead",
                 "summary":"Hoarder who was doing something supernatural.",
                 "relationships":[
                     {
-                        "targetId":"327",
+                        "targetId":"326",
                         "type":"Other",
                         "text":"Did something to"
                     }
@@ -6759,11 +6757,11 @@
             },
             {
                 "displayName":"Davey Morgan",
-                "id":"329",
+                "id":"328",
                 "summary":"Boy who spread rumors about Maggie.",
                 "relationships":[
                     {
-                        "targetId":"326",
+                        "targetId":"325",
                         "type":"Acquaintances",
                         "text":"Knew"
                     }
@@ -6789,13 +6787,13 @@
         "episodeCharacters":[
             {
                 "displayName":"William Hughes Mearns",
-                "id":"330",
+                "id":"329",
                 "status":"Dead",
                 "summary":"Poet who wrote of a man that wasn't there."
             },
             {
                 "displayName":"Eric Delano",
-                "id":"253",
+                "id":"252",
                 "wikiLink":"Eric_Delano",
                 "summary":"Man who Mary Keay knew, and probably killed. He had correspondance with Gertrude Robinson.",
                 "relationships":[
@@ -6814,13 +6812,13 @@
         "episodeCharacters":[
             {
                 "displayName":"Benjamin Hatendi",
-                "id":"331",
+                "id":"330",
                 "status":"Dead",
                 "mindset":"Afraid",
                 "summary":"Man who checked on a frind, then was tormented by a shadow creature.",
                 "relationships":[
                     {
-                        "targetId":"332",
+                        "targetId":"331",
                         "type":"Friends",
                         "text":"Old friend of"
                     }
@@ -6828,13 +6826,13 @@
             },
             {
                 "displayName":"Robin Patton",
-                "id":"332",
+                "id":"331",
                 "status":"Dead",
                 "mindset":"Afraid",
                 "summary":"Man who was found dead in his wardrobe, in constant fear.",
                 "relationships":[
                     {
-                        "targetId":"331",
+                        "targetId":"330",
                         "type":"Friends",
                         "text":"Old friend of"
                     }
@@ -6870,7 +6868,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Sebastian Skinner",
-                "id":"333",
+                "id":"332",
                 "status":"Dead",
                 "summary":"VERY oblivious plumber who was almost used in a Stranger ritual.",
                 "relationships":[
@@ -6891,12 +6889,12 @@
                 "alignment":"The Stranger",
                 "relationships":[
                     {
-                        "targetId":"325",
+                        "targetId":"324",
                         "type":"Is",
                         "text":"Is"
                     },
                     {
-                        "targetId":"333",
+                        "targetId":"332",
                         "type":"Work",
                         "text":"Hired"
                     }
@@ -6904,7 +6902,7 @@
             },
             {
                 "displayName":"Ms. Orsinov",
-                "id":"325",
+                "id":"324",
                 "type":"Inhuman",
                 "status":"Dead",
                 "mindset":"Happy",
@@ -6917,7 +6915,7 @@
                         "text":"Is"
                     },
                     {
-                        "targetId":"269",
+                        "targetId":"268",
                         "type":"Acquaintances",
                         "text":"Possible ally of"
                     }
@@ -6925,12 +6923,12 @@
             },
             {
                 "displayName":"Jude Perry",
-                "id":"269",
+                "id":"268",
                 "summary":"Woman who talked to Agnes. Has a scary tatoo. Also worked with Nikola Orsinov by burning down a forest.",
                 "alignment":"Desolation",
                 "relationships":[
                     {
-                        "targetId":"325",
+                        "targetId":"324",
                         "type":"Acquaintances",
                         "text":"Possible ally of"
                     }
@@ -6956,7 +6954,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Enrique MacMillan",
-                "id":"326",
+                "id":"325",
                 "status":"Dead",
                 "mindset":"Insane",
                 "summary":"Man who became obssesed with digging after finding a book under the sand."
@@ -6974,7 +6972,7 @@
             },
             {
                 "displayName":"Sonja",
-                "id":"327",
+                "id":"326",
                 "summary":"The person to talk to about Artifact Storage at the Magnus Institute.",
                 "alignment":"Magnus Institute"
             }
@@ -6986,18 +6984,18 @@
         "episodeCharacters":[
             {
                 "displayName":"Jude Perry",
-                "id":"269",
+                "id":"268",
                 "type":"Inhuman",
                 "summary":"Woman who serves the Desolation, hates the Archivist less than others (still a lot). Used to be a stock market player, but has since started killing people. Knew Agnes well.",
                 "relationships":[
                     {
-                        "targetId":"329",
+                        "targetId":"328",
                         "type":"Other",
                         "text":"Killed",
                         "feeling":"Neutral"
                     },
                     {
-                        "targetId":"332",
+                        "targetId":"331",
                         "type":"Friends",
                         "text":"Former girlfriend of"
                     },
@@ -7011,20 +7009,20 @@
             },
             {
                 "displayName":"Sandy",
-                "id":"328",
+                "id":"327",
                 "type":"Inhuman",
                 "summary":"Woman who Jude Perry met when she was first going to join the Cult of the Lightless Flame.",
                 "alignment":"Desolation"
             },
             {
                 "displayName":"Nicholas Tregenza",
-                "id":"329",
+                "id":"328",
                 "status":"Dead",
                 "mindset":"Happy",
                 "summary":"Stock broker who had some good things happen to him, which led to some bad things happening to him.",
                 "relationships":[
                     {
-                        "targetId":"269",
+                        "targetId":"268",
                         "type":"Other",
                         "text":"Worked with",
                         "feeling":"Good"
@@ -7033,12 +7031,12 @@
             },
             {
                 "displayName":"Julia Tregenza",
-                "id":"330",
+                "id":"329",
                 "status":"Dead",
                 "summary":"Wife of Nicholas Tregenza, died after having nearly everything taken from her.",
                 "relationships":[
                     {
-                        "targetId":"329",
+                        "targetId":"328",
                         "type":"Other",
                         "text":"Worked with",
                         "feeling":"Good"
@@ -7047,11 +7045,11 @@
             },
             {
                 "displayName":"Desmond Tregenza",
-                "id":"331",
+                "id":"330",
                 "summary":"Child who was orphaned by Jude Perry. Life might get worse for him if things start to go his way.",
                 "relationships":[
                     {
-                        "targetId":"329",
+                        "targetId":"328",
                         "type":"Family",
                         "text":"Son of"
                     }
@@ -7059,11 +7057,11 @@
             },
             {
                 "displayName":"Gretchen",
-                "id":"332",
+                "id":"331",
                 "summary":"Girlfriend of Jude Perry before her transformation.",
                 "relationships":[
                     {
-                        "targetId":"269",
+                        "targetId":"268",
                         "type":"Friends",
                         "text":"Former girlfriend of"
                     }
@@ -7073,7 +7071,7 @@
                 "id":"29",
                 "relationships":[
                     {
-                        "targetId":"269",
+                        "targetId":"268",
                         "type":"Acquaintances",
                         "text":"Knows",
                         "feeling":"Dislike"
@@ -7104,8 +7102,8 @@
                     "45",
                     "132",
                     "179",
-                    "269",
-                    "328"
+                    "268",
+                    "327"
                 ]
             }
         ]
@@ -7116,17 +7114,17 @@
         "episodeCharacters":[
             {
                 "displayName":"Ross Davenport",
-                "id":"333",
+                "id":"332",
                 "mindset":"Traumatized",
                 "summary":"Bodybuilder who turned to steroids to get his ideal look. The gym experience was too much for him.",
                 "relationships":[
                     {
-                        "targetId":"333",
+                        "targetId":"332",
                         "type":"Work",
                         "text":"Used to go to the gym of"
                     },
                     {
-                        "targetId":"335",
+                        "targetId":"334",
                         "type":"Friends",
                         "text":"Gym buddy of"
                     }
@@ -7134,11 +7132,11 @@
             },
             {
                 "displayName":"Matt",
-                "id":"334",
+                "id":"333",
                 "summary":"Very anti-steroids gym owner whose partner had a heart attack.",
                 "relationships":[
                     {
-                        "targetId":"333",
+                        "targetId":"332",
                         "type":"Work",
                         "text":"Owner of %s's previous gym"
                     }
@@ -7146,7 +7144,7 @@
             },
             {
                 "displayName":"Marie Balandin",
-                "id":"335",
+                "id":"334",
                 "type":"Unknown",
                 "status":"Unknown",
                 "summary":"Bodybuilder who went to Jared Hopworth's gym.",
@@ -7157,7 +7155,7 @@
                         "text":"Went to the gym of"
                     },
                     {
-                        "targetId":"333",
+                        "targetId":"332",
                         "type":"Friends",
                         "text":"Gym buddy of"
                     }
@@ -7167,15 +7165,214 @@
                 "id":"78",
                 "relationships":[
                     {
-                        "targetId":"335",
+                        "targetId":"334",
                         "type":"Work",
                         "text":"Owner of %s's gym"
                     },
                     {
-                        "targetId":"333",
+                        "targetId":"332",
                         "type":"Work",
                         "text":"Owner of %s's former gym"
                     }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"91",
+        "episodeName":"The Coming Storm",
+        "episodeCharacters":[
+            {
+                "id":"29",
+                "status":"Dead",
+                "summary":"Childhood friend of Dominic Swain who was struct by lightning and chased by something. Was obssesed with Lightners and then became something else.",
+                "mindset":"Semi-controlled",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Enemies",
+                        "text":"Almost killed",
+                        "feeling":"Merciful"
+                    },
+                    {
+                        "targetId":"189",
+                        "type":"Acquaintances",
+                        "text":"Regular customer of",
+                        "feeling":"Bad"
+                    }
+                ]
+            },
+            {
+                "displayName":"The Twisting Deceit",
+                "id":"335",
+                "wikiLink":"The_Spiral",
+                "type":"Unknown",
+                "summary":"The thing that chased Michael Crew as a child.",
+                "alignment":"",
+                "relationships":[
+                    {
+                        "targetId":"29",
+                        "type":"Other",
+                        "text":"Tormented"
+                    }
+                ]
+            },
+            {
+                "id":"180",
+                "summary":"Sectioned police officer who is partners with Basira. Hunts monsters, which led her to Jon.",
+                "relationships":[
+                    {
+                        "targetId":"29",
+                        "type":"Other",
+                        "text":"Killed",
+                        "feeling":"Hate"
+                    },
+                    {
+                        "targetId":"0",
+                        "type":"Enemies",
+                        "text":"Almost killed",
+                        "feeling":"Hate"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"92",
+        "episodeName":"Nothing Beside Remains",
+        "episodeCharacters":[
+            {
+                "id":"1",
+                "type":"Inhuman",
+                "summary":"The head of the Magnus Institute. Knows what is going on and serves the Watcher. Very calculating",
+                "relationships":[
+                    {
+                        "targetId":"2",
+                        "type":"Work",
+                        "text":"Former boss of and killed",
+                        "feeling":"Dislike"
+                    }
+                ]
+            },
+            {
+                "displayName":"Kaugery",
+                "id":"336",
+                "summary":"Chief inspector who sends people to help Elias with Daisy.",
+                "relationships":[
+                    {
+                        "targetId":"180",
+                        "type":"Work",
+                        "text":"Boss of"
+                    }
+                ]
+            },
+            {
+                "id":"180",
+                "mindset":"Angry",
+                "summary":"",
+                "relationships":[
+                    {
+                        "targetId":"1",
+                        "type":"Enemies",
+                        "text":"Enemy of",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "displayName":"Barnabas Bennet",
+                "id":"337",
+                "status":"Dead",
+                "summary":"Man who offended the Lukas family and was sent to a lonely world.",
+                "relationships":[
+                    {
+                        "targetId":"94",
+                        "type":"Friends",
+                        "text":"Friends with",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"338",
+                        "type":"Enemies",
+                        "text":"Enemy",
+                        "feeling":"Fear"
+                    }
+                ]
+            },
+            {
+                "id":"94",
+                "relationships":[
+                    {
+                        "targetId":"337",
+                        "type":"Friends",
+                        "text":"Friends with",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"338",
+                        "type":"Friends",
+                        "text":"Friends with",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Mordechai Lukas",
+                "id":"338",
+                "type":"Inhuman",
+                "status":"Unknown",
+                "summary":"Man who cursed Barnabas Bennet after his refusal to pay a debt.",
+                "alignment":"Lukas Family",
+                "relationships":[
+                    {
+                        "targetId":"337",
+                        "type":"Enemies",
+                        "text":"Enemy",
+                        "feeling":"Dislike"
+                    },
+                    {
+                        "targetId":"94",
+                        "type":"Friends",
+                        "text":"Friends with",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "id":"176",
+                "relationships":[
+                    {
+                        "targetId":"1",
+                        "type":"Work",
+                        "text":"Works for",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "id":"219",
+                "summary":"Seemingly dead thing that was an archivist."
+            },
+            {
+                "id":"0",
+                "summary":"The head archivist for the Magnus Institute, London. Works for a fear entity and is totally mostly human."
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"The Magnus Institute",
+                "groupId":"0",
+                "summary":"Core members in the giving of statements at the Magnus Institute.",
+                "type":"Mundane",
+                "relationType":"Work",
+                "feeling":"Good",
+                "alignment":"Magnus Institute",
+                "memberIds":[
+                    "0",
+                    "3",
+                    "4",
+                    "5",
+                    "118"
                 ]
             }
         ]

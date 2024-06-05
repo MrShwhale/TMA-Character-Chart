@@ -20,7 +20,7 @@ Type: What the character is. Usually human, sometimes inhuman/unknown or somethi
  - *Default: Human*
 Status: How the character is. Alive, dead, a secret third thing, unknown
  - *Default: Alive*
-Mindset: How the character is feeling.
+Mindset: How the character is feeling. "Semi-controlled" means that the character seems like they are partially compelled to take some of their actions.
  - *Default: Unknown*
 Summary: Short summary of what the character is in the story. Generally 1-3 sentences.
 Alignment: What group the character is aligned with
