@@ -869,7 +869,7 @@
             {
                 "displayName":"Sylvia McDonald",
                 "id":"52",
-                "type":"Vampire",
+                "type":"Inhuman",
                 "status":"Dead",
                 "summary":"The first Vampire killed by Trevor Herbert.",
                 "alignment":"None"
@@ -891,7 +891,7 @@
             {
                 "displayName":"Robert Arden",
                 "id":"54",
-                "type":"Vampire",
+                "type":"Inhuman",
                 "status":"Dead",
                 "summary":"A vampire killed by Trevor Herbert.",
                 "alignment":"None"
@@ -3979,7 +3979,7 @@
             {
                 "displayName":"Sampson Kempthrone",
                 "id":"200",
-                "summary":"",
+                "summary":"Architect in London in the 1830s, concerned about other architects.",
                 "status":"Dead",
                 "relationships":[
                     {
@@ -4010,7 +4010,7 @@
             {
                 "displayName":"George Gilbert Scott",
                 "id":"201",
-                "summary":"",
+                "summary":"Respected architect in the 1830s whose designs were extremely unsettling.",
                 "status":"Dead",
                 "relationships":[
                     {
@@ -4035,7 +4035,7 @@
             {
                 "displayName":"Henry Roberts",
                 "id":"202",
-                "summary":"",
+                "summary":"Architect who hosted a gathering of architects in the 1830s. Had some potentially supernatural elements in his designs.",
                 "status":"Dead",
                 "relationships":[
                     {
@@ -4054,7 +4054,7 @@
             {
                 "displayName":"William Bonython Moffatt",
                 "id":"203",
-                "summary":"",
+                "summary":"Worked with Scott to create very unsettling workhouses.",
                 "status":"Dead",
                 "relationships":[
                     {
@@ -4296,7 +4296,7 @@
             {
                 "displayName":"Walter Heller",
                 "id":"214",
-                "summary":"Tank gunner in WWII who found a Supernatural area.",
+                "summary":"Tank gunner in WWII who found a supernatural area.",
                 "status":"Dead",
                 "mindset":"Traumatized",
                 "relationships":[
@@ -4377,7 +4377,7 @@
                 "displayName":"Alexander Scaplehorn",
                 "id":"220",
                 "mindset":"Afraid",
-                "summary":"A tax inspector who escaped a Supernatural interaction on the job.",
+                "summary":"A tax inspector who escaped a supernatural interaction on the job.",
                 "relationships":[
                     {
                         "targetId":"221",
@@ -4568,11 +4568,13 @@
             {
                 "displayName":"Hannah Edwards",
                 "id":"225",
+                "type":"Inhuman",
                 "summary":"Final (probably) vampire that Trevor Herbert killed."
             },
             {
                 "displayName":"Jane Lewis",
                 "id":"226",
+                "type":"Inhuman",
                 "summary":"Vampire killed by Trevor Herbert who killed someone before Trevor could stop them."
             },
             {
@@ -6267,7 +6269,6 @@
                 ]
             },
             {
-                "displayName":"Not!Graham",
                 "id":"22",
                 "summary":"Something that calls itself Graham. An alias of the NotThem.",
                 "relationships":[
@@ -6284,9 +6285,7 @@
                 ]
             },
             {
-                "displayName":"Not!Sasha",
                 "id":"167",
-                "wikiLink":"Not-Sasha",
                 "summary":"Something that is NOT Sasha, but is pretending to be. Everyone believes her. An alias of the NotThem.",
                 "type":"Unknown",
                 "relationships":[
@@ -6907,7 +6906,6 @@
                 "status":"Dead",
                 "mindset":"Happy",
                 "summary":"Slightly inhuman being of plastic that kidnaps people for a ritual. Appeared to be burned to death in a fire.",
-                "alignment":"The Stranger",
                 "relationships":[
                     {
                         "targetId":"13",
@@ -7374,6 +7372,296 @@
                     "5",
                     "118"
                 ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"093",
+        "episodeName":"Containment",
+        "episodeCharacters":[
+            {
+                "displayName":"Lester Chang",
+                "id":"339",
+                "summary":"Man whose father-in-law became obssesed with cleaning before his disappearance.",
+                "relationships":[
+                    {
+                        "targetId":"342",
+                        "type":"Family",
+                        "text":"Husband of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Greg Russell",
+                "id":"340",
+                "status":"Unknown",
+                "mindset":"Obsessed",
+                "summary":"Man who lost his daughter, then became obssesed with cleaning.",
+                "alignment":"The Corruption",
+                "relationships":[
+                    {
+                       "targetId":"341",
+                        "type":"Family",
+                        "text":"Husband of",
+                        "feeling":"Mixed"
+                    },
+                    {
+                       "targetId":"342",
+                        "type":"Family",
+                        "text":"Father of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Sandra Russell",
+                "id":"341",
+                "status":"Dead",
+                "summary":"Kind woman who died of an unfortunate hereditary condition.",
+                "relationships":[
+                    {
+                       "targetId":"340",
+                        "type":"Family",
+                        "text":"Wife of",
+                        "feeling":"Mixed"
+                    },
+                    {
+                       "targetId":"342",
+                        "type":"Family",
+                        "text":"Mother of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Dani Russell",
+                "fullName":"Danielle Russell",
+                "id":"342",
+                "status":"Dead",
+                "summary":"Kind woman who died of an unfortunate hereditary condition.",
+                "relationships":[
+                    {
+                        "targetId":"339",
+                        "type":"Family",
+                        "text":"Wife of",
+                        "feeling":"Good"
+                    },
+                    {
+                       "targetId":"340",
+                        "type":"Family",
+                        "text":"Daughter of",
+                        "feeling":"Good"
+                    },
+                    {
+                       "targetId":"341",
+                        "type":"Family",
+                        "text":"Daughter of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "id":"122",
+                "summary":"Podcast host of \"What The Ghost?\" and friend of Jon. Took him in while he was a murder suspect, and now knows about the supernatural.",
+            },
+            {
+                "id":"0",
+                "type":"Avatar",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"1",
+                "type":"Avatar",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"2",
+                "type":"Avatar",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"3",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"4",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"5",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"8",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"9",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"10",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"11",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"12",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"14",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"16",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"22",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"28",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"45",
+                "type":"Avatar",
+                "alignment":"The Desolation",
+            },
+            {
+                "id":"56",
+                "alignment":"The End"
+            },
+            {
+                "id":"94",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"106",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"108",
+                "type":"Avatar",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"123",
+                "alignment":"The End"
+            },
+            {
+                "id":"124",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"132",
+                "type":"Avatar",
+                "alignment":"The Desolation"
+            },
+            {
+                "id":"141",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"142",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"143",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"144",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"145",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"146",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"147",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"167",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"199",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"213",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"219",
+                "type":"Avatar",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"221",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"249",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"262",
+                "alignment":"The End"
+            },
+            {
+                "id":"268",
+                "type":"Avatar"
+            },
+            {
+                "id":"303",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"308",
+                "alignment":"The Stranger"
+            },
+            {
+                "id":"326",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"327",
+                "type":"Avatar",
+                "alignment":"The Desolation"
+            }
+        ],
+        "episodeGroups":[
+            {
+                "groupId":"0",
+                "type":"Supernatural",
+                "alignment":"The Eye"
+            },
+            {
+                "groupId":"1",
+                "type":"Supernatural",
+                "alignment":"The Stranger"
+            },
+            {
+                "groupId":"6",
+                "alignment":"The Stranger"
+            },
+            {
+                "groupId":"9",
+                "alignment":"The Stranger"
+            },
+            {
+                "groupId":"13",
+                "alignment":"The Desolation"
             }
         ]
     }

@@ -1,5 +1,5 @@
 # Graphs.json
-This file is a little bit of info about the formatting behind graphs.json
+This section has a little bit of info about the formatting behind graphs.json
 
 ## General
 graphs.json is an array of episodes.
@@ -42,58 +42,101 @@ Relationship type: Type of relationship that connects all group members.
 Alignment: Same as above.
 Feeling: General feeling between characters in the group.
 Member ids: List of character ids that are members of this group.
-## Templates
-### Episode
-```{
-    "episodeNum":"",
-    "episodeName":"",
-    "episodeCharacters":[
-    ],
-    "episodeGroups":[
-    ]
-}```
-### Character
-```{
-    "displayName":"",
-    "fullName":"",
-    "id":"",
-    "wikiLink":"",
-    "imageFile":"",
-    "type":"",
-    "status":"",
-    "mindset":"",
-    "summary":"",
-    "alignment":"",
-    "relationships":[
-        {
-            "targetId":"",
-            "type":"",
-            "text":"",
-            "feeling":""
-        }
-    ]
-}```
-### Group
-```{
-    "displayName":"",
-    "fullName":"",
-    "groupId":"",
-    "wikiLink":"",
-    "imageFile":"",
-    "summary":"",
-    "type":"",
-    "relationType":"",
-    "feeling":"",
-    "alignment":"",
-    "memberIds":[
-        ""
-    ],
-    "relationships":[
-        {
-            "targetId":"",
-            "type":"",
-            "text":"",
-            "feeling":""
-        }
-    ]
-}```
+
+# Reminders
+Connect Nicole Baxter with Julia and Trevor on episode 107 (or add the ability to combine people and put the 2 mysterious people into episode 30-whatever)
+
+Connect Oliver Banks with Jennifer Ling after Oliver's statement (121) (or add the ability to combine people and put the odd man into episode 42)
+
+Connect King to Ivy Medows director (through father) on episode 106
+
+Mark the hospitaller as being of the Magnus Institute/Eye in episode 191
+
+Perhaps connect people through shared artifacts (Calliope, Web table)
+
+Consider people like Christopher Meyer, who is connected to the old Institute but not part of it.
+
+Potentially connect Hezekiah Wakely (152) and Karolina Górka (71)
+
+Add Officer Altman in 5, and perhaps pick an Altman to connect him to?
+
+Perhaps change how the NotThem is connected (current: Is connection to each alias, each alias kills the replaced).
+
+Gerard Keay's assult of Lightner might have been mentioned earlier than episode 80.
+
+Add Diego Molina to episode 12.
+
+Make sure Oliver is actually named in 32, otherwise rename to vague man.
+
+Consider adding "Henry" to episode 50.
+
+Consider adding a group for Breekon+Hope since nothing is ever connected to just one
+
+Consider naming Mary's mother Mary in 62, for lore reasons
+
+Eye connection can be made slightly before episode 93
+
+# Current episode notes
+New:
+    Lester Chang
+    Greg Russell
+    Sandra Russell
+    Dani (Danielle) Russell
+Update:
+    Georgie
+    Everyone connected to the Eye, Desolation, End, or Stranger?
+    Every avatar so far reached
+
+Avatars:
+(! if already covere)name:id:alignment:(a if avatar)
+0:eye:a
+1:eye:a
+2:eye:a
+3:eye
+4:eye
+5:eye
+8:str
+9:str
+10:str
+11:str
+12:str
+!13:str
+14:str
+g0:eye
+g1:str
+16:str
+!18:str
+!19:str
+22:str
+28:eye
+45:des:a
+56:end
+94:eye
+106:str
+108:str:a
+123:end
+124:eye
+132:des:a
+141:str
+142:str
+143:str
+144:str
+145:str
+146:str
+147:str
+g6:str
+167:str
+g9:str
+199:eye
+213:str
+219:eye:a
+221:str
+249:eye
+262:end
+268:!des:a
+g13:des
+303:str
+308:str
+!324:str
+326:eye
+327:des:a
