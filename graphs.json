@@ -7377,7 +7377,7 @@
     },
     {
         "episodeNum":"093",
-        "episodeName":"Containment",
+        "episodeName":"Contaminant",
         "episodeCharacters":[
             {
                 "displayName":"Lester Chang",
@@ -7401,13 +7401,13 @@
                 "alignment":"The Corruption",
                 "relationships":[
                     {
-                       "targetId":"341",
+                        "targetId":"341",
                         "type":"Family",
                         "text":"Husband of",
                         "feeling":"Mixed"
                     },
                     {
-                       "targetId":"342",
+                        "targetId":"342",
                         "type":"Family",
                         "text":"Father of"
                     }
@@ -7420,13 +7420,13 @@
                 "summary":"Kind woman who died of an unfortunate hereditary condition.",
                 "relationships":[
                     {
-                       "targetId":"340",
+                        "targetId":"340",
                         "type":"Family",
                         "text":"Wife of",
                         "feeling":"Mixed"
                     },
                     {
-                       "targetId":"342",
+                        "targetId":"342",
                         "type":"Family",
                         "text":"Mother of"
                     }
@@ -7446,13 +7446,13 @@
                         "feeling":"Good"
                     },
                     {
-                       "targetId":"340",
+                        "targetId":"340",
                         "type":"Family",
                         "text":"Daughter of",
                         "feeling":"Good"
                     },
                     {
-                       "targetId":"341",
+                        "targetId":"341",
                         "type":"Family",
                         "text":"Daughter of",
                         "feeling":"Good"
@@ -7461,7 +7461,7 @@
             },
             {
                 "id":"122",
-                "summary":"Podcast host of \"What The Ghost?\" and friend of Jon. Took him in while he was a murder suspect, and now knows about the supernatural.",
+                "summary":"Podcast host of \"What The Ghost?\" and friend of Jon. Took him in while he was a murder suspect, and now knows about the supernatural."
             },
             {
                 "id":"0",
@@ -7529,7 +7529,7 @@
             {
                 "id":"45",
                 "type":"Avatar",
-                "alignment":"The Desolation",
+                "alignment":"The Desolation"
             },
             {
                 "id":"56",
@@ -7663,6 +7663,170 @@
                 "groupId":"13",
                 "alignment":"The Desolation"
             }
+        ]
+    },
+    {
+        "episodeNum":"94",
+        "episodeName":"Dead Woman Walking",
+        "episodeCharacters":[
+            {
+                "displayName":"Alex Brooke",
+                "id":"343",
+                "status":"Unknown",
+                "summary":"Med student who Georgie knew, and was her only real friend. Became a living corpse after interacting with a strange woman.",
+                "relationships":[
+                    {
+                        "targetId":"122",
+                        "type":"Friends",
+                        "text":"Friend of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Death woman",
+                "id":"344",
+                "type":"Avatar",
+                "status":"Unknown",
+                "summary":"Woman who took over a medical building and turned students into living corpses.",
+                "alignment":"The End",
+                "relationships":[
+                    {
+                        "targetId":"343",
+                        "type":"Other",
+                        "text":"Turned"
+                    }
+                ]
+            },
+            {
+                "id":"122",
+                "summary":"Podcast host of \"What The Ghost?\" and friend of Jon. Took him in while he was a murder suspect, knows about the supernatural and cannot feel fear.",
+                "relationships":[
+                    {
+                        "targetId":"343",
+                        "type":"Friends",
+                        "text":"Friend of",
+                        "feeling":"Good"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"95",
+        "episodeName":"Absent Without Leave",
+        "episodeCharacters":[
+            {
+                "displayName":"Luca Moretti",
+                "id":"345",
+                "summary":"Soldier who hunted down deserters and lost his friends to them.",
+                "relationships":[
+                    {
+                        "targetId":"346",
+                        "type":"Friends",
+                        "text":"Old friend of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Antonio Cannavaro",
+                "id":"346",
+                "status":"Dead",
+                "summary":"Soldier who committed suicide after getting close to the deserters' lair.",
+                "relationships":[
+                    {
+                        "targetId":"345",
+                        "type":"Friends",
+                        "text":"Old friend of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Alfredo",
+                "id":"347",
+                "status":"Dead",
+                "summary":"The first to die in the mountains, took a very long time to collapse after being shot."
+            },
+            {
+                "displayName":"Drummer Boy",
+                "id":"348",
+                "status":"Unknown",
+                "summary":"Former military drummer boy who watched Antonio die. It is unknown what happened to him after that."
+            },
+            {
+                "id":"176",
+                "mindset":"Good"
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Deserter hunting group",
+                "groupId":"14",
+                "summary":"People who went into the mountains to hunt down the deserters.",
+                "type":"Mundane",
+                "relationType":"Other",
+                "feeling":"Neutral",
+                "memberIds":[
+                    "345",
+                    "346",
+                    "347",
+                    "348"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"96",
+        "episodeName":"Return to Sender",
+        "episodeCharacters":[
+            {
+                "displayName":"Alfred Breekon",
+                "id":"349",
+                "status":"Dead",
+                "mindset":"Afraid",
+                "summary":"Original owner of Breekon and Hope Delivery. Was intimidated into handing over the keys to one of the trucks. Died after getting a package delivered to him."
+            },
+            {
+                "id":"18",
+                "relationships":[
+                    {
+                        "targetId":"349",
+                        "type":"Other",
+                        "text":"Intimidated and impersonated"
+                    }
+                ]
+            },
+            {
+                "id":"10",
+                "type":"Avatar",
+                "summary":"Went missing near the Anglerfish alley. Replacement sound tech for Ghost Hunt UK. Turned out to be an agent of The Stranger, and is not really the same person as before the Anglerfish."
+            },
+            {
+                "id":"180",
+                "relationships":[
+                    {
+                        "targetId":"10",
+                        "type":"Enemy",
+                        "text":"Captured",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "id":"2",
+                "relationships":[
+                    {
+                        "targetId":"11",
+                        "type":"Other",
+                        "text":"Killed"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            
         ]
     }
 ]
