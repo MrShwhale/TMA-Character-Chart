@@ -1,9 +1,7 @@
 # This file is used to replace character ids
-# At the moment, it finds all numbers larger than 112 and increments them
-# This frees up the id 113 to be used, which was what it needed to do
-# Be careful later if you get into triple digit episode numbers
+# Be careful later if you get into episode numbers greater than the id you are trying to replace
 
-TO_CLOSE = 248
+TO_CLOSE = 221
 import re
 
 s = ""
@@ -12,6 +10,8 @@ def repl(match):
     num = int(match.group(0))
     if num > TO_CLOSE:
         return str(num - 1)
+    if num == TO_CLOSE:
+        return "999"
     return str(num)
 
 with open("./graphs.json", "r") as f:
