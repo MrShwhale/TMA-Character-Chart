@@ -7205,7 +7205,6 @@
                 "wikiLink":"The_Spiral",
                 "type":"Unknown",
                 "summary":"The thing that chased Michael Crew as a child.",
-                "alignment":"",
                 "relationships":[
                     {
                         "targetId":"29",
@@ -7978,6 +7977,172 @@
                         "type":"Other",
                         "text":"Takes commands from"
                     }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"99",
+        "episodeName":"Dust to Dust",
+        "episodeCharacters":[
+            {
+                "displayName":"Robert Geiger",
+                "fullName":"Robert E. Geiger",
+                "id":"355",
+                "status":"Dead",
+                "summary":"Reporter who wrote about the Dust Bowl. Went out to interview someone and nearly got caught in a terrible storm.",
+                "relationships":[
+                    {
+                        "targetId":"",
+                        "type":"",
+                        "text":"",
+                        "feeling":""
+                    }
+                ]
+            },
+            {
+                "displayName":"Stefan Brotchen",
+                "id":"356",
+                "type":"Avatar",
+                "status":"Unknown",
+                "mindset":"Happy",
+                "summary":"Man who lived during the Dust Bowl, but was happily taken by a massive storm.",
+                "alignment":"The Buried",
+                "relationships":[
+                    {
+                        "targetId":"",
+                        "type":"",
+                        "text":"",
+                        "feeling":""
+                    }
+                ]
+            },
+            {
+                "displayName":"Harry Eisenhard",
+                "id":"357",
+                "status":"Dead",
+                "summary":"Newspaper photographer for the Dust Bowl who died in a massive dust storm.",
+                "relationships":[
+                    {
+                        "targetId":"355",
+                        "type":"Work",
+                        "text":"Photographer for"
+                    }
+                ]
+            },
+            {
+                "displayName":"Jan Killbride",
+                "id":"358",
+                "wikiLink":"Jan_Kilbride",
+                "summary":"Person who might be able do something with the Buried. Was in space."
+            },
+            {
+                "displayName":"Michael",
+                "id":"359",
+                "wikiLink":"Michael_Shelley",
+                "status":"Unknown",
+                "summary":"A human version of Michael?",
+                "alignment":"The Eye",
+                "relationships":[
+                    {
+                        "targetId":"2",
+                        "type":"Work",
+                        "text":"Assistant to"
+                    }
+                ]
+            },
+            {
+                "id":"2",
+                "relationships":[
+                    {
+                        "targetId":"358",
+                        "type":"Other",
+                        "text":"Has suspicions about",
+                        "feeling":"Sorry"
+                    },
+                    {
+                        "targetId":"113",
+                        "type":"Work",
+                        "text":"Boss of"
+                    },
+                    {
+                        "targetId":"28",
+                        "type":"Other",
+                        "text":"Connected somehow"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"100",
+        "episodeName":"I Guess You Had To Be There",
+        "episodeCharacters":[
+            {
+                "displayName":"Lynne Hammond",
+                "id":"360",
+                "summary":"Person who gave a statement thinking the Magnus Institute was a place that paid for ghost stories."
+            },
+            {
+                "displayName":"\"John Smith\"",
+                "id":"361",
+                "summary":"Person who gave a statement about the government conspiracy under the Tube.",
+                "relationships":[
+                    {
+                        "targetId":"364",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Robin Lennox",
+                "id":"362",
+                "summary":"Person who gave a meandering statement."
+            },
+            {
+                "displayName":"Brian Finlinson",
+                "id":"363",
+                "summary":"Man with so many spiders in his home that it is hard for him to stay calm."
+            },
+            {
+                "displayName":"\"Jeremey\"",
+                "id":"364",
+                "status":"Unknown",
+                "summary":"Friend of \"John Smith\" who was lost to the Tube.",
+                "relationships":[
+                    {
+                        "targetId":"361",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    }
+                ]
+            },
+            {
+                "id":"134",
+                "summary":"Captain of the Tundra. Showed up in the Magnus Institute and cursed a random person.",
+                "relationships":[
+                    {
+                        "targetId":"363",
+                        "type":"Other",
+                        "text":"Cast into loneliness",
+                        "feeling":"Neutral"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Non-archivist statements",
+                "groupId":"15",
+                "summary":"People who gave statements on the day the archivist was missing. They were not great statements.",
+                "type":"Mundane",
+                "relationType":"Other",
+                "memberIds":[
+                    "360",
+                    "361",
+                    "362",
+                    "363",
                 ]
             }
         ]
