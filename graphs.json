@@ -7626,7 +7626,7 @@
             },
             {
                 "id":"323",
-                "alignment":"The Eye"
+                "alignment":"The Stranger"
             },
             {
                 "id":"325",
@@ -8124,9 +8124,9 @@
                 "relationships":[
                     {
                         "targetId":"363",
-                        "type":"Other",
-                        "text":"Cast into loneliness",
-                        "feeling":"Neutral"
+                        "type":"",
+                        "text":"",
+                        "feeling":""
                     }
                 ]
             }
@@ -8143,6 +8143,112 @@
                     "361",
                     "362",
                     "363",
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"101",
+        "episodeName":"Another Twist",
+        "episodeCharacters":[
+            {
+                "displayName":"Ryan",
+                "id":"365",
+                "status":"Unknown",
+                "mindset":"Insane",
+                "summary":"Boy who was taken by the Spiral.",
+                "relationships":[
+                    {
+                        "targetId":"359",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Michael",
+                "fullName":"Michael Shelly",
+                "id":"359",
+                "wikiLink":"Michael_Shelley",
+                "status":"Dead",
+                "summary":"One of Gertrude's assistants who followed her instructions to become The Distortion without knowing it.",
+                "alignment":"The Eye",
+                "relationships":[
+                    {
+                        "targetId":"2",
+                        "type":"Work",
+                        "text":"Assistant to",
+                        "feeling":"Worry"
+                    },
+                    {
+                        "targetId":"113",
+                        "type":"Is",
+                        "text":"Was"
+                    }
+                ]
+            },
+            {
+                "id":"2",
+                "relationships":[
+                    {
+                        "targetId":"134",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    }
+                ]
+            },
+            {
+                "id":"113",
+                "relationships":[
+                    {
+                        "targetId":"191",
+                        "type":"Is",
+                        "text":"Is"
+                    },
+                    {
+                        "targetId":"359",
+                        "type":"Was",
+                        "text":"Was"
+                    }
+                ]
+            },
+            {
+                "id":"134",
+                "relationships":[
+                    {
+                        "targetId":"2",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    }
+                ]
+            },
+            {
+                "id":"191",
+                "summary":"Real estate agent who became The Distortion.",
+                "status":"Dead",
+                "relationships":[
+                    {
+                        "targetId":"113",
+                        "type":"Is",
+                        "text":"Is"
+                    },
+                    {
+                        "targetId":"359",
+                        "type":"Other",
+                        "text":"Usurped %s in The Distortion",
+                        "feeling":"Dislike"
+                    }
+                ]
+            },
+            {
+                "id":"323",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Enemy",
+                        "text":"Kidnapped",
+                        "feeling":"Good"
+                    }
                 ]
             }
         ]

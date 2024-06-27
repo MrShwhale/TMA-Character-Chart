@@ -78,6 +78,8 @@ Eye alignment can be made before episode 93 when Elias admits to murder
 
 Add Ellis connection to the Vast when Gertrude is revealed to have stopped the ritual
 
-Add all connections to The Buried  in ep 99
+Add all connections to The Buried in ep 99
+
+Add all connections to The Spiral in ep 101
 
 # Current episode notes
