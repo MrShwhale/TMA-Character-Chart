@@ -3612,7 +3612,7 @@
         ],
         "episodeGroups":[
             {
-                "displayName":"Another Circus",
+                "displayName":"Circus of the Other",
                 "groupId":"9",
                 "summary":"Supernatural Russian circus.",
                 "type":"Supernatural",
@@ -7993,10 +7993,14 @@
                 "summary":"Reporter who wrote about the Dust Bowl. Went out to interview someone and nearly got caught in a terrible storm.",
                 "relationships":[
                     {
-                        "targetId":"",
-                        "type":"",
-                        "text":"",
-                        "feeling":""
+                        "targetId":"364",
+                        "type":"Work",
+                        "text":"Interviewed"
+                    },
+                    {
+                        "targetId":"365",
+                        "type":"Work",
+                        "text":"Reporter with"
                     }
                 ]
             },
@@ -8007,15 +8011,7 @@
                 "status":"Unknown",
                 "mindset":"Happy",
                 "summary":"Man who lived during the Dust Bowl, but was happily taken by a massive storm.",
-                "alignment":"The Buried",
-                "relationships":[
-                    {
-                        "targetId":"",
-                        "type":"",
-                        "text":"",
-                        "feeling":""
-                    }
-                ]
+                "alignment":"The Buried"
             },
             {
                 "displayName":"Harry Eisenhard",
@@ -8142,7 +8138,7 @@
                     "368",
                     "369",
                     "370",
-                    "371",
+                    "371"
                 ]
             }
         ]
@@ -8237,6 +8233,270 @@
                         "type":"Other",
                         "text":"Usurped %s in The Distortion",
                         "feeling":"Dislike"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"102",
+        "episodeName":"Nesting Instinct",
+        "episodeCharacters":[
+            {
+                "displayName":"François Deschamps",
+                "id":"374",
+                "summary":"Man who talked to Gertrude about an acquaintance.",
+                "relationships":[
+                    {
+                        "targetId":"375",
+                        "type":"Work",
+                        "text":"Works with",
+                        "feeling":"Neutral"
+                    },
+                    {
+                        "targetId":"376",
+                        "type":"Work",
+                        "text":"Works for"
+                    }
+                ]
+            },
+            {
+                "displayName":"Benoît Maçon",
+                "id":"375",
+                "status":"Unknown",
+                "mindset":"Euphoria",
+                "summary":"Man who started dating a bug creature.",
+                "alignment":"The Corruption",
+                "relationships":[
+                    {
+                        "targetId":"374",
+                        "type":"Work",
+                        "text":"Works with"
+                    },
+                    {
+                        "targetId":"376",
+                        "type":"Work",
+                        "text":"Works for"
+                    }
+                ]
+            },
+            {
+                "displayName":"Lucille",
+                "id":"376",
+                "sumary":"Manager of Benoît and François.",
+                "relationships":[
+                    {
+                        "targetId":"375",
+                        "type":"Work",
+                        "text":"Manager of"
+                    },
+                    {
+                        "targetId":"374",
+                        "type":"Work",
+                        "text":"Manager of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Hannah",
+                "id":"377",
+                "summary":"Person who worked in the non-evil part of the Institute until leaving for their child.",
+                "relationships":[
+                    {
+                        "targetId":"3",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    }
+                ]
+            },
+            {
+                "id":"2",
+                "relationships":[
+                    {
+                        "targetId":"28",
+                        "type":"Acquaintances",
+                        "text":"Travelled with"
+                    }
+                ]
+            },
+            {
+                "id":"28",
+                "relationships":[
+                    {
+                        "targetId":"2",
+                        "type":"Acquaintances",
+                        "text":"Travelled with"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"103",
+        "episodeName":"Cruelty Free",
+        "episodeCharacters":[
+            {
+                "displayName":"Dylan Anderson",
+                "id":"378",
+                "summary":"Man who came across a massive pig, and eventually got rid of it.",
+                "relationships":[
+                    {
+                        "targetId":"379",
+                        "type":"Family",
+                        "text":"Cousin of"
+                    },
+                    {
+                        "targetId":"380",
+                        "type":"Other",
+                        "text":"Buried in concrete",
+                        "feeling":"Afraid"
+                    },
+                    {
+                        "targetId":"381",
+                        "type":"Family",
+                        "text":"Brother of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Melinda",
+                "id":"379",
+                "summary":"Woman with a baby she will not put near pigs.",
+                "relationships":[
+                    {
+                        "targetId":"378",
+                        "type":"Family",
+                        "text":"Cousin of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Monster pig",
+                "id":"380",
+                "type":"Inhuman",
+                "status":"Unknown",
+                "summary":"Massive pig that makes people do strange things.",
+                "relationships":[
+                    {
+                        "targetId":"378",
+                        "type":"Other",
+                        "text":"Lived with",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"382",
+                        "type":"Other",
+                        "text":"Killed and ate"
+                    }
+                ]
+            },
+            {
+                "displayName":"Kurt Anderson",
+                "id":"381",
+                "summary":"Traffic cop in London with access to a few of Gertrude's files.",
+                "relationships":[
+                    {
+                        "targetId":"378",
+                        "type":"Family",
+                        "text":"Brother of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Angus Dale",
+                "id":"382",
+                "status":"Dead",
+                "summary":"Clown who went missing while touring at a farm."
+            },
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"381",
+                        "type":"Other",
+                        "text":"Questioned",
+                        "feeling":"Afraid"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"104",
+        "episodeName":"Sneak Preview",
+        "episodeCharacters":[
+            {
+                "displayName":"Danny Stoker",
+                "id":"383",
+                "status":"Dead",
+                "summary":"Actor who took up urban exploring, then went missing.",
+                "relationships":[
+                    {
+                        "targetId":"4",
+                        "type":"Family",
+                        "text":"Brother of",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"384",
+                        "type":"Friends",
+                        "text":"Friend"
+                    }
+                ]
+            },
+            {
+                "id":"4",
+                "mindset":"Determined",
+                "summary":"Researcher for the Magnus Institute. Determined to avenge his brother and generally upset by the current situation in the Institute.",
+                "relationships":[
+                    {
+                        "targetId":"383",
+                        "type":"Family",
+                        "text":"Brother",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"384",
+                        "type":"Friends",
+                        "text":"Friend"
+                    }
+                ]
+            },
+            {
+                "displayName":"Abi Ellison",
+                "fullName":"Abigail Ellison",
+                "id":"384",
+                "summary":"Urban explorer who went on a trip to Millennium Mills.",
+                "relationships":[
+                    {
+                        "targetId":"383",
+                        "type":"Friends",
+                        "text":"Friend"
+                    },
+                    {
+                        "targetId":"4",
+                        "type":"Friends",
+                        "text":"Friend"
+                    }
+                ]
+            },
+            {
+                "displayName":"Joseph Grimaldi",
+                "id":"385",
+                "type":"Inhuman",
+                "summary":"London's most famous clown. Something that was him (or looked like him) lives under the Royal Opera House.",
+                "alignment":"The Stranger"
+            }
+        ],
+        "episodeGroups":[
+            {
+                "groupId":"9",
+                "summary":"Supernatural Russian circus with connections to The Unknowing.",
+                "relationships":[
+                    {
+                        "targetId":"383",
+                        "type":"Other",
+                        "text":"Took and skinned"
                     }
                 ]
             }
