@@ -25,8 +25,7 @@ Add a way to make people invisible. Use this to fake deleting characters, by mak
 ## Information
 Change circle size based on how many episodes a character appears in
 
-Make character summaries MUCH more informational
-
 ## Design
 Standardize the capitalization of titles
+
 Standardize the form of relationship texts

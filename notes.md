@@ -74,6 +74,8 @@ Consider adding a group for Breekon+Hope since nothing is ever connected to just
 
 Consider naming Mary's mother Mary in 62, for lore reasons
 
-Eye connection can be made slightly before episode 93
+Eye alignment can be made before episode 93 when Elias admits to murder
+
+Add Ellis connection to the Vast when Gertrude is revealed to have stopped the ritual
 
 # Current episode notes

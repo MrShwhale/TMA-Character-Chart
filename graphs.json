@@ -5703,7 +5703,7 @@
                 "summary":"Man who died on train tracks and left a book to his \"friend\".",
                 "relationships":[
                     {
-                        "targetId":"276",
+                        "targetId":"275",
                         "type":"Acquaintances",
                         "text":"Knew",
                         "feeling":"Hatred"
@@ -7606,10 +7606,6 @@
                 "alignment":"The Eye"
             },
             {
-                "id":"11",
-                "alignment":"The Stranger"
-            },
-            {
                 "id":"248",
                 "alignment":"The Eye"
             },
@@ -7628,6 +7624,10 @@
             {
                 "id":"307",
                 "alignment":"The Stranger"
+            },
+            {
+                "id":"323",
+                "alignment":"The Eye"
             },
             {
                 "id":"325",
@@ -7823,9 +7823,163 @@
                     }
                 ]
             }
-        ],
-        "episodeGroups":[
-            
+        ]
+    },
+    {
+        "episodeNum":"97",
+        "episodeName":"We All Ignore the Pit",
+        "episodeCharacters":[
+            {
+                "displayName":"Jackson Ellis",
+                "id":"349",
+                "summary":"Man who found himself down on his luck in a town with a very strange pit. He left just in time.",
+                "relationships":[
+                    {
+                        "targetId":"350",
+                        "type":"Friend",
+                        "text":"Lived with",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Tommy Krycek",
+                "fullName":"Thomas Krycek",
+                "id":"350",
+                "status":"Unknown",
+                "summary":"Man who took part in a strange ritual involving the pit in his hometown, which he could never acknowledge.",
+                "relationships":[
+                    {
+                        "targetId":"349",
+                        "type":"Friend",
+                        "text":"Lived with",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Nikola Orsinov",
+                "id":"323",
+                "type":"Avatar",
+                "status":"Alive",
+                "mindset":"Happy",
+                "summary":"Avatar of The Stranger who is an amalgam of mannequin and human. Wants to do the Unknowing REALLY bad.",
+                "alignment":"The Stranger",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Enemy",
+                        "text":"Threatened",
+                        "feeling":"Dislike"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"98",
+        "episodeName":"Lights Out",
+        "episodeCharacters":[
+            {
+                "displayName":"Algernon Moss",
+                "id":"351",
+                "status":"Dead",
+                "summary":"Doctor who outbid Maxwell Rayner on the log-books of Franklin's lost ship, and then blinded himself.",
+                "relationships":[
+                    {
+                        "targetId":"352",
+                        "type":"Other",
+                        "text":"Student at %s's school, and family friend"
+                    },
+                    {
+                        "targetId":"50",
+                        "type":"Other",
+                        "text":"Outbid",
+                        "feeling":"Dislike"
+                    },
+                    {
+                        "targetId":"353",
+                        "type":"Friend",
+                        "text":"Old school friend of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "id":"50",
+                "type":"Avatar",
+                "summary":"Cult leader of the Peoples' Church of the Divine Host. Worked with Robert Montauk and visited him in prison until his death. Has lived since at least 1800s and can control creatures of darkness.",
+                "relationships":[
+                    {
+                        "targetId":"354",
+                        "type":"Other",
+                        "text":"Commands"
+                    },
+                    {
+                        "targetId":"50",
+                        "type":"Other",
+                        "text":"Sent the Sandman to",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "displayName":"John Heyrick Macaulay",
+                "id":"352",
+                "status":"Dead",
+                "summary":"Headmaster of Repton School, and a family friend of Algernon Moss.",
+                "relationships":[
+                    {
+                        "targetId":"351",
+                        "type":"Other",
+                        "text":"Headmaster of %s's school, and family friend"
+                    }
+                ]
+            },
+            {
+                "displayName":"George Denman",
+                "id":"353",
+                "status":"Dead",
+                "summary":"Member of Parliment in the 1800s and school friend of Algernon Moss.",
+                "relationships":[
+                    {
+                        "targetId":"351",
+                        "type":"Friend",
+                        "text":"Old school friend of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "id":"118",
+                "relationships":[
+                    {
+                        "targetId":"1",
+                        "type":"Other",
+                        "text":"Tried to kill",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "displayName":"The Sandman",
+                "id":"354",
+                "type":"Inhuman",
+                "status":"Unknown",
+                "summary":"Creature of the dark that steals people away in his sack. Only takes the eyes of people, when possible.",
+                "relationships":[
+                    {
+                        "targetId":"351",
+                        "type":"Other",
+                        "text":"Took the eyes of"
+                    },
+                    {
+                        "targetId":"50",
+                        "type":"Other",
+                        "text":"Takes commands from"
+                    }
+                ]
+            }
         ]
     }
 ]
