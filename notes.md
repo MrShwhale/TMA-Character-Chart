@@ -78,4 +78,6 @@ Consider if you want feeling to be an actual part of the chart
 
 Update Jon's summary earlier
 
+Update a bunch of emotion stuff on ep 117 and before (jon-melanie)
+
 # Current episode notes
