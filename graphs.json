@@ -6354,11 +6354,6 @@
                 ]
             },
             {
-                "displayName":"Adelard Dekker",
-                "id":"306",
-                "summary":"Man who knows what the NotThem is, and gave a statement about it to the Institute."
-            },
-            {
                 "id":"307",
                 "status":"Unknown",
                 "relationships":[
@@ -9014,13 +9009,13 @@
             {
                 "displayName":"Debbie Connor",
                 "id":"403",
-                "summary":"Casting director for Widow's Weave. Got a bunch of unknowns for the movie, as requested.",
+                "summary":"Casting director for Widow's Weave. Got a bunch of unknowns for the movie, as requested."
             },
             {
                 "displayName":"Neil Lagorio",
                 "id":"404",
                 "status":"Dead",
-                "summary":"Iconic special effects artist from the 70s.",
+                "summary":"Iconic special effects artist from the 70s."
             },
             {
                 "displayName":"Brandon Omar",
@@ -9275,6 +9270,395 @@
             {
                 "groupId":"15",
                 "alignment":"The Dark"
+            }
+        ]
+    },
+    {
+        "episodeNum":"112",
+        "episodeName":"Thrill of the Chase",
+        "episodeCharacters":[
+            {
+                "displayName":"Lisa Carmel",
+                "id":"407",
+                "mindset":"Happy",
+                "summary":"Person who started a true crime book club, then went on a murder spree within its members.",
+                "alignment":"The Hunt",
+                "relationships":[
+                    {
+                        "targetId":"413",
+                        "type":"Friends",
+                        "text":"Roommates with",
+                        "feeling":"Pity"
+                    },
+                    {
+                        "targetId":"410",
+                        "type":"Other",
+                        "text":"Killed"
+                    }
+                ]
+            },
+            {
+                "displayName":"Jamie Sanders",
+                "id":"408",
+                "status":"Dead",
+                "mindset":"Happy",
+                "summary":"Member of Murder Club who died first.",
+                "alignment":"The Hunt"
+            },
+            {
+                "displayName":"Ananya Kaleka",
+                "id":"409",
+                "mindset":"Happy",
+                "summary":"Member of Murder Club.",
+                "alignment":"The Hunt"
+            },
+            {
+                "displayName":"Evelyn Kaleka",
+                "id":"410",
+                "mindset":"Happy",
+                "summary":"Member of Murder Club.",
+                "alignment":"The Hunt"
+            },
+            {
+                "displayName":"Andrew Cochrane",
+                "id":"411",
+                "mindset":"Happy",
+                "summary":"Member of Murder Club who set up an ambush.",
+                "alignment":"The Hunt",
+                "relationships":[
+                    {
+                        "targetId":"412",
+                        "type":"Other",
+                        "text":"Killed"
+                    }
+                ]
+            },
+            {
+                "displayName":"Debbie Truss",
+                "id":"412",
+                "mindset":"Happy",
+                "summary":"Member of Murder Club.",
+                "alignment":"The Hunt",
+                "relationships":[
+                    {
+                        "targetId":"408",
+                        "type":"Other",
+                        "text":"Killed"
+                    }
+                ]
+            },
+            {
+                "displayName":"Matis",
+                "id":"413",
+                "mindset":"Afraid",
+                "summary":"Person who discovered their roommate had started killing people.",
+                "relationships":[
+                    {
+                        "targetId":"407",
+                        "type":"Friends",
+                        "text":"Roommates with",
+                        "feeling":"Afraid"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Murder Club",
+                "groupId":"21",
+                "summary":"True Crime book club turned battle royale.",
+                "type":"Supernatural",
+                "relationType":"Friends",
+                "feeling":"Good",
+                "alignment":"The Hunt",
+                "memberIds":[
+                    "407",
+                    "408",
+                    "409",
+                    "410",
+                    "411",
+                    "412"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"113",
+        "episodeName":"Breathing Room",
+        "episodeCharacters":[
+            {
+                "id":"306",
+                "summary":"",
+                "summary":"Man who knows about the Entities, and gave a statement about the NotThem to the Institute.",
+                "relationships":[
+                    {
+                        "targetId":"2",
+                        "type":"Acquaintances",
+                        "text":"Exchanges advice with"
+                    },
+                    {
+                        "targetId":"414",
+                        "type":"Work",
+                        "text":"Bribes"
+                    },
+                    {
+                        "targetId":"415",
+                        "type":"Other",
+                        "text":"Scrambled the brain of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Bianca",
+                "id":"414",
+                "summary":"Nurse who came across a very strange \"carbon monoxide\" case.",
+                "relationships":[
+                    {
+                        "targetId":"415",
+                        "type":"Work",
+                        "text":"Nurse to"
+                    },
+                    {
+                        "targetId":"306",
+                        "type":"Work",
+                        "text":"Takes bribes from"
+                    }
+                ]
+            },
+            {
+                "displayName":"Justin Gough",
+                "id":"415",
+                "type":"Avatar",
+                "summary":"Man who began to serve The End, now has a scrambled brain.",
+                "alignment":"The End"
+            },
+            {
+                "id":"2",
+                "relationships":[
+                    {
+                        "targetId":"306",
+                        "type":"Acquaintances",
+                        "text":"Exchanges advice with"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"114",
+        "episodeName":"Cracked Foundation",
+        "episodeCharacters":[
+            {
+                "displayName":"Anya Villette",
+                "id":"416",
+                "type":"Unknown",
+                "status":"Unknown",
+                "summary":"Cleaner of Hilltop Road who may or may not exist.",
+                "relationships":[
+                    {
+                        "targetId":"42",
+                        "type":"Work",
+                        "text":"Believes she is the cleaner for"
+                    },
+                    {
+                        "targetId":"417",
+                        "type":"Work",
+                        "text":"Believes she is the cleaner for"
+                    }
+                ]
+            },
+            {
+                "displayName":"John Hector Lettings",
+                "id":"417",
+                "summary":"Real estate agent in Oxford."
+            },
+            {
+                "displayName":"George Icarus",
+                "id":"418",
+                "status":"Dead",
+                "summary":"Person whose skin the Circus has taken to start The Unknowing."
+            }
+        ],
+        "episodeGroups":[
+            {
+                "groupId":"9",
+                "relationships":[
+                    {
+                        "targetId":"418",
+                        "type":"Other",
+                        "text":"Took the skin of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"115",
+        "episodeName":"Taking Stock",
+        "episodeCharacters":[
+            {
+                "displayName":"Warren",
+                "id":"419",
+                "status":"Dead",
+                "summary":"One of Lightner's assistants. Died getting eaten by a book."
+            },
+            {
+                "id":"69",
+                "summary":"Dealer in stolen artifacts. Knows about the fears, and sells to both those who do and don't.",
+                "relationships":[
+                    {
+                        "targetId":"420",
+                        "type":"Other",
+                        "text":"Boss of and killed"
+                    },
+                    {
+                        "targetId":"421",
+                        "type":"Work",
+                        "text":"Boss of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Cook",
+                "id":"420",
+                "status":"Dead",
+                "mindset":"Euphoria",
+                "summary":"Cook on one of Salesa's trips, went insane and started grinding himself up.",
+                "alignment":"The Flesh",
+                "relationships":[
+                    {
+                        "targetId":"69",
+                        "type":"Other",
+                        "text":"Boss of",
+                        "feeling":"Grateful"
+                    }
+                ]
+            },
+            {
+                "displayName":"Leigh",
+                "id":"421",
+                "summary":"Quartermaster on one of Salesa's trips.",
+                "relationships":[
+                    {
+                        "targetId":"69",
+                        "type":"Work",
+                        "text":"Works for"
+                    }
+                ]
+            },
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"113",
+                        "type":"Acquaintances",
+                        "text":"Knows",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "id":"113",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Acquaintances",
+                        "text":"Is trying to be friends with",
+                        "feeling":"Friendly"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "groupId":"16",
+                "memberIds":[
+                    "311",
+                    "313",
+                    "314",
+                    "315",
+                    "316",
+                    "317",
+                    "419",
+                    "69"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"116",
+        "episodeName":"The Show Must Go On",
+        "episodeCharacters":[
+            {
+                "displayName":"Abraham Janssen",
+                "id":"422",
+                "status":"Dead",
+                "mindset":"Afraid",
+                "summary":"Man who played the part of a chess player in a machine.",
+                "relationships":[
+                    {
+                        "targetId":"423",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    },
+                    {
+                        "targetId":"424",
+                        "type":"Friends",
+                        "text":"Friend of",
+                        "feeling":"Afraid"
+                    }
+                ]
+            },
+            {
+                "displayName":"Lanthorn",
+                "id":"423",
+                "status":"Dead",
+                "summary":"Friend of Abraham Janssen and Wolfgang von Kempelen.",
+                "relationships":[
+                    {
+                        "targetId":"422",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    },
+                    {
+                        "targetId":"424",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Wolfgang von Kempelen",
+                "id":"424",
+                "status":"Dead",
+                "summary":"Brilliant engineer who created a chess playing machine with a person inside.",
+                "alignment":"The Stranger",
+                "relationships":[
+                    {
+                        "targetId":"422",
+                        "type":"Friends",
+                        "text":"Friend of",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"423",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    },
+                    {
+                        "targetId":"425",
+                        "type":"Other",
+                        "text":"Created"
+                    }
+                ]
+            },
+            {
+                "displayName":"Mechanical Turk",
+                "id":"425",
+                "type":"Avatar",
+                "status":"Dead",
+                "summary":"Chess playing machine that began to act impossibly during The Unknowing. Killed by an avatar of the Slaughter during the same.",
+                "alignment":"The Stranger"
             }
         ]
     }

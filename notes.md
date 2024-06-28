@@ -74,4 +74,8 @@ Change a bunch of The Stranger's aligned to avatars
 
 Double check all alignments
 
+Consider if you want feeling to be an actual part of the chart
+
+Update Jon's summary earlier
+
 # Current episode notes
