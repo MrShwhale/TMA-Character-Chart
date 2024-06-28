@@ -776,8 +776,8 @@
         "episodeName":"A Father's Love",
         "episodeCharacters":[
             {
-                "displayName":"Julia Montauk",
-                "fullName":"Julia",
+                "displayName":"Julia",
+                "fullName":"Julia Montauk",
                 "id":"48",
                 "wikiLink":"Julia_Montauk",
                 "summary":"Daughter of serial killer Robert Montauk.",
@@ -835,7 +835,8 @@
         "episodeName":"Vampire Killer",
         "episodeCharacters":[
             {
-                "displayName":"Trevor Herbert",
+                "displayName":"Trevor",
+                "fullName":"Trevor Herbert",
                 "id":"51",
                 "status":"Dead",
                 "summary":"Self proclaimed vampire hunter who died of cancer.",
@@ -3979,7 +3980,7 @@
             {
                 "displayName":"Sampson Kempthrone",
                 "id":"200",
-                "summary":"Architect in London in the 1829s, concerned about other architects.",
+                "summary":"Architect in London in the 1828s, concerned about other architects.",
                 "status":"Dead",
                 "relationships":[
                     {
@@ -4010,7 +4011,7 @@
             {
                 "displayName":"George Gilbert Scott",
                 "id":"201",
-                "summary":"Respected architect in the 1829s whose designs were extremely unsettling.",
+                "summary":"Respected architect in the 1828s whose designs were extremely unsettling.",
                 "status":"Dead",
                 "relationships":[
                     {
@@ -4035,7 +4036,7 @@
             {
                 "displayName":"Henry Roberts",
                 "id":"202",
-                "summary":"Architect who hosted a gathering of architects in the 1829s. Had some potentially supernatural elements in his designs.",
+                "summary":"Architect who hosted a gathering of architects in the 1828s. Had some potentially supernatural elements in his designs.",
                 "status":"Dead",
                 "relationships":[
                     {
@@ -4636,7 +4637,7 @@
                 ]
             },
             {
-                "displayName":"Yan Killbride",
+                "displayName":"Jan Killbride",
                 "id":"230",
                 "summary":"Crew member of the Daedalus.",
                 "relationships":[
@@ -4736,7 +4737,7 @@
                 "id":"234",
                 "status":"Dead",
                 "mindset":"Traumatized",
-                "summary":"Man who wanted to move to Oregan in 1843. Married a girl for more land and died on the way.",
+                "summary":"Man who wanted to move to Oregan in 1842. Married a girl for more land and died on the way.",
                 "relationships":[
                     {
                         "targetId":"232",
@@ -5714,7 +5715,7 @@
                 "displayName":"Alexander Willard",
                 "id":"277",
                 "status":"Dead",
-                "summary":"Previous owner of the Book of the Dead who died mysteriously in 1981."
+                "summary":"Previous owner of the Book of the Dead who died mysteriously in 1980."
             },
             {
                 "displayName":"John Kendrick",
@@ -7761,7 +7762,7 @@
         "episodeGroups":[
             {
                 "displayName":"Deserter hunting group",
-                "groupId":"14",
+                "groupId":"18",
                 "summary":"People who went into the mountains to hunt down the deserters.",
                 "type":"Mundane",
                 "relationType":"Other",
@@ -7907,7 +7908,7 @@
             {
                 "id":"50",
                 "type":"Avatar",
-                "summary":"Cult leader of the Peoples' Church of the Divine Host. Worked with Robert Montauk and visited him in prison until his death. Has lived since at least 1808s and can control creatures of darkness.",
+                "summary":"Cult leader of the Peoples' Church of the Divine Host. Worked with Robert Montauk and visited him in prison until his death. Has lived since at least 1807s and can control creatures of darkness.",
                 "relationships":[
                     {
                         "targetId":"362",
@@ -7939,7 +7940,7 @@
                 "displayName":"George Denman",
                 "id":"361",
                 "status":"Dead",
-                "summary":"Member of Parliment in the 1808s and school friend of Algernon Moss.",
+                "summary":"Member of Parliment in the 1807s and school friend of Algernon Moss.",
                 "relationships":[
                     {
                         "targetId":"359",
@@ -8027,14 +8028,12 @@
                 ]
             },
             {
-                "displayName":"Jan Killbride",
-                "id":"366",
-                "wikiLink":"Jan_Kilbride",
-                "summary":"Person who might be able do something with the Buried. Was in space."
+                "id":"230",
+                "summary":"Person who might be able do something with the Buried. Member of the crew of the Dedalus."
             },
             {
                 "displayName":"Michael",
-                "id":"367",
+                "id":"366",
                 "wikiLink":"Michael_Shelley",
                 "status":"Unknown",
                 "summary":"A human version of Michael?",
@@ -8051,7 +8050,7 @@
                 "id":"2",
                 "relationships":[
                     {
-                        "targetId":"366",
+                        "targetId":"230",
                         "type":"Other",
                         "text":"Has suspicions about",
                         "feeling":"Sorry"
@@ -8076,16 +8075,16 @@
         "episodeCharacters":[
             {
                 "displayName":"Lynne Hammond",
-                "id":"368",
+                "id":"367",
                 "summary":"Person who gave a statement thinking the Magnus Institute was a place that paid for ghost stories."
             },
             {
                 "displayName":"\"John Smith\"",
-                "id":"369",
+                "id":"368",
                 "summary":"Person who gave a statement about the government conspiracy under the Tube.",
                 "relationships":[
                     {
-                        "targetId":"372",
+                        "targetId":"371",
                         "type":"Friends",
                         "text":"Friend of"
                     }
@@ -8093,22 +8092,22 @@
             },
             {
                 "displayName":"Robin Lennox",
-                "id":"370",
+                "id":"369",
                 "summary":"Person who gave a meandering statement."
             },
             {
                 "displayName":"Brian Finlinson",
-                "id":"371",
+                "id":"370",
                 "summary":"Man with so many spiders in his home that it is hard for him to stay calm."
             },
             {
                 "displayName":"\"Jeremey\"",
-                "id":"372",
+                "id":"371",
                 "status":"Unknown",
                 "summary":"Friend of \"John Smith\" who was lost to the Tube.",
                 "relationships":[
                     {
-                        "targetId":"369",
+                        "targetId":"368",
                         "type":"Friends",
                         "text":"Friend of"
                     }
@@ -8116,10 +8115,11 @@
             },
             {
                 "id":"134",
+                "type":"Avatar",
                 "summary":"Captain of the Tundra. Showed up in the Magnus Institute and cursed a random person.",
                 "relationships":[
                     {
-                        "targetId":"371",
+                        "targetId":"370",
                         "type":"",
                         "text":"",
                         "feeling":""
@@ -8130,15 +8130,15 @@
         "episodeGroups":[
             {
                 "displayName":"Non-archivist statements",
-                "groupId":"15",
+                "groupId":"19",
                 "summary":"People who gave statements on the day the archivist was missing. They were not great statements.",
                 "type":"Mundane",
                 "relationType":"Other",
                 "memberIds":[
+                    "367",
                     "368",
                     "369",
-                    "370",
-                    "371"
+                    "370"
                 ]
             }
         ]
@@ -8149,13 +8149,13 @@
         "episodeCharacters":[
             {
                 "displayName":"Ryan",
-                "id":"373",
+                "id":"372",
                 "status":"Unknown",
                 "mindset":"Insane",
                 "summary":"Boy who was taken by the Spiral.",
                 "relationships":[
                     {
-                        "targetId":"367",
+                        "targetId":"366",
                         "type":"Friends",
                         "text":"Friend of"
                     }
@@ -8164,7 +8164,7 @@
             {
                 "displayName":"Michael",
                 "fullName":"Michael Shelly",
-                "id":"367",
+                "id":"366",
                 "wikiLink":"Michael_Shelley",
                 "status":"Dead",
                 "summary":"One of Gertrude's assistants who followed her instructions to become The Distortion without knowing it.",
@@ -8202,7 +8202,7 @@
                         "text":"Is"
                     },
                     {
-                        "targetId":"367",
+                        "targetId":"366",
                         "type":"Was",
                         "text":"Was"
                     }
@@ -8229,7 +8229,7 @@
                         "text":"Is"
                     },
                     {
-                        "targetId":"367",
+                        "targetId":"366",
                         "type":"Other",
                         "text":"Usurped %s in The Distortion",
                         "feeling":"Dislike"
@@ -8244,17 +8244,17 @@
         "episodeCharacters":[
             {
                 "displayName":"François Deschamps",
-                "id":"374",
+                "id":"373",
                 "summary":"Man who talked to Gertrude about an acquaintance.",
                 "relationships":[
                     {
-                        "targetId":"375",
+                        "targetId":"374",
                         "type":"Work",
                         "text":"Works with",
                         "feeling":"Neutral"
                     },
                     {
-                        "targetId":"376",
+                        "targetId":"375",
                         "type":"Work",
                         "text":"Works for"
                     }
@@ -8262,19 +8262,19 @@
             },
             {
                 "displayName":"Benoît Maçon",
-                "id":"375",
+                "id":"374",
                 "status":"Unknown",
                 "mindset":"Euphoria",
                 "summary":"Man who started dating a bug creature.",
                 "alignment":"The Corruption",
                 "relationships":[
                     {
-                        "targetId":"374",
+                        "targetId":"373",
                         "type":"Work",
                         "text":"Works with"
                     },
                     {
-                        "targetId":"376",
+                        "targetId":"375",
                         "type":"Work",
                         "text":"Works for"
                     }
@@ -8282,16 +8282,16 @@
             },
             {
                 "displayName":"Lucille",
-                "id":"376",
+                "id":"375",
                 "sumary":"Manager of Benoît and François.",
                 "relationships":[
                     {
-                        "targetId":"375",
+                        "targetId":"374",
                         "type":"Work",
                         "text":"Manager of"
                     },
                     {
-                        "targetId":"374",
+                        "targetId":"373",
                         "type":"Work",
                         "text":"Manager of"
                     }
@@ -8299,7 +8299,7 @@
             },
             {
                 "displayName":"Hannah",
-                "id":"377",
+                "id":"376",
                 "summary":"Person who worked in the non-evil part of the Institute until leaving for their child.",
                 "relationships":[
                     {
@@ -8337,22 +8337,22 @@
         "episodeCharacters":[
             {
                 "displayName":"Dylan Anderson",
-                "id":"378",
+                "id":"377",
                 "summary":"Man who came across a massive pig, and eventually got rid of it.",
                 "relationships":[
                     {
-                        "targetId":"379",
+                        "targetId":"378",
                         "type":"Family",
                         "text":"Cousin of"
                     },
                     {
-                        "targetId":"380",
+                        "targetId":"379",
                         "type":"Other",
                         "text":"Buried in concrete",
                         "feeling":"Afraid"
                     },
                     {
-                        "targetId":"381",
+                        "targetId":"380",
                         "type":"Family",
                         "text":"Brother of"
                     }
@@ -8360,11 +8360,11 @@
             },
             {
                 "displayName":"Melinda",
-                "id":"379",
+                "id":"378",
                 "summary":"Woman with a baby she will not put near pigs.",
                 "relationships":[
                     {
-                        "targetId":"378",
+                        "targetId":"377",
                         "type":"Family",
                         "text":"Cousin of"
                     }
@@ -8372,19 +8372,19 @@
             },
             {
                 "displayName":"Monster pig",
-                "id":"380",
+                "id":"379",
                 "type":"Inhuman",
                 "status":"Unknown",
                 "summary":"Massive pig that makes people do strange things.",
                 "relationships":[
                     {
-                        "targetId":"378",
+                        "targetId":"377",
                         "type":"Other",
                         "text":"Lived with",
                         "feeling":"Good"
                     },
                     {
-                        "targetId":"382",
+                        "targetId":"381",
                         "type":"Other",
                         "text":"Killed and ate"
                     }
@@ -8392,11 +8392,11 @@
             },
             {
                 "displayName":"Kurt Anderson",
-                "id":"381",
+                "id":"380",
                 "summary":"Traffic cop in London with access to a few of Gertrude's files.",
                 "relationships":[
                     {
-                        "targetId":"378",
+                        "targetId":"377",
                         "type":"Family",
                         "text":"Brother of"
                     }
@@ -8404,7 +8404,7 @@
             },
             {
                 "displayName":"Angus Dale",
-                "id":"382",
+                "id":"381",
                 "status":"Dead",
                 "summary":"Clown who went missing while touring at a farm."
             },
@@ -8412,7 +8412,7 @@
                 "id":"0",
                 "relationships":[
                     {
-                        "targetId":"381",
+                        "targetId":"380",
                         "type":"Other",
                         "text":"Questioned",
                         "feeling":"Afraid"
@@ -8427,7 +8427,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Danny Stoker",
-                "id":"383",
+                "id":"382",
                 "status":"Dead",
                 "summary":"Actor who took up urban exploring, then went missing.",
                 "relationships":[
@@ -8438,7 +8438,7 @@
                         "feeling":"Good"
                     },
                     {
-                        "targetId":"384",
+                        "targetId":"383",
                         "type":"Friends",
                         "text":"Friend"
                     }
@@ -8450,13 +8450,13 @@
                 "summary":"Researcher for the Magnus Institute. Determined to avenge his brother and generally upset by the current situation in the Institute.",
                 "relationships":[
                     {
-                        "targetId":"383",
+                        "targetId":"382",
                         "type":"Family",
                         "text":"Brother",
                         "feeling":"Good"
                     },
                     {
-                        "targetId":"384",
+                        "targetId":"383",
                         "type":"Friends",
                         "text":"Friend"
                     }
@@ -8465,11 +8465,11 @@
             {
                 "displayName":"Abi Ellison",
                 "fullName":"Abigail Ellison",
-                "id":"384",
+                "id":"383",
                 "summary":"Urban explorer who went on a trip to Millennium Mills.",
                 "relationships":[
                     {
-                        "targetId":"383",
+                        "targetId":"382",
                         "type":"Friends",
                         "text":"Friend"
                     },
@@ -8482,7 +8482,7 @@
             },
             {
                 "displayName":"Joseph Grimaldi",
-                "id":"385",
+                "id":"384",
                 "type":"Inhuman",
                 "summary":"London's most famous clown. Something that was him (or looked like him) lives under the Royal Opera House.",
                 "alignment":"The Stranger"
@@ -8494,9 +8494,351 @@
                 "summary":"Supernatural Russian circus with connections to The Unknowing.",
                 "relationships":[
                     {
-                        "targetId":"383",
+                        "targetId":"382",
                         "type":"Other",
                         "text":"Took and skinned"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"105",
+        "episodeName":"Total War",
+        "episodeCharacters":[
+            {
+                "displayName":"Xiaoling",
+                "id":"385",
+                "summary":"Researcher at the Pu Songling Research Centre, the Chinese branch of the Institute.",
+                "alignment":"The Eye",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Work",
+                        "text":"Gave documents to"
+                    }
+                ]
+            },
+            {
+                "displayName":"Charles Fleming",
+                "id":"386",
+                "type":"Avatar",
+                "status":"Unknown",
+                "mindset":"Empty",
+                "summary":"British officer during the Taiping Rebellion. Committed terrible atrocities and became something else.",
+                "relationships":[
+                    {
+                        "targetId":"387",
+                        "type":"Work",
+                        "text":"Officer on the ship of"
+                    }
+                ]
+            },
+            {
+                "displayName":"William Hall",
+                "id":"387",
+                "status":"Dead",
+                "summary":"Captain of the Nemesis, committed attrocities against the Chinese without hesitation during the Taiping Rebellion.",
+                "relationships":[
+                    {
+                        "targetId":"386",
+                        "type":"Work",
+                        "text":"Captain on the ship of"
+                    }
+                ]
+            },
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"385",
+                        "type":"Work",
+                        "text":"Received information from"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"106",
+        "episodeName":"A Matter of Perspective",
+        "episodeCharacters":[
+            {
+                "displayName":"Jan Killbride",
+                "id":"230",
+                "mindset":"Worried",
+                "summary":"Crew member of the Daedalus.",
+                "relationships":[
+                    {
+                        "targetId":"231",
+                        "type":"Work",
+                        "text":"Worked with",
+                        "feeling":"Distant"
+                    }
+                ]
+            },
+            {
+                "displayName":"Manuela Dominguez",
+                "id":"231",
+                "relationships":[
+                    {
+                        "targetId":"230",
+                        "type":"Work",
+                        "text":"Worked with",
+                        "feeling":"Distant"
+                    }
+                ]
+            },
+            {
+                "displayName":"Mr. King",
+                "id":"388",
+                "status":"Dead",
+                "summary":"Man who lived at Ivy Medows, and was killed by The Corruption that lived there.",
+                "relationships":[
+                    {
+                        "targetId":"118",
+                        "type":"Family",
+                        "text":"Father of",
+                        "feeling":"Lov"
+                    },
+                    {
+                        "targetId":"160",
+                        "type":"Other",
+                        "text":"Patient of"
+                    }
+                ]
+            },
+            {
+                "id":"160",
+                "relationships":[
+                    {
+                        "targetId":"388",
+                        "type":"Other",
+                        "text":"Caretaker and killer of"
+                    }
+                ]
+            },
+            {
+                "id":"118",
+                "mindset":"Sad",
+                "relationships":[
+                    {
+                        "targetId":"388",
+                        "type":"Family",
+                        "text":"Daughter of",
+                        "feeling":"Love"
+                    },
+                    {
+                        "targetId":"1",
+                        "type":"Other",
+                        "text":"Threatened by",
+                        "feeling":"Afraid"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"107",
+        "episodeName":"Third Degree",
+        "episodeCharacters":[
+            {
+                "displayName":"Louis Brown",
+                "id":"389",
+                "summary":"Nurse in Pittsburgh who watched Gerard die.",
+                "relationships":[
+                    {
+                        "targetId":"28",
+                        "type":"Work",
+                        "text":"Nurse for"
+                    }
+                ]
+            },
+            {
+                "displayName":"Jay Rebecks",
+                "id":"390",
+                "summary":"Cop who briefly arrested Gertrude for Gerard's murder.",
+                "relationships":[
+                    {
+                        "targetId":"2",
+                        "type":"Other",
+                        "text":"Arrested",
+                        "feeling":"Suspicious"
+                    }
+                ]
+            },
+            {
+                "displayName":"Howard Ewing",
+                "id":"391",
+                "mindset":"Sad",
+                "summary":"Man who was visited by a strange cop who would take what he loved.",
+                "relationships":[
+                    {
+                        "targetId":"392",
+                        "type":"Work",
+                        "text":"Worked with"
+                    },
+                    {
+                        "targetId":"393",
+                        "type":"Work",
+                        "text":"Worked with"
+                    },
+                    {
+                        "targetId":"394",
+                        "type":"Other",
+                        "text":"Interviewed"
+                    }
+                ]
+            },
+            {
+                "displayName":"Kelly Dwyer",
+                "id":"392",
+                "status":"Dead",
+                "summary":"Cleaner at Moorgat Station who suffered an unfortunate fate.",
+                "relationships":[
+                    {
+                        "targetId":"391",
+                        "type":"Work",
+                        "text":"Worked with"
+                    },
+                    {
+                        "targetId":"393",
+                        "type":"Work",
+                        "text":"Worked with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Vihan Prasad",
+                "id":"393",
+                "status":"Dead",
+                "summary":"Cleaner at Moorgat Station who suffered an unfortunate fate.",
+                "relationships":[
+                    {
+                        "targetId":"391",
+                        "type":"Work",
+                        "text":"Worked with"
+                    },
+                    {
+                        "targetId":"392",
+                        "type":"Work",
+                        "text":"Worked with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Strange Cop",
+                "id":"394",
+                "type":"Avatar",
+                "summary":"Cop who interviewed Howard Ewing and began to take from him.",
+                "alignment":"The Desolation",
+                "relationships":[
+                    {
+                        "targetId":"391",
+                        "type":"Other",
+                        "text":"Takes from"
+                    }
+                ]
+            },
+            {
+                "id":"48",
+                "summary":"Daughter of serial killer Robert Montauk. Hunts strange monsters in the US.",
+                "relationships":[
+                    {
+                        "targetId":"51",
+                        "type":"Friends",
+                        "text":"Hunts with",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"0",
+                        "type":"Other",
+                        "text":"Kidnapped"
+                    }
+                ]
+            },
+            {
+                "id":"51",
+                "status":"Alive",
+                "mindset":"Obsessed",
+                "summary":"Self proclaimed vampire hunter who had cancer. He is obsessed with hunting strange creature, and now does so with Julia.",
+                "relationships":[
+                    {
+                        "targetId":"51",
+                        "type":"Friend",
+                        "text":"Hunts with",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"395",
+                        "type":"Other",
+                        "text":"Attacked",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "displayName":"Officer Mustermann",
+                "id":"395",
+                "type":"Inhuman",
+                "summary":"Officer who was taken down by the Hunters while following Jon.",
+                "alignment":"The Stranger",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Other",
+                        "text":"Followed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"108",
+        "episodeName":"Monologue",
+        "episodeCharacters":[
+            {
+                "displayName":"Adonis Biros",
+                "id":"396",
+                "mindset":"Afraid",
+                "summary":"Actor who no longer sees anything but emptiness in the people around him.",
+                "relationships":[
+                    {
+                        "targetId":"397",
+                        "type":"Work",
+                        "text":"Director of",
+                        "feeling":"Dislike"
+                    },
+                    {
+                        "targetId":"398",
+                        "type":"Work",
+                        "text":"Actor with",
+                        "feeling":"Dislike"
+                    }
+                ]
+            },
+            {
+                "displayName":"David Austin",
+                "id":"397",
+                "summary":"Director who is really not that good at his job.",
+                "relationships":[
+                    {
+                        "targetId":"396",
+                        "type":"Work",
+                        "text":"Director of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Patrick Dunlevy",
+                "id":"398",
+                "summary":"Actor who played Orlando for David Austin.",
+                "relationships":[
+                    {
+                        "targetId":"396",
+                        "type":"Work",
+                        "text":"Actor with"
                     }
                 ]
             }

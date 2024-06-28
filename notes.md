@@ -48,14 +48,6 @@ Connect Nicole Baxter with Julia and Trevor on episode 107 (or add the ability t
 
 Connect Oliver Banks with Jennifer Ling after Oliver's statement (121) (or add the ability to combine people and put the odd man into episode 42)
 
-Connect King to Ivy Medows director (through father) on episode 106
-
-Mark the hospitaller as being of the Magnus Institute/Eye in episode 191
-
-Perhaps connect people through shared artifacts (Calliope, Web table)
-
-Consider people like Christopher Meyer, who is connected to the old Institute but not part of it.
-
 Potentially connect Hezekiah Wakely (152) and Karolina Górka (71)
 
 Add Officer Altman in 5, and perhaps pick an Altman to connect him to?
