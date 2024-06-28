@@ -22,7 +22,9 @@ Add some way to see which episodes added/updated which characters
 
 Add a way to make people invisible. Use this to fake deleting characters, by making them invisible and copying their relationships onto another.
 
-Precompute final cose positions so that the thing runs WAY faster
+Precompute final cola positions so that the thing runs WAY faster
+
+Automate episodeNum
 
 ## Information
 Change circle size based on how many episodes a character appears in

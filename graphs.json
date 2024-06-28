@@ -1441,10 +1441,7 @@
         "episodeName":"Confession",
         "episodeCharacters":[
             {
-                "aliases":[
-                    "Annie",
-                    "Anne Willett"
-                ],
+                "displayName":"Anna Kasuma / Anne Willett",
                 "id":"44",
                 "mindset":"Afraid",
                 "relationships":[
@@ -4499,7 +4496,6 @@
                 "displayName":"Trevor Herbert",
                 "id":"51",
                 "status":"Dead",
-                "mindset":"Obsessed",
                 "summary":"Self proclaimed vampire hunter who died of cancer. He is obsessed with hunting vampires.",
                 "relationships":[
                     {
@@ -5740,7 +5736,6 @@
                 "id":"279",
                 "mindset":"Indifferent",
                 "summary":"Woman who escaped the mysterious Underground when it tried to keep her.",
-                "alignment":"",
                 "relationships":[
                     {
                         "targetId":"283",
@@ -6814,7 +6809,7 @@
                 "id":"329",
                 "status":"Dead",
                 "mindset":"Afraid",
-                "summary":"Man who checked on a frind, then was tormented by a shadow creature.",
+                "summary":"Man who checked on a friend, then was tormented by a shadow creature.",
                 "relationships":[
                     {
                         "targetId":"330",
@@ -8066,6 +8061,25 @@
                         "text":"Connected somehow"
                     }
                 ]
+            },
+            {
+                "id":"201",
+                "type":"Avatar",
+                "alignment":"The Buried"
+            },
+            {
+                "id":"279",
+                "type":"Avatar",
+                "alignment":"The Buried"
+            },
+            {
+                "id":"332",
+                "type":"Avatar",
+                "alignment":"The Buried"
+            },
+            {
+                "id":"358",
+                "alignment":"The Buried"
             }
         ]
     },
@@ -8235,6 +8249,23 @@
                         "feeling":"Dislike"
                     }
                 ]
+            },
+            {
+                "id":"133",
+                "alignment":"The Spiral",
+                "alignment":"The Spiral"
+            },
+            {
+                "id":"292",
+                "alignment":"The Spiral"
+            },
+            {
+                "id":"328",
+                "alignment":"The Spiral"
+            },
+            {
+                "id":"342",
+                "alignment":"The Spiral"
             }
         ]
     },
@@ -8328,6 +8359,35 @@
                         "text":"Travelled with"
                     }
                 ]
+            },
+            {
+                "id":"37",
+                "type":"Avatar",
+                "alignment":"The Corruption"
+            },
+            {
+                "id":"160",
+                "type":"Avatar",
+                "alignment":"The Corruption"
+            },
+            {
+                "id":"186",
+                "alignment":"The Corruption"
+            },
+            {
+                "id":"325",
+                "type":"Avatar",
+                "alignment":"The Corruption"
+            },
+            {
+                "id":"326",
+                "type":"Avatar",
+                "alignment":"The Corruption"
+            },
+            {
+                "id":"347",
+                "type":"Avatar",
+                "alignment":"The Corruption"
             }
         ]
     },
@@ -8760,7 +8820,6 @@
             {
                 "id":"51",
                 "status":"Alive",
-                "mindset":"Obsessed",
                 "summary":"Self proclaimed vampire hunter who had cancer. He is obsessed with hunting strange creature, and now does so with Julia.",
                 "relationships":[
                     {
@@ -8841,6 +8900,381 @@
                         "text":"Actor with"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"109",
+        "episodeName":"Nightfall",
+        "episodeCharacters":[
+            {
+                "id":"48",
+                "summary":"Daughter of serial killer Robert Montauk. Hunts strange monsters in the US.",
+                "mindset":"Obsessed",
+                "relationships":[
+                    {
+                        "targetId":"399",
+                        "type":"Other",
+                        "text":"Killed"
+                    }
+                ]
+            },
+            {
+                "id":"51",
+                "status":"Alive",
+                "summary":"Self proclaimed vampire hunter who had cancer. He is obsessed with hunting strange creature, and now does so with Julia.",
+                "relationships":[
+                    {
+                        "targetId":"51",
+                        "type":"Friend",
+                        "text":"Hunts with",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"395",
+                        "type":"Other",
+                        "text":"Attacked",
+                        "feeling":"Hatred"
+                    },
+                    {
+                        "targetId":"399",
+                        "type":"Other",
+                        "text":"Fought with"
+                    },
+                    {
+                        "targetId":"400",
+                        "type":"Friends",
+                        "text":"Friend"
+                    }
+                ]
+            },
+            {
+                "displayName":"Vardhan Darvish",
+                "id":"399",
+                "type":"Inhuman",
+                "status":"Dead",
+                "summary":"Inhuman leader of DKN systems, started a ritual.",
+                "relationships":[
+                    {
+                        "targetId":"51",
+                        "type":"Other",
+                        "text":"Fought with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Morris",
+                "id":"400",
+                "status":"Dead",
+                "summary":"Homeless man who went missing. Prompted Trevor's investigation into Vardhan Darvish.",
+                "relationships":[
+                    {
+                        "targetId":"51",
+                        "type":"Friends",
+                        "text":"Friend"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"110",
+        "episodeName":"Creature Feature",
+        "episodeCharacters":[
+            {
+                "displayName":"Alexia Crawley",
+                "id":"401",
+                "mindset":"Angry",
+                "summary":"Woman who was the cinemetographer for Widow's Weave.",
+                "relationships":[
+                    {
+                        "targetId":"402",
+                        "type":"Acquaintance",
+                        "text":"Long time worker with",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "displayName":"Dexter Banks",
+                "id":"402",
+                "type":"Inhuman",
+                "status":"Unknown",
+                "mindset":"Insane",
+                "summary":"Man who created Widow's Weave, a spooky spider movie.",
+                "relationships":[
+                    {
+                        "targetId":"401",
+                        "type":"Acquaintance",
+                        "text":"Long time worker with",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "displayName":"Debbie Connor",
+                "id":"403",
+                "summary":"Casting director for Widow's Weave. Got a bunch of unknowns for the movie, as requested.",
+            },
+            {
+                "displayName":"Neil Lagorio",
+                "id":"404",
+                "status":"Dead",
+                "summary":"Iconic special effects artist from the 70s.",
+            },
+            {
+                "displayName":"Brandon Omar",
+                "id":"405",
+                "status":"Unknown",
+                "summary":"Actor playing the main character in Widow's Weave. Had some good advice for the director."
+            },
+            {
+                "displayName":"Chadwick Frazier",
+                "id":"406",
+                "status":"Dead",
+                "summary":"Actor in Widow's Weave that was found dead 10 years after the movie filming."
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Widow's Weave Cast",
+                "groupId":"20",
+                "summary":"Cast and crew for the movie Widow's Weave.",
+                "type":"Mundane",
+                "relationType":"Work",
+                "feeling":"",
+                "memberIds":[
+                    "401",
+                    "402",
+                    "403",
+                    "405",
+                    "406"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"111",
+        "episodeName":"Family Business",
+        "episodeCharacters":[
+            {
+                "displayName":"Gerry Keay",
+                "fullName":"Gerard Keay",
+                "id":"28",
+                "type":"Page",
+                "mindset":"Sad",
+                "summary":"Mysterious son of Mary Keay. Was taught of magic from a young age and hated his mother. Eventually turned into a page by Gertrude when he died of cancer.",
+                "relationships":[
+                    {
+                        "targetId":"27",
+                        "type":"Family",
+                        "text":"Son of",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "id":"27",
+                "type":"Page",
+                "status":"Dead",
+                "relationships":[
+                    {
+                        "targetId":"28",
+                        "type":"Family",
+                        "text":"Mother of",
+                        "feeling":"Controlling"
+                    }
+                ]
+            },
+            {
+                "id":"111",
+                "alignment":"The Dark"
+            },
+            {
+                "id":"212",
+                "alignment":"The Dark"
+            },
+            {
+                "id":"289",
+                "type":"Avatar",
+                "alignment":"The Dark"
+            },
+            {
+                "id":"399",
+                "type":"Avatar",
+                "alignment":"The Dark"
+            },
+            {
+                "id":"49",
+                "alignment":"The Dark"
+            },
+            {
+                "id":"50",
+                "type":"Avatar",
+                "alignment":"The Dark"
+            },
+            {
+                "id":"125",
+                "alignment":"The Flesh"
+            },
+            {
+                "id":"127",
+                "type":"Avatar",
+                "alignment":"The Flesh"
+            },
+            {
+                "id":"235",
+                "type":"Avatar",
+                "alignment":"The Flesh"
+            },
+            {
+                "id":"286",
+                "type":"Avatar",
+                "alignment":"The Flesh"
+            },
+            {
+                "id":"341",
+                "type":"Avatar",
+                "alignment":"The Flesh"
+            },
+            {
+                "id":"377",
+                "alignment":"The Flesh"
+            },
+            {
+                "id":"379",
+                "alignment":"The Flesh"
+            },
+            {
+                "id":"68",
+                "type":"Avatar",
+                "alignment":"The Flesh"
+            },
+            {
+                "id":"78",
+                "type":"Avatar",
+                "alignment":"The Flesh"
+            },
+            {
+                "id":"81",
+                "type":"Avatar",
+                "alignment":"The Flesh"
+            },
+            {
+                "id":"130",
+                "type":"Avatar",
+                "alignment":"The Hunt"
+            },
+            {
+                "id":"134",
+                "type":"Avatar",
+                "alignment":"The Lonely"
+            },
+            {
+                "id":"138",
+                "type":"Avatar",
+                "alignment":"The Lonely"
+            },
+            {
+                "id":"228",
+                "alignment":"The Lonely"
+            },
+            {
+                "id":"229",
+                "type":"Avatar",
+                "alignment":"The Lonely"
+            },
+            {
+                "id":"345",
+                "alignment":"The Lonely"
+            },
+            {
+                "id":"396",
+                "alignment":"The Lonely"
+            },
+            {
+                "id":"62",
+                "alignment":"The Lonely"
+            },
+            {
+                "id":"318",
+                "type":"Avatar",
+                "alignment":"The Slaughter"
+            },
+            {
+                "id":"352",
+                "alignment":"The Slaughter"
+            },
+            {
+                "id":"386",
+                "type":"Avatar",
+                "alignment":"The Slaughter"
+            },
+            {
+                "id":"39",
+                "type":"Avatar",
+                "alignment":"The Slaughter"
+            },
+            {
+                "id":"40",
+                "type":"Avatar",
+                "alignment":"The Slaughter"
+            },
+            {
+                "id":"205",
+                "alignment":"The Vast"
+            },
+            {
+                "id":"206",
+                "alignment":"The Vast"
+            },
+            {
+                "id":"230",
+                "type":"Avatar",
+                "alignment":"The Vast"
+            },
+            {
+                "id":"29",
+                "alignment":"The Vast"
+            },
+            {
+                "id":"90",
+                "type":"Avatar",
+                "alignment":"The Vast"
+            },
+            {
+                "id":"91",
+                "type":"Avatar",
+                "alignment":"The Vast"
+            },
+            {
+                "id":"227",
+                "alignment":"The Web"
+            },
+            {
+                "id":"272",
+                "type":"Avatar",
+                "alignment":"The Web"
+            },
+            {
+                "id":"402",
+                "type":"Avatar",
+                "alignment":"The Web"
+            },
+            {
+                "id":"43",
+                "type":"Avatar",
+                "alignment":"The Web"
+            },
+            {
+                "id":"75",
+                "alignment":"The Web"
+            }
+        ],
+        "episodeGroups":[
+            {
+                "groupId":"15",
+                "alignment":"The Dark"
             }
         ]
     }
