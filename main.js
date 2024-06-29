@@ -475,9 +475,11 @@ function setUpGraph(graphIndex) {
     cy.elements().unbind("viewport");
     cy.elements().bind("viewport", destroyPop);
 
+    let episodeNum = graphIndex+1;
+
     // Set up header
-    document.getElementById("episode-title").innerHTML = `MAG ${rawGraphSteps[graphIndex].episodeNum}<br> ${rawGraphSteps[graphIndex].episodeName}`;
-    const seasonNumber = Math.floor((parseInt(rawGraphSteps[graphIndex].episodeNum) - 1) / 40);
+    document.getElementById("episode-title").innerHTML = `MAG ${episodeNum}<br> ${rawGraphSteps[graphIndex].episodeName}`;
+    const seasonNumber = Math.floor((parseInt(episodeNum) - 1) / 40);
     document.getElementById("season-title").innerHTML = `Season ${seasonNumber + 1}: ${seasonDescriptors[seasonNumber]}`;
 }
 

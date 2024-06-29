@@ -76,4 +76,8 @@ Update Jon's summary earlier
 
 Update a bunch of emotion stuff on ep 117 and before (jon-melanie)
 
+Update the summaries of a bunch of characters (or don't)
+
+Add Daisy Hunt at some point
+
 # Current episode notes
