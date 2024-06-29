@@ -44,10 +44,6 @@ Feeling: General feeling between characters in the group.
 Member ids: List of character ids that are members of this group.
 
 # Reminders
-Connect Nicole Baxter with Julia and Trevor on episode 107 (or add the ability to combine people and put the 2 mysterious people into episode 30-whatever)
-
-Connect Oliver Banks with Jennifer Ling after Oliver's statement (121) (or add the ability to combine people and put the odd man into episode 42)
-
 Potentially connect Hezekiah Wakely (152) and Karolina Górka (71)
 
 Add Officer Altman in 5, and perhaps pick an Altman to connect him to?

@@ -8828,6 +8828,11 @@
                         "type":"Other",
                         "text":"Attacked",
                         "feeling":"Hatred"
+                    },
+                    {
+                        "targetId":"153",
+                        "type":"Other",
+                        "text":"Warned"
                     }
                 ]
             },
@@ -9823,6 +9828,318 @@
                         "type":"Work",
                         "text":"Former employees of",
                         "feeling":"Hatred"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"121",
+        "episodeName":"Far Away",
+        "episodeCharacters":[
+            {
+                "displayName":"Oliver",
+                "fullName":"Oliver Banks",
+                "id":"56",
+                "type":"Avatar",
+                "summary":"Man who became an Avatar of The End since he could see people's deaths. Tried to get away from everyone but made the choice to kill them all.",
+                "relationships":[
+                    {
+                        "targetId":"131",
+                        "type":"Is",
+                        "text":"Is"
+                    },
+                    {
+                        "targetId":"169",
+                        "type":"Other",
+                        "text":"Saw the death of",
+                        "feeling":"Pity"
+                    },
+                    {
+                        "targetId":"427",
+                        "type":"Other",
+                        "text":"Impersonated"
+                    },
+                    {
+                        "targetId":"428",
+                        "type":"Other",
+                        "text":"Killed"
+                    },
+                    {
+                        "targetId":"429",
+                        "type":"Other",
+                        "text":"Got %s killed"
+                    }
+                ]
+            },
+            {
+                "id":"131",
+                "relationships":[
+                    {
+                        "targetId":"56",
+                        "type":"Is",
+                        "text":"Is"
+                    }
+                ]
+            },
+            {
+                "displayName":"Thomas Pritchard",
+                "id":"427",
+                "status":"Dead",
+                "summary":"Doctor who liked speeding a little too much."
+            },
+            {
+                "displayName":"Captain MacAvery",
+                "id":"428",
+                "status":"Dead",
+                "summary":"Captain on an arctic research vessel."
+            },
+            {
+                "displayName":"Clara",
+                "id":"429",
+                "status":"Dead",
+                "summary":"Researcher going to the arctic."
+            }
+        ]
+    },
+    {
+        "episodeNum":"122",
+        "episodeName":"Zombie",
+        "episodeCharacters":[
+            {
+                "displayName":"Lorell St. John",
+                "id":"430",
+                "mindset":"Afraid",
+                "summary":"Person who believes themself to be the last real person left.",
+                "relationships":[
+                    {
+                        "targetId":"431",
+                        "type":"Friends",
+                        "text":"Housmates with",
+                        "feeling":"Nothing"
+                    },
+                    {
+                        "targetId":"432",
+                        "type":"Friends",
+                        "text":"Housmates with",
+                        "feeling":"Nothing"
+                    },
+                    {
+                        "targetId":"433",
+                        "type":"Work",
+                        "text":"Colleauge of",
+                        "feeling":"Nothing"
+                    }
+                ]
+            },
+            {
+                "displayName":"Danielle",
+                "id":"431",
+                "summary":"Philosophy student who is not very good at it.",
+                "relationships":[
+                    {
+                        "targetId":"430",
+                        "type":"Friends",
+                        "text":"Housmates with"
+                    },
+                    {
+                        "targetId":"432",
+                        "type":"Friends",
+                        "text":"Housmates with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Liam",
+                "id":"432",
+                "summary":"Guy who might not be a real human.",
+                "relationships":[
+                    {
+                        "targetId":"430",
+                        "type":"Friends",
+                        "text":"Housmates with"
+                    },
+                    {
+                        "targetId":"431",
+                        "type":"Friends",
+                        "text":"Housmates with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Norma",
+                "id":"433",
+                "summary":"Person with vacant eyes who might not be real anymore.",
+                "relationships":[
+                    {
+                        "targetId":"430",
+                        "type":"Work",
+                        "text":"Colleauge of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"123",
+        "episodeName":"Web Development",
+        "episodeCharacters":[
+            {
+                "displayName":"Angie Santos",
+                "id":"434",
+                "summary":"Person who knew the admin of Chelicerae.",
+                "relationships":[
+                    {
+                        "targetId":"435",
+                        "type":"Friends",
+                        "text":"Friend of",
+                        "feeling":"Worried"
+                    }
+                ]
+            },
+            {
+                "displayName":"Gregory Cox",
+                "id":"435",
+                "status":"Unknown",
+                "summary":"Man who ran the website Chelicerae.",
+                "alignment":"The Web",
+                "relationships":[
+                    {
+                        "targetId":"434",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    },
+                    {
+                        "targetId":"74",
+                        "type":"Other",
+                        "text":"Somehow connected to"
+                    }
+                ]
+            },
+            {
+                "id":"272",
+                "relationships":[
+                    {
+                        "targetId":"435",
+                        "type":"Work",
+                        "text":"Hired"
+                    }
+                ]
+            },
+            {
+                "id":"118",
+                "mindset":"Angry",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Enemy",
+                        "text":"Wants to kill",
+                        "feeling":"Hatred"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"124",
+        "episodeName":"Left Hanging",
+        "episodeCharacters":[
+            {
+                "displayName":"Julian Jennings",
+                "id":"436",
+                "mindset":"Afraid",
+                "summary":"Man who was trapped on a cable car with his mom."
+            },
+            {
+                "displayName":"Otto Hessler",
+                "id":"437",
+                "status":"Dead",
+                "summary":"Cabe car driver who lept out of a car climbing higher.",
+                "relationships":[
+                    {
+                        "targetId":"436",
+                        "type":"Work",
+                        "text":"Driver for"
+                    }
+                ]
+            },
+            {
+                "id":"90",
+                "relationships":[
+                    {
+                        "targetId":"437",
+                        "type":"Other",
+                        "text":"Cursed the car of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeNum":"125",
+        "episodeName":"Civilian Casualties",
+        "episodeCharacters":[
+            {
+                "displayName":"Terrance Simpson",
+                "id":"438",
+                "mindset":"Afraid",
+                "summary":"Police officer who saw the aftermath of Lanncraig.",
+                "relationships":[
+                    {
+                        "targetId":"440",
+                        "type":"Work",
+                        "text":"Partners with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Callum McKenzie",
+                "id":"439",
+                "status":"Dead",
+                "mindset":"Euphoria",
+                "summary":"Pub owner in Scotland who randomly went on a murder spree in his town.",
+                "alignment":"The Slaughter",
+                "relationships":[
+                    {
+                        "targetId":"441",
+                        "type":"Acquaintance",
+                        "text":"Knows"
+                    },
+                    {
+                        "targetId":"440",
+                        "type":"Acquaintance",
+                        "text":"Long time knowing"
+                    }
+                ]
+            },
+            {
+                "displayName":"Carla Ross",
+                "id":"440",
+                "summary":"Police constable who saw the aftermath of Lanncraig.",
+                "relationships":[
+                    {
+                        "targetId":"438",
+                        "type":"Work",
+                        "text":"Partners with"
+                    },
+                    {
+                        "targetId":"439",
+                        "type":"Acquaintance",
+                        "text":"Long time knowing"
+                    }
+                ]
+            },
+            {
+                "displayName":"Angus Stewart",
+                "id":"441",
+                "status":"Dead",
+                "summary":"Community member of Lanncraig who owned some land.",
+                "alignment":"Euphoria",
+                "relationships":[
+                    {
+                        "targetId":"439",
+                        "type":"Acquaintance",
+                        "text":"Knows"
                     }
                 ]
             }
