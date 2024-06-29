@@ -10327,5 +10327,374 @@
                 ]
             }
         ]
+    },
+    {
+        "episodeName":"Dead Horse",
+        "episodeCharacters":[
+            {
+                "displayName":"Percy Fawcett",
+                "id":"456",
+                "status":"Dead",
+                "mindset":"Paranoid",
+                "summary":"Explorer who went looking for the city of Z in the jungle.",
+                "relationships":[
+                    {
+                        "targetId":"457",
+                        "type":"Family",
+                        "text":"Father of",
+                        "feeling":"Love"
+                    }
+                ]
+            },
+            {
+                "displayName":"Jack Fawcett",
+                "id":"457",
+                "status":"Dead",
+                "summary":"Son of an explorer who went on one final exploration with his father.",
+                "alignment":"The Hunt",
+                "relationships":[
+                    {
+                        "targetId":"456",
+                        "type":"Family",
+                        "text":"Son of"
+                    },
+                    {
+                        "targetId":"458",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Raleigh Rimmell",
+                "id":"458",
+                "type":"Avatar",
+                "status":"Unknown",
+                "mindset":"Obsessed",
+                "summary":"Man who fervently explored the deep jungle, hunting all the unknown which he could find.",
+                "alignment":"The Hunt",
+                "relationships":[
+                    {
+                        "targetId":"457",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    },
+                    {
+                        "targetId":"459",
+                        "type":"Acquaintances",
+                        "text":"Hunted with"
+                    },
+                    {
+                        "targetId":"460",
+                        "type":"Acquaintances",
+                        "text":"Hunted with"
+                    }
+                ]
+            },
+            {
+                "displayName":"John Franklin",
+                "id":"459",
+                "type":"Unknown",
+                "status":"Unknown",
+                "summary":"Arctic explorer who went missing in the 1830s who was found in the Brazillian jungle 100 years later.",
+                "alignment":"The Hunt",
+                "relationships":[
+                    {
+                        "targetId":"458",
+                        "type":"Acquaintances",
+                        "text":"Hunted with"
+                    },
+                    {
+                        "targetId":"460",
+                        "type":"Acquaintances",
+                        "text":"Hunted with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Eduard von Toll",
+                "id":"460",
+                "type":"Unknown",
+                "status":"Unknown",
+                "summary":"Arctic explorer who searched for Zemlya Sannikova and was found in the Brazillian jungle 100 years later.",
+                "alignment":"The Hunt",
+                "relationships":[
+                    {
+                        "targetId":"458",
+                        "type":"Acquaintances",
+                        "text":"Hunted with"
+                    },
+                    {
+                        "targetId":"459",
+                        "type":"Acquaintances",
+                        "text":"Hunted with"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Time of Revelation",
+        "episodeCharacters":[
+            {
+                "displayName":"Bernadette Delcour",
+                "id":"461",
+                "summary":"Woman who may have found a new Entity.",
+                "relationships":[
+                    {
+                        "targetId":"306",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    },
+                    {
+                        "targetId":"462",
+                        "type":"Other",
+                        "text":"Studied"
+                    }
+                ]
+            },
+            {
+                "displayName":"Garland Hillier",
+                "id":"462",
+                "type":"Unknown",
+                "status":"Unknown",
+                "summary":"French thinker who believed that humanity would end and be replaced by new creatures.",
+                "alignment":"The Extinction",
+                "relationships":[
+                    {
+                        "targetId":"463",
+                        "type":"Acquaintances",
+                        "text":"Followed",
+                        "feeling":"Anger"
+                    }
+                ]
+            },
+            {
+                "displayName":"William Miller",
+                "id":"463",
+                "status":"Dead",
+                "summary":"Man who started a religion based on the idea that he had calculated the exact day the end would begin (he was wrong)."
+            },
+            {
+                "id":"306",
+                "relationships":[
+                    {
+                        "targetId":"461",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Dark Matter",
+        "episodeCharacters":[
+            {
+                "id":"50",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Enemy",
+                        "text":"Enemy of",
+                        "feeling":"Dislike"
+                    }
+                ]
+            },
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"50",
+                        "type":"Enemy",
+                        "text":"Enemy of"
+                    }
+                ]
+            },
+            {
+                "id":"231",
+                "alignment":"The Dark"
+            }
+        ],
+        "episodeGroups":[
+            {
+                "groupId":"15",
+                "memberIds":[
+                    "50",
+                    "111",
+                    "231",
+                    "399"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"The Puppeteer",
+        "episodeCharacters":[
+            {
+                "displayName":"Alison Killala",
+                "id":"464",
+                "mindset":"Tired",
+                "summary":"Special effects person who had to bring Neil Lagorio's things to the Institute.",
+                "relationships":[
+                    {
+                        "targetId":"404",
+                        "type":"Friends",
+                        "text":"Friend",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"272",
+                        "type":"Other",
+                        "text":"Somehow affected by",
+                        "feeling":"Afraid"
+                    }
+                ]
+            },
+            {
+                "id":"404",
+                "summary":"Iconic special effects artist from the 70s. Many think he died of Parkinson's, but he never had it. Lived by being puppeted around for the end of his life.",
+                "relationships":[
+                    {
+                        "targetId":"272",
+                        "type":"Friends",
+                        "text":"Friend of",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"465",
+                        "type":"Friends",
+                        "text":"Former partner of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Gabe",
+                "id":"465",
+                "summary":"Partner of Neil Lagorio in the 1970s.",
+                "relationships":[
+                    {
+                        "targetId":"404",
+                        "type":"Friends",
+                        "text":"Former partner of"
+                    }
+                ]
+            },
+            {
+                "id":"272",
+                "relationships":[
+                    {
+                        "targetId":"404",
+                        "type":"Friends",
+                        "text":"Friend of / killed"
+                    },
+                    {
+                        "targetId":"464",
+                        "type":"Other",
+                        "text":"Did something to"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Nemesis",
+        "episodeCharacters":[
+            {
+                "displayName":"Wallis Turner",
+                "id":"466",
+                "mindset":"Traumatized",
+                "summary":"POW who watched the slaughter when the Nemesis arose.",
+                "relationships":[
+                    {
+                        "targetId":"387",
+                        "type":"Other",
+                        "text":"Jailbroken by the ship of"
+                    },
+                    {
+                        "targetId":"467",
+                        "type":"Friends",
+                        "text":"Former crewmates with"
+                    },
+                    {
+                        "targetId":"468",
+                        "type":"Acquaintances",
+                        "text":"Interned with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Leonard Holden",
+                "id":"467",
+                "status":"Dead",
+                "summary":"POW who lost his mind to the slaughter when the Nemesis arose.",
+                "relationships":[
+                    {
+                        "targetId":"465",
+                        "type":"Friends",
+                        "text":"Former crewmates with"
+                    },
+                    {
+                        "targetId":"468",
+                        "type":"Acquaintances",
+                        "text":"Interned with / killed"
+                    }
+                ]
+            },
+            {
+                "displayName":"Milton",
+                "id":"468",
+                "status":"Dead",
+                "summary":"POW who was the first prisoner to die when the Nemesis arose.",
+                "relationships":[
+                    {
+                        "targetId":"465",
+                        "type":"Acquaintances",
+                        "text":"Interned with"
+                    },
+                    {
+                        "targetId":"466",
+                        "type":"Acquaintances",
+                        "text":"Interned with"
+                    }
+                ]
+            },
+            {
+                "id":"251",
+                "relationships":[
+                    {
+                        "targetId":"27",
+                        "type":"Family",
+                        "text":"Married to"
+                    },
+                    {
+                        "targetId":"28",
+                        "type":"Family",
+                        "text":"Father of"
+                    }
+                ]
+            },
+            {
+                "id":"27",
+                "relationships":[
+                    {
+                        "targetId":"251",
+                        "type":"Family",
+                        "text":"Married to / killed"
+                    }
+                ]
+            },
+            {
+                "id":"28",
+                "relationships":[
+                    {
+                        "targetId":"251",
+                        "type":"Family",
+                        "text":"Son of"
+                    }
+                ]
+            }
+            
+        ]
     }
 ]
