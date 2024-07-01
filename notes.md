@@ -80,6 +80,6 @@ Update the summaries of a bunch of characters (or don't)
 
 Add Daisy Hunt at some point
 
-Maybe add Scott as connected to one of the powers
+Maybe add George Gilbert Scott as connected to one of the powers
 
 # Current episode notes

@@ -11058,5 +11058,355 @@
                 ]
             }
         ]
+    },
+    {
+        "episodeName":"Heart of Darkness",
+        "episodeCharacters":[
+            {
+                "displayName":"Lynette Montauk",
+                "id":"483",
+                "status":"Dead",
+                "summary":"Former member of the Church of the Divine Host.",
+                "alignment":"The Dark",
+                "relationships":[
+                    {
+                        "targetId":"49",
+                        "type":"Family",
+                        "text":"Wife of"
+                    },
+                    {
+                        "targetId":"48",
+                        "type":"Family",
+                        "text":"Mother of"
+                    }
+                ]
+            },
+            {
+                "id":"49",
+                "relationships":[
+                    {
+                        "targetId":"483",
+                        "type":"Family",
+                        "text":"Husband of"
+                    }
+                ]
+            },
+            {
+                "id":"48",
+                "relationships":[
+                    {
+                        "targetId":"483",
+                        "type":"Family",
+                        "text":"Daughter of"
+                    }
+                ]
+            },
+            {
+                "id":"212",
+                "status":"Dead"
+            },
+            {
+                "id":"231",
+                "relationships":[
+                    {
+                        "targetId":"2",
+                        "type":"Enemy",
+                        "text":"Enemy of",
+                        "feeling":"Hatred"
+                    }
+                ]
+            },
+            {
+                "id":"113",
+                "relationships":[
+                    {
+                        "targetId":"231",
+                        "type":"Other",
+                        "text":"Consumed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Decrypted",
+        "episodeCharacters":[
+            {
+                "displayName":"Gary Boylan",
+                "id":"484",
+                "mindset":"Awed",
+                "summary":"",
+                "relationships":[
+                    {
+                        "targetId":"485",
+                        "type":"Acquaintances",
+                        "text":"Knows"
+                    }
+                ]
+            },
+            {
+                "displayName":"Mrs Whitshore",
+                "id":"485",
+                "summary":"Old woman who lives alone by the empty house."
+            },
+            {
+                "id":"3",
+                "mindset":"Annoyed"
+            }
+        ]
+    },
+    {
+        "episodeName":"Infectious Doubts",
+        "episodeCharacters":[
+            {
+                "displayName":"Roger",
+                "id":"486",
+                "type":"Unknown",
+                "status":"Dead",
+                "summary":"Man who failed to feed Agnes properly, resulting in his own death.",
+                "alignment":"The Desolation"
+            },
+            {
+                "id":"45",
+                "relationships":[
+                    {
+                        "targetId":"486",
+                        "type":"Other",
+                        "text":"Killed"
+                    }
+                ]
+            },
+            {
+                "id":"471",
+                "summary":"Desolation avatar who told Gertrude the story of Agnes Montague. Tried to get Gertrude and ended up in eternal agony."
+            },
+            {
+                "id":"2",
+                "relationships":[
+                    {
+                        "targetId":"471",
+                        "type":"Other",
+                        "text":"Recast as a statue"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "groupId":"13",
+                "memberIds":[
+                    "45",
+                    "132",
+                    "179",
+                    "267",
+                    "334",
+                    "471",
+                    "473",
+                    "486"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Threshold",
+        "episodeCharacters":[
+            {
+                "displayName":"Luke",
+                "id":"487",
+                "summary":"Boy who lived in London and played with the McKenzies as a child.",
+                "relationships":[
+                    {
+                        "targetId":"115",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Sandra",
+                "id":"488",
+                "summary":"Girl who went to the same high school as Marcus McKenzie.",
+                "relationships":[
+                    {
+                        "targetId":"115",
+                        "type":"Friends",
+                        "text":"Dated"
+                    }
+                ]
+            },
+            {
+                "id":"115",
+                "relationships":[
+                    {
+                        "targetId":"487",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    },
+                    {
+                        "targetId":"488",
+                        "type":"Friends",
+                        "text":"Dated"
+                    }
+                ]
+            },
+            {
+                "id":"480",
+                "displayName":"Jess Tyrell"
+            }
+        ]
+    },
+    {
+        "episodeName":"Weaver",
+        "episodeCharacters":[
+            {
+                "displayName":"Lizzie Cane",
+                "id":"489",
+                "summary":"Sister of Annabelle Cane who was the go-to target for sympathy plays.",
+                "relationships":[
+                    {
+                        "targetId":"272",
+                        "type":"Family",
+                        "text":"Sister of"
+                    }
+                ]
+            },
+            {
+                "id":"272",
+                "relationships":[
+                    {
+                        "targetId":"489",
+                        "type":"Family",
+                        "text":"Sister of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Extended Surveillance",
+        "episodeCharacters":[
+            {
+                "displayName":"Sunil Maraj",
+                "id":"490",
+                "summary":"Security worker who made friends with a very strange man.",
+                "relationships":[
+                    {
+                        "targetId":"491",
+                        "type":"Work",
+                        "text":"Partner of",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"492",
+                        "type":"Work",
+                        "text":"Worked with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Sam Stiller",
+                "fullName":"Samson Stiller",
+                "id":"491",
+                "type":"Unknown",
+                "summary":"Security worker who became one with the cameras at his place of work.",
+                "alignment":"The Eye",
+                "relationships":[
+                    {
+                        "targetId":"490",
+                        "type":"Work",
+                        "text":"Partner of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Dave",
+                "id":"492",
+                "summary":"Long-time security worker at a place which had some strange camera issues.",
+                "relationships":[
+                    {
+                        "targetId":"490",
+                        "type":"Work",
+                        "text":"Worked with"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Concrete Jungle",
+        "episodeCharacters":[
+            {
+                "displayName":"Judith O'Neill",
+                "id":"493",
+                "summary":"British Amazon researcher/guide who lost her job after losing a client to the forest.",
+                "relationships":[
+                    {
+                        "targetId":"494",
+                        "type":"Work",
+                        "text":"Researcher with"
+                    },
+                    {
+                        "targetId":"495",
+                        "type":"Work",
+                        "text":"Guide to"
+                    }
+                ]
+            },
+            {
+                "displayName":"Fernanda Mikado",
+                "id":"494",
+                "summary":"Local Amazon researcher/guide who lost her job after losing a client to the forest.",
+                "relationships":[
+                    {
+                        "targetId":"493",
+                        "type":"Work",
+                        "text":"Researcher with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Nikos Anastos",
+                "id":"495",
+                "status":"Dead",
+                "summary":"Climate scientist who was very arrogant until a concrete snake killed him.",
+                "relationships":[
+                    {
+                        "targetId":"493",
+                        "type":"Work",
+                        "text":"Client of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Cul-de-Sac",
+        "episodeCharacters":[
+            {
+                "displayName":"Herman Gorgoli",
+                "id":"496",
+                "summary":"Man who accidentally stole a moose, then when bringing it back got lost alone.",
+                "relationships":[
+                    {
+                        "targetId":"497",
+                        "type":"Family",
+                        "text":"Husband"
+                    }
+                ]
+            },
+            {
+                "displayName":"Alberto",
+                "id":"497",
+                "summary":"Man whose husband cheated on him, stole his moose, and then got back together with him.",
+                "relationships":[
+                    {
+                        "targetId":"496",
+                        "type":"Family",
+                        "text":"Husband of"
+                    }
+                ]
+            }
+        ]
     }
 ]
