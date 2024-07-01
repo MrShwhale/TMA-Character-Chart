@@ -3927,7 +3927,7 @@
             {
                 "displayName":"Sampson Kempthrone",
                 "id":"200",
-                "summary":"Architect in London in the 1828s, concerned about other architects.",
+                "summary":"Architect in London in the 1829s, concerned about other architects.",
                 "status":"Dead",
                 "relationships":[
                     {
@@ -3958,7 +3958,7 @@
             {
                 "displayName":"George Gilbert Scott",
                 "id":"201",
-                "summary":"Respected architect in the 1828s whose designs were extremely unsettling.",
+                "summary":"Respected architect in the 1829s whose designs were extremely unsettling.",
                 "status":"Dead",
                 "relationships":[
                     {
@@ -3983,7 +3983,7 @@
             {
                 "displayName":"Henry Roberts",
                 "id":"202",
-                "summary":"Architect who hosted a gathering of architects in the 1828s. Had some potentially supernatural elements in his designs.",
+                "summary":"Architect who hosted a gathering of architects in the 1829s. Had some potentially supernatural elements in his designs.",
                 "status":"Dead",
                 "relationships":[
                     {
@@ -4675,7 +4675,7 @@
                 "id":"234",
                 "status":"Dead",
                 "mindset":"Traumatized",
-                "summary":"Man who wanted to move to Oregan in 1842. Married a girl for more land and died on the way.",
+                "summary":"Man who wanted to move to Oregan in 1843. Married a girl for more land and died on the way.",
                 "relationships":[
                     {
                         "targetId":"232",
@@ -5641,7 +5641,7 @@
                 "displayName":"Alexander Willard",
                 "id":"277",
                 "status":"Dead",
-                "summary":"Previous owner of the Book of the Dead who died mysteriously in 1980."
+                "summary":"Previous owner of the Book of the Dead who died mysteriously in 1981."
             },
             {
                 "displayName":"John Kendrick",
@@ -7512,7 +7512,8 @@
             },
             {
                 "id":"267",
-                "type":"Avatar"
+                "type":"Avatar",
+                "alignment":"The Desolation"
             },
             {
                 "id":"302",
@@ -7800,7 +7801,7 @@
             {
                 "id":"50",
                 "type":"Avatar",
-                "summary":"Cult leader of the Peoples' Church of the Divine Host. Worked with Robert Montauk and visited him in prison until his death. Has lived since at least 1807s and can control creatures of darkness.",
+                "summary":"Cult leader of the Peoples' Church of the Divine Host. Worked with Robert Montauk and visited him in prison until his death. Has lived since at least 1808s and can control creatures of darkness.",
                 "relationships":[
                     {
                         "targetId":"362",
@@ -7832,7 +7833,7 @@
                 "displayName":"George Denman",
                 "id":"361",
                 "status":"Dead",
-                "summary":"Member of Parliment in the 1807s and school friend of Algernon Moss.",
+                "summary":"Member of Parliment in the 1808s and school friend of Algernon Moss.",
                 "relationships":[
                     {
                         "targetId":"359",
@@ -8975,6 +8976,11 @@
                 ]
             },
             {
+                "displayName":"John Flamsteed",
+                "id":"407",
+                "summary":"Someone who did a lot of research into the fears and was negatively impacted for it."
+            },
+            {
                 "id":"111",
                 "alignment":"The Dark"
             },
@@ -9171,19 +9177,19 @@
         "episodeCharacters":[
             {
                 "displayName":"Lisa Carmel",
-                "id":"407",
+                "id":"408",
                 "mindset":"Happy",
                 "summary":"Person who started a true crime book club, then went on a murder spree within its members.",
                 "alignment":"The Hunt",
                 "relationships":[
                     {
-                        "targetId":"413",
+                        "targetId":"414",
                         "type":"Friends",
                         "text":"Roommates with",
                         "feeling":"Pity"
                     },
                     {
-                        "targetId":"410",
+                        "targetId":"411",
                         "type":"Other",
                         "text":"Killed"
                     }
@@ -9191,7 +9197,7 @@
             },
             {
                 "displayName":"Jamie Sanders",
-                "id":"408",
+                "id":"409",
                 "status":"Dead",
                 "mindset":"Happy",
                 "summary":"Member of Murder Club who died first.",
@@ -9199,27 +9205,27 @@
             },
             {
                 "displayName":"Ananya Kaleka",
-                "id":"409",
-                "mindset":"Happy",
-                "summary":"Member of Murder Club.",
-                "alignment":"The Hunt"
-            },
-            {
-                "displayName":"Evelyn Kaleka",
                 "id":"410",
                 "mindset":"Happy",
                 "summary":"Member of Murder Club.",
                 "alignment":"The Hunt"
             },
             {
-                "displayName":"Andrew Cochrane",
+                "displayName":"Evelyn Kaleka",
                 "id":"411",
+                "mindset":"Happy",
+                "summary":"Member of Murder Club.",
+                "alignment":"The Hunt"
+            },
+            {
+                "displayName":"Andrew Cochrane",
+                "id":"412",
                 "mindset":"Happy",
                 "summary":"Member of Murder Club who set up an ambush.",
                 "alignment":"The Hunt",
                 "relationships":[
                     {
-                        "targetId":"412",
+                        "targetId":"413",
                         "type":"Other",
                         "text":"Killed"
                     }
@@ -9227,13 +9233,13 @@
             },
             {
                 "displayName":"Debbie Truss",
-                "id":"412",
+                "id":"413",
                 "mindset":"Happy",
                 "summary":"Member of Murder Club.",
                 "alignment":"The Hunt",
                 "relationships":[
                     {
-                        "targetId":"408",
+                        "targetId":"409",
                         "type":"Other",
                         "text":"Killed"
                     }
@@ -9241,12 +9247,12 @@
             },
             {
                 "displayName":"Matis",
-                "id":"413",
+                "id":"414",
                 "mindset":"Afraid",
                 "summary":"Person who discovered their roommate had started killing people.",
                 "relationships":[
                     {
-                        "targetId":"407",
+                        "targetId":"408",
                         "type":"Friends",
                         "text":"Roommates with",
                         "feeling":"Afraid"
@@ -9264,12 +9270,12 @@
                 "feeling":"Good",
                 "alignment":"The Hunt",
                 "memberIds":[
-                    "407",
                     "408",
                     "409",
                     "410",
                     "411",
-                    "412"
+                    "412",
+                    "413"
                 ]
             }
         ]
@@ -9288,12 +9294,12 @@
                         "text":"Exchanges advice with"
                     },
                     {
-                        "targetId":"414",
+                        "targetId":"415",
                         "type":"Work",
                         "text":"Bribes"
                     },
                     {
-                        "targetId":"415",
+                        "targetId":"416",
                         "type":"Other",
                         "text":"Scrambled the brain of"
                     }
@@ -9301,11 +9307,11 @@
             },
             {
                 "displayName":"Bianca",
-                "id":"414",
+                "id":"415",
                 "summary":"Nurse who came across a very strange \"carbon monoxide\" case.",
                 "relationships":[
                     {
-                        "targetId":"415",
+                        "targetId":"416",
                         "type":"Work",
                         "text":"Nurse to"
                     },
@@ -9318,7 +9324,7 @@
             },
             {
                 "displayName":"Justin Gough",
-                "id":"415",
+                "id":"416",
                 "type":"Avatar",
                 "summary":"Man who began to serve The End, now has a scrambled brain.",
                 "alignment":"The End"
@@ -9340,7 +9346,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Anya Villette",
-                "id":"416",
+                "id":"417",
                 "type":"Unknown",
                 "status":"Unknown",
                 "summary":"Cleaner of Hilltop Road who may or may not exist.",
@@ -9351,7 +9357,7 @@
                         "text":"Believes she is the cleaner for"
                     },
                     {
-                        "targetId":"417",
+                        "targetId":"418",
                         "type":"Work",
                         "text":"Believes she is the cleaner for"
                     }
@@ -9359,12 +9365,12 @@
             },
             {
                 "displayName":"John Hector Lettings",
-                "id":"417",
+                "id":"418",
                 "summary":"Real estate agent in Oxford."
             },
             {
                 "displayName":"George Icarus",
-                "id":"418",
+                "id":"419",
                 "status":"Dead",
                 "summary":"Person whose skin the Circus has taken to start The Unknowing."
             }
@@ -9374,7 +9380,7 @@
                 "groupId":"9",
                 "relationships":[
                     {
-                        "targetId":"418",
+                        "targetId":"419",
                         "type":"Other",
                         "text":"Took the skin of"
                     }
@@ -9387,7 +9393,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Warren",
-                "id":"419",
+                "id":"420",
                 "status":"Dead",
                 "summary":"One of Lightner's assistants. Died getting eaten by a book."
             },
@@ -9396,12 +9402,12 @@
                 "summary":"Dealer in stolen artifacts. Knows about the fears, and sells to both those who do and don't.",
                 "relationships":[
                     {
-                        "targetId":"420",
+                        "targetId":"421",
                         "type":"Other",
                         "text":"Boss of and killed"
                     },
                     {
-                        "targetId":"421",
+                        "targetId":"422",
                         "type":"Work",
                         "text":"Boss of"
                     }
@@ -9409,7 +9415,7 @@
             },
             {
                 "displayName":"Cook",
-                "id":"420",
+                "id":"421",
                 "status":"Dead",
                 "mindset":"Euphoria",
                 "summary":"Cook on one of Salesa's trips, went insane and started grinding himself up.",
@@ -9425,7 +9431,7 @@
             },
             {
                 "displayName":"Leigh",
-                "id":"421",
+                "id":"422",
                 "summary":"Quartermaster on one of Salesa's trips.",
                 "relationships":[
                     {
@@ -9468,7 +9474,7 @@
                     "315",
                     "316",
                     "317",
-                    "419",
+                    "420",
                     "69"
                 ]
             }
@@ -9479,18 +9485,18 @@
         "episodeCharacters":[
             {
                 "displayName":"Abraham Janssen",
-                "id":"422",
+                "id":"423",
                 "status":"Dead",
                 "mindset":"Afraid",
                 "summary":"Man who played the part of a chess player in a machine.",
                 "relationships":[
                     {
-                        "targetId":"423",
+                        "targetId":"424",
                         "type":"Acquaintances",
                         "text":"Acquaintance of"
                     },
                     {
-                        "targetId":"424",
+                        "targetId":"425",
                         "type":"Friends",
                         "text":"Friend of",
                         "feeling":"Afraid"
@@ -9499,35 +9505,10 @@
             },
             {
                 "displayName":"Lanthorn",
-                "id":"423",
+                "id":"424",
                 "status":"Dead",
                 "summary":"Friend of Abraham Janssen and Wolfgang von Kempelen.",
                 "relationships":[
-                    {
-                        "targetId":"422",
-                        "type":"Acquaintances",
-                        "text":"Acquaintance of"
-                    },
-                    {
-                        "targetId":"424",
-                        "type":"Acquaintances",
-                        "text":"Acquaintance of"
-                    }
-                ]
-            },
-            {
-                "displayName":"Wolfgang von Kempelen",
-                "id":"424",
-                "status":"Dead",
-                "summary":"Brilliant engineer who created a chess playing machine with a person inside.",
-                "alignment":"The Stranger",
-                "relationships":[
-                    {
-                        "targetId":"422",
-                        "type":"Friends",
-                        "text":"Friend of",
-                        "feeling":"Good"
-                    },
                     {
                         "targetId":"423",
                         "type":"Acquaintances",
@@ -9535,6 +9516,31 @@
                     },
                     {
                         "targetId":"425",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Wolfgang von Kempelen",
+                "id":"425",
+                "status":"Dead",
+                "summary":"Brilliant engineer who created a chess playing machine with a person inside.",
+                "alignment":"The Stranger",
+                "relationships":[
+                    {
+                        "targetId":"423",
+                        "type":"Friends",
+                        "text":"Friend of",
+                        "feeling":"Good"
+                    },
+                    {
+                        "targetId":"424",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    },
+                    {
+                        "targetId":"426",
                         "type":"Other",
                         "text":"Created"
                     }
@@ -9542,7 +9548,7 @@
             },
             {
                 "displayName":"Mechanical Turk",
-                "id":"425",
+                "id":"426",
                 "type":"Avatar",
                 "status":"Dead",
                 "summary":"Chess playing machine that began to act impossibly during The Unknowing. Killed by an avatar of the Slaughter during the same.",
@@ -9557,14 +9563,14 @@
                 "id":"25",
                 "relationships":[
                     {
-                        "targetId":"418",
+                        "targetId":"419",
                         "type":"Is",
                         "text":"Is"
                     }
                 ]
             },
             {
-                "id":"418",
+                "id":"419",
                 "relationships":[
                     {
                         "targetId":"25",
@@ -9580,7 +9586,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Ms. Blackwood",
-                "id":"426",
+                "id":"427",
                 "summary":"Mother of Martin. Lives in a nursery home.",
                 "relationships":[
                     {
@@ -9595,7 +9601,7 @@
                 "id":"3",
                 "relationships":[
                     {
-                        "targetId":"426",
+                        "targetId":"427",
                         "type":"Family",
                         "text":"Son of",
                         "feeling":"Love"
@@ -9734,17 +9740,17 @@
                         "feeling":"Pity"
                     },
                     {
-                        "targetId":"427",
+                        "targetId":"428",
                         "type":"Other",
                         "text":"Impersonated"
                     },
                     {
-                        "targetId":"428",
+                        "targetId":"429",
                         "type":"Other",
                         "text":"Killed"
                     },
                     {
-                        "targetId":"429",
+                        "targetId":"430",
                         "type":"Other",
                         "text":"Got %s killed"
                     }
@@ -9762,19 +9768,19 @@
             },
             {
                 "displayName":"Thomas Pritchard",
-                "id":"427",
+                "id":"428",
                 "status":"Dead",
                 "summary":"Doctor who liked speeding a little too much."
             },
             {
                 "displayName":"Captain MacAvery",
-                "id":"428",
+                "id":"429",
                 "status":"Dead",
                 "summary":"Captain on an arctic research vessel."
             },
             {
                 "displayName":"Clara",
-                "id":"429",
+                "id":"430",
                 "status":"Dead",
                 "summary":"Researcher going to the arctic."
             }
@@ -9785,16 +9791,10 @@
         "episodeCharacters":[
             {
                 "displayName":"Lorell St. John",
-                "id":"430",
+                "id":"431",
                 "mindset":"Afraid",
                 "summary":"Person who believes themself to be the last real person left.",
                 "relationships":[
-                    {
-                        "targetId":"431",
-                        "type":"Friends",
-                        "text":"Housmates with",
-                        "feeling":"Nothing"
-                    },
                     {
                         "targetId":"432",
                         "type":"Friends",
@@ -9803,6 +9803,12 @@
                     },
                     {
                         "targetId":"433",
+                        "type":"Friends",
+                        "text":"Housmates with",
+                        "feeling":"Nothing"
+                    },
+                    {
+                        "targetId":"434",
                         "type":"Work",
                         "text":"Colleauge of",
                         "feeling":"Nothing"
@@ -9811,11 +9817,28 @@
             },
             {
                 "displayName":"Danielle",
-                "id":"431",
+                "id":"432",
                 "summary":"Philosophy student who is not very good at it.",
                 "relationships":[
                     {
-                        "targetId":"430",
+                        "targetId":"431",
+                        "type":"Friends",
+                        "text":"Housmates with"
+                    },
+                    {
+                        "targetId":"433",
+                        "type":"Friends",
+                        "text":"Housmates with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Liam",
+                "id":"433",
+                "summary":"Guy who might not be a real human.",
+                "relationships":[
+                    {
+                        "targetId":"431",
                         "type":"Friends",
                         "text":"Housmates with"
                     },
@@ -9827,29 +9850,12 @@
                 ]
             },
             {
-                "displayName":"Liam",
-                "id":"432",
-                "summary":"Guy who might not be a real human.",
-                "relationships":[
-                    {
-                        "targetId":"430",
-                        "type":"Friends",
-                        "text":"Housmates with"
-                    },
-                    {
-                        "targetId":"431",
-                        "type":"Friends",
-                        "text":"Housmates with"
-                    }
-                ]
-            },
-            {
                 "displayName":"Norma",
-                "id":"433",
+                "id":"434",
                 "summary":"Person with vacant eyes who might not be real anymore.",
                 "relationships":[
                     {
-                        "targetId":"430",
+                        "targetId":"431",
                         "type":"Work",
                         "text":"Colleauge of"
                     }
@@ -9862,11 +9868,11 @@
         "episodeCharacters":[
             {
                 "displayName":"Angie Santos",
-                "id":"434",
+                "id":"435",
                 "summary":"Person who knew the admin of Chelicerae.",
                 "relationships":[
                     {
-                        "targetId":"435",
+                        "targetId":"436",
                         "type":"Friends",
                         "text":"Friend of",
                         "feeling":"Worried"
@@ -9875,13 +9881,13 @@
             },
             {
                 "displayName":"Gregory Cox",
-                "id":"435",
+                "id":"436",
                 "status":"Unknown",
                 "summary":"Man who ran the website Chelicerae.",
                 "alignment":"The Web",
                 "relationships":[
                     {
-                        "targetId":"434",
+                        "targetId":"435",
                         "type":"Friends",
                         "text":"Friend of"
                     },
@@ -9896,7 +9902,7 @@
                 "id":"272",
                 "relationships":[
                     {
-                        "targetId":"435",
+                        "targetId":"436",
                         "type":"Work",
                         "text":"Hired"
                     }
@@ -9921,18 +9927,18 @@
         "episodeCharacters":[
             {
                 "displayName":"Julian Jennings",
-                "id":"436",
+                "id":"437",
                 "mindset":"Afraid",
                 "summary":"Man who was trapped on a cable car with his mom."
             },
             {
                 "displayName":"Otto Hessler",
-                "id":"437",
+                "id":"438",
                 "status":"Dead",
                 "summary":"Cabe car driver who lept out of a car climbing higher.",
                 "relationships":[
                     {
-                        "targetId":"436",
+                        "targetId":"437",
                         "type":"Work",
                         "text":"Driver for"
                     }
@@ -9942,7 +9948,7 @@
                 "id":"90",
                 "relationships":[
                     {
-                        "targetId":"437",
+                        "targetId":"438",
                         "type":"Other",
                         "text":"Cursed the car of"
                     }
@@ -9955,12 +9961,12 @@
         "episodeCharacters":[
             {
                 "displayName":"Terrance Simpson",
-                "id":"438",
+                "id":"439",
                 "mindset":"Afraid",
                 "summary":"Police officer who saw the aftermath of Lanncraig.",
                 "relationships":[
                     {
-                        "targetId":"440",
+                        "targetId":"441",
                         "type":"Work",
                         "text":"Partners with"
                     }
@@ -9968,16 +9974,33 @@
             },
             {
                 "displayName":"Callum McKenzie",
-                "id":"439",
+                "id":"440",
                 "status":"Dead",
                 "mindset":"Euphoria",
                 "summary":"Pub owner in Scotland who randomly went on a murder spree in his town.",
                 "alignment":"The Slaughter",
                 "relationships":[
                     {
-                        "targetId":"441",
+                        "targetId":"442",
                         "type":"Acquaintance",
                         "text":"Knows"
+                    },
+                    {
+                        "targetId":"441",
+                        "type":"Acquaintance",
+                        "text":"Long time knowing"
+                    }
+                ]
+            },
+            {
+                "displayName":"Carla Ross",
+                "id":"441",
+                "summary":"Police constable who saw the aftermath of Lanncraig.",
+                "relationships":[
+                    {
+                        "targetId":"439",
+                        "type":"Work",
+                        "text":"Partners with"
                     },
                     {
                         "targetId":"440",
@@ -9987,31 +10010,14 @@
                 ]
             },
             {
-                "displayName":"Carla Ross",
-                "id":"440",
-                "summary":"Police constable who saw the aftermath of Lanncraig.",
-                "relationships":[
-                    {
-                        "targetId":"438",
-                        "type":"Work",
-                        "text":"Partners with"
-                    },
-                    {
-                        "targetId":"439",
-                        "type":"Acquaintance",
-                        "text":"Long time knowing"
-                    }
-                ]
-            },
-            {
                 "displayName":"Angus Stewart",
-                "id":"441",
+                "id":"442",
                 "status":"Dead",
                 "summary":"Community member of Lanncraig who owned some land.",
                 "alignment":"Euphoria",
                 "relationships":[
                     {
-                        "targetId":"439",
+                        "targetId":"440",
                         "type":"Acquaintance",
                         "text":"Knows"
                     }
@@ -10024,14 +10030,14 @@
         "episodeCharacters":[
             {
                 "displayName":"Gabriel",
-                "id":"442",
+                "id":"443",
                 "type":"Avatar",
                 "status":"Dead",
                 "summary":"Clay worker who helped with the Great Twisting.",
                 "alignment":"The Spiral",
                 "relationships":[
                     {
-                        "targetId":"447",
+                        "targetId":"448",
                         "type":"Other",
                         "text":"Favored by",
                         "feeling":"Good"
@@ -10040,21 +10046,21 @@
             },
             {
                 "displayName":"Deborah Madaki",
-                "id":"443",
+                "id":"444",
                 "summary":"Person who goes to a lot of adult education classes.",
                 "relationships":[
                     {
-                        "targetId":"445",
+                        "targetId":"446",
                         "type":"Family",
                         "text":"Wife of"
                     },
                     {
-                        "targetId":"444",
+                        "targetId":"445",
                         "type":"Friends",
                         "text":"Friend of"
                     },
                     {
-                        "targetId":"442",
+                        "targetId":"443",
                         "type":"Acquaintances",
                         "text":"Interacts with",
                         "feeling":"Hatred"
@@ -10063,11 +10069,11 @@
             },
             {
                 "displayName":"Jenny",
-                "id":"444",
+                "id":"445",
                 "summary":"New organizer for a community center.",
                 "relationships":[
                     {
-                        "targetId":"445",
+                        "targetId":"446",
                         "type":"Friends",
                         "text":"Friend of"
                     }
@@ -10075,11 +10081,11 @@
             },
             {
                 "displayName":"Rosa",
-                "id":"445",
+                "id":"446",
                 "summary":"",
                 "relationships":[
                     {
-                        "targetId":"443",
+                        "targetId":"444",
                         "type":"Family",
                         "text":"Wife of",
                         "feeling":"Worried"
@@ -10088,18 +10094,18 @@
             },
             {
                 "displayName":"Mary",
-                "id":"446",
+                "id":"447",
                 "status":"Dead",
                 "summary":"Post office worker and member of an adult sculpting class."
             },
             {
                 "displayName":"Ray",
-                "id":"447",
+                "id":"448",
                 "summary":"Teacher of an adult sculpting class.",
                 "alignment":"The Spiral",
                 "relationships":[
                     {
-                        "targetId":"442",
+                        "targetId":"443",
                         "type":"Other",
                         "text":"Favors",
                         "feeling":"Good"
@@ -10108,11 +10114,11 @@
             },
             {
                 "displayName":"Desmond",
-                "id":"448",
+                "id":"449",
                 "summary":"Man who had an operation which seriously affected him.",
                 "relationships":[
                     {
-                        "targetId":"443",
+                        "targetId":"444",
                         "type":"Acquaintances",
                         "text":"Knows"
                     }
@@ -10120,7 +10126,7 @@
             },
             {
                 "displayName":"Bill",
-                "id":"449",
+                "id":"450",
                 "summary":"Man with a dog who was in a sculpting class."
             },
             {
@@ -10155,11 +10161,11 @@
                 "relationType":"Acquaintances",
                 "alignment":"The Spiral",
                 "memberIds":[
-                    "442",
                     "443",
-                    "446",
+                    "444",
                     "447",
-                    "449"
+                    "448",
+                    "450"
                 ]
             }
         ]
@@ -10169,9 +10175,9 @@
         "episodeCharacters":[
             {
                 "displayName":"Jonathan Fanshawe",
-                "id":"450",
+                "id":"451",
                 "status":"Dead",
-                "summary":"Medical practitioner in the 1800s.",
+                "summary":"Medical practitioner in the 1801s.",
                 "relationships":[
                     {
                         "targetId":"94",
@@ -10182,7 +10188,7 @@
             },
             {
                 "displayName":"Greta",
-                "id":"451",
+                "id":"452",
                 "status":"Dead",
                 "summary":"Housekeeper for Albrecht Von Closen.",
                 "relationships":[
@@ -10197,12 +10203,12 @@
                 "id":"93",
                 "relationships":[
                     {
-                        "targetId":"450",
+                        "targetId":"451",
                         "type":"Work",
                         "text":"Patient of"
                     },
                     {
-                        "targetId":"451",
+                        "targetId":"452",
                         "type":"Work",
                         "text":"Boss of"
                     }
@@ -10212,7 +10218,7 @@
                 "id":"94",
                 "relationships":[
                     {
-                        "targetId":"450",
+                        "targetId":"451",
                         "type":"Acquaintances",
                         "text":"Former friend of"
                     }
@@ -10260,12 +10266,12 @@
         "episodeCharacters":[
             {
                 "displayName":"Kulbir Shakya",
-                "id":"452",
+                "id":"453",
                 "summary":"Man who found himself in a drowning London.",
                 "alignment":"The Buried",
                 "relationships":[
                     {
-                        "targetId":"453",
+                        "targetId":"454",
                         "type":"Family",
                         "text":"Brother of"
                     }
@@ -10273,11 +10279,11 @@
             },
             {
                 "displayName":"Boana Shakya",
-                "id":"453",
+                "id":"454",
                 "summary":"Londoner with a decent house outside of Hackney.",
                 "relationships":[
                     {
-                        "targetId":"453",
+                        "targetId":"454",
                         "type":"Family",
                         "text":"Sister of"
                     }
@@ -10290,7 +10296,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Lucia Wright",
-                "id":"454",
+                "id":"455",
                 "mindset":"Traumatized",
                 "summary":"Woman who saw the Last Feast and almost died because of it."
             },
@@ -10298,7 +10304,7 @@
                 "id":"2",
                 "relationships":[
                     {
-                        "targetId":"454",
+                        "targetId":"455",
                         "type":"Other",
                         "text":"Almost killed",
                         "feeling":"Pity"
@@ -10312,7 +10318,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Regan Hasnain",
-                "id":"455",
+                "id":"456",
                 "status":"Dead",
                 "summary":"Person with \"good bones\"."
             },
@@ -10320,7 +10326,7 @@
                 "id":"78",
                 "relationships":[
                     {
-                        "targetId":"455",
+                        "targetId":"456",
                         "type":"Other",
                         "text":"Killed"
                     }
@@ -10329,17 +10335,21 @@
         ]
     },
     {
+        "episodeName":"Entombed",
+        "episodeCharacters":[]
+    },
+    {
         "episodeName":"Dead Horse",
         "episodeCharacters":[
             {
                 "displayName":"Percy Fawcett",
-                "id":"456",
+                "id":"457",
                 "status":"Dead",
                 "mindset":"Paranoid",
                 "summary":"Explorer who went looking for the city of Z in the jungle.",
                 "relationships":[
                     {
-                        "targetId":"457",
+                        "targetId":"458",
                         "type":"Family",
                         "text":"Father of",
                         "feeling":"Love"
@@ -10348,18 +10358,18 @@
             },
             {
                 "displayName":"Jack Fawcett",
-                "id":"457",
+                "id":"458",
                 "status":"Dead",
                 "summary":"Son of an explorer who went on one final exploration with his father.",
                 "alignment":"The Hunt",
                 "relationships":[
                     {
-                        "targetId":"456",
+                        "targetId":"457",
                         "type":"Family",
                         "text":"Son of"
                     },
                     {
-                        "targetId":"458",
+                        "targetId":"459",
                         "type":"Friends",
                         "text":"Friend of"
                     }
@@ -10367,7 +10377,7 @@
             },
             {
                 "displayName":"Raleigh Rimmell",
-                "id":"458",
+                "id":"459",
                 "type":"Avatar",
                 "status":"Unknown",
                 "mindset":"Obsessed",
@@ -10375,17 +10385,17 @@
                 "alignment":"The Hunt",
                 "relationships":[
                     {
-                        "targetId":"457",
+                        "targetId":"458",
                         "type":"Friends",
                         "text":"Friend of"
                     },
                     {
-                        "targetId":"459",
+                        "targetId":"460",
                         "type":"Acquaintances",
                         "text":"Hunted with"
                     },
                     {
-                        "targetId":"460",
+                        "targetId":"461",
                         "type":"Acquaintances",
                         "text":"Hunted with"
                     }
@@ -10393,19 +10403,19 @@
             },
             {
                 "displayName":"John Franklin",
-                "id":"459",
+                "id":"460",
                 "type":"Unknown",
                 "status":"Unknown",
-                "summary":"Arctic explorer who went missing in the 1830s who was found in the Brazillian jungle 100 years later.",
+                "summary":"Arctic explorer who went missing in the 1831s who was found in the Brazillian jungle 100 years later.",
                 "alignment":"The Hunt",
                 "relationships":[
                     {
-                        "targetId":"458",
+                        "targetId":"459",
                         "type":"Acquaintances",
                         "text":"Hunted with"
                     },
                     {
-                        "targetId":"460",
+                        "targetId":"461",
                         "type":"Acquaintances",
                         "text":"Hunted with"
                     }
@@ -10413,19 +10423,19 @@
             },
             {
                 "displayName":"Eduard von Toll",
-                "id":"460",
+                "id":"461",
                 "type":"Unknown",
                 "status":"Unknown",
                 "summary":"Arctic explorer who searched for Zemlya Sannikova and was found in the Brazillian jungle 100 years later.",
                 "alignment":"The Hunt",
                 "relationships":[
                     {
-                        "targetId":"458",
+                        "targetId":"459",
                         "type":"Acquaintances",
                         "text":"Hunted with"
                     },
                     {
-                        "targetId":"459",
+                        "targetId":"460",
                         "type":"Acquaintances",
                         "text":"Hunted with"
                     }
@@ -10438,7 +10448,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Bernadette Delcour",
-                "id":"461",
+                "id":"462",
                 "summary":"Woman who may have found a new Entity.",
                 "relationships":[
                     {
@@ -10447,7 +10457,7 @@
                         "text":"Acquaintance of"
                     },
                     {
-                        "targetId":"462",
+                        "targetId":"463",
                         "type":"Other",
                         "text":"Studied"
                     }
@@ -10455,14 +10465,14 @@
             },
             {
                 "displayName":"Garland Hillier",
-                "id":"462",
+                "id":"463",
                 "type":"Unknown",
                 "status":"Unknown",
                 "summary":"French thinker who believed that humanity would end and be replaced by new creatures.",
                 "alignment":"The Extinction",
                 "relationships":[
                     {
-                        "targetId":"463",
+                        "targetId":"464",
                         "type":"Acquaintances",
                         "text":"Followed",
                         "feeling":"Anger"
@@ -10471,7 +10481,7 @@
             },
             {
                 "displayName":"William Miller",
-                "id":"463",
+                "id":"464",
                 "status":"Dead",
                 "summary":"Man who started a religion based on the idea that he had calculated the exact day the end would begin (he was wrong)."
             },
@@ -10479,7 +10489,7 @@
                 "id":"306",
                 "relationships":[
                     {
-                        "targetId":"461",
+                        "targetId":"462",
                         "type":"Acquaintances",
                         "text":"Acquaintance of"
                     }
@@ -10533,7 +10543,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Alison Killala",
-                "id":"464",
+                "id":"465",
                 "mindset":"Tired",
                 "summary":"Special effects person who had to bring Neil Lagorio's things to the Institute.",
                 "relationships":[
@@ -10562,7 +10572,7 @@
                         "feeling":"Good"
                     },
                     {
-                        "targetId":"465",
+                        "targetId":"466",
                         "type":"Friends",
                         "text":"Former partner of"
                     }
@@ -10570,8 +10580,8 @@
             },
             {
                 "displayName":"Gabe",
-                "id":"465",
-                "summary":"Partner of Neil Lagorio in the 1970s.",
+                "id":"466",
+                "summary":"Partner of Neil Lagorio in the 1971s.",
                 "relationships":[
                     {
                         "targetId":"404",
@@ -10589,7 +10599,7 @@
                         "text":"Friend of / killed"
                     },
                     {
-                        "targetId":"464",
+                        "targetId":"465",
                         "type":"Other",
                         "text":"Did something to"
                     }
@@ -10602,7 +10612,7 @@
         "episodeCharacters":[
             {
                 "displayName":"Wallis Turner",
-                "id":"466",
+                "id":"467",
                 "mindset":"Traumatized",
                 "summary":"POW who watched the slaughter when the Nemesis arose.",
                 "relationships":[
@@ -10612,12 +10622,12 @@
                         "text":"Jailbroken by the ship of"
                     },
                     {
-                        "targetId":"467",
+                        "targetId":"468",
                         "type":"Friends",
                         "text":"Former crewmates with"
                     },
                     {
-                        "targetId":"468",
+                        "targetId":"469",
                         "type":"Acquaintances",
                         "text":"Interned with"
                     }
@@ -10625,17 +10635,17 @@
             },
             {
                 "displayName":"Leonard Holden",
-                "id":"467",
+                "id":"468",
                 "status":"Dead",
                 "summary":"POW who lost his mind to the slaughter when the Nemesis arose.",
                 "relationships":[
                     {
-                        "targetId":"465",
+                        "targetId":"466",
                         "type":"Friends",
                         "text":"Former crewmates with"
                     },
                     {
-                        "targetId":"468",
+                        "targetId":"469",
                         "type":"Acquaintances",
                         "text":"Interned with / killed"
                     }
@@ -10643,17 +10653,17 @@
             },
             {
                 "displayName":"Milton",
-                "id":"468",
+                "id":"469",
                 "status":"Dead",
                 "summary":"POW who was the first prisoner to die when the Nemesis arose.",
                 "relationships":[
                     {
-                        "targetId":"465",
+                        "targetId":"466",
                         "type":"Acquaintances",
                         "text":"Interned with"
                     },
                     {
-                        "targetId":"466",
+                        "targetId":"467",
                         "type":"Acquaintances",
                         "text":"Interned with"
                     }
@@ -10695,6 +10705,358 @@
                 ]
             }
             
+        ]
+    },
+    {
+        "episodeName":"The Architecture of Fear",
+        "episodeCharacters":[
+            {
+                "id":"112",
+                "summary":"Architect that worked with Jonah Magnus to ",
+                "alignment":"The Eye",
+                "relationships":[
+                    {
+                        "targetId":"94",
+                        "type":"Friends",
+                        "text":"Friends of"
+                    },
+                    {
+                        "targetId":"50",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of",
+                        "feeling":"Afraid"
+                    },
+                    {
+                        "targetId":"470",
+                        "type":"Family",
+                        "text":"Father of"
+                    },
+                    {
+                        "targetId":"345",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of",
+                        "feeling":"Afraid"
+                    },
+                    {
+                        "targetId":"201",
+                        "type":"Work",
+                        "text":"Former teacher of",
+                        "feeling":"Afraid"
+                    }
+                ]
+            },
+            {
+                "displayName":"Laura Smirke",
+                "id":"470",
+                "status":"Dead",
+                "summary":"Daughter of Robert Smirke. Doesn't remember watching him in the night.",
+                "relationships":[
+                    {
+                        "targetId":"112",
+                        "type":"Family",
+                        "text":"Daughter of"
+                    }
+                ]
+            },
+            {
+                "id":"94",
+                "relationships":[
+                    {
+                        "targetId":"112",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    }
+                ]
+            },
+            {
+                "id":"50",
+                "relationships":[
+                    {
+                        "targetId":"112",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    }
+                ]
+            },
+            {
+                "id":"345",
+                "relationships":[
+                    {
+                        "targetId":"112",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Chosen",
+        "episodeCharacters":[
+            {
+                "displayName":"Eugene Vanderstock",
+                "id":"471",
+                "type":"Avatar",
+                "summary":"Desolation avatar who told Gertrude the story of Agnes Montague.",
+                "alignment":"The Desolation",
+                "relationships":[
+                    {
+                        "targetId":"472",
+                        "type":"Other",
+                        "text":"Burned the house of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Glenn Dunlop",
+                "id":"472",
+                "status":"Dead",
+                "summary":"Child during the blitz that lost his house to a fire"
+            },
+            {
+                "displayName":"Eileen Montague",
+                "id":"473",
+                "type":"Avatar",
+                "status":"Dead",
+                "summary":"Woman who would give birth to the chosen one in a pyre.",
+                "alignment":"The Desolation",
+                "relationships":[
+                    {
+                        "targetId":"45",
+                        "type":"Family",
+                        "text":"Mother of"
+                    }
+                ]
+            },
+            {
+                "id":"45",
+                "relationships":[
+                    {
+                        "targetId":"473",
+                        "type":"Family",
+                        "text":"Daughter of"
+                    },
+                    {
+                        "targetId":"43",
+                        "type":"Enemy",
+                        "text":"Clashed with / killed"
+                    }
+                ]
+            },
+            {
+                "id":"43",
+                "relationships":[
+                    {
+                        "targetId":"45",
+                        "type":"Enemy",
+                        "text":"Clashed with"
+                    }
+                ]
+            },
+            {
+                "id":"267",
+                "relationships":[
+                    {
+                        "targetId":"265",
+                        "type":"Enemy",
+                        "text":"Will do terrible things to",
+                        "feeling":"Hatred"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "groupId":"13",
+                "feeling":"Sad",
+                "memberIds":[
+                    "45",
+                    "132",
+                    "179",
+                    "267",
+                    "334",
+                    "471",
+                    "473"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"The Movement of the Heavens",
+        "episodeCharacters":[
+            {
+                "id":"50",
+                "relationships":[
+                    {
+                        "targetId":"407",
+                        "type":"Other",
+                        "text":"Remade by",
+                        "feeling":"Grateful"
+                    }
+                ]
+            },
+            {
+                "id":"407",
+                "status":"Dead",
+                "mindset":"Afraid",
+                "summary":"Astronomer who accidentally created Maxwell Rayner.",
+                "relationships":[
+                    {
+                        "targetId":"50",
+                        "type":"Other",
+                        "text":"Enemy of / drowned",
+                        "feeling":"Afraid"
+                    },
+                    {
+                        "targetId":"474",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Abraham Sharp",
+                "id":"474",
+                "status":"Dead",
+                "summary":"Friend who Flamsteed told of his murder.",
+                "relationships":[
+                    {
+                        "targetId":"407",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Doomed Voyage",
+        "episodeCharacters":[
+            {
+                "displayName":"Floyd Matharu",
+                "id":"475",
+                "summary":"Crewmate on the Dorian, as well as on The Archivist's ship later."
+            },
+            {
+                "displayName":"Captain Gaultier",
+                "id":"476",
+                "status":"Dead",
+                "summary":"Captain of the Dorian until his sudden shrapnel death."
+            },
+            {
+                "displayName":"Jésus",
+                "id":"477",
+                "status":"Dead",
+                "summary":"Crewmate who got a little too curious with Salesa's cargo."
+            },
+            {
+                "displayName":"Gantulga",
+                "id":"478",
+                "status":"Dead",
+                "summary":"Crewmate who fell to some pattern in the night and had to be tossed overboard."
+            },
+            {
+                "displayName":"Dantez",
+                "id":"479",
+                "summary":"Crewmate who was present for the final voyage of the Dorian."
+            },
+            {
+                "id":"69",
+                "relationships":[
+                    {
+                        "targetId":"g23",
+                        "type":"Work",
+                        "text":"Boss of",
+                        "feeling":"Good"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Crew of the Dorian",
+                "groupId":"23",
+                "summary":"Crew who worked on the Dorian while Salesa was on it.",
+                "type":"Mundane",
+                "relationType":"Work",
+                "memberIds":[
+                    "475",
+                    "476",
+                    "477",
+                    "478",
+                    "479"
+                ],
+                "relationships":[
+                    {
+                        "targetId":"g23",
+                        "type":"Work",
+                        "text":"Boss of",
+                        "feeling":"Good"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Scrutiny",
+        "episodeCharacters":[
+            {
+                "displayName":"Bystander",
+                "id":"480",
+                "mindset":"Traumatized",
+                "summary":"Person who is plagued by nightmares.",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Other",
+                        "text":"Sees in their dreams"
+                    },
+                    {
+                        "targetId":"481",
+                        "type":"Work",
+                        "text":"Works with"
+                    },
+                    {
+                        "targetId":"482",
+                        "type":"Acquaintances",
+                        "text":"Went on a date with"
+                    }
+                ]
+            },
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"480",
+                        "type":"Other",
+                        "text":"Interogated"
+                    }
+                ]
+            },
+            {
+                "displayName":"Abby",
+                "id":"481",
+                "summary":"Member of the Thames Water work crew in London.",
+                "relationships":[
+                    {
+                        "targetId":"480",
+                        "type":"Work",
+                        "text":"Works with"
+                    }
+                ]
+            },
+            {
+                "displayName":"Gareth",
+                "id":"482",
+                "summary":"Man who lives in London.",
+                "relationships":[
+                    {
+                        "targetId":"480",
+                        "type":"Acquaintances",
+                        "text":"Went on a date with"
+                    }
+                ]
+            }
         ]
     }
 ]
