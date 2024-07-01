@@ -7260,14 +7260,15 @@
                 "summary":"Core members in the giving of statements at the Magnus Institute.",
                 "type":"Mundane",
                 "relationType":"Work",
-                "feeling":"Good",
+                "feeling":"Afraid",
                 "alignment":"Magnus Institute",
                 "memberIds":[
                     "0",
                     "3",
                     "4",
                     "5",
-                    "118"
+                    "118",
+                    "176"
                 ]
             }
         ]
@@ -10336,7 +10337,27 @@
     },
     {
         "episodeName":"Entombed",
-        "episodeCharacters":[]
+        "episodeCharacters":[
+            {
+                "id":"180",
+                "status":"Alive",
+                "alignment":"The Hunt"
+            }
+        ],
+        "episodeGroups":[
+            {
+                "groupId":"0",
+                "memberIds":[
+                    "0",
+                    "3",
+                    "4",
+                    "5",
+                    "118",
+                    "180",
+                    "176"
+                ]
+            }
+        ]
     },
     {
         "episodeName":"Dead Horse",
@@ -11406,6 +11427,399 @@
                         "text":"Husband of"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Big Picture",
+        "episodeCharacters":[
+            {
+                "displayName":"Tintoretto",
+                "id":"498",
+                "status":"Dead",
+                "summary":"Very talented painter who taught Simon Fairchild.",
+                "relationships":[
+                    {
+                        "targetId":"90",
+                        "type":"Work",
+                        "text":"Mentor of"
+                    }
+                ]
+            },
+            {
+                "id":"90",
+                "relationships":[
+                    {
+                        "targetId":"498",
+                        "type":"Work",
+                        "text":"Student of"
+                    },
+                    {
+                        "targetId":"499",
+                        "type":"Other",
+                        "text":"Killed"
+                    },
+                    {
+                        "targetId":"134",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "id":"134",
+                "relationships":[
+                    {
+                        "targetId":"90",
+                        "type":"Acquaintances",
+                        "text":"Acquaintance of",
+                        "feeling":"Good"
+                    }
+                ]
+            },
+            {
+                "displayName":"Mr. Fairchild",
+                "id":"499",
+                "status":"Dead",
+                "summary":"Very wealthy man in the 1930s."
+            }
+        ]
+    },
+    {
+        "episodeName":"A Gravedigger's Envy",
+        "episodeCharacters":[
+            {
+                "displayName":"Hezekiah Wakely",
+                "id":"500",
+                "wikiLink":"Hezekiah_Wakely",
+                "type":"Avatar",
+                "summary":"Gravedigger who was a little bit TOO into his job. Loves graves.",
+                "alignment":"The Buried",
+                "relationships":[
+                    {
+                        "targetId":"501",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    },
+                    {
+                        "targetId":"504",
+                        "type":"Work",
+                        "text":"Former gravedigger for",
+                        "feeling":"Annoyed"
+                    },
+                    {
+                        "targetId":"502",
+                        "type":"Other",
+                        "text":"Nearly buried %s alive"
+                    },
+                    {
+                        "targetId":"503",
+                        "type":"Other",
+                        "text":"Buried %s alive"
+                    },
+                    {
+                        "targetId":"279",
+                        "type":"Other",
+                        "text":"Trapped %s in a tube car"
+                    }
+                ]
+            },
+            {
+                "displayName":"Nathaniel Beale",
+                "id":"501",
+                "status":"Dead",
+                "summary":"Man who reported his friend to the magistrate before being buried.",
+                "relationships":[
+                    {
+                        "targetId":"500",
+                        "type":"Friends",
+                        "text":"Friend of / reported"
+                    }
+                ]
+            },
+            {
+                "displayName":"Nellie Cooper",
+                "id":"502",
+                "status":"Dead",
+                "summary":"Woman who was almost buried alive as a child."
+            },
+            {
+                "displayName":"Jacob",
+                "id":"503",
+                "status":"Dead",
+                "summary":"Baker who was buried alive and had his grave bell silenced."
+            },
+            {
+                "displayName":"The Reverend",
+                "id":"504",
+                "status":"Dead",
+                "summary":"Reverend of Hezekiah Wakely, accidentally asked living people to be buried.",
+                "relationships":[
+                    {
+                        "targetId":"500",
+                        "type":"Work",
+                        "text":"Former boss of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Love Bombing",
+        "episodeCharacters":[
+            {
+                "displayName":"Barbara Mullen-Jones",
+                "id":"505",
+                "summary":"Woman who joined a weird cult before being kicked out."
+            },
+            {
+                "displayName":"Joyce",
+                "id":"506",
+                "status":"Dead",
+                "summary":"Cult member who was the first to feel the love.",
+                "alignment":"The Corruption"
+            },
+            {
+                "displayName":"Claude Vilakazi",
+                "id":"507",
+                "type":"Avatar",
+                "status":"Dead",
+                "summary":"Cult leader who started the Divine Chain Cult. Lost his mind a little when he found a dog.",
+                "alignment":"The Corruption"
+            },
+            {
+                "displayName":"Mary",
+                "id":"508",
+                "status":"Dead",
+                "summary":"Cult member who was fully devoted to the Divine Chain.",
+                "alignment":"The Corruption"
+            },
+            {
+                "id":"48",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Enemy",
+                        "text":"Enemy of"
+                    }
+                ]
+            },
+            {
+                "id":"51",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Enemy",
+                        "text":"Enemy of"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"The Divine Chain Cult",
+                "groupId":"24",
+                "summary":"Group that was a fairly normal cult until finding a dog, when it became an Entity cult.",
+                "type":"Supernatural",
+                "relationType":"Acquaintances",
+                "alignment":"The Corruption",
+                "memberIds":[
+                    "505",
+                    "506",
+                    "507",
+                    "508"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Bloody Mary",
+        "episodeCharacters":[
+            {
+                "id":"251",
+                "summary":"Man who Mary Keay married, killed, and bound into a book. One of Gertrude Robinson's assistants.",
+                "relationships":[
+                    {
+                        "targetId":"1",
+                        "type":"Work",
+                        "text":"Assistant to"
+                    }
+                ]
+            },
+            {
+                "id":"1",
+                "relationships":[
+                    {
+                        "targetId":"251",
+                        "type":"Work",
+                        "text":"Boss of and burned the page of"
+                    },
+                    {
+                        "targetId":"509",
+                        "type":"Work",
+                        "text":"Boss of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Emma",
+                "id":"509",
+                "status":"Unknown",
+                "summary":"Research assistant to Gertrude Robinson at the same time as Eric Delano.",
+                "alignment":"The Eye",
+                "relationships":[
+                    {
+                        "targetId":"1",
+                        "type":"Work",
+                        "text":"Research assistant to"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Cost of Living",
+        "episodeCharacters":[
+            {
+                "displayName":"Tova McHugh",
+                "id":"510",
+                "type":"Avatar",
+                "summary":"Person who stays alive through ending the lives of others when they are about to die.",
+                "alignment":"The End",
+                "relationships":[
+                    {
+                        "targetId":"511",
+                        "type":"Family",
+                        "text":"Spouse of",
+                        "feeling":"Love"
+                    }
+                ]
+            },
+            {
+                "displayName":"Daven McHugh",
+                "id":"511",
+                "summary":"Man who married Tova McHugh, right after they almost died for the first time.",
+                "relationships":[
+                    {
+                        "targetId":"510",
+                        "type":"Family",
+                        "text":"Husband of"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "groupId":"0",
+                "memberIds":[
+                    "0",
+                    "3",
+                    "4",
+                    "5",
+                    "180",
+                    "176"
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Reflection",
+        "episodeCharacters":[]
+    },
+    {
+        "episodeName":"Rotten Core",
+        "episodeCharacters":[
+            {
+                "displayName":"Christabel",
+                "id":"512",
+                "summary":"ECDC worker who keeps in contact with Adelard Dekker.",
+                "relationships":[
+                    {
+                        "targetId":"306",
+                        "type":"Work",
+                        "text":"Contact of"
+                    }
+                ]
+            },
+            {
+                "id":"306",
+                "relationships":[
+                    {
+                        "targetId":"306",
+                        "type":"Work",
+                        "text":"Uses %s as a contact"
+                    },
+                    {
+                        "targetId":"160",
+                        "type":"Other",
+                        "text":"Encased in concrete"
+                    }
+                ]
+            },
+            {
+                "id":"160",
+                "relationships":[
+                    {
+                        "targetId":"306",
+                        "type":"Other",
+                        "text":"Infected / killed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Panopticon",
+        "episodeCharacters":[
+            {
+                "id":"134",
+                "relationships":[
+                    {
+                        "targetId":"307",
+                        "type":"Other",
+                        "text":"Freed"
+                    }
+                ]
+            },
+            {
+                "id":"94",
+                "relationships":[
+                    {
+                        "targetId":"1",
+                        "type":"Is",
+                        "text":"Is"
+                    },
+                    {
+                        "targetId":"199",
+                        "type":"Is",
+                        "text":"Is"
+                    }
+                ]
+            },
+            {
+                "id":"1",
+                "relationships":[
+                    {
+                        "targetId":"94",
+                        "type":"Is",
+                        "text":"Is"
+                    }
+                ]
+            },
+            {
+                "id":"199",
+                "relationships":[
+                    {
+                        "targetId":"94",
+                        "type":"Is",
+                        "text":"Is"
+                    }
+                ]
+            },
+            {
+                "id":"180",
+                "type":"Avatar"
             }
         ]
     }

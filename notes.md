@@ -44,7 +44,7 @@ Feeling: General feeling between characters in the group.
 Member ids: List of character ids that are members of this group.
 
 # Reminders
-Potentially connect Hezekiah Wakely (152) and Karolina Górka (71)
+Potentially DON' T connect Hezekiah Wakely and Karolina Górka
 
 Add Officer Altman in 5, and perhaps pick an Altman to connect him to?
 
@@ -81,5 +81,9 @@ Update the summaries of a bunch of characters (or don't)
 Add Daisy Hunt at some point
 
 Maybe add George Gilbert Scott as connected to one of the powers
+
+Wikilinks need to be checked
+
+Mary Keay's family is a mess
 
 # Current episode notes
