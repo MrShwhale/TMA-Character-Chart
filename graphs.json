@@ -11822,5 +11822,94 @@
                 "type":"Avatar"
             }
         ]
+    },
+    {
+        "episodeName":"The Last",
+        "episodeCharacters":[
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"134",
+                        "type":"Other",
+                        "text":"Ripped apart"
+                    },
+                    {
+                        "targetId":"3",
+                        "type":"Friends",
+                        "text":"Loves",
+                        "feeling":"Love"
+                    }
+                ]
+            },
+            {
+                "id":"134",
+                "status":"Dead",
+                "relationships":[
+                    {
+                        "targetId":"513",
+                        "type":"Family",
+                        "text":"Brother of"
+                    },
+                    {
+                        "targetId":"514",
+                        "type":"Family",
+                        "text":"Brother of"
+                    }
+                ]
+            },
+            {
+                "id":"513",
+                "displayName":"Judith Lukas",
+                "status":"Unknown",
+                "summary":"Lukas child who was insufficiently lonely, and disappeared.",
+                "relationships":[
+                    {
+                        "targetId":"134",
+                        "type":"Family",
+                        "text":"Sister of"
+                    }
+                ]
+            },
+            {
+                "id":"514",
+                "displayName":"Aaron Lukas",
+                "status":"Unknown",
+                "summary":"Lukas child who was insufficiently lonely, and disappeared.",
+                "relationships":[
+                    {
+                        "targetId":"134",
+                        "type":"Family",
+                        "text":"Brother of"
+                    }
+                ]
+            },
+            {
+                "id":"3",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Friends",
+                        "text":"Loves",
+                        "feeling":"Love"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"The Eye Opens",
+        "episodeCharacters":[
+            {
+                "id":"1",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Other",
+                        "text":"Manipulated"
+                    }
+                ]
+            }
+        ]
     }
 ]
