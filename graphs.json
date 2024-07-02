@@ -11911,5 +11911,376 @@
                 ]
             }
         ]
+    },
+    {
+        "episodeName":"Dwelling"
+    },
+    {
+        "episodeName":"A Cozy Cabin"
+    },
+    {
+        "episodeName":"In The Trenches"
+    },
+    {
+        "episodeName":"The Sick Village",
+        "episodeCharacters":[
+            {
+                "id":"3",
+                "relationships":[
+                    {
+                        "targetId":"113",
+                        "type":"Acquaintances",
+                        "text":"Potential friend of"
+                    }
+                ]
+            },
+            {
+                "id":"113",
+                "relationships":[
+                    {
+                        "targetId":"3",
+                        "type":"Acquaintances",
+                        "text":"Potential friend of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Revolutions",
+        "episodeCharacters":[
+            {
+                "id":"113",
+                "status":"Dead"
+            },
+            {
+                "id":"22",
+                "status":"Dead"
+            },
+            {
+                "id":"167",
+                "status":"Dead"
+            },
+            {
+                "id":"307",
+                "status":"Dead"
+            },
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"113",
+                        "type":"Other",
+                        "text":"Evaporated",
+                        "feeling":"Hatred"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Curiosity",
+        "episodeCharacters":[
+            {
+                "displayName":"Angus Stacey",
+                "id":"515",
+                "type":"Avatar",
+                "status":"Dead",
+                "summary":"Archivist before Gertrude. He was very bad at his job and died for it.",
+                "alignment":"The Eye",
+                "relationships":[
+                    {
+                        "targetId":"516",
+                        "type":"Work",
+                        "text":"Employee of"
+                    },
+                    {
+                        "targetId":"124",
+                        "type":"Work",
+                        "text":"Former boss of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Richard Mendelson",
+                "id":"516",
+                "type":"Avatar",
+                "status":"Dead",
+                "summary":"Archive director when Gertrude first entered the archives.",
+                "alignment":"The Eye",
+                "relationships":[
+                    {
+                        "targetId":"2",
+                        "type":"Work",
+                        "text":"Former boss of"
+                    },
+                    {
+                        "targetId":"515",
+                        "type":"Work",
+                        "text":"Former boss of",
+                        "feeling":"Dislike"
+                    },
+                    {
+                        "targetId":"94",
+                        "type":"Is",
+                        "text":"Is"
+                    }
+                ]
+            },
+            {
+                "id":"94",
+                "relationships":[
+                    {
+                        "targetId":"516",
+                        "type":"Is",
+                        "text":"Is"
+                    }
+                ]
+            },
+            {
+                "id":"2",
+                "relationships":[
+                    {
+                        "targetId":"515",
+                        "type":"Work",
+                        "text":"Replacement for"
+                    },
+                    {
+                        "targetId":"g25",
+                        "type":"Work",
+                        "text":"Boss of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Emma Harvey",
+                "id":"509",
+                "status":"Dead",
+                "summary":"Research assistant to Gertrude who had a penchant for watching bad things happen to others.",
+                "relationships":[
+                    {
+                        "targetId":"117",
+                        "type":"Other",
+                        "text":"Sent %s to her death"
+                    },
+                    {
+                        "targetId":"124",
+                        "type":"Other",
+                        "text":"Sent %s into The Buried"
+                    }
+                ]
+            },
+            {
+                "id":"117",
+                "status":"Dead"
+            },
+            {
+                "id":"124",
+                "status":"Alive",
+                "relationships":[
+                    {
+                        "targetId":"515",
+                        "type":"Work",
+                        "text":"Former employee of"
+                    }
+                ]
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Gertrude's Assistants",
+                "groupId":"25",
+                "summary":"Assistants to Gertrude Robinson throughout her long tenure as Archivist.",
+                "type":"Supernatural",
+                "relationType":"Work",
+                "feeling":"Good",
+                "alignment":"The Eye",
+                "memberIds":[
+                    "124",
+                    "509",
+                    "251",
+                    "117"
+                ],
+                "relationships":[
+                    {
+                        "targetId":"2",
+                        "type":"Work",
+                        "text":"Employees of",
+                        "feeling":"Good"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Roots"
+    },
+    {
+        "episodeName":"Fire Escape",
+        "episodeCharacters":[
+            {
+                "id":"267",
+                "status":"Dead"
+            },
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"267",
+                        "type":"Other",
+                        "text":"Evaporated",
+                        "feeling":"Hatred"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Recollection"
+    },
+    {
+        "episodeName":"The Gardener",
+        "episodeCharacters":[
+            {
+                "id":"78",
+                "status":"Dead"
+            },
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"78",
+                        "type":"Other",
+                        "text":"Evaporated",
+                        "feeling":"Hatred"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Strung Out"
+    },
+    {
+        "episodeName":"Night Night"
+    },
+    {
+        "episodeName":"The Great Beast"
+    },
+    {
+        "episodeName":"Epoch"
+    },
+    {
+        "episodeName":"Blood Ties",
+        "episodeCharacters":[
+            {
+                "id":"180",
+                "relationships":[
+                    {
+                        "targetId":"48",
+                        "type":"Other",
+                        "text":"Killed"
+                    }
+                ]
+            },
+            {
+                "id":"176",
+                "relationships":[
+                    {
+                        "targetId":"51",
+                        "type":"Other",
+                        "text":"Killed"
+                    }
+                ]
+            },
+            {
+                "id":"48",
+                "status":"Dead"
+            },
+            {
+                "id":"51",
+                "status":"Dead"
+            }
+        ]
+    },
+    {
+        "episodeName":"Wonderland",
+        "episodeCharacters":[
+            {
+                "displayName":"Noah Thomson",
+                "id":"517",
+                "summary":"Man who was innocent in life, but nearly framed for GBH by Daisy.",
+                "relationships":[
+                    {
+                        "targetId":"180",
+                        "type":"Other",
+                        "text":"Hunted by"
+                    }
+                ]
+            },
+            {
+                "id":"180",
+                "relationships":[
+                    {
+                        "targetId":"517",
+                        "type":"Other",
+                        "text":"Hunted"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"The Processing Line",
+        "episodeCharacters":[
+            {
+                "displayName":"Isabelle Moran",
+                "id":"518",
+                "summary":"Drug addict who Daisy thought was dealing, and inadvertantly made relapse twice.",
+                "relationships":[
+                    {
+                        "targetId":"180",
+                        "type":"Other",
+                        "text":"Hunted by"
+                    }
+                ]
+            },
+            {
+                "id":"180",
+                "relationships":[
+                    {
+                        "targetId":"517",
+                        "type":"Other",
+                        "text":"Hunted"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Accomplice",
+        "episodeCharacters":[
+            {
+                "id":"180",
+                "status":"Dead",
+                "relationships":[
+                    {
+                        "targetId":"180",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    }
+                ]
+            },
+            {
+                "id":"176",
+                "relationships":[
+                    {
+                        "targetId":"180",
+                        "type":"Friends",
+                        "text":"Friends with / killed"
+                    }
+                ]
+            }
+        ]
     }
 ]

@@ -20,44 +20,47 @@ function accumulateGraph(oldGraph, newEntries) {
         groups: oldGraph.groups.map(c => ({...c}))
     };
 
-    // Manage the characters
-    for (const character of newEntries.characters) {
-        // Since ids are sequential, any id that can be used to index oldGraph must be a replacement
-        let intId = parseInt(character.id);
-        if (intId < combined.characters.length) {
-            // Replace as needed
-            for (const [key, value] of Object.entries(character)) {
-                // Handle replacing relationships
-                if (key == "relationships") {
-                    for (const relationship of value) {
-                        let index = -1;
-                        // Search the list of relationships
-                        for (let i = 0; i < combined.characters[intId].relationships.length; i++) {
-                            if (combined.characters[intId].relationships[i].targetId == relationship.targetId) {
-                                index = i;
-                                break;
+    // Make sure there is a characters list
+    if (newEntries.characters != undefined) {
+        // Manage the characters
+        for (const character of newEntries.characters) {
+            // Since ids are sequential, any id that can be used to index oldGraph must be a replacement
+            let intId = parseInt(character.id);
+            if (intId < combined.characters.length) {
+                // Replace as needed
+                for (const [key, value] of Object.entries(character)) {
+                    // Handle replacing relationships
+                    if (key == "relationships") {
+                        for (const relationship of value) {
+                            let index = -1;
+                            // Search the list of relationships
+                            for (let i = 0; i < combined.characters[intId].relationships.length; i++) {
+                                if (combined.characters[intId].relationships[i].targetId == relationship.targetId) {
+                                    index = i;
+                                    break;
+                                }
+                            }
+
+                            if (index >= 0) {
+                                // If this is an existing relationship,
+                                // Replace it
+                                combined.characters[intId].relationships[index] = {...combined.characters[intId].relationships[index], ...relationship};
+                            }
+                            else {
+                                // If this is a new relationship, just add it
+                                combined.characters[intId].relationships.push(relationship);
                             }
                         }
-
-                        if (index >= 0) {
-                            // If this is an existing relationship,
-                            // Replace it
-                            combined.characters[intId].relationships[index] = {...combined.characters[intId].relationships[index], ...relationship};
-                        }
-                        else {
-                            // If this is a new relationship, just add it
-                            combined.characters[intId].relationships.push(relationship);
-                        }
+                    }
+                    else {
+                        combined.characters[intId][key] = value;
                     }
                 }
-                else {
-                    combined.characters[intId][key] = value;
-                }
             }
-        }
-        else {
-            // Concatenate
-            combined.characters.push(character);
+            else {
+                // Concatenate
+                combined.characters.push(character);
+            }
         }
     }
 

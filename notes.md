@@ -88,4 +88,12 @@ Mary Keay's family is a mess
 
 Figure out better stuff for 160?
 
+All relations might need to change for 161, like making everyone unknown
+
+Add a "technically not dead" status for those times where it is useful (Buried, coma, etc.)
+
+Notify that people just chilling in hellscapes will not be recorded
+
+Change Basira/Daisy relationship to friends
+
 # Current episode notes
