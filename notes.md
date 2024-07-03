@@ -96,4 +96,14 @@ Notify that people just chilling in hellscapes will not be recorded
 
 Change Basira/Daisy relationship to friends
 
+Relationship changes in 180?
+
+Add group "people Jon evaporated"
+
+Maybe add Elias inspector when he is arrested
+
+Add Celia connection to Martin back in the day?
+
+Consider special type for Magnus as the Pupil
+
 # Current episode notes

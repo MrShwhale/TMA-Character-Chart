@@ -11707,6 +11707,10 @@
                         "text":"Husband of"
                     }
                 ]
+            },
+            {
+                "id":"118",
+                "alignment":"None"
             }
         ],
         "episodeGroups":[
@@ -11764,6 +11768,26 @@
                         "targetId":"306",
                         "type":"Other",
                         "text":"Infected / killed"
+                    }
+                ]
+            },
+            {
+                "id":"118",
+                "relationships":[
+                    {
+                        "targetId":"122",
+                        "type":"Friends",
+                        "text":"Dating"
+                    }
+                ]
+            },
+            {
+                "id":"122",
+                "relationships":[
+                    {
+                        "targetId":"118",
+                        "type":"Friends",
+                        "text":"Dating"
                     }
                 ]
             }
@@ -11979,6 +12003,9 @@
         ]
     },
     {
+        "episodeName":"The Worms"
+    },
+    {
         "episodeName":"Curiosity",
         "episodeCharacters":[
             {
@@ -12024,6 +12051,16 @@
                         "targetId":"94",
                         "type":"Is",
                         "text":"Is"
+                    }
+                ]
+            },
+            {
+                "id":"199",
+                "relationships":[
+                    {
+                        "targetId":"516",
+                        "type":"Work",
+                        "text":"Replacement for"
                     }
                 ]
             },
@@ -12280,6 +12317,297 @@
                         "text":"Friends with / killed"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Moving On"
+    },
+    {
+        "episodeName":"Ignorance",
+        "episodeCharacters":[
+            {
+                "id":"272",
+                "relationships":[
+                    {
+                        "targetId":"69",
+                        "type":"Acquaintances",
+                        "text":"Staying with"
+                    }
+                ]
+            },
+            {
+                "id":"69",
+                "relationships":[
+                    {
+                        "targetId":"272",
+                        "type":"Acquaintances",
+                        "text":"Staying with"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Wellbeing",
+        "episodeCharacters":[
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"18",
+                        "type":"Other",
+                        "text":"Evaporated",
+                        "feeling":"Neutral"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Monument"
+    },
+    {
+        "episodeName":"Like Ants",
+        "episodeCharacters":[
+            {
+                "id":"160",
+                "status":"Dead"
+            },
+            {
+                "id":"221",
+                "status":"Avatar",
+                "alignment":"The Eye"
+            },
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"221",
+                        "type":"Other",
+                        "text":"Apotheosized"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Locked In",
+        "episodeCharacters":[
+            {
+                "displayName":"Inspector 547",
+                "id":"519",
+                "mindset":"Terrified",
+                "summary":"Crooked inspector who arrested Elias and now exists in the jail fear realm.",
+                "relationships":[
+                    {
+                        "targetId":"1",
+                        "type":"Other",
+                        "text":"Arrested",
+                        "feeling":"Dislike"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Quiet"
+    },
+    {
+        "episodeName":"Checking Out",
+        "episodeCharacters":[
+            {
+                "id":"0",
+                "relationships":[
+                    {
+                        "targetId":"113",
+                        "type":"Other",
+                        "text":"Evaporated",
+                        "feeling":"Dislike"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Centre of Attention"
+    },
+    {
+        "episodeName":"Peers"
+    },
+    {
+        "episodeName":"Scavengers",
+        "episodeCharacters":[
+            {
+                "id":"118",
+                "relationships":[
+                    {
+                        "targetId":"520",
+                        "type":"Work",
+                        "text":"Former patient of"
+                    },
+                    {
+                        "targetId":"g26",
+                        "type":"Other",
+                        "text":"Leader of",
+                        "feeling":"Unease"
+                    }
+                ]
+            },
+            {
+                "id":"122",
+                "relationships":[
+                    {
+                        "targetId":"g26",
+                        "type":"Other",
+                        "text":"Leader of",
+                        "feeling":"Unease"
+                    }
+                ]
+            },
+            {
+                "displayName":"Laverne",
+                "id":"520",
+                "summary":"Former therapist, now lives in the tunnels of London hiding from The Eye.",
+                "relationships":[
+                    {
+                        "targetId":"118",
+                        "type":"Work",
+                        "text":"Former therapist of"
+                    }
+                ]
+            },
+            {
+                "displayName":"Celia",
+                "id":"521",
+                "summary":"Person who forgot their name in a hellscape, now lives in the tunnels of London hiding from The Eye."
+            },
+            {
+                "displayName":"Arun",
+                "id":"522",
+                "summary":"Mediocre poet and devoted cult member who lives in the tunnels of London hiding from The Eye."
+            },
+            {
+                "displayName":"Danielle",
+                "id":"523",
+                "summary":"Cult member who lives in the tunnels of London hiding from The Eye."
+            }
+        ],
+        "episodeGroups":[
+            {
+                "displayName":"Sightless Cult",
+                "groupId":"26",
+                "summary":"Group of people living in the tunnels of London hiding from The Eye.",
+                "type":"Mundane",
+                "relationType":"Friends",
+                "feeling":"Good",
+                "memberIds":[
+                    "520",
+                    "521",
+                    "522",
+                    "523"
+                ],
+                "relationships":[
+                    {
+                        "targetId":"118",
+                        "type":"Other",
+                        "text":"Led by",
+                        "feeling":"Admiration"
+                    },
+                    {
+                        "targetId":"122",
+                        "type":"Other",
+                        "text":"Led by",
+                        "feeling":"Admiration"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"What We Lose",
+        "episodeCharacters":[
+            {
+                "id":"3",
+                "relationships":[
+                    {
+                        "targetId":"521",
+                        "type":"Other",
+                        "text":"Gave money to"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"An Appointment"
+    },
+    {
+        "episodeName":"A Stern Look",
+        "episodeCharacters":[
+            {
+                "id":"524",
+                "status":"Dead",
+                "relationships":[
+                    {
+                        "targetId":"1",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    }
+                ]
+            },
+            {
+                "id":"1",
+                "relationships":[
+                    {
+                        "targetId":"524",
+                        "type":"Friends",
+                        "text":"Friend of"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Parting"
+    },
+    {
+        "episodeName":"Adrift"
+    },
+    {
+        "episodeName":"This Old House",
+        "episodeCharacters":[
+            {
+                "id":"272",
+                "relationships":[
+                    {
+                        "targetId":"0",
+                        "type":"Other",
+                        "text":"Spied on"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "episodeName":"Connected"
+    },
+    {
+        "episodeName":"Precipice"
+    },
+    {
+        "episodeName":"Seeing It Through"
+    },
+    {
+        "episodeName":"Last Words",
+        "episodeCharacters":[
+            {
+                "id":"0",
+                "status":"Unknown"
+            },
+            {
+                "id":"3",
+                "status":"Unknown"
             }
         ]
     }
