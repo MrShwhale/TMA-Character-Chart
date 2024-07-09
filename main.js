@@ -1,15 +1,17 @@
-import rawGraphSteps from './graphs.json';
+// Import libraries
 import cytoscape from 'cytoscape';
-import cola from 'cytoscape-cola';
 import popper from 'cytoscape-popper';
-import tippy from 'tippy.js';
+import fs from 'fs';
 
-// Initialize cy plugins
-cytoscape.use(cola);
+// Import data
+import rawGraphSteps from './graphs.json';
+import rawPositions from './positions.json'
+
 cytoscape.use(popper);
 
 // Season descriptors
 let seasonDescriptors = ["Something's Off", "It Could Be Anyone", "Knowledge is Power", "A New Low", "The End"]
+var changeCount = {}
 
 // Only add things that are changed in newEntries, don't touch anything else
 function accumulateGraph(oldGraph, newEntries) {
@@ -24,6 +26,14 @@ function accumulateGraph(oldGraph, newEntries) {
     if (newEntries.characters != undefined) {
         // Manage the characters
         for (const character of newEntries.characters) {
+            // Increase the number of times this has been changed
+            if (changeCount[character.id] == undefined) {
+                changeCount[character.id] = 1
+            }
+            else {
+                changeCount[character.id] += 1
+            }
+
             // Since ids are sequential, any id that can be used to index oldGraph must be a replacement
             let intId = parseInt(character.id);
             if (intId < combined.characters.length) {
@@ -64,7 +74,7 @@ function accumulateGraph(oldGraph, newEntries) {
         }
     }
 
-    // Manange the groups
+    // Manage the groups
     if (newEntries.groups) {
         for (const group of newEntries.groups) {
             // Since ids are sequential, any id that can be used to index oldGraph must be a replacement
@@ -95,9 +105,6 @@ for (let i = 1; i < rawGraphSteps.length; i++) {
     graphSteps.push(accumulateGraph(graphSteps[i-1], {characters: rawGraphSteps[i].episodeCharacters, groups: rawGraphSteps[i].episodeGroups}));
 }
 
-// Listing graph
-console.log(graphSteps);
-
 // Add group support
 function formatGraph(graphList) {
     console.log("Formatting graph list...");
@@ -122,7 +129,7 @@ function formatGraph(graphList) {
                 let inverseId = `${relation.targetId}-${entry.id}`;
 
 
-                // If there is already a version of this completed, mark it nondirectional
+                // If there is already a version of this completed, mark it bidirectional
                 if (complementaryRelations.hasOwnProperty(potentialId) && complementaryRelations[potentialId] == relation.type) {
                     completedRelations[inverseId].data.secondText = relation.text;
                     completedRelations[inverseId].data.directed = false;
@@ -174,7 +181,7 @@ function formatGraph(graphList) {
                     let potentialId = `${cyId}-${relation.targetId}`;
                     let inverseId = `${relation.targetId}-${cyId}`;
 
-                    // If there is already a version of this completed, mark it nondirectional
+                    // If there is already a version of this completed, mark it bidirectional
                     if (complementaryRelations.hasOwnProperty(potentialId) && complementaryRelations[potentialId] == relation.type) {
                         completedRelations[inverseId].data.directed = false;
                         continue;
@@ -316,60 +323,30 @@ function setUpGraph(graphIndex) {
         },
     ];
 
+    let presetLayout = {
+        name: "preset",
+        // positions: rawPositions[selectedGraph]
+        // Debug thing
+        positions: rawPositions[selectedGraph] ? rawPositions[selectedGraph] : rawPositions[selectedGraph - 1]
+    }
+
     // Cola is slow, so precompute and then load from an existing file
-    // let layoutOptions = {
-    //     name: 'cola',
-    //     animate: true, // whether to show the layout as it's running
-    //     refresh: 5, // number of ticks per frame; higher is faster but more jerky
-    //     maxSimulationTime: 5000, // max length in ms to run the layout
-    //     ungrabifyWhileSimulating: false, // so you can't drag nodes during layout
-    //     fit: true, // on every layout reposition of nodes, fit the viewport
-    //     padding: 30, // padding around the simulation
-    //     boundingBox: undefined, // constrain layout bounds; { x1, y1, x2, y2 } or { x1, y1, w, h }
-    //     nodeDimensionsIncludeLabels: true, // whether labels should be included in determining the space used by a node
-
-    //     // layout event callbacks
-    //     ready: function(){}, // on layoutready
-    //     stop: function(){}, // on layoutstop
-
-    //     // positioning options
-    //     randomize: false, // use random node positions at beginning of layout
-    //     avoidOverlap: true, // if true, prevents overlap of node bounding boxes
-    //     handleDisconnected: true, // if true, avoids disconnected components from overlapping
-    //     convergenceThreshold: 0.01, // when the alpha value (system energy) falls below this value, the layout stops
-    //     nodeSpacing: function( node ){ return 20; }, // extra spacing around nodes
-    //     flow: undefined, // use DAG/tree flow layout if specified, e.g. { axis: 'y', minSeparation: 30 }
-    //     alignment: undefined, // relative alignment constraints on nodes, e.g. {vertical: [[{node: node1, offset: 0}, {node: node2, offset: 5}]], horizontal: [[{node: node3}, {node: node4}], [{node: node5}, {node: node6}]]}
-    //     gapInequalities: undefined, // list of inequality constraints for the gap between the nodes, e.g. [{"axis":"y", "left":node1, "right":node2, "gap":25}]
-    //     centerGraph: true, // adjusts the node positions initially to center the graph (pass false if you want to start the layout from the current position)
-
-    //     // different methods of specifying edge length
-    //     // each can be a constant numerical value or a function like `function( edge ){ return 2; }`
-    //     edgeLength: undefined, // sets edge length directly in simulation
-    //     edgeSymDiffLength: undefined, // symmetric diff edge length in simulation
-    //     edgeJaccardLength: undefined, // jaccard edge length in simulation
-
-    //     // iterations of cola algorithm; uses default values on undefined
-    //     unconstrIter: undefined, // unconstrained initial layout iterations
-    //     userConstIter: undefined, // initial layout iterations with user-specified constraints
-    //     allConstIter: undefined, // initial layout iterations with all constraints including non-overlap
-    // };
-
-    let layoutOptions = {name: "circle"}
-
     let graph = {
         container: document.getElementById('cy'),
         style: graphStyling,
-        layout: layoutOptions,
+        layout: presetLayout,
         minZoom: 0.3,
         maxZoom: 3,
         ...data,
    };
 
-    let cy = cytoscape(graph);
+    cyGraph = cytoscape(graph);
 
-    cy.elements().unbind("select");
-    cy.elements().bind("select", (event) => {
+    // Double click for sanity reasons
+    cyGraph.elements().unbind("select");
+    cyGraph.elements().bind("select", (event) => {
+        console.log(event.target._private.data);
+        return;
 
         // Prevent parents from double-displaying a page
         if (event.runOnce) {
@@ -429,7 +406,6 @@ function setUpGraph(graphIndex) {
                     // Setting defaults
                     let type = eventData.type ? eventData.type : "Human";
                     let status = eventData.status ? eventData.status : "Alive";
-                    let mindset = eventData.mindset ? eventData.mindset : "Unknown";
                     let summary = eventData.summary;
                     let nameLine = `<p class="displayName">${displayName}</p>`;
                     if (eventData.wikiLink) {
@@ -450,16 +426,12 @@ function setUpGraph(graphIndex) {
                             <hr>
                             <i>${type}, ${status}</i>
                             <br>
-                            <p>Feeling: ${mindset}</p>
                             <p>${summary}</p>
                         </div>`;
                 }
 
                 document.body.appendChild(content);
                 return content;
-            },
-            style: {
-                "border-radius": "30px"
             }
         });
 
@@ -473,11 +445,10 @@ function setUpGraph(graphIndex) {
         }
     });
 
-    cy.elements().unbind("unselect");
-    cy.elements().bind("unselect", destroyPop);
-    cy.elements().unbind("viewport");
-    cy.elements().bind("viewport", destroyPop);
-
+    // cyGraph.elements().unbind("unselect");
+    // cyGraph.elements().bind("unselect", destroyPop);
+    // cyGraph.elements().unbind("viewport");
+    // cyGraph.elements().bind("viewport", destroyPop);
     let episodeNum = graphIndex+1;
 
     // Set up header
@@ -489,9 +460,29 @@ function setUpGraph(graphIndex) {
 const input = document.getElementById("timeslider");
 input.addEventListener("input", function(event) {
     // PLEASE make sure this is not horrendously bad
-    setUpGraph(event.target.value - 1);
+    // It is, make an algorithm which finds differences between them and adds the missing in
+    selectedGraph = event.target.value - 1;
+    setUpGraph(selectedGraph);
 });
 
-// Debug code: use the last graph
-console.log(`Displaying graph: ${graphs.length}`);
-setUpGraph(graphs.length - 1);
+// Start on episode 1
+var selectedGraph = rawPositions.findIndex((a) => {return !a});
+setUpGraph(selectedGraph);
+
+// Defined here for debug reasons
+var cyGraph;
+
+// Save button for things
+document.getElementById("save").addEventListener("click", function() {
+    // Array of arrays of arrays
+    // Index with episode, then id, then x or y
+    let fullMap = {}
+    cyGraph.nodes().forEach((ele) => {fullMap[ele.id()] = ele.position()});
+    rawPositions[selectedGraph] = fullMap;
+    console.log(rawPositions);
+    navigator.clipboard.writeText(JSON.stringify(rawPositions));
+});
+
+console.log(`Starting at ${selectedGraph + 1}`)
+// Add thing to map number of changes per character
+// console.log(changeCount);

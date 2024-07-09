@@ -7017,7 +7017,7 @@
                 "summary":"Bodybuilder who turned to steroids to get his ideal look. The gym experience was too much for him.",
                 "relationships":[
                     {
-                        "targetId":"339",
+                        "targetId":"78",
                         "type":"Work",
                         "text":"Used to go to the gym of"
                     },
@@ -7731,7 +7731,7 @@
                 "relationships":[
                     {
                         "targetId":"358",
-                        "type":"Friend",
+                        "type":"Friends",
                         "text":"Lived with",
                         "feeling":"Good"
                     }
@@ -7746,7 +7746,7 @@
                 "relationships":[
                     {
                         "targetId":"357",
-                        "type":"Friend",
+                        "type":"Friends",
                         "text":"Lived with",
                         "feeling":"Good"
                     }
@@ -7766,6 +7766,11 @@
                         "type":"Enemy",
                         "text":"Threatened",
                         "feeling":"Dislike"
+                    },
+                    {
+                        "targetId":"108",
+                        "type":"Other",
+                        "text":"Killed"
                     }
                 ]
             }
@@ -8209,7 +8214,7 @@
             {
                 "displayName":"Lucille",
                 "id":"375",
-                "sumary":"Manager of Benoît and François.",
+                "summary":"Manager of Benoît and François.",
                 "relationships":[
                     {
                         "targetId":"374",
@@ -10284,7 +10289,7 @@
                 "summary":"Londoner with a decent house outside of Hackney.",
                 "relationships":[
                     {
-                        "targetId":"454",
+                        "targetId":"453",
                         "type":"Family",
                         "text":"Sister of"
                     }
@@ -11009,7 +11014,7 @@
                 ],
                 "relationships":[
                     {
-                        "targetId":"g23",
+                        "targetId":"69",
                         "type":"Work",
                         "text":"Boss of",
                         "feeling":"Good"
@@ -11750,7 +11755,7 @@
                 "id":"306",
                 "relationships":[
                     {
-                        "targetId":"306",
+                        "targetId":"512",
                         "type":"Work",
                         "text":"Uses %s as a contact"
                     },

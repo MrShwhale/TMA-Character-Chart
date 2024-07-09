@@ -20,8 +20,6 @@ Type: What the character is. Usually human, sometimes inhuman/unknown or somethi
  - *Default: Human*
 Status: How the character is. Alive, dead, a secret third thing, unknown
  - *Default: Alive*
-Mindset: How the character is feeling. "Semi-controlled" means that the character seems like they are partially compelled to take some of their actions.
- - *Default: Unknown*
 Summary: Short summary of what the character is in the story. Generally 1-3 sentences.
 Alignment: What group the character is aligned with
  - *Default: None*
@@ -29,8 +27,6 @@ Relationships: details of relationships the character has
     Target id: The id of the character the relationship is with
     Type: What type of relationship it is (work, family, other, etc)
     Text: More specific, <7 word description of the relationship between the 2
-    Feeling: How this character feels about the target
-     - *Default: Unknown*
 ### Group
 Display name: Same as above.
 Full name: Same as above.
@@ -40,7 +36,6 @@ Summary: Same as above.
 Type: What kind of group it is (mundane, supernatural)
 Relationship type: Type of relationship that connects all group members.
 Alignment: Same as above.
-Feeling: General feeling between characters in the group.
 Member ids: List of character ids that are members of this group.
 
 # Reminders
@@ -106,4 +101,8 @@ Add Celia connection to Martin back in the day?
 
 Consider special type for Magnus as the Pupil
 
-# Current episode notes
+# Mistakes
+Daisy self relation
+Jon weird relation with institute
+Trevor self relation
+Smirke-magnus imbalance

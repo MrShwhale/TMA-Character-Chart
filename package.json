@@ -17,6 +17,7 @@
     "dependencies": {
         "cytoscape": "^3.28.1",
         "cytoscape-cola": "^2.5.1",
+        "cytoscape-cose-bilkent": "^4.1.0",
         "cytoscape-popper": "^2.0.0",
         "esbuild": "^0.20.1",
         "popper": "^1.0.1",

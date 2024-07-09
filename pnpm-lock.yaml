@@ -11,6 +11,9 @@ dependencies:
   cytoscape-cola:
     specifier: ^2.5.1
     version: 2.5.1(cytoscape@3.28.1)
+  cytoscape-cose-bilkent:
+    specifier: ^4.1.0
+    version: 4.1.0(cytoscape@3.28.1)
   cytoscape-popper:
     specifier: ^2.0.0
     version: 2.0.0(cytoscape@3.28.1)
@@ -1664,6 +1667,12 @@ packages:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: false
 
+  /cose-base@1.0.3:
+    resolution: {integrity: sha512-s9whTXInMSgAp/NVXVNuVxVKzGH2qck3aQlVHxDCdAEPgtMKwc4Wq6/QKhgdEdgbLSi9rBTAcPoRa6JpiG4ksg==}
+    dependencies:
+      layout-base: 1.0.2
+    dev: false
+
   /crc32-stream@3.0.1:
     resolution: {integrity: sha512-mctvpXlbzsvK+6z8kJwSJ5crm7yBwrQMTybJzMw1O4lLGJqjlDCXY2Zw7KheiA6XBEcBmfLx1D88mjRGVJtY9w==}
     engines: {node: '>= 6.9.0'}
@@ -1734,6 +1743,15 @@ packages:
     dependencies:
       cytoscape: 3.28.1
       webcola: 3.4.0
+    dev: false
+
+  /cytoscape-cose-bilkent@4.1.0(cytoscape@3.28.1):
+    resolution: {integrity: sha512-wgQlVIUJF13Quxiv5e1gstZ08rnZj2XaLHGoFMYXz7SkNfCDOOteKBE6SYRfA9WxxI/iBc3ajfDoc6hb/MRAHQ==}
+    peerDependencies:
+      cytoscape: ^3.2.0
+    dependencies:
+      cose-base: 1.0.3
+      cytoscape: 3.28.1
     dev: false
 
   /cytoscape-popper@2.0.0(cytoscape@3.28.1):
@@ -3101,6 +3119,10 @@ packages:
     dependencies:
       inherits: 2.0.4
       stream-splicer: 2.0.1
+    dev: false
+
+  /layout-base@1.0.2:
+    resolution: {integrity: sha512-8h2oVEZNktL4BH2JCOI90iD1yXwL6iNW7KcCKT2QZgQJR2vbqDsldCTPRU9NifTCqHZci57XvQQ15YTu+sTYPg==}
     dev: false
 
   /lazystream@1.0.1:

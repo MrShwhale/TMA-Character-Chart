@@ -61,7 +61,7 @@ body {
 /* Popper things */
 .popper-node-container {
     background-color: #DFDBC3;
-    border-radius: 20%;
+    /*border-radius: 20%;*/
     padding: 5%;
     color: #657B83;
 }
