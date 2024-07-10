@@ -105,4 +105,5 @@ Consider special type for Magnus as the Pupil
 Daisy self relation
 Jon weird relation with institute
 Trevor self relation
-Smirke-magnus imbalance
+Smirke-Magnus imbalance
+Masato-Kendrick imbalance

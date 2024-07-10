@@ -5650,7 +5650,7 @@
                 "relationships":[
                     {
                         "targetId":"275",
-                        "type":"Friend",
+                        "type":"Friends",
                         "text":"Friend of"
                     }
                 ]
@@ -6005,10 +6005,9 @@
                 "status":"Inhuman",
                 "relationships":[
                     {
-                        "targetId":"189",
+                        "targetId":"294",
                         "type":"Other",
-                        "text":"Took",
-                        "feeling":"294"
+                        "text":"Took"
                     }
                 ]
             }
@@ -6282,7 +6281,7 @@
                     {
                         "targetId":"309",
                         "type":"Other",
-                        "text":"Killed and replaced by"
+                        "text":"Killed and replaced"
                     }
                 ]
             }
