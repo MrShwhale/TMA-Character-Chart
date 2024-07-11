@@ -47,9 +47,11 @@ function accumulateGraph(oldGraph, newEntries) {
                             for (let i = 0; i < combined.characters[intId].relationships.length; i++) {
                                 if (combined.characters[intId].relationships[i].targetId == relationship.targetId) {
                                     index = i;
-                                    break;
+                                    //break;
                                 }
                             }
+
+                            relationship["updated"] = selectedGraph;
 
                             if (index >= 0) {
                                 // If this is an existing relationship,
@@ -82,6 +84,7 @@ function accumulateGraph(oldGraph, newEntries) {
             if (groupId < combined.groups.length) {
                 // Replace as needed
                 // This means that members will have to be replaced all at once: every member must be listed every time
+                // BUG group relationships might not exist at all?
                 for (const [key, value] of Object.entries(group)) {
                     combined.groups[groupId][key] = value;
                 }
@@ -98,10 +101,12 @@ function accumulateGraph(oldGraph, newEntries) {
 
 let graphSteps = [{characters: rawGraphSteps[0].episodeCharacters, groups: rawGraphSteps[0].episodeGroups}];
 
+var selectedGraph;
 console.log("Accumulating graph steps...")
 // Accumulate the graph
 for (let i = 1; i < rawGraphSteps.length; i++) {
     // Theoretically this passes by reference
+    selectedGraph = i;
     graphSteps.push(accumulateGraph(graphSteps[i-1], {characters: rawGraphSteps[i].episodeCharacters, groups: rawGraphSteps[i].episodeGroups}));
 }
 
@@ -147,6 +152,7 @@ function formatGraph(graphList) {
                         type: relation.type,
                         text: relation.text,
                         feeling: relation.feeling,
+                        updated: relation.updated,
                         directed: true,
                     }
                 }
@@ -197,6 +203,7 @@ function formatGraph(graphList) {
                             type: relation.type,
                             text: relation.text,
                             feeling: relation.feeling,
+                            updated: relation.updated,
                             directed: true,
                         }
                     }
@@ -466,7 +473,7 @@ input.addEventListener("input", function(event) {
 });
 
 // Start on episode 1
-var selectedGraph = rawPositions.findIndex((a) => {return !a});
+selectedGraph = rawPositions.findIndex((a) => {return !a});
 setUpGraph(selectedGraph);
 
 // Defined here for debug reasons

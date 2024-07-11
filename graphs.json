@@ -7163,7 +7163,6 @@
             {
                 "id":"180",
                 "mindset":"Angry",
-                "summary":"",
                 "relationships":[
                     {
                         "targetId":"1",
@@ -7814,7 +7813,7 @@
                         "text":"Commands"
                     },
                     {
-                        "targetId":"50",
+                        "targetId":"359",
                         "type":"Other",
                         "text":"Sent the Sandman to",
                         "feeling":"Hatred"
@@ -8716,8 +8715,8 @@
                 "summary":"Self proclaimed vampire hunter who had cancer. He is obsessed with hunting strange creature, and now does so with Julia.",
                 "relationships":[
                     {
-                        "targetId":"51",
-                        "type":"Friend",
+                        "targetId":"48",
+                        "type":"Friends",
                         "text":"Hunts with",
                         "feeling":"Good"
                     },
@@ -8820,12 +8819,6 @@
                 "status":"Alive",
                 "summary":"Self proclaimed vampire hunter who had cancer. He is obsessed with hunting strange creature, and now does so with Julia.",
                 "relationships":[
-                    {
-                        "targetId":"51",
-                        "type":"Friend",
-                        "text":"Hunts with",
-                        "feeling":"Good"
-                    },
                     {
                         "targetId":"395",
                         "type":"Other",
@@ -9714,7 +9707,7 @@
                         "feeling":"Hatred"
                     },
                     {
-                        "targetId":"0",
+                        "targetId":"1",
                         "type":"Work",
                         "text":"Former employees of",
                         "feeling":"Hatred"
@@ -12303,14 +12296,7 @@
         "episodeCharacters":[
             {
                 "id":"180",
-                "status":"Dead",
-                "relationships":[
-                    {
-                        "targetId":"180",
-                        "type":"Friends",
-                        "text":"Friend of"
-                    }
-                ]
+                "status":"Dead"
             },
             {
                 "id":"176",
@@ -12551,7 +12537,9 @@
         "episodeCharacters":[
             {
                 "id":"524",
+                "displayName":"Allan Schrieber",
                 "status":"Dead",
+                "summary":"School friend of Elias' who was lost to The Eye.",
                 "relationships":[
                     {
                         "targetId":"1",

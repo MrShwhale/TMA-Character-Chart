@@ -107,3 +107,4 @@ Jon weird relation with institute
 Trevor self relation
 Smirke-Magnus imbalance
 Masato-Kendrick imbalance
+Jon Daisy relation
