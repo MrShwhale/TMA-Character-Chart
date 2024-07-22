@@ -10735,8 +10735,8 @@
                 "relationships":[
                     {
                         "targetId":"94",
-                        "type":"Friends",
-                        "text":"Friends of"
+                        "type":"Acquaintances",
+                        "text":"Former friend of"
                     },
                     {
                         "targetId":"50",
@@ -10782,7 +10782,7 @@
                     {
                         "targetId":"112",
                         "type":"Acquaintances",
-                        "text":"Acquaintance of"
+                        "text":"Former friend of"
                     }
                 ]
             },

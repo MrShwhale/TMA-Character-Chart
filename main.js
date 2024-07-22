@@ -1,7 +1,6 @@
 // Import libraries
 import cytoscape from 'cytoscape';
 import popper from 'cytoscape-popper';
-import fs from 'fs';
 
 // Import data
 import rawGraphSteps from './graphs.json';
@@ -26,17 +25,16 @@ function accumulateGraph(oldGraph, newEntries) {
     if (newEntries.characters != undefined) {
         // Manage the characters
         for (const character of newEntries.characters) {
-            // Increase the number of times this has been changed
-            if (changeCount[character.id] == undefined) {
-                changeCount[character.id] = 1
-            }
-            else {
-                changeCount[character.id] += 1
-            }
-
             // Since ids are sequential, any id that can be used to index oldGraph must be a replacement
             let intId = parseInt(character.id);
             if (intId < combined.characters.length) {
+                // Increase mention count
+                if (combined.characters[intId].mentions == undefined) {
+                    combined.characters[intId].mentions = 0;
+                }
+
+                combined.characters[intId].mentions += 1;
+
                 // Replace as needed
                 for (const [key, value] of Object.entries(character)) {
                     // Handle replacing relationships
@@ -70,7 +68,8 @@ function accumulateGraph(oldGraph, newEntries) {
                 }
             }
             else {
-                // Concatenate
+                // Concatenate if it is a new char
+                character.mentions = 1
                 combined.characters.push(character);
             }
         }
@@ -91,6 +90,7 @@ function accumulateGraph(oldGraph, newEntries) {
             }
             else {
                 // Concatenate
+                group.maxRef = Math.max(...group.memberIds.map((element) => {return combined.characters[element].mentions}))
                 combined.groups.push(group);
             }
         }
@@ -99,18 +99,17 @@ function accumulateGraph(oldGraph, newEntries) {
     return combined;
 }
 
-let graphSteps = [{characters: rawGraphSteps[0].episodeCharacters, groups: rawGraphSteps[0].episodeGroups}];
-
-var selectedGraph;
-console.log("Accumulating graph steps...")
 // Accumulate the graph
+var selectedGraph;
+let graphSteps = [{characters: rawGraphSteps[0].episodeCharacters, groups: rawGraphSteps[0].episodeGroups}];
+console.log("Accumulating graph steps...")
 for (let i = 1; i < rawGraphSteps.length; i++) {
     // Theoretically this passes by reference
     selectedGraph = i;
     graphSteps.push(accumulateGraph(graphSteps[i-1], {characters: rawGraphSteps[i].episodeCharacters, groups: rawGraphSteps[i].episodeGroups}));
 }
 
-// Add group support
+// Create graph in the form of things which can be placed into nodes
 function formatGraph(graphList) {
     console.log("Formatting graph list...");
     // Create the nodes
@@ -218,6 +217,7 @@ function formatGraph(graphList) {
 
 var graphs = formatGraph(graphSteps);
 
+// Actually display the graph
 function setUpGraph(graphIndex) {
     let data = graphs[graphIndex];
 
@@ -235,12 +235,15 @@ function setUpGraph(graphIndex) {
                 shape: 'ellipse',
                 color: '#0A0A0A',
                 fontFamily: "Noto Sans",
-                fontWeight: 700,
+                fontWeight: 600,
+                fontSize: 18,
                 label: 'data(displayName.0)',
+                padding: 0,
                 "text-halign": 'center',
                 "text-valign": 'center',
             },
         },
+        // TODO add the rest of the alignment colors
         {
             selector: 'node[alignment = \'Magnus Institute\']',
             style: {
@@ -248,6 +251,8 @@ function setUpGraph(graphIndex) {
                 backgroundColor: "#157535",
             },
         },
+        // TODO add indicators of type
+        // TODO add indicators of status
         {
             selector : 'edge',
             style: {
@@ -267,57 +272,6 @@ function setUpGraph(graphIndex) {
                 curveStyle: 'straight',
             },
         },
-        // Relationship type coloring
-        // Probably doable better
-        {
-            selector: 'edge[type = \'Acquaintances\']',
-            style: {
-                targetArrowColor: '#FFDE59',
-                lineColor: '#FFDE59',
-            },
-        },
-        {
-            selector: 'edge[type = \'Friends\']',
-            style: {
-                targetArrowColor: '#C1FF72',
-                lineColor: '#C1FF72',
-            },
-        },
-        {
-            selector: 'edge[type = \'Work\']',
-            style: {
-                targetArrowColor: '#0097B2',
-                lineColor: '#0097B2',
-            },
-        },
-        {
-            selector: 'edge[type = \'Family\']',
-            style: {
-                targetArrowColor: '#8C52FF',
-                lineColor: '#8C52FF',
-            },
-        },
-        {
-            selector: 'edge[type = \'Other\']',
-            style: {
-                targetArrowColor: '#D9D9D9',
-                lineColor: '#D9D9D9',
-            },
-        },
-        {
-            selector: 'edge[type = \'Enemy\']',
-            style: {
-                targetArrowColor: '#FF5757',
-                lineColor: '#FF5757',
-            },
-        },
-        {
-            selector: 'edge[type = \'Is\']',
-            style: {
-                targetArrowColor: '#F4AFFF',
-                lineColor: '#F4AFFF',
-            },
-        },
         {
             selector: ':parent',
             style: {
@@ -330,11 +284,41 @@ function setUpGraph(graphIndex) {
         },
     ];
 
+    // Relationship coloring
+    let relationColors = {
+        "Other":"#D9D9D9",
+        "Enemy":"#FF5757",
+        "Is":"#F4AFFF",
+        "Family":"#8C52FF",
+        "Acquaintances":"#FFDE59",
+        "Friends":"#C1FF72",
+        "Work":"#0097B2"
+    }
+
+    for (const [type, color] of Object.entries(relationColors)) {
+        graphStyling.push({selector:`edge[type = \'${type}\']`,style:{targetArrowColor:`${color}`,lineColor:`${color}`}});
+    }
+
+    if (unimportantCharsDisabled) {
+        graphStyling.push(
+            {
+                selector: 'node[mentions < 2]',
+                style: {
+                    display: "none"
+                }
+            },
+            {
+                selector: ':parent[maxRef < 2]',
+                style: {
+                    display: "none"
+                }
+            }
+        )
+    }
+
     let presetLayout = {
         name: "preset",
-        // positions: rawPositions[selectedGraph]
-        // Debug thing
-        positions: rawPositions[selectedGraph] ? rawPositions[selectedGraph] : rawPositions[selectedGraph - 1]
+        positions: rawPositions[selectedGraph]
     }
 
     // Cola is slow, so precompute and then load from an existing file
@@ -352,9 +336,6 @@ function setUpGraph(graphIndex) {
     // Double click for sanity reasons
     cyGraph.elements().unbind("select");
     cyGraph.elements().bind("select", (event) => {
-        console.log(event.target._private.data);
-        return;
-
         // Prevent parents from double-displaying a page
         if (event.runOnce) {
             return;
@@ -407,6 +388,7 @@ function setUpGraph(graphIndex) {
                 // Otherwise it is a normal one
                 else {
                     console.log(eventData);
+                    console.log(event.target);
                     // BUG this doesn't work for group elements
                     let displayName = eventData.displayName;
                     let fullName = eventData.fullName;
@@ -452,10 +434,10 @@ function setUpGraph(graphIndex) {
         }
     });
 
-    // cyGraph.elements().unbind("unselect");
-    // cyGraph.elements().bind("unselect", destroyPop);
-    // cyGraph.elements().unbind("viewport");
-    // cyGraph.elements().bind("viewport", destroyPop);
+    cyGraph.elements().unbind("unselect");
+    cyGraph.elements().bind("unselect", destroyPop);
+    cyGraph.elements().unbind("viewport");
+    cyGraph.elements().bind("viewport", destroyPop);
     let episodeNum = graphIndex+1;
 
     // Set up header
@@ -464,32 +446,24 @@ function setUpGraph(graphIndex) {
     document.getElementById("season-title").innerHTML = `Season ${seasonNumber + 1}: ${seasonDescriptors[seasonNumber]}`;
 }
 
-const input = document.getElementById("timeslider");
-input.addEventListener("input", function(event) {
-    // PLEASE make sure this is not horrendously bad
-    // It is, make an algorithm which finds differences between them and adds the missing in
+
+// Inputs
+const epSlider = document.getElementById("timeslider");
+epSlider.addEventListener("input", function(event) {
     selectedGraph = event.target.value - 1;
     setUpGraph(selectedGraph);
 });
 
-// Start on episode 1
-selectedGraph = rawPositions.findIndex((a) => {return !a});
-setUpGraph(selectedGraph);
-
-// Defined here for debug reasons
-var cyGraph;
-
-// Save button for things
-document.getElementById("save").addEventListener("click", function() {
-    // Array of arrays of arrays
-    // Index with episode, then id, then x or y
-    let fullMap = {}
-    cyGraph.nodes().forEach((ele) => {fullMap[ele.id()] = ele.position()});
-    rawPositions[selectedGraph] = fullMap;
-    console.log(rawPositions);
-    navigator.clipboard.writeText(JSON.stringify(rawPositions));
+var unimportantCharsDisabled = false;
+const unimportantBox = document.getElementById("unimportant-checkbox");
+unimportantBox.addEventListener("input", function(event) {
+    unimportantCharsDisabled = event.target.checked;
+    // Reload graph when clicked
+    setUpGraph(selectedGraph);
 });
 
-console.log(`Starting at ${selectedGraph + 1}`)
-// Add thing to map number of changes per character
-// console.log(changeCount);
+// Actually make the first graph
+var cyGraph;
+// Start on episode 1
+selectedGraph = 0;
+setUpGraph(selectedGraph);

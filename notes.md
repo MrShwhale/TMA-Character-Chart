@@ -51,12 +51,6 @@ Add Diego Molina to episode 12.
 
 Make sure Oliver is actually named in 32, otherwise rename to vague man.
 
-Consider adding "Henry" to episode 50.
-
-Consider adding a group for Breekon+Hope since nothing is ever connected to just one
-
-Consider naming Mary's mother Mary in 62, for lore reasons
-
 Eye alignment can be made before episode 93 when Elias admits to murder
 
 Add Ellis connection to the Vast when Gertrude is revealed to have stopped the ritual
@@ -102,9 +96,3 @@ Add Celia connection to Martin back in the day?
 Consider special type for Magnus as the Pupil
 
 # Mistakes
-Daisy self relation
-Jon weird relation with institute
-Trevor self relation
-Smirke-Magnus imbalance
-Masato-Kendrick imbalance
-Jon Daisy relation

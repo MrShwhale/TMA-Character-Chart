@@ -14,7 +14,7 @@
     </head>
     <body>
         <div class="timeslider-container">
-            <input type="range" min="1" max="200" value="1" list="episodes" class="slider" id="timeslider">
+            <input type="range" min="1" max="160" value="1" list="episodes" class="slider" id="timeslider">
         </div>
         <div id="page-content">
             <div id="header">
@@ -28,12 +28,12 @@
                     <br>
                     <span id="subtitle">What a tangled web we weave when first we practice to decieve</span>
                 </div>
-                <button style="width:100%" id="save">Save positions</button>
-                <!-- <div id="settings"> -->
-                <!--     <span>Disable unimportant characters</span> -->
-                <!--     <br> -->
-                <!--     <span>Light Mode</span> -->
-                <!-- </div> -->
+                <div id="settings">
+                    <div class="option">
+                        <span>Disable unimportant characters</span>
+                        <input id="unimportant-checkbox" type="checkbox"></input>
+                    </div>
+                </div>
             </div>
             <div id="cy"></div>
         </div>
