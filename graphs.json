@@ -491,34 +491,29 @@
             {
                 "displayName":"Kieran Woodward",
                 "id":"30",
-                "summary":"Bin man in London who reported some suspicious trash to the Institute.",
-                "alignment":"None"
+                "summary":"Bin man in London who reported some suspicious trash to the Institute."
             },
             {
                 "displayName":"David Atayah",
                 "id":"31",
-                "summary":"Bin man in London.",
-                "alignment":"None"
+                "summary":"Bin man in London."
             },
             {
                 "displayName":"Matthew Wilkinson",
                 "id":"32",
-                "summary":"Bin man in London.",
-                "alignment":"None"
+                "summary":"Bin man in London."
             },
             {
                 "displayName":"Alan Parfitt",
                 "id":"33",
                 "status":"Unknown",
                 "mindset":"Obsessed",
-                "summary":"Bin man who became obsessed with a house that eventually disappeared him.",
-                "alignment":"None"
+                "summary":"Bin man who became obsessed with a house that eventually disappeared him."
             },
             {
                 "displayName":"Guy Wardman",
                 "id":"34",
-                "summary":"Replacement after Alan went crazy.",
-                "alignment":"None"
+                "summary":"Replacement after Alan went crazy."
             }
         ],
         "episodeGroups":[
@@ -644,8 +639,7 @@
                 "displayName":"Joseph Rayner",
                 "id":"41",
                 "status":"Dead",
-                "summary":"Dead man found near Wilfred Owen.",
-                "alignment":"None"
+                "summary":"Dead man found near Wilfred Owen."
             }
         ]
     },
@@ -862,8 +856,7 @@
                 "id":"52",
                 "type":"Inhuman",
                 "status":"Dead",
-                "summary":"The first Vampire killed by Trevor Herbert.",
-                "alignment":"None"
+                "summary":"The first Vampire killed by Trevor Herbert."
             },
             {
                 "displayName":"Nigel Herbert",
@@ -884,16 +877,14 @@
                 "id":"54",
                 "type":"Inhuman",
                 "status":"Dead",
-                "summary":"A vampire killed by Trevor Herbert.",
-                "alignment":"None"
+                "summary":"A vampire killed by Trevor Herbert."
             },
             {
                 "displayName":"Alard Dupont",
                 "id":"55",
                 "wikiLink":"Alard_Dupont",
                 "status":"Dead",
-                "summary":"A human killed by Trevor Herbert, who thought he was a vampire.",
-                "alignment":"None"
+                "summary":"A human killed by Trevor Herbert, who thought he was a vampire."
             }
         ]
     },
@@ -1536,15 +1527,13 @@
                 "displayName":"James Mann",
                 "id":"85",
                 "status":"Dead",
-                "summary":"Student was killed and eaten by Edwin Burroughs.",
-                "alignment":"None"
+                "summary":"Student was killed and eaten by Edwin Burroughs."
             },
             {
                 "displayName":"Christopher Bilham",
                 "id":"86",
                 "status":"Dead",
-                "summary":"Student was killed by Edwin Burroughs.",
-                "alignment":"None"
+                "summary":"Student was killed by Edwin Burroughs."
             }
         ]
     },
@@ -1849,8 +1838,7 @@
                 "displayName":"Johann von Württemberg",
                 "id":"99",
                 "status":"Dead",
-                "summary":"Unknown member of the Württemberg family. May be the child of Ulricht I.",
-                "alignment":"None"
+                "summary":"Unknown member of the Württemberg family. May be the child of Ulricht I."
             },
             {
                 "displayName":"Elsa von Closen",
@@ -2134,8 +2122,7 @@
                 "displayName":"Robert Smirke",
                 "id":"112",
                 "summary":"Architect that Tim is obsessed with.",
-                "status":"Unknown",
-                "alignment":"None"
+                "status":"Unknown"
             },
             {
                 "id":"4",
@@ -2349,8 +2336,7 @@
                 "id":"123",
                 "summary":"Soldier in the revolutionary war who beat Death at his own game.",
                 "type":"Unknown",
-                "mindset":"Regret",
-                "alignment":"None"
+                "mindset":"Regret"
             },
             {
                 "displayName":"Fiona Law",
@@ -2629,8 +2615,7 @@
             {
                 "displayName":"Elena Bower",
                 "id":"140",
-                "summary":"Admissions officer at King's College.",
-                "alignment":"None"
+                "summary":"Admissions officer at King's College."
             },
             {
                 "displayName":"Erika Mustermann",
@@ -2697,8 +2682,7 @@
                 "displayName":"Rashid Sadana",
                 "id":"149",
                 "summary":"Professor who killed himself after teaching anatomy.",
-                "status":"Dead",
-                "alignment":"None"
+                "status":"Dead"
             }
         ],
         "episodeGroups":[
@@ -3293,8 +3277,7 @@
                 "displayName":"Jeremy Bentham",
                 "id":"168",
                 "summary":"A philosopher who came up with the idea of the Panopticon.",
-                "status":"Dead",
-                "alignment":"None"
+                "status":"Dead"
             },
             {
                 "id":"122",
@@ -3339,8 +3322,7 @@
             {
                 "displayName":"Alfred Grifter",
                 "id":"170",
-                "summary":"Band leader for Grifter's Bone.",
-                "alignment":"None"
+                "summary":"Band leader for Grifter's Bone."
             },
             {
                 "displayName":"Tommy Moncreef",
@@ -3358,14 +3340,12 @@
             {
                 "displayName":"Mike Baker",
                 "id":"172",
-                "summary":"Employee at Earful.com.",
-                "alignment":"None"
+                "summary":"Employee at Earful.com."
             },
             {
                 "displayName":"Lee Kipple",
                 "id":"173",
-                "summary":"Employee at Earful.com.",
-                "alignment":"None"
+                "summary":"Employee at Earful.com."
             },
             {
                 "displayName":"Agatha Norrell",
@@ -3434,15 +3414,13 @@
             {
                 "displayName":"Richard Carver",
                 "id":"177",
-                "summary":"Police officer who dealt with a lot of weirdness.",
-                "alignment":"None"
+                "summary":"Police officer who dealt with a lot of weirdness."
             },
             {
                 "displayName":"John Spencer",
                 "id":"178",
                 "summary":"Police officer who died strangely.",
-                "status":"Dead",
-                "alignment":"None"
+                "status":"Dead"
             },
             {
                 "displayName":"Diego Molina",
@@ -5148,7 +5126,6 @@
                 "id":"254",
                 "mindset":"Sad",
                 "summary":"Wife of Erin Gallagher-Nelson who has stopped the Institute from investigating.",
-                "alignment":"",
                 "relationships":[
                     {
                         "targetId":"253",
@@ -6825,7 +6802,7 @@
                 "displayName":"Jude Perry",
                 "id":"267",
                 "summary":"Woman who talked to Agnes. Has a scary tatoo. Also worked with Nikola Orsinov by burning down a forest.",
-                "alignment":"Desolation",
+                "alignment":"The Desolation",
                 "relationships":[
                     {
                         "targetId":"323",
@@ -6836,15 +6813,15 @@
             },
             {
                 "id":"45",
-                "alignment":"Desolation"
+                "alignment":"The Desolation"
             },
             {
                 "id":"132",
-                "alignment":"Desolation"
+                "alignment":"The Desolation"
             },
             {
                 "id":"179",
-                "alignment":"Desolation"
+                "alignment":"The Desolation"
             }
         ]
     },
@@ -6910,7 +6887,7 @@
                 "id":"334",
                 "type":"Inhuman",
                 "summary":"Woman who Jude Perry met when she was first going to join the Cult of the Lightless Flame.",
-                "alignment":"Desolation"
+                "alignment":"The Desolation"
             },
             {
                 "displayName":"Nicholas Tregenza",
@@ -8151,7 +8128,6 @@
             },
             {
                 "id":"133",
-                "alignment":"The Spiral",
                 "alignment":"The Spiral"
             },
             {

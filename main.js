@@ -251,8 +251,97 @@ function setUpGraph(graphIndex) {
                 backgroundColor: "#157535",
             },
         },
-        // TODO add indicators of type
-        // TODO add indicators of status
+        {
+            selector: 'node[alignment = \'Lukas Family\']',
+            style: {
+                backgroundColor: "#ffbd59",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The Stranger\']',
+            style: {
+                backgroundColor: "#36aef1",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The Desolation\']',
+            style: {
+                backgroundColor: "#ff5757",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The Corruption\']',
+            style: {
+                backgroundColor: "#7ed957",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The Eye\']',
+            style: {
+                // Green colorpicked from TMA logo
+                backgroundColor: "#157535",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The Lonely\']',
+            style: {
+                backgroundColor: "#ffbd59",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The End\']',
+            style: {
+                backgroundColor: "#74468f",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The Dark\']',
+            style: {
+                backgroundColor: "#737373",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The Spiral\']',
+            style: {
+                backgroundColor: "#e95fff",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The Buried\']',
+            style: {
+                backgroundColor: "#c4a963",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The Flesh\']',
+            style: {
+                backgroundColor: "#df0000",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The Hunt\']',
+            style: {
+                backgroundColor: "#00c6a8",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The Slaughter\']',
+            style: {
+                backgroundColor: "#dd863f",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The Web\']',
+            style: {
+                backgroundColor: "#d9d9d9",
+            },
+        },
+        {
+            selector: 'node[alignment = \'The Vast\']',
+            style: {
+                backgroundColor: "#fff84a",
+            },
+        },
         {
             selector : 'edge',
             style: {
