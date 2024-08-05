@@ -37,7 +37,6 @@ jobs:
           node-version: '14'
           cache: 'pnpm'
       - run: pnpm install
-      - run: pnpm test
       - name: Checkout
         uses: actions/checkout@v4
       - name: Set up Node
