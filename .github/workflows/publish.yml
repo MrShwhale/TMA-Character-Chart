@@ -30,8 +30,6 @@ jobs:
       # Pick your own package manager and build script
       - name: Install dependencies
         run: pnpm install
-      - name: Build nuxt
-        run: pnpm generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
