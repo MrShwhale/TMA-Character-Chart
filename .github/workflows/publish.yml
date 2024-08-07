@@ -1,58 +1,50 @@
-name: Deploy to Pages
+# https://github.com/actions/deploy-pages#usage
+name: Deploy to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ['main']
+    branches: [main]
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
+# Grant GITHUB_TOKEN the permissions required to make a Pages deployment
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-# Allow one concurrent deployment
-concurrency:
-  group: 'pages'
-  cancel-in-progress: true
+  pages: write      # to deploy to Pages
+  id-token: write   # to verify the deployment originates from an appropriate source
 
 jobs:
-  # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 6.32.9
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '21'
-          cache: 'pnpm'
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Node
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.0.x
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'pnpm'
+          node-version: "21"
+      # Pick your own package manager and build script
       - name: Install dependencies
         run: pnpm install
-      - name: Build
-        run: pnpm run build
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+      - name: Build nuxt
+        run: pnpm generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload dist folder
-          path: './dist'
+          path: ./.output/public
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github_pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
