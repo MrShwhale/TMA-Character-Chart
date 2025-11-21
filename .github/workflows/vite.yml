@@ -21,24 +21,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # This workflow uses actions that are not certified by GitHub.
-  # They are provided by a third-party and are governed by
-  # separate terms of service, privacy policy, and support
-  # documentation.
-  
-  # NOTE: pnpm caching support requires pnpm version >= 6.10.0
-  
-  steps:
-  - uses: actions/checkout@v4
-  - uses: pnpm/action-setup@v2
-    with:
-      version: 6.32.9
-  - uses: actions/setup-node@v4
-    with:
-      node-version: '14'
-      cache: 'pnpm'
-  - run: pnpm install
-  - run: pnpm test
   # Single deploy job since we're just deploying
   deploy:
     environment:
